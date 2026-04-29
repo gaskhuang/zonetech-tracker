@@ -1,6 +1,6 @@
 {
   "report_date": "2026-04-29",
-  "generated_at": "2026-04-29T11:31:14Z",
+  "generated_at": "2026-04-29T11:51:46Z",
   "windows": {
     "gsc_day": "2026-04-27",
     "ga4_day": "2026-04-29",
@@ -530,9 +530,9 @@
       },
       {
         "date": "2026-04-29",
-        "activeUsers": 36.0,
-        "sessions": 38.0,
-        "screenPageViews": 64.0
+        "activeUsers": 38.0,
+        "sessions": 41.0,
+        "screenPageViews": 66.0
       }
     ],
     "top_pages": [
@@ -564,7 +564,7 @@
         "pagePath": "/blogs/12867/",
         "screenPageViews": 4.0,
         "activeUsers": 3.0,
-        "averageSessionDuration": 43.63123475
+        "averageSessionDuration": 34.9049878
       },
       {
         "pagePath": "/network/",
@@ -599,14 +599,14 @@
     ],
     "top_sources": [
       {
-        "sessionSource": "(direct)",
-        "sessions": 16.0,
+        "sessionSource": "google",
+        "sessions": 18.0,
         "activeUsers": 16.0
       },
       {
-        "sessionSource": "google",
-        "sessions": 16.0,
-        "activeUsers": 14.0
+        "sessionSource": "(direct)",
+        "sessions": 17.0,
+        "activeUsers": 16.0
       },
       {
         "sessionSource": "Tagtoo",
