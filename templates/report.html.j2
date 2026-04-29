@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>蓋斯克科技 — 每日追蹤報告 {{ report_date }}</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1419;
+    --panel: #1a2028;
+    --panel-2: #232b36;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --good: #3fb950;
+    --warn: #d29922;
+    --bad: #f85149;
+    --border: #30363d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans CJK TC", sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.5;
+  }
+  .container { max-width: 1200px; margin: 0 auto; }
+  header { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+  header h1 { margin: 0; font-size: 24px; }
+  header .meta { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  header .windows { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  header .windows code { background: var(--panel-2); padding: 2px 6px; border-radius: 4px; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .card .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .card .value { font-size: 32px; font-weight: 600; margin-top: 4px; }
+  .card .sub { color: var(--muted); font-size: 12px; margin-top: 4px; }
+
+  section { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 16px; }
+  section h2 { margin: 0 0 12px; font-size: 16px; color: var(--accent); }
+  .charts { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 900px) { .charts { grid-template-columns: 1fr 1fr; } }
+  .chart-wrap { background: var(--panel-2); border-radius: 6px; padding: 12px; height: 280px; }
+  .chart-wrap canvas { max-height: 100%; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 500; font-size: 11px; text-transform: uppercase; }
+  tr:hover td { background: var(--panel-2); }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 500; }
+  .badge.good { background: rgba(63,185,80,.15); color: var(--good); }
+  .badge.warn { background: rgba(210,153,34,.15); color: var(--warn); }
+  .badge.bad  { background: rgba(248,81,73,.15);  color: var(--bad); }
+
+  .err { background: rgba(248,81,73,.08); border-left: 3px solid var(--bad); padding: 8px 12px; margin-bottom: 12px; font-size: 12px; }
+  .check-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; }
+  .check-list li { padding: 6px 10px; background: var(--panel-2); border-radius: 4px; font-size: 13px; display: flex; justify-content: space-between; }
+  footer { color: var(--muted); font-size: 11px; text-align: center; padding: 24px 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>蓋斯克科技 · 每日追蹤報告</h1>
+  <div class="meta">{{ report_date }} · 產生於 {{ generated_at }} UTC</div>
+  <div class="windows">
+    GSC 資料日 <code>{{ windows.gsc_day }}</code>（GSC 有 2-3 天延遲）·
+    GA4 資料日 <code>{{ windows.ga4_day }}</code> ·
+    爬蟲資料日 <code>{{ windows.crawlers_day }}</code>
+  </div>
+</header>
+
+{% if errors.gsc or errors.ga4 or errors.crawlers or errors.aeo %}
+<section>
+  <h2>⚠️ 取數錯誤</h2>
+  {% for src, err in errors.items() %}
+    {% if err %}<div class="err"><b>{{ src }}</b>: {{ err }}</div>{% endif %}
+  {% endfor %}
+</section>
+{% endif %}
+
+<div class="cards">
+  <div class="card">
+    <div class="label">GSC 點擊（{{ windows.gsc_day }}）</div>
+    <div class="value">{{ (gsc.daily | last).clicks if gsc and gsc.daily else '—' }}</div>
+    <div class="sub">{{ gsc.top_queries | length if gsc else 0 }} 個查詢字</div>
+  </div>
+  <div class="card">
+    <div class="label">GSC 曝光</div>
+    <div class="value">{{ (gsc.daily | last).impressions if gsc and gsc.daily else '—' }}</div>
+    <div class="sub">CTR {{ (gsc.daily | last).ctr if gsc and gsc.daily else '—' }}%</div>
+  </div>
+  <div class="card">
+    <div class="label">GA4 使用者</div>
+    <div class="value">{{ (ga4.daily | last).activeUsers | int if ga4 and ga4.daily else '—' }}</div>
+    <div class="sub">工作階段 {{ (ga4.daily | last).sessions | int if ga4 and ga4.daily else '—' }}</div>
+  </div>
+  <div class="card">
+    <div class="label">AI 爬蟲訪問次數</div>
+    <div class="value">{{ crawlers.total_today if crawlers else '—' }}</div>
+    <div class="sub">{{ crawlers.by_bot_today | length if crawlers else 0 }} 種 bot</div>
+  </div>
+  <div class="card">
+    <div class="label">AEO 分數</div>
+    <div class="value">{{ aeo.score if aeo and aeo.score is defined else '—' }}</div>
+    <div class="sub">資料來源 {{ aeo.source if aeo else '—' }}</div>
+  </div>
+</div>
+
+<section>
+  <h2>趨勢（過去 30 天）</h2>
+  <div class="charts">
+    <div class="chart-wrap"><canvas id="chartGsc"></canvas></div>
+    <div class="chart-wrap"><canvas id="chartGa4"></canvas></div>
+    <div class="chart-wrap" style="grid-column: 1/-1;"><canvas id="chartCrawlers"></canvas></div>
+  </div>
+</section>
+
+<section>
+  <h2>GSC Top 10 查詢字</h2>
+  <table>
+    <thead><tr><th>查詢</th><th class="num">點擊</th><th class="num">曝光</th><th class="num">CTR</th><th class="num">排名</th></tr></thead>
+    <tbody>
+      {% for q in (gsc.top_queries if gsc else []) %}
+      <tr><td>{{ q.query }}</td><td class="num">{{ q.clicks }}</td><td class="num">{{ q.impressions }}</td><td class="num">{{ q.ctr }}%</td><td class="num">{{ q.position }}</td></tr>
+      {% else %}<tr><td colspan="5">無資料</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>GSC Top 10 頁面</h2>
+  <table>
+    <thead><tr><th>頁面</th><th class="num">點擊</th><th class="num">曝光</th><th class="num">CTR</th><th class="num">排名</th></tr></thead>
+    <tbody>
+      {% for p in (gsc.top_pages if gsc else []) %}
+      <tr><td><a href="{{ p.page }}" target="_blank" rel="noopener">{{ p.page }}</a></td><td class="num">{{ p.clicks }}</td><td class="num">{{ p.impressions }}</td><td class="num">{{ p.ctr }}%</td><td class="num">{{ p.position }}</td></tr>
+      {% else %}<tr><td colspan="5">無資料</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>GA4 Top 10 頁面</h2>
+  <table>
+    <thead><tr><th>路徑</th><th class="num">瀏覽</th><th class="num">使用者</th><th class="num">平均停留(秒)</th></tr></thead>
+    <tbody>
+      {% for p in (ga4.top_pages if ga4 else []) %}
+      <tr><td>{{ p.pagePath }}</td><td class="num">{{ p.screenPageViews | int }}</td><td class="num">{{ p.activeUsers | int }}</td><td class="num">{{ '%.1f' % p.averageSessionDuration }}</td></tr>
+      {% else %}<tr><td colspan="4">無資料</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>GA4 流量來源</h2>
+  <table>
+    <thead><tr><th>來源</th><th class="num">工作階段</th><th class="num">使用者</th></tr></thead>
+    <tbody>
+      {% for s in (ga4.top_sources if ga4 else []) %}
+      <tr><td>{{ s.sessionSource }}</td><td class="num">{{ s.sessions | int }}</td><td class="num">{{ s.activeUsers | int }}</td></tr>
+      {% else %}<tr><td colspan="3">無資料</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>AI 爬蟲：今日命中分布</h2>
+  <table>
+    <thead><tr><th>Bot</th><th class="num">次數</th></tr></thead>
+    <tbody>
+      {% for bot, n in (crawlers.by_bot_today.items() if crawlers else []) %}
+      <tr><td><span class="badge good">{{ bot }}</span></td><td class="num">{{ n }}</td></tr>
+      {% else %}<tr><td colspan="2">今日無 AI 爬蟲訪問紀錄（或 plugin 尚未安裝）</td></tr>{% endfor %}
+    </tbody>
+  </table>
+  <h2 style="margin-top:20px">AI 爬蟲 Top 10 被拉取頁面</h2>
+  <table>
+    <thead><tr><th>URI</th><th class="num">次數</th></tr></thead>
+    <tbody>
+      {% for u in (crawlers.top_uris if crawlers else []) %}
+      <tr><td>{{ u.uri }}</td><td class="num">{{ u.hits }}</td></tr>
+      {% else %}<tr><td colspan="2">無資料</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>AEO 友善度體檢</h2>
+  {% if aeo and aeo.checks %}
+    <ul class="check-list">
+      <li><span>robots.txt 存在</span><span class="badge {{ 'good' if aeo.checks.robots_txt_present else 'bad' }}">{{ '✓' if aeo.checks.robots_txt_present else '✗' }}</span></li>
+      <li><span>llms.txt 存在</span><span class="badge {{ 'good' if aeo.checks.llms_txt_present else 'warn' }}">{{ '✓' if aeo.checks.llms_txt_present else '建議建立' }}</span></li>
+      <li><span>sitemap.xml 存在</span><span class="badge {{ 'good' if aeo.checks.sitemap_xml_present else 'bad' }}">{{ '✓' if aeo.checks.sitemap_xml_present else '✗' }}</span></li>
+      <li><span>首頁可訪問</span><span class="badge {{ 'good' if aeo.checks.home_reachable else 'bad' }}">{{ '✓' if aeo.checks.home_reachable else '✗' }}</span></li>
+      <li><span>JSON-LD 結構化資料</span><span class="badge {{ 'good' if aeo.checks.json_ld_present else 'warn' }}">{{ '✓' if aeo.checks.json_ld_present else '建議加入' }}</span></li>
+    </ul>
+    {% if aeo.checks.bots_allowed %}
+    <h3 style="font-size:13px;color:var(--muted);margin-top:16px">各 bot 是否被 robots.txt 放行</h3>
+    <ul class="check-list">
+      {% for bot, allowed in aeo.checks.bots_allowed.items() %}
+      <li><span>{{ bot }}</span><span class="badge {{ 'good' if allowed else 'bad' }}">{{ '允許' if allowed else '阻擋' }}</span></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  {% elif aeo %}
+    <pre style="font-size:11px;color:var(--muted);overflow:auto">{{ aeo | tojson_data }}</pre>
+  {% else %}
+    無資料
+  {% endif %}
+</section>
+
+<footer>
+  <a href="data/{{ report_date }}.json">下載原始 JSON</a> ·
+  歷史報告 <a href="reports/">列表</a> ·
+  自動產生於 GitHub Actions
+</footer>
+</div>
+
+<script>
+const GSC_DAILY = {{ (gsc.daily if gsc else []) | tojson_data }};
+const GA4_DAILY = {{ (ga4.daily if ga4 else []) | tojson_data }};
+const CRAWLER_DAILY = {{ (crawlers.daily if crawlers else []) | tojson_data }};
+
+const COMMON = { responsive: true, maintainAspectRatio: false, plugins: { legend: { labels: { color: '#e6edf3' } } }, scales: { x: { ticks: { color: '#8b949e' }, grid: { color: '#30363d' } }, y: { ticks: { color: '#8b949e' }, grid: { color: '#30363d' } } } };
+
+if (document.getElementById('chartGsc')) {
+  new Chart(document.getElementById('chartGsc'), {
+    type: 'line',
+    data: {
+      labels: GSC_DAILY.map(r => r.date),
+      datasets: [
+        { label: '點擊', data: GSC_DAILY.map(r => r.clicks), borderColor: '#58a6ff', backgroundColor: 'rgba(88,166,255,.1)', tension: .25, yAxisID: 'y' },
+        { label: '曝光', data: GSC_DAILY.map(r => r.impressions), borderColor: '#3fb950', backgroundColor: 'rgba(63,185,80,.1)', tension: .25, yAxisID: 'y1' },
+      ],
+    },
+    options: { ...COMMON, scales: { ...COMMON.scales, y: { ...COMMON.scales.y, position: 'left' }, y1: { position: 'right', ticks: { color: '#8b949e' }, grid: { drawOnChartArea: false } } }, plugins: { ...COMMON.plugins, title: { display: true, text: 'GSC: 點擊 vs 曝光', color: '#e6edf3' } } },
+  });
+}
+
+if (document.getElementById('chartGa4')) {
+  new Chart(document.getElementById('chartGa4'), {
+    type: 'line',
+    data: {
+      labels: GA4_DAILY.map(r => r.date),
+      datasets: [
+        { label: '使用者', data: GA4_DAILY.map(r => r.activeUsers), borderColor: '#d29922', backgroundColor: 'rgba(210,153,34,.1)', tension: .25 },
+        { label: '工作階段', data: GA4_DAILY.map(r => r.sessions), borderColor: '#f85149', backgroundColor: 'rgba(248,81,73,.1)', tension: .25 },
+      ],
+    },
+    options: { ...COMMON, plugins: { ...COMMON.plugins, title: { display: true, text: 'GA4: 使用者 vs 工作階段', color: '#e6edf3' } } },
+  });
+}
+
+if (document.getElementById('chartCrawlers') && CRAWLER_DAILY.length) {
+  const botSet = new Set();
+  CRAWLER_DAILY.forEach(d => Object.keys(d).forEach(k => { if (k !== 'date' && k !== 'total') botSet.add(k); }));
+  const bots = [...botSet];
+  const palette = ['#58a6ff','#3fb950','#d29922','#f85149','#bc8cff','#ff7eb6','#39c5cf','#ffa657','#a5d6ff','#7ee787'];
+  new Chart(document.getElementById('chartCrawlers'), {
+    type: 'bar',
+    data: {
+      labels: CRAWLER_DAILY.map(d => d.date),
+      datasets: bots.map((bot, i) => ({
+        label: bot,
+        data: CRAWLER_DAILY.map(d => d[bot] || 0),
+        backgroundColor: palette[i % palette.length],
+        stack: 's',
+      })),
+    },
+    options: { ...COMMON, scales: { ...COMMON.scales, x: { ...COMMON.scales.x, stacked: true }, y: { ...COMMON.scales.y, stacked: true } }, plugins: { ...COMMON.plugins, title: { display: true, text: 'AI 爬蟲每日次數（依 Bot 堆疊）', color: '#e6edf3' } } },
+  });
+}
+</script>
+</body>
+</html>

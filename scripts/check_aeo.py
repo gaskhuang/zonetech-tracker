@@ -1,0 +1,109 @@
+"""AEO (AI-engine Optimization) friendliness check.
+
+Calls the public aeo-crawler-check API, with a fallback that fetches
+robots.txt / llms.txt / sitemap.xml directly so the report still works
+if the third-party service is down.
+"""
+from __future__ import annotations
+
+from typing import Any
+from urllib.parse import urljoin
+
+import requests
+
+from shared import env
+
+AEO_API = "https://aeo.washinmura.jp/api/v1/crawl-check"
+TIMEOUT = 15
+
+
+def _site_url() -> str:
+    raw = env("SITE_URL") or env("GSC_SITE_URL", required=True)
+    if raw.startswith("sc-domain:"):
+        return f"https://{raw.split(':', 1)[1]}/"
+    return raw if raw.endswith("/") else raw + "/"
+
+
+def _try_aeo_api(url: str) -> dict | None:
+    try:
+        r = requests.post(AEO_API, json={"url": url}, timeout=TIMEOUT)
+        if r.ok:
+            return r.json()
+    except requests.RequestException:
+        pass
+    return None
+
+
+def _fetch_text(url: str) -> tuple[int, str]:
+    try:
+        r = requests.get(url, timeout=TIMEOUT, headers={"User-Agent": "zonetech-tracker/0.1"})
+        return r.status_code, (r.text if r.ok else "")
+    except requests.RequestException:
+        return 0, ""
+
+
+def _fallback_check(url: str) -> dict:
+    robots_status, robots_body = _fetch_text(urljoin(url, "/robots.txt"))
+    llms_status, llms_body = _fetch_text(urljoin(url, "/llms.txt"))
+    sitemap_status, _ = _fetch_text(urljoin(url, "/sitemap.xml"))
+    home_status, home_body = _fetch_text(url)
+
+    bots_examined = [
+        "GPTBot",
+        "ClaudeBot",
+        "Google-Extended",
+        "PerplexityBot",
+        "CCBot",
+        "Applebot-Extended",
+        "Amazonbot",
+        "Bytespider",
+    ]
+
+    bot_rules = {}
+    for bot in bots_examined:
+        allowed = True
+        if robots_body and "Disallow:" in robots_body:
+            block = ""
+            for chunk in robots_body.split("\n\n"):
+                if f"User-agent: {bot}" in chunk or f"User-agent: *" in chunk:
+                    block += chunk + "\n"
+            if "Disallow: /\n" in block or "Disallow: /" in block.rstrip():
+                allowed = False
+        bot_rules[bot] = allowed
+
+    has_jsonld = home_status == 200 and 'application/ld+json' in home_body.lower()
+
+    checks = {
+        "robots_txt_present": robots_status == 200,
+        "llms_txt_present": llms_status == 200,
+        "sitemap_xml_present": sitemap_status == 200,
+        "home_reachable": home_status == 200,
+        "json_ld_present": has_jsonld,
+        "bots_allowed": bot_rules,
+    }
+
+    score = 0
+    score += 15 if checks["robots_txt_present"] else 0
+    score += 20 if checks["llms_txt_present"] else 0
+    score += 15 if checks["sitemap_xml_present"] else 0
+    score += 10 if checks["home_reachable"] else 0
+    score += 15 if checks["json_ld_present"] else 0
+    allowed_count = sum(1 for v in bot_rules.values() if v)
+    score += int((allowed_count / len(bot_rules)) * 25)
+
+    return {"source": "fallback", "score": score, "checks": checks}
+
+
+def fetch() -> dict[str, Any]:
+    url = _site_url()
+    data = _try_aeo_api(url)
+    if data:
+        data["source"] = "aeo.washinmura.jp"
+        return data
+    return _fallback_check(url)
+
+
+if __name__ == "__main__":
+    import json
+
+    print(json.dumps(fetch(), indent=2, ensure_ascii=False))

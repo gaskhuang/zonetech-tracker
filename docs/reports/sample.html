@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>蓋斯克科技 — 每日追蹤報告 2026-04-29</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1419;
+    --panel: #1a2028;
+    --panel-2: #232b36;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --good: #3fb950;
+    --warn: #d29922;
+    --bad: #f85149;
+    --border: #30363d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans CJK TC", sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.5;
+  }
+  .container { max-width: 1200px; margin: 0 auto; }
+  header { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+  header h1 { margin: 0; font-size: 24px; }
+  header .meta { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  header .windows { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  header .windows code { background: var(--panel-2); padding: 2px 6px; border-radius: 4px; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .card .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .card .value { font-size: 32px; font-weight: 600; margin-top: 4px; }
+  .card .sub { color: var(--muted); font-size: 12px; margin-top: 4px; }
+
+  section { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 16px; }
+  section h2 { margin: 0 0 12px; font-size: 16px; color: var(--accent); }
+  .charts { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 900px) { .charts { grid-template-columns: 1fr 1fr; } }
+  .chart-wrap { background: var(--panel-2); border-radius: 6px; padding: 12px; height: 280px; }
+  .chart-wrap canvas { max-height: 100%; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 500; font-size: 11px; text-transform: uppercase; }
+  tr:hover td { background: var(--panel-2); }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 500; }
+  .badge.good { background: rgba(63,185,80,.15); color: var(--good); }
+  .badge.warn { background: rgba(210,153,34,.15); color: var(--warn); }
+  .badge.bad  { background: rgba(248,81,73,.15);  color: var(--bad); }
+
+  .err { background: rgba(248,81,73,.08); border-left: 3px solid var(--bad); padding: 8px 12px; margin-bottom: 12px; font-size: 12px; }
+  .check-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; }
+  .check-list li { padding: 6px 10px; background: var(--panel-2); border-radius: 4px; font-size: 13px; display: flex; justify-content: space-between; }
+  footer { color: var(--muted); font-size: 11px; text-align: center; padding: 24px 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>蓋斯克科技 · 每日追蹤報告</h1>
+  <div class="meta">2026-04-29 · 產生於 sample preview UTC</div>
+  <div class="windows">
+    GSC 資料日 <code>2026-04-27</code>（GSC 有 2-3 天延遲）·
+    GA4 資料日 <code>2026-04-28</code> ·
+    爬蟲資料日 <code>2026-04-28</code>
+  </div>
+</header>
+
+
+
+<div class="cards">
+  <div class="card">
+    <div class="label">GSC 點擊（2026-04-27）</div>
+    <div class="value">61</div>
+    <div class="sub">5 個查詢字</div>
+  </div>
+  <div class="card">
+    <div class="label">GSC 曝光</div>
+    <div class="value">2068</div>
+    <div class="sub">CTR 3.74%</div>
+  </div>
+  <div class="card">
+    <div class="label">GA4 使用者</div>
+    <div class="value">198</div>
+    <div class="sub">工作階段 223</div>
+  </div>
+  <div class="card">
+    <div class="label">AI 爬蟲訪問次數</div>
+    <div class="value">58</div>
+    <div class="sub">7 種 bot</div>
+  </div>
+  <div class="card">
+    <div class="label">AEO 分數</div>
+    <div class="value">78</div>
+    <div class="sub">資料來源 fallback</div>
+  </div>
+</div>
+
+<section>
+  <h2>趨勢（過去 30 天）</h2>
+  <div class="charts">
+    <div class="chart-wrap"><canvas id="chartGsc"></canvas></div>
+    <div class="chart-wrap"><canvas id="chartGa4"></canvas></div>
+    <div class="chart-wrap" style="grid-column: 1/-1;"><canvas id="chartCrawlers"></canvas></div>
+  </div>
+</section>
+
+<section>
+  <h2>GSC Top 10 查詢字</h2>
+  <table>
+    <thead><tr><th>查詢</th><th class="num">點擊</th><th class="num">曝光</th><th class="num">CTR</th><th class="num">排名</th></tr></thead>
+    <tbody>
+      
+      <tr><td>蓋斯克科技</td><td class="num">14</td><td class="num">312</td><td class="num">4.49%</td><td class="num">6.2</td></tr>
+      
+      <tr><td>ai 爬蟲偵測</td><td class="num">9</td><td class="num">188</td><td class="num">4.79%</td><td class="num">8.5</td></tr>
+      
+      <tr><td>wordpress gptbot</td><td class="num">6</td><td class="num">144</td><td class="num">4.17%</td><td class="num">11.3</td></tr>
+      
+      <tr><td>gsc api 教學</td><td class="num">4</td><td class="num">95</td><td class="num">4.21%</td><td class="num">12.0</td></tr>
+      
+      <tr><td>claude 爬蟲</td><td class="num">3</td><td class="num">62</td><td class="num">4.84%</td><td class="num">14.7</td></tr>
+      
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>GSC Top 10 頁面</h2>
+  <table>
+    <thead><tr><th>頁面</th><th class="num">點擊</th><th class="num">曝光</th><th class="num">CTR</th><th class="num">排名</th></tr></thead>
+    <tbody>
+      
+      <tr><td><a href="https://zonetech.tw/blog/ai-crawler/" target="_blank" rel="noopener">https://zonetech.tw/blog/ai-crawler/</a></td><td class="num">22</td><td class="num">460</td><td class="num">4.78%</td><td class="num">8.1</td></tr>
+      
+      <tr><td><a href="https://zonetech.tw/" target="_blank" rel="noopener">https://zonetech.tw/</a></td><td class="num">12</td><td class="num">320</td><td class="num">3.75%</td><td class="num">12.0</td></tr>
+      
+      <tr><td><a href="https://zonetech.tw/blog/gsc-setup/" target="_blank" rel="noopener">https://zonetech.tw/blog/gsc-setup/</a></td><td class="num">7</td><td class="num">180</td><td class="num">3.89%</td><td class="num">14.5</td></tr>
+      
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>GA4 Top 10 頁面</h2>
+  <table>
+    <thead><tr><th>路徑</th><th class="num">瀏覽</th><th class="num">使用者</th><th class="num">平均停留(秒)</th></tr></thead>
+    <tbody>
+      
+      <tr><td>/blog/ai-crawler/</td><td class="num">142</td><td class="num">98</td><td class="num">124.5</td></tr>
+      
+      <tr><td>/</td><td class="num">88</td><td class="num">71</td><td class="num">45.2</td></tr>
+      
+      <tr><td>/blog/gsc-setup/</td><td class="num">41</td><td class="num">33</td><td class="num">88.1</td></tr>
+      
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>GA4 流量來源</h2>
+  <table>
+    <thead><tr><th>來源</th><th class="num">工作階段</th><th class="num">使用者</th></tr></thead>
+    <tbody>
+      
+      <tr><td>google</td><td class="num">95</td><td class="num">78</td></tr>
+      
+      <tr><td>(direct)</td><td class="num">42</td><td class="num">35</td></tr>
+      
+      <tr><td>facebook.com</td><td class="num">18</td><td class="num">14</td></tr>
+      
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>AI 爬蟲：今日命中分布</h2>
+  <table>
+    <thead><tr><th>Bot</th><th class="num">次數</th></tr></thead>
+    <tbody>
+      
+      <tr><td><span class="badge good">GPTBot</span></td><td class="num">4</td></tr>
+      
+      <tr><td><span class="badge good">ClaudeBot</span></td><td class="num">8</td></tr>
+      
+      <tr><td><span class="badge good">PerplexityBot</span></td><td class="num">9</td></tr>
+      
+      <tr><td><span class="badge good">Google-Extended</span></td><td class="num">8</td></tr>
+      
+      <tr><td><span class="badge good">OAI-SearchBot</span></td><td class="num">14</td></tr>
+      
+      <tr><td><span class="badge good">CCBot</span></td><td class="num">9</td></tr>
+      
+      <tr><td><span class="badge good">Amazonbot</span></td><td class="num">6</td></tr>
+      
+    </tbody>
+  </table>
+  <h2 style="margin-top:20px">AI 爬蟲 Top 10 被拉取頁面</h2>
+  <table>
+    <thead><tr><th>URI</th><th class="num">次數</th></tr></thead>
+    <tbody>
+      
+      <tr><td>/blog/ai-crawler/</td><td class="num">14</td></tr>
+      
+      <tr><td>/sitemap.xml</td><td class="num">9</td></tr>
+      
+      <tr><td>/</td><td class="num">7</td></tr>
+      
+      <tr><td>/blog/gsc-setup/</td><td class="num">5</td></tr>
+      
+      <tr><td>/robots.txt</td><td class="num">4</td></tr>
+      
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>AEO 友善度體檢</h2>
+  
+    <ul class="check-list">
+      <li><span>robots.txt 存在</span><span class="badge good">✓</span></li>
+      <li><span>llms.txt 存在</span><span class="badge warn">建議建立</span></li>
+      <li><span>sitemap.xml 存在</span><span class="badge good">✓</span></li>
+      <li><span>首頁可訪問</span><span class="badge good">✓</span></li>
+      <li><span>JSON-LD 結構化資料</span><span class="badge good">✓</span></li>
+    </ul>
+    
+    <h3 style="font-size:13px;color:var(--muted);margin-top:16px">各 bot 是否被 robots.txt 放行</h3>
+    <ul class="check-list">
+      
+      <li><span>GPTBot</span><span class="badge good">允許</span></li>
+      
+      <li><span>ClaudeBot</span><span class="badge good">允許</span></li>
+      
+      <li><span>Google-Extended</span><span class="badge good">允許</span></li>
+      
+      <li><span>PerplexityBot</span><span class="badge good">允許</span></li>
+      
+      <li><span>CCBot</span><span class="badge good">允許</span></li>
+      
+      <li><span>Applebot-Extended</span><span class="badge good">允許</span></li>
+      
+      <li><span>Amazonbot</span><span class="badge good">允許</span></li>
+      
+      <li><span>Bytespider</span><span class="badge bad">阻擋</span></li>
+      
+    </ul>
+    
+  
+</section>
+
+<footer>
+  <a href="data/2026-04-29.json">下載原始 JSON</a> ·
+  歷史報告 <a href="reports/">列表</a> ·
+  自動產生於 GitHub Actions
+</footer>
+</div>
+
+<script>
+const GSC_DAILY = [{"date": "2026-03-31", "clicks": 19, "impressions": 786, "ctr": 2.84, "position": 11.1}, {"date": "2026-04-01", "clicks": 20, "impressions": 720, "ctr": 4.51, "position": 9.2}, {"date": "2026-04-02", "clicks": 21, "impressions": 889, "ctr": 2.69, "position": 15.1}, {"date": "2026-04-03", "clicks": 27, "impressions": 928, "ctr": 3.85, "position": 15.6}, {"date": "2026-04-04", "clicks": 27, "impressions": 1064, "ctr": 4.29, "position": 8.1}, {"date": "2026-04-05", "clicks": 30, "impressions": 883, "ctr": 3.02, "position": 10.2}, {"date": "2026-04-06", "clicks": 33, "impressions": 1020, "ctr": 2.35, "position": 9.4}, {"date": "2026-04-07", "clicks": 34, "impressions": 990, "ctr": 4.28, "position": 18.2}, {"date": "2026-04-08", "clicks": 18, "impressions": 1071, "ctr": 3.12, "position": 15.7}, {"date": "2026-04-09", "clicks": 36, "impressions": 1062, "ctr": 4.43, "position": 16.1}, {"date": "2026-04-10", "clicks": 34, "impressions": 1176, "ctr": 2.72, "position": 12.1}, {"date": "2026-04-11", "clicks": 39, "impressions": 1267, "ctr": 2.37, "position": 11.9}, {"date": "2026-04-12", "clicks": 34, "impressions": 1222, "ctr": 3.1, "position": 10.9}, {"date": "2026-04-13", "clicks": 38, "impressions": 1506, "ctr": 3.85, "position": 16.5}, {"date": "2026-04-14", "clicks": 44, "impressions": 1473, "ctr": 2.54, "position": 13.3}, {"date": "2026-04-15", "clicks": 49, "impressions": 1392, "ctr": 3.6, "position": 17.6}, {"date": "2026-04-16", "clicks": 48, "impressions": 1324, "ctr": 2.72, "position": 8.4}, {"date": "2026-04-17", "clicks": 43, "impressions": 1537, "ctr": 2.67, "position": 21.2}, {"date": "2026-04-18", "clicks": 50, "impressions": 1471, "ctr": 3.87, "position": 13.5}, {"date": "2026-04-19", "clicks": 53, "impressions": 1514, "ctr": 2.82, "position": 11.5}, {"date": "2026-04-20", "clicks": 46, "impressions": 1576, "ctr": 3.68, "position": 20.6}, {"date": "2026-04-21", "clicks": 48, "impressions": 1673, "ctr": 4.79, "position": 15.1}, {"date": "2026-04-22", "clicks": 54, "impressions": 1693, "ctr": 2.4, "position": 16.8}, {"date": "2026-04-23", "clicks": 55, "impressions": 1639, "ctr": 2.27, "position": 13.3}, {"date": "2026-04-24", "clicks": 62, "impressions": 1757, "ctr": 4.72, "position": 20.1}, {"date": "2026-04-25", "clicks": 65, "impressions": 1809, "ctr": 3.94, "position": 15.5}, {"date": "2026-04-26", "clicks": 58, "impressions": 1953, "ctr": 2.4, "position": 14.1}, {"date": "2026-04-27", "clicks": 48, "impressions": 1936, "ctr": 4.46, "position": 11.7}, {"date": "2026-04-28", "clicks": 58, "impressions": 1919, "ctr": 4.56, "position": 20.2}, {"date": "2026-04-29", "clicks": 61, "impressions": 2068, "ctr": 3.74, "position": 10.1}];
+const GA4_DAILY = [{"date": "2026-03-31", "activeUsers": 81.0, "sessions": 91.0, "screenPageViews": 185.0}, {"date": "2026-04-01", "activeUsers": 69.0, "sessions": 128.0, "screenPageViews": 188.0}, {"date": "2026-04-02", "activeUsers": 115.0, "sessions": 124.0, "screenPageViews": 230.0}, {"date": "2026-04-03", "activeUsers": 76.0, "sessions": 123.0, "screenPageViews": 212.0}, {"date": "2026-04-04", "activeUsers": 116.0, "sessions": 104.0, "screenPageViews": 236.0}, {"date": "2026-04-05", "activeUsers": 107.0, "sessions": 158.0, "screenPageViews": 237.0}, {"date": "2026-04-06", "activeUsers": 104.0, "sessions": 132.0, "screenPageViews": 196.0}, {"date": "2026-04-07", "activeUsers": 110.0, "sessions": 142.0, "screenPageViews": 286.0}, {"date": "2026-04-08", "activeUsers": 104.0, "sessions": 154.0, "screenPageViews": 204.0}, {"date": "2026-04-09", "activeUsers": 111.0, "sessions": 158.0, "screenPageViews": 272.0}, {"date": "2026-04-10", "activeUsers": 137.0, "sessions": 159.0, "screenPageViews": 232.0}, {"date": "2026-04-11", "activeUsers": 129.0, "sessions": 172.0, "screenPageViews": 280.0}, {"date": "2026-04-12", "activeUsers": 119.0, "sessions": 187.0, "screenPageViews": 278.0}, {"date": "2026-04-13", "activeUsers": 140.0, "sessions": 194.0, "screenPageViews": 299.0}, {"date": "2026-04-14", "activeUsers": 139.0, "sessions": 212.0, "screenPageViews": 298.0}, {"date": "2026-04-15", "activeUsers": 136.0, "sessions": 186.0, "screenPageViews": 337.0}, {"date": "2026-04-16", "activeUsers": 145.0, "sessions": 197.0, "screenPageViews": 337.0}, {"date": "2026-04-17", "activeUsers": 141.0, "sessions": 169.0, "screenPageViews": 323.0}, {"date": "2026-04-18", "activeUsers": 154.0, "sessions": 190.0, "screenPageViews": 345.0}, {"date": "2026-04-19", "activeUsers": 163.0, "sessions": 190.0, "screenPageViews": 344.0}, {"date": "2026-04-20", "activeUsers": 157.0, "sessions": 187.0, "screenPageViews": 351.0}, {"date": "2026-04-21", "activeUsers": 163.0, "sessions": 203.0, "screenPageViews": 361.0}, {"date": "2026-04-22", "activeUsers": 173.0, "sessions": 211.0, "screenPageViews": 366.0}, {"date": "2026-04-23", "activeUsers": 184.0, "sessions": 214.0, "screenPageViews": 373.0}, {"date": "2026-04-24", "activeUsers": 176.0, "sessions": 263.0, "screenPageViews": 325.0}, {"date": "2026-04-25", "activeUsers": 188.0, "sessions": 230.0, "screenPageViews": 377.0}, {"date": "2026-04-26", "activeUsers": 206.0, "sessions": 239.0, "screenPageViews": 444.0}, {"date": "2026-04-27", "activeUsers": 182.0, "sessions": 250.0, "screenPageViews": 383.0}, {"date": "2026-04-28", "activeUsers": 183.0, "sessions": 250.0, "screenPageViews": 396.0}, {"date": "2026-04-29", "activeUsers": 198.0, "sessions": 223.0, "screenPageViews": 462.0}];
+const CRAWLER_DAILY = [{"date": "2026-03-31", "total": 62, "GPTBot": 6, "ClaudeBot": 18, "PerplexityBot": 1, "Google-Extended": 9, "OAI-SearchBot": 26, "CCBot": 2}, {"date": "2026-04-01", "total": 52, "GPTBot": 4, "ClaudeBot": 10, "PerplexityBot": 12, "Google-Extended": 15, "OAI-SearchBot": 6, "Amazonbot": 5}, {"date": "2026-04-02", "total": 79, "GPTBot": 15, "ClaudeBot": 10, "Google-Extended": 7, "OAI-SearchBot": 16, "CCBot": 20, "Amazonbot": 11}, {"date": "2026-04-03", "total": 46, "GPTBot": 9, "PerplexityBot": 2, "Google-Extended": 8, "OAI-SearchBot": 11, "CCBot": 11, "Amazonbot": 5}, {"date": "2026-04-04", "total": 32, "GPTBot": 1, "ClaudeBot": 3, "PerplexityBot": 1, "Google-Extended": 11, "CCBot": 6, "Amazonbot": 10}, {"date": "2026-04-05", "total": 67, "GPTBot": 17, "ClaudeBot": 8, "PerplexityBot": 14, "Google-Extended": 5, "OAI-SearchBot": 3, "CCBot": 3, "Amazonbot": 17}, {"date": "2026-04-06", "total": 83, "GPTBot": 13, "ClaudeBot": 10, "PerplexityBot": 27, "Google-Extended": 7, "OAI-SearchBot": 11, "CCBot": 9, "Amazonbot": 6}, {"date": "2026-04-07", "total": 65, "GPTBot": 21, "ClaudeBot": 17, "Google-Extended": 5, "OAI-SearchBot": 10, "CCBot": 12}, {"date": "2026-04-08", "total": 27, "PerplexityBot": 7, "Google-Extended": 7, "OAI-SearchBot": 10, "CCBot": 3}, {"date": "2026-04-09", "total": 66, "ClaudeBot": 9, "PerplexityBot": 10, "Google-Extended": 13, "OAI-SearchBot": 12, "CCBot": 6, "Amazonbot": 16}, {"date": "2026-04-10", "total": 36, "GPTBot": 7, "ClaudeBot": 4, "PerplexityBot": 4, "Google-Extended": 4, "CCBot": 8, "Amazonbot": 9}, {"date": "2026-04-11", "total": 52, "GPTBot": 5, "ClaudeBot": 3, "PerplexityBot": 10, "Google-Extended": 18, "OAI-SearchBot": 8, "CCBot": 4, "Amazonbot": 4}, {"date": "2026-04-12", "total": 68, "GPTBot": 7, "PerplexityBot": 7, "Google-Extended": 8, "OAI-SearchBot": 19, "CCBot": 13, "Amazonbot": 14}, {"date": "2026-04-13", "total": 57, "GPTBot": 3, "ClaudeBot": 12, "PerplexityBot": 1, "Google-Extended": 9, "OAI-SearchBot": 10, "CCBot": 3, "Amazonbot": 19}, {"date": "2026-04-14", "total": 55, "GPTBot": 11, "PerplexityBot": 11, "Google-Extended": 5, "OAI-SearchBot": 8, "CCBot": 10, "Amazonbot": 10}, {"date": "2026-04-15", "total": 65, "ClaudeBot": 1, "PerplexityBot": 12, "Google-Extended": 15, "OAI-SearchBot": 19, "CCBot": 18}, {"date": "2026-04-16", "total": 70, "GPTBot": 12, "PerplexityBot": 17, "Google-Extended": 9, "OAI-SearchBot": 1, "CCBot": 20, "Amazonbot": 11}, {"date": "2026-04-17", "total": 41, "ClaudeBot": 9, "PerplexityBot": 3, "Google-Extended": 8, "OAI-SearchBot": 5, "CCBot": 16}, {"date": "2026-04-18", "total": 62, "GPTBot": 9, "ClaudeBot": 18, "PerplexityBot": 3, "Google-Extended": 9, "OAI-SearchBot": 9, "CCBot": 3, "Amazonbot": 11}, {"date": "2026-04-19", "total": 53, "GPTBot": 8, "ClaudeBot": 2, "PerplexityBot": 18, "Google-Extended": 12, "OAI-SearchBot": 6, "CCBot": 4, "Amazonbot": 3}, {"date": "2026-04-20", "total": 68, "GPTBot": 15, "ClaudeBot": 7, "PerplexityBot": 10, "Google-Extended": 6, "OAI-SearchBot": 11, "CCBot": 7, "Amazonbot": 12}, {"date": "2026-04-21", "total": 44, "GPTBot": 6, "ClaudeBot": 12, "PerplexityBot": 12, "Google-Extended": 7, "OAI-SearchBot": 2, "CCBot": 2, "Amazonbot": 3}, {"date": "2026-04-22", "total": 68, "GPTBot": 2, "ClaudeBot": 13, "PerplexityBot": 7, "Google-Extended": 17, "OAI-SearchBot": 21, "CCBot": 8}, {"date": "2026-04-23", "total": 35, "GPTBot": 5, "ClaudeBot": 7, "Google-Extended": 6, "OAI-SearchBot": 9, "CCBot": 5, "Amazonbot": 3}, {"date": "2026-04-24", "total": 52, "GPTBot": 3, "ClaudeBot": 18, "PerplexityBot": 7, "Google-Extended": 3, "OAI-SearchBot": 5, "CCBot": 13, "Amazonbot": 3}, {"date": "2026-04-25", "total": 71, "GPTBot": 10, "ClaudeBot": 12, "PerplexityBot": 12, "Google-Extended": 16, "OAI-SearchBot": 4, "CCBot": 14, "Amazonbot": 3}, {"date": "2026-04-26", "total": 55, "GPTBot": 5, "ClaudeBot": 15, "PerplexityBot": 12, "Google-Extended": 8, "CCBot": 11, "Amazonbot": 4}, {"date": "2026-04-27", "total": 38, "GPTBot": 2, "ClaudeBot": 4, "PerplexityBot": 9, "OAI-SearchBot": 10, "CCBot": 9, "Amazonbot": 4}, {"date": "2026-04-28", "total": 50, "GPTBot": 14, "ClaudeBot": 11, "PerplexityBot": 4, "Google-Extended": 3, "OAI-SearchBot": 12, "Amazonbot": 6}, {"date": "2026-04-29", "total": 58, "GPTBot": 4, "ClaudeBot": 8, "PerplexityBot": 9, "Google-Extended": 8, "OAI-SearchBot": 14, "CCBot": 9, "Amazonbot": 6}];
+
+const COMMON = { responsive: true, maintainAspectRatio: false, plugins: { legend: { labels: { color: '#e6edf3' } } }, scales: { x: { ticks: { color: '#8b949e' }, grid: { color: '#30363d' } }, y: { ticks: { color: '#8b949e' }, grid: { color: '#30363d' } } } };
+
+if (document.getElementById('chartGsc')) {
+  new Chart(document.getElementById('chartGsc'), {
+    type: 'line',
+    data: {
+      labels: GSC_DAILY.map(r => r.date),
+      datasets: [
+        { label: '點擊', data: GSC_DAILY.map(r => r.clicks), borderColor: '#58a6ff', backgroundColor: 'rgba(88,166,255,.1)', tension: .25, yAxisID: 'y' },
+        { label: '曝光', data: GSC_DAILY.map(r => r.impressions), borderColor: '#3fb950', backgroundColor: 'rgba(63,185,80,.1)', tension: .25, yAxisID: 'y1' },
+      ],
+    },
+    options: { ...COMMON, scales: { ...COMMON.scales, y: { ...COMMON.scales.y, position: 'left' }, y1: { position: 'right', ticks: { color: '#8b949e' }, grid: { drawOnChartArea: false } } }, plugins: { ...COMMON.plugins, title: { display: true, text: 'GSC: 點擊 vs 曝光', color: '#e6edf3' } } },
+  });
+}
+
+if (document.getElementById('chartGa4')) {
+  new Chart(document.getElementById('chartGa4'), {
+    type: 'line',
+    data: {
+      labels: GA4_DAILY.map(r => r.date),
+      datasets: [
+        { label: '使用者', data: GA4_DAILY.map(r => r.activeUsers), borderColor: '#d29922', backgroundColor: 'rgba(210,153,34,.1)', tension: .25 },
+        { label: '工作階段', data: GA4_DAILY.map(r => r.sessions), borderColor: '#f85149', backgroundColor: 'rgba(248,81,73,.1)', tension: .25 },
+      ],
+    },
+    options: { ...COMMON, plugins: { ...COMMON.plugins, title: { display: true, text: 'GA4: 使用者 vs 工作階段', color: '#e6edf3' } } },
+  });
+}
+
+if (document.getElementById('chartCrawlers') && CRAWLER_DAILY.length) {
+  const botSet = new Set();
+  CRAWLER_DAILY.forEach(d => Object.keys(d).forEach(k => { if (k !== 'date' && k !== 'total') botSet.add(k); }));
+  const bots = [...botSet];
+  const palette = ['#58a6ff','#3fb950','#d29922','#f85149','#bc8cff','#ff7eb6','#39c5cf','#ffa657','#a5d6ff','#7ee787'];
+  new Chart(document.getElementById('chartCrawlers'), {
+    type: 'bar',
+    data: {
+      labels: CRAWLER_DAILY.map(d => d.date),
+      datasets: bots.map((bot, i) => ({
+        label: bot,
+        data: CRAWLER_DAILY.map(d => d[bot] || 0),
+        backgroundColor: palette[i % palette.length],
+        stack: 's',
+      })),
+    },
+    options: { ...COMMON, scales: { ...COMMON.scales, x: { ...COMMON.scales.x, stacked: true }, y: { ...COMMON.scales.y, stacked: true } }, plugins: { ...COMMON.plugins, title: { display: true, text: 'AI 爬蟲每日次數（依 Bot 堆疊）', color: '#e6edf3' } } },
+  });
+}
+</script>
+</body>
+</html>
