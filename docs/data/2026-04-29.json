@@ -1,6 +1,6 @@
 {
   "report_date": "2026-04-29",
-  "generated_at": "2026-04-29T11:53:45Z",
+  "generated_at": "2026-04-29T14:06:16Z",
   "windows": {
     "gsc_day": "2026-04-27",
     "ga4_day": "2026-04-29",
@@ -2480,29 +2480,29 @@
       },
       {
         "date": "2026-04-29",
-        "activeUsers": 38.0,
-        "sessions": 41.0,
-        "screenPageViews": 66.0
+        "activeUsers": 43.0,
+        "sessions": 47.0,
+        "screenPageViews": 72.0
       }
     ],
     "top_pages": [
       {
         "pagePath": "/",
-        "screenPageViews": 8.0,
-        "activeUsers": 6.0,
-        "averageSessionDuration": 20.184869666666668
+        "screenPageViews": 9.0,
+        "activeUsers": 7.0,
+        "averageSessionDuration": 26.789900285714285
+      },
+      {
+        "pagePath": "/blogs/visitor-wifi-vlan-setup-guide/",
+        "screenPageViews": 7.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 48.7643295
       },
       {
         "pagePath": "/blogs/",
         "screenPageViews": 6.0,
         "activeUsers": 4.0,
         "averageSessionDuration": 500.68785275
-      },
-      {
-        "pagePath": "/blogs/visitor-wifi-vlan-setup-guide/",
-        "screenPageViews": 6.0,
-        "activeUsers": 3.0,
-        "averageSessionDuration": 65.01910600000001
       },
       {
         "pagePath": "/not-found-404/",
@@ -2517,6 +2517,12 @@
         "averageSessionDuration": 34.9049878
       },
       {
+        "pagePath": "/blogs/information-security/",
+        "screenPageViews": 4.0,
+        "activeUsers": 4.0,
+        "averageSessionDuration": 318.0199645
+      },
+      {
         "pagePath": "/network/",
         "screenPageViews": 4.0,
         "activeUsers": 4.0,
@@ -2527,12 +2533,6 @@
         "screenPageViews": 3.0,
         "activeUsers": 2.0,
         "averageSessionDuration": 36.359634
-      },
-      {
-        "pagePath": "/blogs/information-security/",
-        "screenPageViews": 3.0,
-        "activeUsers": 3.0,
-        "averageSessionDuration": 240.1304726666667
       },
       {
         "pagePath": "/blogs/system-integration/",
@@ -2550,8 +2550,8 @@
     "top_sources": [
       {
         "sessionSource": "google",
-        "sessions": 18.0,
-        "activeUsers": 16.0
+        "sessions": 24.0,
+        "activeUsers": 21.0
       },
       {
         "sessionSource": "(direct)",
@@ -2575,7 +2575,775 @@
       }
     ]
   },
-  "crawlers": null,
+  "crawlers": {
+    "data_date": "2026-04-29",
+    "total_today": 3,
+    "by_bot_today": {
+      "Bytespider": 2,
+      "meta-externalagent": 1
+    },
+    "top_uris": [
+      {
+        "uri": "/robots.txt",
+        "hits": 1
+      },
+      {
+        "uri": "/blogs/%E9%87%8B%E6%94%BE%E4%BC%81%E6%A5%AD%E6%BD%9B%E8%83%BD%EF%BC%9Anas%E9%9B%B2%E7%AB%AF%E7%A7%9F%E8%B3%83%E7%82%BA%E4%BB%80%E9%BA%BC%E6%98%AF%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E9%81%B8%E6%93%87/",
+        "hits": 1
+      },
+      {
+        "uri": "/blog/tag/%e9%9b%bb%e8%85%a6/",
+        "hits": 1
+      }
+    ],
+    "daily": [
+      {
+        "date": "2025-11-01",
+        "total": 0
+      },
+      {
+        "date": "2025-11-02",
+        "total": 0
+      },
+      {
+        "date": "2025-11-03",
+        "total": 0
+      },
+      {
+        "date": "2025-11-04",
+        "total": 0
+      },
+      {
+        "date": "2025-11-05",
+        "total": 0
+      },
+      {
+        "date": "2025-11-06",
+        "total": 0
+      },
+      {
+        "date": "2025-11-07",
+        "total": 0
+      },
+      {
+        "date": "2025-11-08",
+        "total": 0
+      },
+      {
+        "date": "2025-11-09",
+        "total": 0
+      },
+      {
+        "date": "2025-11-10",
+        "total": 0
+      },
+      {
+        "date": "2025-11-11",
+        "total": 0
+      },
+      {
+        "date": "2025-11-12",
+        "total": 0
+      },
+      {
+        "date": "2025-11-13",
+        "total": 0
+      },
+      {
+        "date": "2025-11-14",
+        "total": 0
+      },
+      {
+        "date": "2025-11-15",
+        "total": 0
+      },
+      {
+        "date": "2025-11-16",
+        "total": 0
+      },
+      {
+        "date": "2025-11-17",
+        "total": 0
+      },
+      {
+        "date": "2025-11-18",
+        "total": 0
+      },
+      {
+        "date": "2025-11-19",
+        "total": 0
+      },
+      {
+        "date": "2025-11-20",
+        "total": 0
+      },
+      {
+        "date": "2025-11-21",
+        "total": 0
+      },
+      {
+        "date": "2025-11-22",
+        "total": 0
+      },
+      {
+        "date": "2025-11-23",
+        "total": 0
+      },
+      {
+        "date": "2025-11-24",
+        "total": 0
+      },
+      {
+        "date": "2025-11-25",
+        "total": 0
+      },
+      {
+        "date": "2025-11-26",
+        "total": 0
+      },
+      {
+        "date": "2025-11-27",
+        "total": 0
+      },
+      {
+        "date": "2025-11-28",
+        "total": 0
+      },
+      {
+        "date": "2025-11-29",
+        "total": 0
+      },
+      {
+        "date": "2025-11-30",
+        "total": 0
+      },
+      {
+        "date": "2025-12-01",
+        "total": 0
+      },
+      {
+        "date": "2025-12-02",
+        "total": 0
+      },
+      {
+        "date": "2025-12-03",
+        "total": 0
+      },
+      {
+        "date": "2025-12-04",
+        "total": 0
+      },
+      {
+        "date": "2025-12-05",
+        "total": 0
+      },
+      {
+        "date": "2025-12-06",
+        "total": 0
+      },
+      {
+        "date": "2025-12-07",
+        "total": 0
+      },
+      {
+        "date": "2025-12-08",
+        "total": 0
+      },
+      {
+        "date": "2025-12-09",
+        "total": 0
+      },
+      {
+        "date": "2025-12-10",
+        "total": 0
+      },
+      {
+        "date": "2025-12-11",
+        "total": 0
+      },
+      {
+        "date": "2025-12-12",
+        "total": 0
+      },
+      {
+        "date": "2025-12-13",
+        "total": 0
+      },
+      {
+        "date": "2025-12-14",
+        "total": 0
+      },
+      {
+        "date": "2025-12-15",
+        "total": 0
+      },
+      {
+        "date": "2025-12-16",
+        "total": 0
+      },
+      {
+        "date": "2025-12-17",
+        "total": 0
+      },
+      {
+        "date": "2025-12-18",
+        "total": 0
+      },
+      {
+        "date": "2025-12-19",
+        "total": 0
+      },
+      {
+        "date": "2025-12-20",
+        "total": 0
+      },
+      {
+        "date": "2025-12-21",
+        "total": 0
+      },
+      {
+        "date": "2025-12-22",
+        "total": 0
+      },
+      {
+        "date": "2025-12-23",
+        "total": 0
+      },
+      {
+        "date": "2025-12-24",
+        "total": 0
+      },
+      {
+        "date": "2025-12-25",
+        "total": 0
+      },
+      {
+        "date": "2025-12-26",
+        "total": 0
+      },
+      {
+        "date": "2025-12-27",
+        "total": 0
+      },
+      {
+        "date": "2025-12-28",
+        "total": 0
+      },
+      {
+        "date": "2025-12-29",
+        "total": 0
+      },
+      {
+        "date": "2025-12-30",
+        "total": 0
+      },
+      {
+        "date": "2025-12-31",
+        "total": 0
+      },
+      {
+        "date": "2026-01-01",
+        "total": 0
+      },
+      {
+        "date": "2026-01-02",
+        "total": 0
+      },
+      {
+        "date": "2026-01-03",
+        "total": 0
+      },
+      {
+        "date": "2026-01-04",
+        "total": 0
+      },
+      {
+        "date": "2026-01-05",
+        "total": 0
+      },
+      {
+        "date": "2026-01-06",
+        "total": 0
+      },
+      {
+        "date": "2026-01-07",
+        "total": 0
+      },
+      {
+        "date": "2026-01-08",
+        "total": 0
+      },
+      {
+        "date": "2026-01-09",
+        "total": 0
+      },
+      {
+        "date": "2026-01-10",
+        "total": 0
+      },
+      {
+        "date": "2026-01-11",
+        "total": 0
+      },
+      {
+        "date": "2026-01-12",
+        "total": 0
+      },
+      {
+        "date": "2026-01-13",
+        "total": 0
+      },
+      {
+        "date": "2026-01-14",
+        "total": 0
+      },
+      {
+        "date": "2026-01-15",
+        "total": 0
+      },
+      {
+        "date": "2026-01-16",
+        "total": 0
+      },
+      {
+        "date": "2026-01-17",
+        "total": 0
+      },
+      {
+        "date": "2026-01-18",
+        "total": 0
+      },
+      {
+        "date": "2026-01-19",
+        "total": 0
+      },
+      {
+        "date": "2026-01-20",
+        "total": 0
+      },
+      {
+        "date": "2026-01-21",
+        "total": 0
+      },
+      {
+        "date": "2026-01-22",
+        "total": 0
+      },
+      {
+        "date": "2026-01-23",
+        "total": 0
+      },
+      {
+        "date": "2026-01-24",
+        "total": 0
+      },
+      {
+        "date": "2026-01-25",
+        "total": 0
+      },
+      {
+        "date": "2026-01-26",
+        "total": 0
+      },
+      {
+        "date": "2026-01-27",
+        "total": 0
+      },
+      {
+        "date": "2026-01-28",
+        "total": 0
+      },
+      {
+        "date": "2026-01-29",
+        "total": 0
+      },
+      {
+        "date": "2026-01-30",
+        "total": 0
+      },
+      {
+        "date": "2026-01-31",
+        "total": 0
+      },
+      {
+        "date": "2026-02-01",
+        "total": 0
+      },
+      {
+        "date": "2026-02-02",
+        "total": 0
+      },
+      {
+        "date": "2026-02-03",
+        "total": 0
+      },
+      {
+        "date": "2026-02-04",
+        "total": 0
+      },
+      {
+        "date": "2026-02-05",
+        "total": 0
+      },
+      {
+        "date": "2026-02-06",
+        "total": 0
+      },
+      {
+        "date": "2026-02-07",
+        "total": 0
+      },
+      {
+        "date": "2026-02-08",
+        "total": 0
+      },
+      {
+        "date": "2026-02-09",
+        "total": 0
+      },
+      {
+        "date": "2026-02-10",
+        "total": 0
+      },
+      {
+        "date": "2026-02-11",
+        "total": 0
+      },
+      {
+        "date": "2026-02-12",
+        "total": 0
+      },
+      {
+        "date": "2026-02-13",
+        "total": 0
+      },
+      {
+        "date": "2026-02-14",
+        "total": 0
+      },
+      {
+        "date": "2026-02-15",
+        "total": 0
+      },
+      {
+        "date": "2026-02-16",
+        "total": 0
+      },
+      {
+        "date": "2026-02-17",
+        "total": 0
+      },
+      {
+        "date": "2026-02-18",
+        "total": 0
+      },
+      {
+        "date": "2026-02-19",
+        "total": 0
+      },
+      {
+        "date": "2026-02-20",
+        "total": 0
+      },
+      {
+        "date": "2026-02-21",
+        "total": 0
+      },
+      {
+        "date": "2026-02-22",
+        "total": 0
+      },
+      {
+        "date": "2026-02-23",
+        "total": 0
+      },
+      {
+        "date": "2026-02-24",
+        "total": 0
+      },
+      {
+        "date": "2026-02-25",
+        "total": 0
+      },
+      {
+        "date": "2026-02-26",
+        "total": 0
+      },
+      {
+        "date": "2026-02-27",
+        "total": 0
+      },
+      {
+        "date": "2026-02-28",
+        "total": 0
+      },
+      {
+        "date": "2026-03-01",
+        "total": 0
+      },
+      {
+        "date": "2026-03-02",
+        "total": 0
+      },
+      {
+        "date": "2026-03-03",
+        "total": 0
+      },
+      {
+        "date": "2026-03-04",
+        "total": 0
+      },
+      {
+        "date": "2026-03-05",
+        "total": 0
+      },
+      {
+        "date": "2026-03-06",
+        "total": 0
+      },
+      {
+        "date": "2026-03-07",
+        "total": 0
+      },
+      {
+        "date": "2026-03-08",
+        "total": 0
+      },
+      {
+        "date": "2026-03-09",
+        "total": 0
+      },
+      {
+        "date": "2026-03-10",
+        "total": 0
+      },
+      {
+        "date": "2026-03-11",
+        "total": 0
+      },
+      {
+        "date": "2026-03-12",
+        "total": 0
+      },
+      {
+        "date": "2026-03-13",
+        "total": 0
+      },
+      {
+        "date": "2026-03-14",
+        "total": 0
+      },
+      {
+        "date": "2026-03-15",
+        "total": 0
+      },
+      {
+        "date": "2026-03-16",
+        "total": 0
+      },
+      {
+        "date": "2026-03-17",
+        "total": 0
+      },
+      {
+        "date": "2026-03-18",
+        "total": 0
+      },
+      {
+        "date": "2026-03-19",
+        "total": 0
+      },
+      {
+        "date": "2026-03-20",
+        "total": 0
+      },
+      {
+        "date": "2026-03-21",
+        "total": 0
+      },
+      {
+        "date": "2026-03-22",
+        "total": 0
+      },
+      {
+        "date": "2026-03-23",
+        "total": 0
+      },
+      {
+        "date": "2026-03-24",
+        "total": 0
+      },
+      {
+        "date": "2026-03-25",
+        "total": 0
+      },
+      {
+        "date": "2026-03-26",
+        "total": 0
+      },
+      {
+        "date": "2026-03-27",
+        "total": 0
+      },
+      {
+        "date": "2026-03-28",
+        "total": 0
+      },
+      {
+        "date": "2026-03-29",
+        "total": 0
+      },
+      {
+        "date": "2026-03-30",
+        "total": 0
+      },
+      {
+        "date": "2026-03-31",
+        "total": 0
+      },
+      {
+        "date": "2026-04-01",
+        "total": 0
+      },
+      {
+        "date": "2026-04-02",
+        "total": 0
+      },
+      {
+        "date": "2026-04-03",
+        "total": 0
+      },
+      {
+        "date": "2026-04-04",
+        "total": 0
+      },
+      {
+        "date": "2026-04-05",
+        "total": 0
+      },
+      {
+        "date": "2026-04-06",
+        "total": 0
+      },
+      {
+        "date": "2026-04-07",
+        "total": 0
+      },
+      {
+        "date": "2026-04-08",
+        "total": 0
+      },
+      {
+        "date": "2026-04-09",
+        "total": 0
+      },
+      {
+        "date": "2026-04-10",
+        "total": 0
+      },
+      {
+        "date": "2026-04-11",
+        "total": 0
+      },
+      {
+        "date": "2026-04-12",
+        "total": 0
+      },
+      {
+        "date": "2026-04-13",
+        "total": 0
+      },
+      {
+        "date": "2026-04-14",
+        "total": 0
+      },
+      {
+        "date": "2026-04-15",
+        "total": 0
+      },
+      {
+        "date": "2026-04-16",
+        "total": 0
+      },
+      {
+        "date": "2026-04-17",
+        "total": 0
+      },
+      {
+        "date": "2026-04-18",
+        "total": 0
+      },
+      {
+        "date": "2026-04-19",
+        "total": 0
+      },
+      {
+        "date": "2026-04-20",
+        "total": 0
+      },
+      {
+        "date": "2026-04-21",
+        "total": 0
+      },
+      {
+        "date": "2026-04-22",
+        "total": 0
+      },
+      {
+        "date": "2026-04-23",
+        "total": 0
+      },
+      {
+        "date": "2026-04-24",
+        "total": 0
+      },
+      {
+        "date": "2026-04-25",
+        "total": 0
+      },
+      {
+        "date": "2026-04-26",
+        "total": 0
+      },
+      {
+        "date": "2026-04-27",
+        "total": 0
+      },
+      {
+        "date": "2026-04-28",
+        "total": 0
+      },
+      {
+        "date": "2026-04-29",
+        "total": 3,
+        "Bytespider": 2,
+        "meta-externalagent": 1
+      }
+    ],
+    "raw_sample": [
+      {
+        "ts": "2026-04-29 13:04:11",
+        "ip": "111.225.149.20",
+        "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+        "uri": "/robots.txt",
+        "bot_name": "Bytespider"
+      },
+      {
+        "ts": "2026-04-29 13:28:16",
+        "ip": "111.225.149.211",
+        "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+        "uri": "/blogs/%E9%87%8B%E6%94%BE%E4%BC%81%E6%A5%AD%E6%BD%9B%E8%83%BD%EF%BC%9Anas%E9%9B%B2%E7%AB%AF%E7%A7%9F%E8%B3%83%E7%82%BA%E4%BB%80%E9%BA%BC%E6%98%AF%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E9%81%B8%E6%93%87/",
+        "bot_name": "Bytespider"
+      },
+      {
+        "ts": "2026-04-29 13:43:57",
+        "ip": "2a03:2880:f806:7::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/%e9%9b%bb%e8%85%a6/",
+        "bot_name": "meta-externalagent"
+      }
+    ]
+  },
   "aeo": {
     "source": "fallback",
     "score": 75,
@@ -2600,7 +3368,7 @@
   "errors": {
     "gsc": null,
     "ga4": null,
-    "crawlers": "HTTPError: 404 Client Error: Not Found for url: https://zonetech.tw/wp-json/aitracker/v1/logs?date=2026-04-29",
+    "crawlers": null,
     "aeo": null
   }
 }
