@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from google.oauth2 import service_account
+import google.auth
 from googleapiclient.discovery import build
 
 from shared import DateWindows, env, iso
@@ -19,7 +19,7 @@ SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
 
 
 def _client():
-    creds = service_account.Credentials.from_service_account_file(
+    creds, _ = google.auth.load_credentials_from_file(
         env("GOOGLE_APPLICATION_CREDENTIALS", required=True), scopes=SCOPES
     )
     return build("searchconsole", "v1", credentials=creds, cache_discovery=False)

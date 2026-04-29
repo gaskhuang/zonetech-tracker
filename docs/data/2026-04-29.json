@@ -1,0 +1,656 @@
+{
+  "report_date": "2026-04-29",
+  "generated_at": "2026-04-29T11:30:32Z",
+  "windows": {
+    "gsc_day": "2026-04-27",
+    "ga4_day": "2026-04-29",
+    "crawlers_day": "2026-04-29"
+  },
+  "gsc": {
+    "data_date": "2026-04-27",
+    "daily": [
+      {
+        "date": "2026-03-31",
+        "clicks": 16,
+        "impressions": 1469,
+        "ctr": 1.09,
+        "position": 7.96
+      },
+      {
+        "date": "2026-04-01",
+        "clicks": 25,
+        "impressions": 1469,
+        "ctr": 1.7,
+        "position": 7.4
+      },
+      {
+        "date": "2026-04-02",
+        "clicks": 20,
+        "impressions": 1253,
+        "ctr": 1.6,
+        "position": 7.93
+      },
+      {
+        "date": "2026-04-03",
+        "clicks": 12,
+        "impressions": 1065,
+        "ctr": 1.13,
+        "position": 8.98
+      },
+      {
+        "date": "2026-04-04",
+        "clicks": 12,
+        "impressions": 989,
+        "ctr": 1.21,
+        "position": 8.41
+      },
+      {
+        "date": "2026-04-05",
+        "clicks": 12,
+        "impressions": 1114,
+        "ctr": 1.08,
+        "position": 8.1
+      },
+      {
+        "date": "2026-04-06",
+        "clicks": 16,
+        "impressions": 1493,
+        "ctr": 1.07,
+        "position": 7.92
+      },
+      {
+        "date": "2026-04-07",
+        "clicks": 11,
+        "impressions": 1608,
+        "ctr": 0.68,
+        "position": 8.01
+      },
+      {
+        "date": "2026-04-08",
+        "clicks": 21,
+        "impressions": 1729,
+        "ctr": 1.21,
+        "position": 7.23
+      },
+      {
+        "date": "2026-04-09",
+        "clicks": 26,
+        "impressions": 1640,
+        "ctr": 1.59,
+        "position": 8.26
+      },
+      {
+        "date": "2026-04-10",
+        "clicks": 10,
+        "impressions": 1248,
+        "ctr": 0.8,
+        "position": 8.93
+      },
+      {
+        "date": "2026-04-11",
+        "clicks": 10,
+        "impressions": 1175,
+        "ctr": 0.85,
+        "position": 8.46
+      },
+      {
+        "date": "2026-04-12",
+        "clicks": 22,
+        "impressions": 1502,
+        "ctr": 1.46,
+        "position": 8.66
+      },
+      {
+        "date": "2026-04-13",
+        "clicks": 31,
+        "impressions": 1635,
+        "ctr": 1.9,
+        "position": 7.65
+      },
+      {
+        "date": "2026-04-14",
+        "clicks": 17,
+        "impressions": 1555,
+        "ctr": 1.09,
+        "position": 8.6
+      },
+      {
+        "date": "2026-04-15",
+        "clicks": 19,
+        "impressions": 1714,
+        "ctr": 1.11,
+        "position": 8.87
+      },
+      {
+        "date": "2026-04-16",
+        "clicks": 10,
+        "impressions": 1498,
+        "ctr": 0.67,
+        "position": 8.2
+      },
+      {
+        "date": "2026-04-17",
+        "clicks": 10,
+        "impressions": 1148,
+        "ctr": 0.87,
+        "position": 9.76
+      },
+      {
+        "date": "2026-04-18",
+        "clicks": 9,
+        "impressions": 940,
+        "ctr": 0.96,
+        "position": 10.61
+      },
+      {
+        "date": "2026-04-19",
+        "clicks": 12,
+        "impressions": 1266,
+        "ctr": 0.95,
+        "position": 8.77
+      },
+      {
+        "date": "2026-04-20",
+        "clicks": 20,
+        "impressions": 1452,
+        "ctr": 1.38,
+        "position": 9.53
+      },
+      {
+        "date": "2026-04-21",
+        "clicks": 25,
+        "impressions": 1366,
+        "ctr": 1.83,
+        "position": 10.89
+      },
+      {
+        "date": "2026-04-22",
+        "clicks": 26,
+        "impressions": 1345,
+        "ctr": 1.93,
+        "position": 11.24
+      },
+      {
+        "date": "2026-04-23",
+        "clicks": 21,
+        "impressions": 1382,
+        "ctr": 1.52,
+        "position": 11.95
+      },
+      {
+        "date": "2026-04-24",
+        "clicks": 15,
+        "impressions": 1105,
+        "ctr": 1.36,
+        "position": 11.07
+      },
+      {
+        "date": "2026-04-25",
+        "clicks": 12,
+        "impressions": 1026,
+        "ctr": 1.17,
+        "position": 11.72
+      },
+      {
+        "date": "2026-04-26",
+        "clicks": 16,
+        "impressions": 1903,
+        "ctr": 0.84,
+        "position": 12.27
+      },
+      {
+        "date": "2026-04-27",
+        "clicks": 24,
+        "impressions": 1568,
+        "ctr": 1.53,
+        "position": 10.45
+      }
+    ],
+    "top_queries": [
+      {
+        "query": "蓋斯克",
+        "clicks": 2,
+        "impressions": 4,
+        "ctr": 50.0,
+        "position": 1.0
+      },
+      {
+        "query": "mesh wi-fi",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 2.5
+      },
+      {
+        "query": "4k剪輯電腦菜單",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 3.0
+      },
+      {
+        "query": "4k影片剪輯電腦配備",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 1.0
+      },
+      {
+        "query": "atera vs ninjaone",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 39.5
+      },
+      {
+        "query": "cia 三要素",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 13.0
+      },
+      {
+        "query": "cia 資訊 安全 三 要素",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 13.0
+      },
+      {
+        "query": "deskmini x300",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 48.0
+      },
+      {
+        "query": "firewall",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 10.0
+      },
+      {
+        "query": "firewall 品牌",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0.0,
+        "position": 1.0
+      }
+    ],
+    "top_pages": [
+      {
+        "page": "https://zonetech.tw/",
+        "clicks": 4,
+        "impressions": 29,
+        "ctr": 13.79,
+        "position": 3.41
+      },
+      {
+        "page": "https://zonetech.tw/blogs/4k-computer-clip-outfit/",
+        "clicks": 3,
+        "impressions": 185,
+        "ctr": 1.62,
+        "position": 8.69
+      },
+      {
+        "page": "https://zonetech.tw/blogs/connection-breaking-up/",
+        "clicks": 3,
+        "impressions": 280,
+        "ctr": 1.07,
+        "position": 8.29
+      },
+      {
+        "page": "https://zonetech.tw/blogs/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%B2%B7%E4%BA%86nas%E5%85%AC%E5%8F%B8%E8%B3%87%E6%96%99%E9%82%84%E6%98%AF%E4%B8%8D%E5%AE%89%E5%85%A8%E8%AB%87%E6%B6%88%E8%B2%BB%E7%B4%9A%E8%88%87%E4%BC%81%E6%A5%AD/",
+        "clicks": 2,
+        "impressions": 29,
+        "ctr": 6.9,
+        "position": 7.31
+      },
+      {
+        "page": "https://zonetech.tw/blogs/5919/",
+        "clicks": 2,
+        "impressions": 71,
+        "ctr": 2.82,
+        "position": 9.34
+      },
+      {
+        "page": "https://zonetech.tw/blogs/network-attached-storage/",
+        "clicks": 2,
+        "impressions": 54,
+        "ctr": 3.7,
+        "position": 19.74
+      },
+      {
+        "page": "https://zonetech.tw/blog-category/itrent/",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100.0,
+        "position": 7.0
+      },
+      {
+        "page": "https://zonetech.tw/blog/2022/07/08/2220708-b1-wifi-2/",
+        "clicks": 1,
+        "impressions": 5,
+        "ctr": 20.0,
+        "position": 9.2
+      },
+      {
+        "page": "https://zonetech.tw/blog/2022/08/17/220817-1921coworkingspace-wifi/",
+        "clicks": 1,
+        "impressions": 11,
+        "ctr": 9.09,
+        "position": 6.45
+      },
+      {
+        "page": "https://zonetech.tw/blogs/%E4%B8%AD%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92%E6%80%8E%E9%BA%BC%E8%BE%A6%EF%BC%9F%E5%85%88%E5%81%9A%E9%80%99-4-%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%80%83%E6%85%AE%E4%BB%98%E9%8C%A2%EF%BC%81/",
+        "clicks": 1,
+        "impressions": 25,
+        "ctr": 4.0,
+        "position": 28.0
+      }
+    ]
+  },
+  "ga4": {
+    "data_date": "2026-04-29",
+    "daily": [
+      {
+        "date": "2026-03-31",
+        "activeUsers": 48.0,
+        "sessions": 56.0,
+        "screenPageViews": 124.0
+      },
+      {
+        "date": "2026-04-01",
+        "activeUsers": 41.0,
+        "sessions": 47.0,
+        "screenPageViews": 55.0
+      },
+      {
+        "date": "2026-04-02",
+        "activeUsers": 62.0,
+        "sessions": 67.0,
+        "screenPageViews": 109.0
+      },
+      {
+        "date": "2026-04-03",
+        "activeUsers": 20.0,
+        "sessions": 22.0,
+        "screenPageViews": 21.0
+      },
+      {
+        "date": "2026-04-04",
+        "activeUsers": 21.0,
+        "sessions": 24.0,
+        "screenPageViews": 22.0
+      },
+      {
+        "date": "2026-04-05",
+        "activeUsers": 32.0,
+        "sessions": 37.0,
+        "screenPageViews": 39.0
+      },
+      {
+        "date": "2026-04-06",
+        "activeUsers": 24.0,
+        "sessions": 25.0,
+        "screenPageViews": 27.0
+      },
+      {
+        "date": "2026-04-07",
+        "activeUsers": 30.0,
+        "sessions": 34.0,
+        "screenPageViews": 47.0
+      },
+      {
+        "date": "2026-04-08",
+        "activeUsers": 35.0,
+        "sessions": 37.0,
+        "screenPageViews": 41.0
+      },
+      {
+        "date": "2026-04-09",
+        "activeUsers": 40.0,
+        "sessions": 47.0,
+        "screenPageViews": 49.0
+      },
+      {
+        "date": "2026-04-10",
+        "activeUsers": 45.0,
+        "sessions": 51.0,
+        "screenPageViews": 56.0
+      },
+      {
+        "date": "2026-04-11",
+        "activeUsers": 16.0,
+        "sessions": 22.0,
+        "screenPageViews": 23.0
+      },
+      {
+        "date": "2026-04-12",
+        "activeUsers": 26.0,
+        "sessions": 32.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-04-13",
+        "activeUsers": 49.0,
+        "sessions": 56.0,
+        "screenPageViews": 67.0
+      },
+      {
+        "date": "2026-04-14",
+        "activeUsers": 45.0,
+        "sessions": 58.0,
+        "screenPageViews": 64.0
+      },
+      {
+        "date": "2026-04-15",
+        "activeUsers": 41.0,
+        "sessions": 46.0,
+        "screenPageViews": 57.0
+      },
+      {
+        "date": "2026-04-16",
+        "activeUsers": 50.0,
+        "sessions": 54.0,
+        "screenPageViews": 69.0
+      },
+      {
+        "date": "2026-04-17",
+        "activeUsers": 35.0,
+        "sessions": 42.0,
+        "screenPageViews": 43.0
+      },
+      {
+        "date": "2026-04-18",
+        "activeUsers": 26.0,
+        "sessions": 30.0,
+        "screenPageViews": 31.0
+      },
+      {
+        "date": "2026-04-19",
+        "activeUsers": 22.0,
+        "sessions": 25.0,
+        "screenPageViews": 34.0
+      },
+      {
+        "date": "2026-04-20",
+        "activeUsers": 31.0,
+        "sessions": 33.0,
+        "screenPageViews": 52.0
+      },
+      {
+        "date": "2026-04-21",
+        "activeUsers": 50.0,
+        "sessions": 57.0,
+        "screenPageViews": 66.0
+      },
+      {
+        "date": "2026-04-22",
+        "activeUsers": 43.0,
+        "sessions": 52.0,
+        "screenPageViews": 64.0
+      },
+      {
+        "date": "2026-04-23",
+        "activeUsers": 42.0,
+        "sessions": 47.0,
+        "screenPageViews": 72.0
+      },
+      {
+        "date": "2026-04-24",
+        "activeUsers": 37.0,
+        "sessions": 48.0,
+        "screenPageViews": 53.0
+      },
+      {
+        "date": "2026-04-25",
+        "activeUsers": 38.0,
+        "sessions": 43.0,
+        "screenPageViews": 48.0
+      },
+      {
+        "date": "2026-04-26",
+        "activeUsers": 30.0,
+        "sessions": 37.0,
+        "screenPageViews": 33.0
+      },
+      {
+        "date": "2026-04-27",
+        "activeUsers": 56.0,
+        "sessions": 60.0,
+        "screenPageViews": 99.0
+      },
+      {
+        "date": "2026-04-28",
+        "activeUsers": 36.0,
+        "sessions": 49.0,
+        "screenPageViews": 68.0
+      },
+      {
+        "date": "2026-04-29",
+        "activeUsers": 36.0,
+        "sessions": 38.0,
+        "screenPageViews": 64.0
+      }
+    ],
+    "top_pages": [
+      {
+        "pagePath": "/",
+        "screenPageViews": 8.0,
+        "activeUsers": 6.0,
+        "averageSessionDuration": 20.184869666666668
+      },
+      {
+        "pagePath": "/blogs/",
+        "screenPageViews": 6.0,
+        "activeUsers": 4.0,
+        "averageSessionDuration": 500.68785275
+      },
+      {
+        "pagePath": "/blogs/visitor-wifi-vlan-setup-guide/",
+        "screenPageViews": 6.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 65.01910600000001
+      },
+      {
+        "pagePath": "/not-found-404/",
+        "screenPageViews": 5.0,
+        "activeUsers": 5.0,
+        "averageSessionDuration": 5.174026400000001
+      },
+      {
+        "pagePath": "/blogs/12867/",
+        "screenPageViews": 4.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 43.63123475
+      },
+      {
+        "pagePath": "/network/",
+        "screenPageViews": 4.0,
+        "activeUsers": 4.0,
+        "averageSessionDuration": 13.134768
+      },
+      {
+        "pagePath": "/blogs/hinet-mod-mikrotik-bridge-guide/",
+        "screenPageViews": 3.0,
+        "activeUsers": 2.0,
+        "averageSessionDuration": 36.359634
+      },
+      {
+        "pagePath": "/blogs/information-security/",
+        "screenPageViews": 3.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 240.1304726666667
+      },
+      {
+        "pagePath": "/blogs/system-integration/",
+        "screenPageViews": 3.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 14.444515666666668
+      },
+      {
+        "pagePath": "/pcfix/purchase/",
+        "screenPageViews": 3.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 34.811905
+      }
+    ],
+    "top_sources": [
+      {
+        "sessionSource": "(direct)",
+        "sessions": 16.0,
+        "activeUsers": 16.0
+      },
+      {
+        "sessionSource": "google",
+        "sessions": 16.0,
+        "activeUsers": 14.0
+      },
+      {
+        "sessionSource": "Tagtoo",
+        "sessions": 4.0,
+        "activeUsers": 4.0
+      },
+      {
+        "sessionSource": "canva.com",
+        "sessions": 1.0,
+        "activeUsers": 1.0
+      },
+      {
+        "sessionSource": "oskope.com",
+        "sessions": 1.0,
+        "activeUsers": 1.0
+      }
+    ]
+  },
+  "crawlers": null,
+  "aeo": {
+    "source": "fallback",
+    "score": 75,
+    "checks": {
+      "robots_txt_present": true,
+      "llms_txt_present": true,
+      "sitemap_xml_present": true,
+      "home_reachable": true,
+      "json_ld_present": true,
+      "bots_allowed": {
+        "GPTBot": false,
+        "ClaudeBot": false,
+        "Google-Extended": false,
+        "PerplexityBot": false,
+        "CCBot": false,
+        "Applebot-Extended": false,
+        "Amazonbot": false,
+        "Bytespider": false
+      }
+    }
+  },
+  "errors": {
+    "gsc": null,
+    "ga4": null,
+    "crawlers": "HTTPError: 404 Client Error: Not Found for url: https://zonetech.tw/wp-json/aitracker/v1/logs?date=2026-04-29",
+    "aeo": null
+  }
+}

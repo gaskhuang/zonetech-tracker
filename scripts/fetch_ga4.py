@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from typing import Any
 
+import google.auth
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
 from google.analytics.data_v1beta.types import (
     DateRange,
@@ -11,7 +12,6 @@ from google.analytics.data_v1beta.types import (
     OrderBy,
     RunReportRequest,
 )
-from google.oauth2 import service_account
 
 from shared import DateWindows, env, iso
 
@@ -19,7 +19,7 @@ SCOPES = ["https://www.googleapis.com/auth/analytics.readonly"]
 
 
 def _client():
-    creds = service_account.Credentials.from_service_account_file(
+    creds, _ = google.auth.load_credentials_from_file(
         env("GOOGLE_APPLICATION_CREDENTIALS", required=True), scopes=SCOPES
     )
     return BetaAnalyticsDataClient(credentials=creds)
