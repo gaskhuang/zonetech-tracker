@@ -42,7 +42,7 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
             "startDate": iso(windows.trend_start),
             "endDate": iso(windows.gsc_day),
             "dimensions": ["date"],
-            "rowLimit": 30,
+            "rowLimit": 200,
         },
     )
     daily = [

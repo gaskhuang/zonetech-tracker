@@ -66,4 +66,4 @@ class DateWindows:
 
     @property
     def trend_start(self) -> date:
-        return self.report_for - timedelta(days=29)
+        return self.report_for - timedelta(days=179)

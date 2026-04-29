@@ -20,7 +20,7 @@ REPORTS = DOCS / "reports"
 
 def gen():
     today = date.today()
-    days = [today - timedelta(days=29 - i) for i in range(30)]
+    days = [today - timedelta(days=179 - i) for i in range(180)]
     rng = random.Random(42)
 
     gsc_daily = [

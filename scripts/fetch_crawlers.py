@@ -40,13 +40,16 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
     today_iso = iso(windows.crawlers_day)
     rows_today = _cached_day(today_iso, fetch_live=True)
 
-    # Build 30-day series — re-fetch the most recent 2 days (might have late-arriving rows),
-    # use cache for older days.
+    # Build 180-day series — re-fetch the most recent 2 days (might have late-arriving rows),
+    # use cache for older days. Older days that are missing entirely return [] gracefully.
     daily_counts: list[dict] = []
-    for i in range(29, -1, -1):
+    for i in range(179, -1, -1):
         d = windows.report_for - timedelta(days=i)
         d_iso = iso(d)
-        rows = _cached_day(d_iso, fetch_live=(i <= 1))
+        try:
+            rows = _cached_day(d_iso, fetch_live=(i <= 1))
+        except Exception:
+            rows = []
         by_bot = Counter(r["bot_name"] for r in rows)
         daily_counts.append({"date": d_iso, "total": sum(by_bot.values()), **dict(by_bot)})
 
