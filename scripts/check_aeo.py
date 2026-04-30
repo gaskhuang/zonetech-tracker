@@ -42,6 +42,46 @@ def _fetch_text(url: str) -> tuple[int, str]:
         return 0, ""
 
 
+def _bot_allowed(robots_body: str, bot: str) -> bool:
+    """Proper robots.txt parser. A bot is allowed unless an applicable User-agent
+    block contains a 'Disallow:' line that exactly matches '/' or empty.
+
+    Most-specific User-agent block wins; fall back to '*' block.
+    """
+    if not robots_body:
+        return True
+
+    blocks: dict[str, list[tuple[str, str]]] = {}
+    current_uas: list[str] = []
+    for raw in robots_body.splitlines():
+        line = raw.split("#", 1)[0].strip()
+        if not line:
+            current_uas = []
+            continue
+        if ":" not in line:
+            continue
+        field, _, value = line.partition(":")
+        field = field.strip().lower()
+        value = value.strip()
+        if field == "user-agent":
+            current_uas.append(value)
+            blocks.setdefault(value, [])
+        elif field in ("allow", "disallow") and current_uas:
+            for ua in current_uas:
+                blocks.setdefault(ua, []).append((field, value))
+
+    rules = blocks.get(bot)
+    if rules is None:
+        rules = blocks.get("*", [])
+
+    # Bot is disallowed only if there's an explicit "Disallow: /" rule and no
+    # overriding "Allow: /...". Specific path disallows (like /wp-admin/) don't
+    # count as a site-wide block.
+    has_full_disallow = any(f == "disallow" and v == "/" for f, v in rules)
+    has_allow_root    = any(f == "allow"    and v == "/" for f, v in rules)
+    return not has_full_disallow or has_allow_root
+
+
 def _fallback_check(url: str) -> dict:
     robots_status, robots_body = _fetch_text(urljoin(url, "/robots.txt"))
     llms_status, llms_body = _fetch_text(urljoin(url, "/llms.txt"))
@@ -59,17 +99,7 @@ def _fallback_check(url: str) -> dict:
         "Bytespider",
     ]
 
-    bot_rules = {}
-    for bot in bots_examined:
-        allowed = True
-        if robots_body and "Disallow:" in robots_body:
-            block = ""
-            for chunk in robots_body.split("\n\n"):
-                if f"User-agent: {bot}" in chunk or f"User-agent: *" in chunk:
-                    block += chunk + "\n"
-            if "Disallow: /\n" in block or "Disallow: /" in block.rstrip():
-                allowed = False
-        bot_rules[bot] = allowed
+    bot_rules = {bot: _bot_allowed(robots_body, bot) for bot in bots_examined}
 
     has_jsonld = home_status == 200 and 'application/ld+json' in home_body.lower()
 
