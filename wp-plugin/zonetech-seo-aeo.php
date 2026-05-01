@@ -19,6 +19,16 @@ define( 'ZTK_OG_IMAGE_WIDTH',  1376 );
 define( 'ZTK_OG_IMAGE_HEIGHT', 768 );
 define( 'ZTK_FB_APP_ID',       '1295712369329177' );
 
+// 不相關舊頁面：AI 爬蟲看到這些頁面會誤解業務定位，全部 noindex
+// slug 格式：tag slug 或完整 path（不含網域）
+define( 'ZTK_NOINDEX_TAG_SLUGS', [
+    '租賃', 'qnap維修', '直播課程', '勒索病毒2021',
+] );
+define( 'ZTK_NOINDEX_PATHS', [
+    '/blogs/4k-computer-clip-outfit/',
+    '/category/showcase/computer-repair/',
+] );
+
 
 // =====================================================================
 // 0. 自動把 App ID 寫入 Yoast Social 設定（省去手動填表）
@@ -30,6 +40,49 @@ function ztk_sync_yoast_fb_app_id() {
     if ( ( $social['facebook_app_id'] ?? '' ) === ZTK_FB_APP_ID ) { return; } // 已正確，跳過
     $social['facebook_app_id'] = ZTK_FB_APP_ID;
     update_option( 'wpseo_social', $social );
+}
+
+
+// =====================================================================
+// 0b. Noindex 舊業務/不相關頁面（讓 AI 爬蟲跳過這些，不要誤解業務定位）
+// =====================================================================
+add_action( 'wp_head', 'ztk_noindex_old_pages', 1 );
+function ztk_noindex_old_pages() {
+    $path = parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH );
+
+    // 檢查是否在 noindex path 清單
+    foreach ( ZTK_NOINDEX_PATHS as $p ) {
+        if ( rtrim( $path, '/' ) === rtrim( $p, '/' ) ) {
+            echo '<meta name="robots" content="noindex, nofollow" />' . "\n";
+            return;
+        }
+    }
+
+    // 檢查是否為 noindex tag 頁面
+    if ( is_tag() ) {
+        $tag = get_queried_object();
+        if ( $tag && in_array( $tag->slug, ZTK_NOINDEX_TAG_SLUGS, true ) ) {
+            echo '<meta name="robots" content="noindex, nofollow" />' . "\n";
+        }
+    }
+}
+
+// Yoast 的 robots filter（雙重保險，讓 Yoast 也輸出 noindex）
+add_filter( 'wpseo_robots', 'ztk_yoast_noindex_filter' );
+function ztk_yoast_noindex_filter( $robots ) {
+    $path = parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH );
+    foreach ( ZTK_NOINDEX_PATHS as $p ) {
+        if ( rtrim( $path, '/' ) === rtrim( $p, '/' ) ) {
+            return 'noindex, nofollow';
+        }
+    }
+    if ( is_tag() ) {
+        $tag = get_queried_object();
+        if ( $tag && in_array( $tag->slug, ZTK_NOINDEX_TAG_SLUGS, true ) ) {
+            return 'noindex, nofollow';
+        }
+    }
+    return $robots;
 }
 
 
