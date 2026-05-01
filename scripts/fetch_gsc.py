@@ -4,7 +4,7 @@ Returns a dict with:
   - daily: [{date, clicks, impressions, ctr, position}, ...]   (last 30 days)
   - top_queries: top 10 queries on gsc_day
   - top_pages: top 10 pages on gsc_day
-  - data_date: ISO string of the day the "today" numbers refer to (D-2)
+  - data_date: ISO string of the latest day GSC actually has data for
 """
 from __future__ import annotations
 
@@ -56,12 +56,16 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
         for r in daily_rows
     ]
 
+    # GSC lag is 2-3 days and varies. Use the latest date that actually has data
+    # so top_queries/top_pages always have rows (querying a future date → empty).
+    latest_date = daily_rows[-1]["keys"][0] if daily_rows else iso(windows.gsc_day)
+
     queries = _query(
         svc,
         site,
         {
-            "startDate": iso(windows.gsc_day),
-            "endDate": iso(windows.gsc_day),
+            "startDate": latest_date,
+            "endDate": latest_date,
             "dimensions": ["query"],
             "rowLimit": 10,
         },
@@ -70,8 +74,8 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
         svc,
         site,
         {
-            "startDate": iso(windows.gsc_day),
-            "endDate": iso(windows.gsc_day),
+            "startDate": latest_date,
+            "endDate": latest_date,
             "dimensions": ["page"],
             "rowLimit": 10,
         },
@@ -90,7 +94,7 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
         ]
 
     return {
-        "data_date": iso(windows.gsc_day),
+        "data_date": latest_date,
         "daily": daily,
         "top_queries": shape(queries, "query"),
         "top_pages": shape(pages, "page"),
