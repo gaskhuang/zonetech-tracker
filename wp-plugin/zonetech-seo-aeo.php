@@ -35,10 +35,7 @@ define( 'ZTK_REDIRECT_PATHS', [
     '/blog/2018/12/02/fixpc-2',
     '/blog/2018/12/21/fixpc-2-2',
     '/blog/2020/03/25/win7towin10',
-    // 筆電租賃
-    '/equipment-leasing',
-    '/blog/2023/03/15/蓋斯克科技_筆電租賃方案說明',
-    '/blog/2022/11/03/rent-nb',
+    // 筆電/電腦租賃頁面保留（用戶決定繼續提供此服務）
     // 攝影展/舊媒體活動
     '/blog/2022/10/10/2022年台北南港國際攝影器材暨影像展-10-13四10-16日',
     '/blog/2020/11/18/2020photography_and_media_equipment_exhibition',
@@ -62,8 +59,7 @@ define( 'ZTK_NOINDEX_TAG_SLUGS', [
     '2020中勒索病毒的前兆',
     // 電腦維修
     '電腦', '室內裝修',
-    // 筆電租賃
-    '租賃', '租電腦', '筆電租',
+    // 筆電/電腦租賃 tag 保留
     // 攝影/媒體/直播
     '直播課程', '網路直播', '印刷輸出', 'metaverse',
     // NAS 維修（與主業無關）
