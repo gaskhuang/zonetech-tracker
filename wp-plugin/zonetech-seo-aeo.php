@@ -21,6 +21,19 @@ define( 'ZTK_FB_APP_ID',       '1316779473676671' );
 
 
 // =====================================================================
+// 0. 自動把 App ID 寫入 Yoast Social 設定（省去手動填表）
+// =====================================================================
+add_action( 'plugins_loaded', 'ztk_sync_yoast_fb_app_id' );
+function ztk_sync_yoast_fb_app_id() {
+    if ( ! class_exists( 'WPSEO_Options' ) ) { return; } // Yoast 未安裝則跳過
+    $social = get_option( 'wpseo_social', [] );
+    if ( ( $social['facebook_app_id'] ?? '' ) === ZTK_FB_APP_ID ) { return; } // 已正確，跳過
+    $social['facebook_app_id'] = ZTK_FB_APP_ID;
+    update_option( 'wpseo_social', $social );
+}
+
+
+// =====================================================================
 // 1. robots.txt — 明確歡迎 15 個主要爬蟲
 //    WordPress 的 robots_txt filter 在 virtual robots.txt 產生時觸發
 // =====================================================================
