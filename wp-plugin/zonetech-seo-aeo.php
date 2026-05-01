@@ -19,15 +19,59 @@ define( 'ZTK_OG_IMAGE_WIDTH',  1376 );
 define( 'ZTK_OG_IMAGE_HEIGHT', 768 );
 define( 'ZTK_FB_APP_ID',       '1295712369329177' );
 
-// 不相關舊頁面：AI 爬蟲看到這些頁面會誤解業務定位，全部 noindex
-// slug 格式：tag slug 或完整 path（不含網域）
+// ── 301 重定向：舊業務/不相關頁面 → 首頁 ──────────────────────────────
+// 包含：4K剪輯、勒索病毒、電腦維修、筆電租賃、攝影展 等舊業務頁面
+define( 'ZTK_REDIRECT_PATHS', [
+    // 4K 剪輯相關
+    '/blogs/4k-computer-clip-outfit',
+    '/4k',
+    '/blog/category/showcase/4k-editing-system',
+    '/blog/2022/08/28/2022adobe-academv01',   // Adobe/Metaverse 講座
+    // 勒索病毒/NAS 病毒
+    '/blog/2021/04/22/nas-7zvirus',
+    // 電腦維修
+    '/category/showcase/computer-repair',
+    '/pcfix',
+    '/blog/2018/12/02/fixpc-2',
+    '/blog/2018/12/21/fixpc-2-2',
+    '/blog/2020/03/25/win7towin10',
+    // 筆電租賃
+    '/equipment-leasing',
+    '/blog/2023/03/15/蓋斯克科技_筆電租賃方案說明',
+    '/blog/2022/11/03/rent-nb',
+    // 攝影展/舊媒體活動
+    '/blog/2022/10/10/2022年台北南港國際攝影器材暨影像展-10-13四10-16日',
+    '/blog/2020/11/18/2020photography_and_media_equipment_exhibition',
+    // 舊碎片頁
+    '/blog/2020/10/18/elementor-11437',
+    '/blog/2018/03/17/smb_news2',
+    '/blog/2018/03/22/smb_news1',
+    '/blog/2018/05/16/smb_news4',
+    '/blog/2020/11/24/11552-2',
+    '/blog/2020/11/24/newx300',
+] );
+
+// ── Noindex：舊業務 tag 頁面（slug 為 URL decode 後的值）──────────────
 define( 'ZTK_NOINDEX_TAG_SLUGS', [
-    '租賃', 'qnap維修', '直播課程', '勒索病毒2021',
+    // 4K 剪輯
+    '4k剪輯', '4k剪輯硬體', '4k電腦', '3d動畫主機',
+    '剪輯電腦', '剪接電腦', '動態設計', '視覺特效', '影像設計輸出', '影音工作室',
+    // 勒索病毒
+    '勒索病毒', '勒索病毒2021', '勒索病毒副檔名', '勒索病毒原因',
+    '勒索病毒攻擊', '勒索病毒檢測', '勒索病毒處理', '勒索病毒解毒',
+    '2020中勒索病毒的前兆',
+    // 電腦維修
+    '電腦', '室內裝修',
+    // 筆電租賃
+    '租賃', '租電腦', '筆電租',
+    // 攝影/媒體/直播
+    '直播課程', '網路直播', '印刷輸出', 'metaverse',
+    // NAS 維修（與主業無關）
+    'qnap維修', 'qnap-rma', 'qnap保固', 'qnap服務中心',
 ] );
-define( 'ZTK_NOINDEX_PATHS', [
-    '/blogs/4k-computer-clip-outfit/',
-    '/category/showcase/computer-repair/',
-] );
+
+// ── Noindex paths（頁面類，不做重定向）──────────────────────────────────
+define( 'ZTK_NOINDEX_PATHS', [] ); // 目前全改用重定向，此保留空陣列供擴充
 
 
 // =====================================================================
@@ -44,7 +88,26 @@ function ztk_sync_yoast_fb_app_id() {
 
 
 // =====================================================================
-// 0b. Noindex 舊業務/不相關頁面（讓 AI 爬蟲跳過這些，不要誤解業務定位）
+// 0b. 舊業務頁面 301 重定向到首頁（比 noindex 更快從 Google/AI 索引消失）
+//     同時修復 /category/showcase/computer-repair/ 的無限重定向迴圈
+// =====================================================================
+add_action( 'init', 'ztk_redirect_old_pages', 1 );
+function ztk_redirect_old_pages() {
+    if ( ! isset( $_SERVER['REQUEST_URI'] ) ) { return; }
+    $path = rtrim( urldecode( parse_url( $_SERVER['REQUEST_URI'], PHP_URL_PATH ) ), '/' );
+
+    foreach ( ZTK_REDIRECT_PATHS as $from ) {
+        $from = rtrim( $from, '/' );
+        if ( $path === $from || str_starts_with( $path, $from . '/' ) ) {
+            wp_redirect( 'https://zonetech.tw/', 301 );
+            exit;
+        }
+    }
+}
+
+
+// =====================================================================
+// 0c. Noindex 舊業務/不相關 tag 頁面（薄內容，AI 爬蟲不需要看）
 // =====================================================================
 add_action( 'wp_head', 'ztk_noindex_old_pages', 1 );
 function ztk_noindex_old_pages() {
