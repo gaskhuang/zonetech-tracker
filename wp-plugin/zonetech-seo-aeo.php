@@ -17,6 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 define( 'ZTK_OG_IMAGE_URL',    'https://zonetech.tw/wp-content/uploads/2026/04/wifi-hero-2.webp' );
 define( 'ZTK_OG_IMAGE_WIDTH',  1376 );
 define( 'ZTK_OG_IMAGE_HEIGHT', 768 );
+define( 'ZTK_FB_APP_ID',       '1316779473676671' );
 
 
 // =====================================================================
@@ -118,9 +119,12 @@ function ztk_og_image_size( $size ) {
     return $size;
 }
 
-// 保險起見：priority=1 確保我們的 og:image 先出現（Facebook 用第一個）
+// 保險起見：priority=1 確保我們的 og:image + fb:app_id 先出現
 add_action( 'wp_head', 'ztk_og_image_head', 1 );
 function ztk_og_image_head() {
+    $app_id = esc_attr( ZTK_FB_APP_ID );
+    echo '<meta property="fb:app_id" content="' . $app_id . '" />' . "\n";
+
     if ( ! is_front_page() ) { return; }
     $url = esc_url( ZTK_OG_IMAGE_URL );
     $w   = (int) ZTK_OG_IMAGE_WIDTH;
