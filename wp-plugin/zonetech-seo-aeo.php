@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 define( 'ZTK_OG_IMAGE_URL',    'https://zonetech.tw/wp-content/uploads/2026/04/wifi-hero-2.webp' );
 define( 'ZTK_OG_IMAGE_WIDTH',  1376 );
 define( 'ZTK_OG_IMAGE_HEIGHT', 768 );
-define( 'ZTK_FB_APP_ID',       '1316779473676671' );
+define( 'ZTK_FB_APP_ID',       '1295712369329177' );
 
 
 // =====================================================================
