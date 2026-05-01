@@ -292,5 +292,12 @@
     "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
     "uri": "/blog/tag/%e7%a7%9f%e8%b2%b8/",
     "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-01 15:47:30",
+    "ip": "2a03:2880:f806:3::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e9%9b%99wan%e5%90%88%e4%bd%b5%e9%a0%bb%e5%af%ac/",
+    "bot_name": "meta-externalagent"
   }
 ]
