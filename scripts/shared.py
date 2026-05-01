@@ -62,7 +62,11 @@ class DateWindows:
 
     @property
     def crawlers_day(self) -> date:
-        return self.report_for - timedelta(days=0)
+        # WP plugin stores `ts` in UTC, so we report the most recent COMPLETE
+        # UTC day. At workflow run time (03:00 TPE = 19:00 UTC previous day),
+        # "today TPE" maps to a UTC day that has barely started — querying it
+        # returns ~0 hits. Yesterday TPE maps to a complete UTC day.
+        return self.report_for - timedelta(days=1)
 
     @property
     def trend_start(self) -> date:

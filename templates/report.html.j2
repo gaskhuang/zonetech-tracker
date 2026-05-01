@@ -100,7 +100,7 @@
     <div class="sub">工作階段 {{ (ga4.daily | last).sessions | int if ga4 and ga4.daily else '—' }}</div>
   </div>
   <div class="card">
-    <div class="label">AI 爬蟲訪問次數</div>
+    <div class="label">AI 爬蟲訪問次數（{{ windows.crawlers_day }}）</div>
     <div class="value">{{ crawlers.total_today if crawlers else '—' }}</div>
     <div class="sub">{{ crawlers.by_bot_today | length if crawlers else 0 }} 種 bot</div>
   </div>
@@ -169,7 +169,7 @@
 </section>
 
 <section>
-  <h2>AI 爬蟲：今日命中分布</h2>
+  <h2>AI 爬蟲：{{ windows.crawlers_day }} 命中分布</h2>
   <table>
     <thead><tr><th>Bot</th><th class="num">次數</th></tr></thead>
     <tbody>
@@ -178,7 +178,7 @@
       {% else %}<tr><td colspan="2">今日無 AI 爬蟲訪問紀錄（或 plugin 尚未安裝）</td></tr>{% endfor %}
     </tbody>
   </table>
-  <h2 style="margin-top:20px">AI 爬蟲 Top 10 被拉取頁面</h2>
+  <h2 style="margin-top:20px">AI 爬蟲 Top 10 被拉取頁面（{{ windows.crawlers_day }}）</h2>
   <table>
     <thead><tr><th>URI</th><th class="num">次數</th></tr></thead>
     <tbody>
