@@ -71,13 +71,18 @@ define( 'ZTK_NOINDEX_PATHS', [] ); // 目前全改用重定向，此保留空陣
 
 
 // =====================================================================
-// 0. 自動把 App ID 寫入 Yoast Social 設定（省去手動填表）
+// 0. 自動把 App ID 寫入 Yoast Social 設定 + filter 雙重保險
 // =====================================================================
+
+// Yoast filter：直接覆寫輸出值（最可靠，不管資料庫存什麼）
+add_filter( 'wpseo_opengraph_fb_app_id', function() { return ZTK_FB_APP_ID; } );
+
+// 同時更新資料庫（讓 Yoast 後台顯示正確值）
 add_action( 'plugins_loaded', 'ztk_sync_yoast_fb_app_id' );
 function ztk_sync_yoast_fb_app_id() {
-    if ( ! class_exists( 'WPSEO_Options' ) ) { return; } // Yoast 未安裝則跳過
+    if ( ! defined( 'WPSEO_VERSION' ) ) { return; }
     $social = get_option( 'wpseo_social', [] );
-    if ( ( $social['facebook_app_id'] ?? '' ) === ZTK_FB_APP_ID ) { return; } // 已正確，跳過
+    if ( ( $social['facebook_app_id'] ?? '' ) === ZTK_FB_APP_ID ) { return; }
     $social['facebook_app_id'] = ZTK_FB_APP_ID;
     update_option( 'wpseo_social', $social );
 }
@@ -103,43 +108,39 @@ function ztk_redirect_old_pages() {
 
 
 // =====================================================================
-// 0c. Noindex 舊業務/不相關 tag 頁面（薄內容，AI 爬蟲不需要看）
+// 0c. Noindex 舊業務/不相關 tag 頁面
 // =====================================================================
-add_action( 'wp_head', 'ztk_noindex_old_pages', 1 );
-function ztk_noindex_old_pages() {
-    $path = parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH );
 
-    // 檢查是否在 noindex path 清單
-    foreach ( ZTK_NOINDEX_PATHS as $p ) {
-        if ( rtrim( $path, '/' ) === rtrim( $p, '/' ) ) {
-            echo '<meta name="robots" content="noindex, nofollow" />' . "\n";
-            return;
+function ztk_is_noindex_tag(): bool {
+    // 用 URL 比對（不依賴 WP tag slug，對中文 tag 更可靠）
+    $uri = urldecode( $_SERVER['REQUEST_URI'] ?? '' );
+    foreach ( ZTK_NOINDEX_TAG_SLUGS as $slug ) {
+        if ( str_contains( $uri, '/tag/' . $slug ) || str_contains( $uri, '/tag/' . urlencode( $slug ) ) ) {
+            return true;
         }
     }
-
-    // 檢查是否為 noindex tag 頁面
+    // 也試 WP API
     if ( is_tag() ) {
         $tag = get_queried_object();
         if ( $tag && in_array( $tag->slug, ZTK_NOINDEX_TAG_SLUGS, true ) ) {
-            echo '<meta name="robots" content="noindex, nofollow" />' . "\n";
+            return true;
         }
+    }
+    return false;
+}
+
+add_action( 'wp_head', 'ztk_noindex_old_pages', 1 );
+function ztk_noindex_old_pages() {
+    if ( ztk_is_noindex_tag() ) {
+        echo '<meta name="robots" content="noindex, nofollow" />' . "\n";
     }
 }
 
-// Yoast 的 robots filter（雙重保險，讓 Yoast 也輸出 noindex）
+// Yoast robots filter — 讓 Yoast 也輸出 noindex（避免 Yoast 覆蓋我們的設定）
 add_filter( 'wpseo_robots', 'ztk_yoast_noindex_filter' );
 function ztk_yoast_noindex_filter( $robots ) {
-    $path = parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH );
-    foreach ( ZTK_NOINDEX_PATHS as $p ) {
-        if ( rtrim( $path, '/' ) === rtrim( $p, '/' ) ) {
-            return 'noindex, nofollow';
-        }
-    }
-    if ( is_tag() ) {
-        $tag = get_queried_object();
-        if ( $tag && in_array( $tag->slug, ZTK_NOINDEX_TAG_SLUGS, true ) ) {
-            return 'noindex, nofollow';
-        }
+    if ( ztk_is_noindex_tag() ) {
+        return 'noindex, nofollow';
     }
     return $robots;
 }
@@ -147,11 +148,11 @@ function ztk_yoast_noindex_filter( $robots ) {
 
 // =====================================================================
 // 1. robots.txt — 明確歡迎 15 個主要爬蟲
-//    WordPress 的 robots_txt filter 在 virtual robots.txt 產生時觸發
+//    用 init 直接攔截 /robots.txt 請求（相容 Kinsta/Cloudflare 靜態快取環境）
+//    同時掛 robots_txt filter 作為 fallback
 // =====================================================================
-add_filter( 'robots_txt', 'ztk_robots_txt', 20, 2 );
-function ztk_robots_txt( $output, $public ) {
-    $extra = <<<'EOT'
+function ztk_robots_extra(): string {
+    return <<<'EOT'
 
 # ========================================================
 # 明確歡迎主要搜尋引擎 & AI 爬蟲
@@ -221,8 +222,20 @@ Allow: /
 User-agent: AhrefsBot
 Allow: /
 EOT;
-    return $output . $extra;
 }
+
+// init hook — 直接輸出（相容 Kinsta/Cloudflare 靜態快取攔截情況）
+add_action( 'init', 'ztk_serve_robots_txt', 1 );
+function ztk_serve_robots_txt() {
+    if ( ( $_SERVER['REQUEST_URI'] ?? '' ) !== '/robots.txt' ) { return; }
+    $base = "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://zonetech.tw/sitemaps.xml";
+    header( 'Content-Type: text/plain; charset=utf-8' );
+    echo $base . ztk_robots_extra();
+    exit;
+}
+
+// robots_txt filter — fallback（WordPress virtual robots.txt）
+add_filter( 'robots_txt', function( $output ) { return $output . ztk_robots_extra(); }, 20 );
 
 
 // =====================================================================
