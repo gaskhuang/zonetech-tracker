@@ -221,6 +221,12 @@ User-agent: SemrushBot
 Allow: /
 User-agent: AhrefsBot
 Allow: /
+
+# ========================================================
+# Content Signals (https://contentsignals.org)
+# 聲明 AI 使用偏好：允許搜尋索引與 AI 引用，不允許用於模型訓練
+# ========================================================
+Content-Signal: ai-train=no, search=yes, ai-input=yes
 EOT;
 }
 
@@ -427,5 +433,110 @@ function ztk_serve_llms_txt() {
     header( 'Cache-Control: public, max-age=3600' );
     header( 'Vary: Accept-Encoding' );
     echo $body;
+    exit;
+}
+
+
+// =====================================================================
+// 6. AI Agent 就緒支援（isitagentready.com 四項）
+// =====================================================================
+
+// ── 攔截 /.well-known/* 請求（WordPress 預設會重定向這些路徑）──────────
+add_action( 'init', 'ztk_wellknown_endpoints', 1 );
+function ztk_wellknown_endpoints() {
+    if ( ! isset( $_SERVER['REQUEST_URI'] ) ) { return; }
+    $path = rtrim( parse_url( $_SERVER['REQUEST_URI'], PHP_URL_PATH ), '/' );
+
+    switch ( $path ) {
+
+        // ── MCP Server Card (SEP-1649) ──────────────────────────────
+        case '/.well-known/mcp/server-card.json':
+            $card = [
+                'schemaVersion' => '1.0.0',
+                'serverInfo'    => [ 'name' => 'zonetech.tw', 'version' => '1.0.0' ],
+                'metadata'      => [
+                    'title'       => '蓋斯克科技-ZONETECH',
+                    'description' => '企業級大型場域無線網路建置｜智慧工廠WiFi｜倉儲WiFi｜辦公室網路規劃',
+                    'url'         => 'https://zonetech.tw',
+                    'language'    => 'zh-TW',
+                    'topics'      => [ 'enterprise wifi', 'wireless network', 'factory wifi', 'office network', 'commercial center network', 'warehouse wifi' ],
+                ],
+                'capabilities' => [
+                    'search' => [
+                        'description' => '搜尋蓋斯克科技網站內容',
+                        'endpoint'    => 'https://zonetech.tw/?s={query}',
+                    ],
+                    'contact' => [
+                        'description' => '諮詢企業網路建置',
+                        'endpoint'    => 'https://zonetech.tw/contact/',
+                    ],
+                ],
+            ];
+            header( 'Content-Type: application/json; charset=utf-8' );
+            header( 'Cache-Control: public, max-age=86400' );
+            echo json_encode( $card, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT );
+            exit;
+
+        // ── Agent Skills Discovery Index ────────────────────────────
+        case '/.well-known/agent-skills/index.json':
+            $index = [
+                '$schema' => 'https://agentskills.io/schema/v0.2.0/index.schema.json',
+                'skills'  => [
+                    [
+                        'name'        => 'search',
+                        'type'        => 'search',
+                        'description' => '搜尋蓋斯克科技的企業 WiFi / 網路建置內容',
+                        'url'         => 'https://zonetech.tw/?s={query}',
+                    ],
+                    [
+                        'name'        => 'contact',
+                        'type'        => 'action',
+                        'description' => '聯絡蓋斯克科技詢問企業無線網路建置報價',
+                        'url'         => 'https://zonetech.tw/contact/',
+                    ],
+                ],
+            ];
+            header( 'Content-Type: application/json; charset=utf-8' );
+            header( 'Cache-Control: public, max-age=86400' );
+            echo json_encode( $index, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT );
+            exit;
+    }
+}
+
+// ── Markdown for Agents ────────────────────────────────────────────────
+// 當請求帶有 Accept: text/markdown 時回傳乾淨的 Markdown 版本
+add_action( 'template_redirect', 'ztk_markdown_for_agents', 1 );
+function ztk_markdown_for_agents() {
+    $accept = $_SERVER['HTTP_ACCEPT'] ?? '';
+    if ( strpos( $accept, 'text/markdown' ) === false ) { return; }
+
+    // 取得當前頁面/文章內容
+    $title   = wp_title( '|', false, 'right' ) ?: get_bloginfo( 'name' );
+    $content = '';
+    $excerpt = '';
+
+    if ( is_singular() ) {
+        $post    = get_queried_object();
+        $title   = get_the_title( $post );
+        $content = wp_strip_all_tags( apply_filters( 'the_content', $post->post_content ) );
+        $excerpt = wp_strip_all_tags( get_the_excerpt( $post ) );
+    } elseif ( is_front_page() ) {
+        $title   = get_bloginfo( 'name' );
+        $content = '蓋斯克科技（ZONETECH）專注台灣大型場域企業級無線網路建置，服務智慧工廠、大型倉儲、辦公室、商務中心。' .
+                   '主要服務：企業級WiFi規劃、多WAN頻寬整合、企業防火牆建置。';
+    }
+
+    $md  = "# {$title}\n\n";
+    if ( $excerpt ) { $md .= "> {$excerpt}\n\n"; }
+    if ( $content ) { $md .= $content . "\n"; }
+    $md .= "\n---\n來源：" . esc_url( home_url( $_SERVER['REQUEST_URI'] ) ) . "\n";
+    $md .= "網站：https://zonetech.tw\n";
+
+    $tokens = str_word_count( $md );
+
+    header( 'Content-Type: text/markdown; charset=utf-8' );
+    header( 'X-Markdown-Tokens: ' . $tokens );
+    header( 'Cache-Control: public, max-age=3600' );
+    echo $md;
     exit;
 }
