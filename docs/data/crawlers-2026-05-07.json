@@ -1,1 +1,1388 @@
-[]
+[
+  {
+    "ts": "2026-05-07 00:24:05",
+    "ip": "2a03:2880:f806:44::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e4%bc%81%e6%a5%ad/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 00:44:14",
+    "ip": "47.128.122.230",
+    "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)",
+    "uri": "/blogs/4k-computer-clip-outfit/",
+    "bot_name": "Bytespider"
+  },
+  {
+    "ts": "2026-05-07 01:10:40",
+    "ip": "2a03:2880:f806:21::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/4k%e5%89%aa%e8%bc%af%e7%a1%ac%e9%ab%94/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:10:46",
+    "ip": "2a03:2880:f806:3::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/post-sitemap1.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:02",
+    "ip": "2a03:2880:f806:50::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-7-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:02",
+    "ip": "2a03:2880:f806:18::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-53-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:03",
+    "ip": "2a03:2880:f806:3f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-30.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:04",
+    "ip": "2a03:2880:f806:3::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-52-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:05",
+    "ip": "2a03:2880:f806:49::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-42-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:06",
+    "ip": "2a03:2880:f806:7::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-33.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:07",
+    "ip": "2a03:2880:f806:14::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-19.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:07",
+    "ip": "2a03:2880:f806:1::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-5.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:08",
+    "ip": "2a03:2880:f806:4b::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-28.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:09",
+    "ip": "2a03:2880:f806:45::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-54-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:10",
+    "ip": "2a03:2880:f806:f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-66-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:11",
+    "ip": "2a03:2880:f806:16::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-22.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:12",
+    "ip": "2a03:2880:f806:51::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-26-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:13",
+    "ip": "2a03:2880:f806:15::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-26.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:13",
+    "ip": "2a03:2880:f806:50::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-32-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:13",
+    "ip": "2a03:2880:f806:28::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-24.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:15",
+    "ip": "2a03:2880:f806:15::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-5-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:16",
+    "ip": "2a03:2880:f806:b::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-71.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:16",
+    "ip": "2a03:2880:f806:41::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-70-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:17",
+    "ip": "2a03:2880:f806:5::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-51-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:18",
+    "ip": "2a03:2880:f806:4::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-8-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:19",
+    "ip": "2a03:2880:f806:49::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-68-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:19",
+    "ip": "2a03:2880:f806:e::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-20-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:20",
+    "ip": "2a03:2880:f806:1e::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-43-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:21",
+    "ip": "2a03:2880:f806:1::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-56.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:22",
+    "ip": "2a03:2880:f806:3::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-72.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:23",
+    "ip": "2a03:2880:f806:26::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-22-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:23",
+    "ip": "2a03:2880:f806:26::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-1-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:24",
+    "ip": "2a03:2880:f806:42::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-28.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:24",
+    "ip": "2a03:2880:f806:23::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-25.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:25",
+    "ip": "2a03:2880:f806:20::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-41-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:26",
+    "ip": "2a03:2880:f806:9::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-2-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:28",
+    "ip": "2a03:2880:f806:46::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-3-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:28",
+    "ip": "2a03:2880:f806:d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-21-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:28",
+    "ip": "2a03:2880:f806:47::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-62.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:29",
+    "ip": "2a03:2880:f806:23::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-34.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:30",
+    "ip": "2a03:2880:f806:48::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/2022-10-07-08-04-35-seagate_PMS_horizontal_pos-1.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:30",
+    "ip": "2a03:2880:f806:7::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-16.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:31",
+    "ip": "2a03:2880:f806::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-1.jpeg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:32",
+    "ip": "2a03:2880:f806:1::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-36-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:33",
+    "ip": "2a03:2880:f806:3f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/10/5838.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:33",
+    "ip": "2a03:2880:f806:21::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/Purchase_NB4.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:34",
+    "ip": "2a03:2880:f806:1f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/Screenshot-at-Dec-27-05-38-14.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:34",
+    "ip": "2a03:2880:f806:40::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/11/7dfewfw.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:36",
+    "ip": "2a03:2880:f806:1a::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/11/32526.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:37",
+    "ip": "2a03:2880:f806:15::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/image-7.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:37",
+    "ip": "2a03:2880:f806:15::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/pexels-pixabay-159304-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:38",
+    "ip": "2a03:2880:f806:9::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/2022-10-07-06-41-29-blobid0.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:38",
+    "ip": "2a03:2880:f806:10::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-58-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:39",
+    "ip": "2a03:2880:f806:51::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-46-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:40",
+    "ip": "2a03:2880:f806:25::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/S__72122385-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:41",
+    "ip": "2a03:2880:f806:5::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/chrome_XkIsYZpVel.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:41",
+    "ip": "2a03:2880:f806:4f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/20201031_201112_0024.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:42",
+    "ip": "2a03:2880:f806:51::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/Image-20.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:42",
+    "ip": "2a03:2880:f806:2d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2023/03/dbd2e49e13-27-scaled.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:44",
+    "ip": "2a03:2880:f806:24::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/IMG_2193-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:45",
+    "ip": "2a03:2880:f806:23::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/smb_news1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:45",
+    "ip": "2a03:2880:f806:17::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e.jpeg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:46",
+    "ip": "2a03:2880:f806:44::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-61.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:47",
+    "ip": "2a03:2880:f806:4d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/Image-21.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:48",
+    "ip": "2a03:2880:f806:14::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-32.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:48",
+    "ip": "2a03:2880:f806:4a::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-9-768x1024-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:49",
+    "ip": "2a03:2880:f806:2::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-29.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:50",
+    "ip": "2a03:2880:f806:3d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/26b37fb736a398b356ceae02daf11a47.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:50",
+    "ip": "2a03:2880:f806:12::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/IMG_9287-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:51",
+    "ip": "2a03:2880:f806:43::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/IMG_8971-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:52",
+    "ip": "2a03:2880:f806:10::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/Image-7.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:52",
+    "ip": "2a03:2880:f806:4d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-37-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:53",
+    "ip": "2a03:2880:f806:3::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-69-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:53",
+    "ip": "2a03:2880:f806:11::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/image-8.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:55",
+    "ip": "2a03:2880:f806:41::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/26b37fb736a398b356ceae02daf11a47-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:55",
+    "ip": "2a03:2880:f806:16::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/25b6.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:55",
+    "ip": "2a03:2880:f806:52::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-23-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:56",
+    "ip": "2a03:2880:f806:25::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/LP-10-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:56",
+    "ip": "2a03:2880:f806:25::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/Image-22.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:57",
+    "ip": "2a03:2880:f806:4c::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/Image-11.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:58",
+    "ip": "2a03:2880:f806:20::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/123075718_3047862012107544_7061402826011520784_o.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:58",
+    "ip": "2a03:2880:f806:3c::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/IMG_3005_cr-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:11:59",
+    "ip": "2a03:2880:f806:13::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2023/03/dbd2e49e13-21-scaled.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:00",
+    "ip": "2a03:2880:f806:1c::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-27.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:00",
+    "ip": "2a03:2880:f806:40::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/DSC8575-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:01",
+    "ip": "2a03:2880:f806:4f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/image-4.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:02",
+    "ip": "2a03:2880:f806:23::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/LP-09-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:02",
+    "ip": "2a03:2880:f806:1b::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/LP-07-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:03",
+    "ip": "2a03:2880:f806:25::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2023/03/dbd2e49e13-32-scaled.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:04",
+    "ip": "2a03:2880:f806:39::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/Image-5.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:04",
+    "ip": "2a03:2880:f806:15::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/IMG_2192-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:05",
+    "ip": "2a03:2880:f806:e::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/IMG_4883_cr-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:06",
+    "ip": "2a03:2880:f806:7::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/LP-17.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:06",
+    "ip": "2a03:2880:f806:13::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-67-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:07",
+    "ip": "2a03:2880:f806:4d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/image-1.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:07",
+    "ip": "2a03:2880:f806:25::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-30.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:08",
+    "ip": "2a03:2880:f806:4f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-17-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:08",
+    "ip": "2a03:2880:f806:5::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/2022-10-07-08-03-43-OWC-Blue-RGB.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:09",
+    "ip": "2a03:2880:f806:21::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2023/03/dbd2e49e13-20-scaled.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:09",
+    "ip": "2a03:2880:f806:19::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/LP-11.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:10",
+    "ip": "2a03:2880:f806:4a::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/IMG_9406-768x1024-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:11",
+    "ip": "2a03:2880:f806:42::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2023/03/dbd2e49e13-19-scaled.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:12",
+    "ip": "2a03:2880:f806:c::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2023/03/dbd2e49e13-23-scaled.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:12",
+    "ip": "2a03:2880:f806:46::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/2022-10-07-06-39-47-308190466_5777410538955796_2029636551379466011_n.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:13",
+    "ip": "2a03:2880:f806:11::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/LP-04-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:13",
+    "ip": "2a03:2880:f806:10::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/image-10.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:14",
+    "ip": "2a03:2880:f806:12::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-73.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:14",
+    "ip": "2a03:2880:f806:4d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/new-line.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:15",
+    "ip": "2a03:2880:f806:b::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-34.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:15",
+    "ip": "2a03:2880:f806:2::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/image.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:16",
+    "ip": "2a03:2880:f806:b::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-18.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:17",
+    "ip": "2a03:2880:f806:3b::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/S__108969986-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:17",
+    "ip": "2a03:2880:f806:1d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-17.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:18",
+    "ip": "2a03:2880:f806:46::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/IMG_9407-768x1024-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:19",
+    "ip": "2a03:2880:f806:1e::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/smart_smb4-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:20",
+    "ip": "2a03:2880:f806:22::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/IMG_2198-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:21",
+    "ip": "2a03:2880:f806:4f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/image-6.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:21",
+    "ip": "2a03:2880:f806:36::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/1619080647555.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:22",
+    "ip": "2a03:2880:f806:21::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/Image-8.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:22",
+    "ip": "2a03:2880:f806:42::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/IMG_9285-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:23",
+    "ip": "2a03:2880:f806:50::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/DSC8452-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:24",
+    "ip": "2a03:2880:f806:4f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-4.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:24",
+    "ip": "2a03:2880:f806:7::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-33.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:25",
+    "ip": "2a03:2880:f806:25::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-57-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:25",
+    "ip": "2a03:2880:f806:50::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/S__16064518-768x1024-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:26",
+    "ip": "2a03:2880:f806:12::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/LP-03-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:26",
+    "ip": "2a03:2880:f806:d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/LP-01-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:27",
+    "ip": "2a03:2880:f806:26::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-23.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:27",
+    "ip": "2a03:2880:f806:1c::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/S__72122379-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:28",
+    "ip": "2a03:2880:f806:21::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/122936232_3047861362107609_1434989264912416431_o.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:29",
+    "ip": "2a03:2880:f806:2::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/image-5.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:29",
+    "ip": "2a03:2880:f806:19::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-31.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:30",
+    "ip": "2a03:2880:f806:44::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-24.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:30",
+    "ip": "2a03:2880:f806:4::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/S__72130562-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:30",
+    "ip": "2a03:2880:f806:4f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-50-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:32",
+    "ip": "2a03:2880:f806:41::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-47.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:32",
+    "ip": "2a03:2880:f806:1a::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-55.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:32",
+    "ip": "2a03:2880:f806:14::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-21.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:34",
+    "ip": "2a03:2880:f806:10::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/image-2.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:34",
+    "ip": "2a03:2880:f806:25::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/LP-02-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:35",
+    "ip": "2a03:2880:f806:22::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/image-3.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:35",
+    "ip": "2a03:2880:f806:4b::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/LP-14.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:36",
+    "ip": "2a03:2880:f806:21::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2023/03/dbd2e49e13-25-scaled.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:36",
+    "ip": "2a03:2880:f806:36::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-27.png]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:12:37",
+    "ip": "2a03:2880:f806:14::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-74.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 01:41:28",
+    "ip": "2a03:2880:f806:3f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/news-sitemap.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 02:03:49",
+    "ip": "2a03:2880:f806:b::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e8%be%a6%e5%85%ac%e5%ae%a4%e7%b6%b2%e8%b7%af/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 02:55:41",
+    "ip": "2a03:2880:f806:1b::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e8%be%a6%e5%85%ac%e5%ae%a4%e7%84%a1%e7%b7%9a%e7%b6%b2%e8%b7%af/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 02:57:48",
+    "ip": "74.7.242.148",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.3; +https://openai.com/searchbot",
+    "uri": "/blogs/connection-breaking-up/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-05-07 02:57:51",
+    "ip": "74.7.229.124",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.3; +https://openai.com/searchbot",
+    "uri": "/?p=12319",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-05-07 03:11:05",
+    "ip": "172.204.27.16",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/enterprise-wifi-setup-guide-firewall-to-ap-4/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-05-07 03:18:47",
+    "ip": "2a03:2880:f806:9::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/smb_news1-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 03:35:23",
+    "ip": "2a03:2880:f806:1e::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e7%89%b9%e6%96%af%e6%8b%89/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 03:36:36",
+    "ip": "2a03:2880:f806:2d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%92%e8%a7%a3%e6%af%92/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 03:56:57",
+    "ip": "74.7.244.15",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.3; robots.txt; +https://openai.com/searchbot",
+    "uri": "/robots.txt",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-05-07 03:59:22",
+    "ip": "2a03:2880:f806:19::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%92/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 04:05:30",
+    "ip": "74.7.228.25",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.3; robots.txt; +https://openai.com/searchbot",
+    "uri": "/robots.txt",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-05-07 04:25:49",
+    "ip": "2a03:2880:f806:9::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%9c%b0%e4%b8%8b%e5%ae%a4wifi/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 04:57:44",
+    "ip": "104.210.140.137",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot",
+    "uri": "/wp-signup.php?new=rent",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-05-07 05:22:17",
+    "ip": "110.249.202.173",
+    "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+    "uri": "/robots.txt",
+    "bot_name": "Bytespider"
+  },
+  {
+    "ts": "2026-05-07 05:22:37",
+    "ip": "2a03:2880:f806:f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%bd%b1%e9%9f%b3%e5%b7%a5%e4%bd%9c%e5%ae%a4/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 05:49:53",
+    "ip": "2a03:2880:31ff:53::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/equipment-leasing/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 05:49:53",
+    "ip": "2a03:2880:31ff:48::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/aboutus/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 06:02:40",
+    "ip": "2a03:2880:f806:4b::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e7%ad%86%e9%9b%bb%e7%a7%9f/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 06:03:08",
+    "ip": "2a03:2880:f806:26::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e7%b6%b2%e8%b7%af%e4%b8%8d%e4%b8%ad%e6%96%b7/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 06:12:24",
+    "ip": "2a03:2880:f806:21::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e9%9b%b2%e7%ab%af%e8%b3%87%e6%96%99%e5%84%b2%e5%ad%98/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 06:24:30",
+    "ip": "2a03:2880:f806:12::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/[CDATA[https:/zonetech.tw/wp-content/uploads/2022/12/02e6daa59e-52-scaled-1.jpg]]",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 06:48:58",
+    "ip": "2a03:2880:f806:3c::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%92%e5%8e%9f%e5%9b%a0/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 07:34:33",
+    "ip": "172.204.27.24",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/4k-editing-pc-setup-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-05-07 07:44:47",
+    "ip": "2a03:2880:f806:1f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/sitemap.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 08:06:17",
+    "ip": "2a03:2880:f806:45::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/post_tag-sitemap1.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 08:21:59",
+    "ip": "2a03:2880:f806:12::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/sitemap-index.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 08:37:29",
+    "ip": "40.67.183.178",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/network-construction/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-05-07 09:31:59",
+    "ip": "138.91.30.57",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/4k-editing-pc-setup-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-05-07 09:32:01",
+    "ip": "47.128.122.19",
+    "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)",
+    "uri": "/blogs/4k-computer-clip-outfit/",
+    "bot_name": "Bytespider"
+  },
+  {
+    "ts": "2026-05-07 09:49:28",
+    "ip": "2a03:2880:f806:14::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%9c%b0%e4%b8%8b%e5%ae%a4%e7%b6%b2%e8%b7%af/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 09:52:18",
+    "ip": "2a03:2880:25ff:9::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blogs/network-construction/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 10:48:29",
+    "ip": "2a03:2880:f806:4f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%81%9c%e8%bb%8a%e5%a0%b4%e7%84%a1%e7%b7%9a%e7%b6%b2%e8%b7%af/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 11:07:28",
+    "ip": "2a03:2880:f806:41::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%92%e6%aa%a2%e6%b8%ac/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 11:22:05",
+    "ip": "2a03:2880:f806:3f::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%bd%b1%e5%83%8f%e8%a8%ad%e8%a8%88%e8%bc%b8%e5%87%ba/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 12:52:10",
+    "ip": "2a03:2880:f806:21::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/sitemap.txt",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 12:58:35",
+    "ip": "2a03:2880:f806:3d::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/category-sitemap1.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 13:28:57",
+    "ip": "2a03:2880:f806:1a::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/4k%e9%9b%bb%e8%85%a6/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 13:59:54",
+    "ip": "2a03:2880:f806:4c::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/pcfix/evaluation/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 14:00:40",
+    "ip": "2a03:2880:f806:8::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/SiteMap.aspx",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 15:04:32",
+    "ip": "2a03:2880:f806:39::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/news-sitemap.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 15:54:59",
+    "ip": "2a03:2880:f806:35::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/page-sitemap1.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 16:37:01",
+    "ip": "2600:1f28:365:80b0:5754:46fa:2c21:98f7",
+    "ua": "CCBot/2.0 (https://commoncrawl.org/faq/)",
+    "uri": "/page-sitemap1.xml",
+    "bot_name": "CCBot"
+  },
+  {
+    "ts": "2026-05-07 16:37:01",
+    "ip": "2600:1f28:365:80b0:5754:46fa:2c21:98f7",
+    "ua": "CCBot/2.0 (https://commoncrawl.org/faq/)",
+    "uri": "/post-sitemap1.xml",
+    "bot_name": "CCBot"
+  },
+  {
+    "ts": "2026-05-07 16:37:04",
+    "ip": "2600:1f28:365:80b0:5754:46fa:2c21:98f7",
+    "ua": "CCBot/2.0 (https://commoncrawl.org/faq/)",
+    "uri": "/post_tag-sitemap1.xml",
+    "bot_name": "CCBot"
+  },
+  {
+    "ts": "2026-05-07 16:37:05",
+    "ip": "2600:1f28:365:80b0:5754:46fa:2c21:98f7",
+    "ua": "CCBot/2.0 (https://commoncrawl.org/faq/)",
+    "uri": "/category-sitemap1.xml",
+    "bot_name": "CCBot"
+  },
+  {
+    "ts": "2026-05-07 17:07:52",
+    "ip": "2a03:2880:f806:45::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%a4%9a%e4%b8%ad%e8%8f%af%e9%9b%bb%e4%bf%a1/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 17:52:59",
+    "ip": "2a03:2880:f806:24::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/helpie_faq_page/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 17:56:44",
+    "ip": "111.225.149.203",
+    "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+    "uri": "/blog/2018/12/02/fixpc-2/",
+    "bot_name": "Bytespider"
+  },
+  {
+    "ts": "2026-05-07 18:06:54",
+    "ip": "74.7.241.143",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.3; robots.txt; +https://openai.com/searchbot",
+    "uri": "/wp-signup.php?new=zonetechtw.kinsta.cloud",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-05-07 18:47:38",
+    "ip": "2a03:2880:f806:5::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e8%a6%96%e8%a6%ba%e7%89%b9%e6%95%88/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 19:19:30",
+    "ip": "2a03:2880:f806:14::",
+    "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+    "uri": "/blog/tag/%e5%95%86%e5%8b%99%e4%b8%ad%e5%bf%83/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-05-07 19:37:38",
+    "ip": "23.98.142.187",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/%E7%A7%9F%E9%9B%BB%E8%85%A6%E4%B8%83%E5%A4%A7%E5%84%AA%E5%8B%A2%EF%BC%9F%E8%93%8B%E6%96%AF%E5%85%8B%E7%A7%91%E6%8A%80it%E8%A8%AD%E5%82%99%E5%85%A8%E7%A7%9F%E8%B3%83/",
+    "bot_name": "ChatGPT-User"
+  }
+]
