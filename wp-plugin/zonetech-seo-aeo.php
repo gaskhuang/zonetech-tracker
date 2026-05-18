@@ -108,14 +108,44 @@ function ztk_redirect_old_pages() {
 
 
 // =====================================================================
+// 0b-2. 剝除 JetEngine ?nocache= 參數 → 301 重定向到乾淨 URL
+//        JetEngine AJAX 分頁會把時間戳記當 nocache 參數加進 URL，
+//        每個時間戳都被 Google 當成獨立頁面爬取 → GSC「替代頁面」數量暴增。
+//        解法：伺服器端 301 到無 nocache 的乾淨 URL，讓 Google 將舊記錄更新。
+//        robots.txt 同時加 Disallow: /*?*nocache=* 阻止後續爬取。
+// =====================================================================
+add_action( 'init', 'ztk_strip_nocache_redirect', 2 );
+function ztk_strip_nocache_redirect() {
+    // 只處理前端頁面請求，排除 AJAX / REST API / Admin / Cron / XML-RPC
+    if ( wp_doing_ajax() || is_admin()
+         || ( defined( 'REST_REQUEST' ) && REST_REQUEST )
+         || ( defined( 'DOING_CRON' )   && DOING_CRON )
+         || ( defined( 'XMLRPC_REQUEST' ) && XMLRPC_REQUEST ) ) {
+        return;
+    }
+    if ( ! isset( $_GET['nocache'] ) ) { return; }
+
+    // 移除 nocache，保留 pagenum / jsf / 其他合法分頁參數
+    $clean_uri = remove_query_arg( 'nocache', $_SERVER['REQUEST_URI'] ?? '/' );
+    wp_redirect( 'https://' . ( $_SERVER['HTTP_HOST'] ?? 'zonetech.tw' ) . $clean_uri, 301 );
+    exit;
+}
+
+
+// =====================================================================
 // 0c. Noindex 舊業務/不相關 tag 頁面
 // =====================================================================
 
 function ztk_is_noindex_tag(): bool {
-    // 用 URL 比對（不依賴 WP tag slug，對中文 tag 更可靠）
-    $uri = urldecode( $_SERVER['REQUEST_URI'] ?? '' );
+    // 用 URL path 比對（不依賴 WP tag slug，對中文 tag 更可靠）
+    // 只取 path 部分（排除 query string），並做精確邊界比對，避免 /tag/電腦 誤觸 /tag/電腦維修
+    $path = urldecode( parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH ) );
     foreach ( ZTK_NOINDEX_TAG_SLUGS as $slug ) {
-        if ( str_contains( $uri, '/tag/' . $slug ) || str_contains( $uri, '/tag/' . urlencode( $slug ) ) ) {
+        if ( $path === '/tag/' . $slug || str_starts_with( $path, '/tag/' . $slug . '/' ) ) {
+            return true;
+        }
+        $enc = urlencode( $slug );
+        if ( $path === '/tag/' . $enc || str_starts_with( $path, '/tag/' . $enc . '/' ) ) {
             return true;
         }
     }
@@ -159,16 +189,20 @@ function ztk_robots_extra(): string {
 # ========================================================
 
 # Google Search + Discover
+# ?nocache= 為 JetEngine AJAX 快取破壞參數，禁止爬蟲爬取以節省 crawl budget
 User-agent: Googlebot
 Allow: /
+Disallow: /*?*nocache=*
 
 # Google Ads 品質審核
 User-agent: AdsBot-Google
 Allow: /
+Disallow: /*?*nocache=*
 
 # Microsoft Bing
 User-agent: bingbot
 Allow: /
+Disallow: /*?*nocache=*
 
 # Apple Spotlight / Siri
 User-agent: Applebot
@@ -233,8 +267,10 @@ EOT;
 // init hook — 直接輸出（相容 Kinsta/Cloudflare 靜態快取攔截情況）
 add_action( 'init', 'ztk_serve_robots_txt', 1 );
 function ztk_serve_robots_txt() {
-    if ( ( $_SERVER['REQUEST_URI'] ?? '' ) !== '/robots.txt' ) { return; }
-    $base = "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://zonetech.tw/sitemaps.xml";
+    $req_path = parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH );
+    if ( $req_path !== '/robots.txt' ) { return; }
+    // ?nocache= 是 JetEngine AJAX 快取破壞參數，不應被爬蟲索引
+    $base = "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /*?*nocache=*\n\nSitemap: https://zonetech.tw/sitemaps.xml";
     header( 'Content-Type: text/plain; charset=utf-8' );
     echo $base . ztk_robots_extra();
     exit;
@@ -306,9 +342,10 @@ add_action( 'wp_head', function() {
 
 
 // =====================================================================
-// 4. LocalBusiness JSON-LD（首頁）
-//    修正舊 WebSite schema 只寫「4K影像剪輯」的錯誤；
-//    讓 GoogleBot、BingBot、Meta AI 等正確理解業務內容
+// 4. Organization + WebSite JSON-LD（首頁）
+//    強化 sameAs 連結（FB / IG / YouTube）讓 AI 交叉驗證身份
+//    WebSite schema 標明站台基本資料；SearchAction 雖然 Google 2024-11 已停用
+//    sitelinks search box，但 AI 引擎仍可用此找到站內搜尋端點
 // =====================================================================
 add_action( 'wp_head', 'ztk_localbusiness_jsonld', 5 );
 function ztk_localbusiness_jsonld() {
@@ -317,15 +354,34 @@ function ztk_localbusiness_jsonld() {
     $schema = [
         '@context' => 'https://schema.org',
         '@graph'   => [
+            // ── Organization ──────────────────────────────────────────
             [
                 '@type'         => 'Organization',
                 '@id'           => 'https://zonetech.tw/#organization',
                 'name'          => '蓋斯克科技',
-                'alternateName' => 'ZONETECH',
+                'alternateName' => [ 'ZONETECH', '蓋斯克' ],
                 'url'           => 'https://zonetech.tw',
+                'logo'          => [
+                    '@type'  => 'ImageObject',
+                    'url'    => ZTK_OG_IMAGE_URL,
+                    'width'  => ZTK_OG_IMAGE_WIDTH,
+                    'height' => ZTK_OG_IMAGE_HEIGHT,
+                ],
                 'image'         => ZTK_OG_IMAGE_URL,
                 'description'   => '專注台灣大型場域企業級無線網路建置，服務智慧工廠、大型倉儲（1000坪以上）、辦公商辦、商務中心。主要服務：企業級WiFi規劃、多WAN頻寬整合、跨樓層網路建置。',
+                'foundingDate'  => '2015',
                 'areaServed'    => [ [ '@type' => 'Country', 'name' => '台灣' ] ],
+                'knowsAbout'    => [
+                    '企業 WiFi 建置', '工廠 WiFi', '倉儲 WiFi', 'AGV 漫遊',
+                    '802.11r Fast BSS Transition', '盤點槍無線連線', 'Wi-Fi 6 / 6E',
+                    '多 WAN 頻寬整合', '企業防火牆', 'Cisco / UniFi / Aruba',
+                ],
+                'sameAs'        => [
+                    'https://www.facebook.com/zonetech.tw',
+                    'https://www.instagram.com/zonetech.tw/',
+                    'https://www.youtube.com/@zonetech',
+                    // 後續補：LinkedIn 公司頁、Google Business Profile、Wikidata
+                ],
                 'hasOfferCatalog' => [
                     '@type'           => 'OfferCatalog',
                     'name'            => '企業網路解決方案',
@@ -341,14 +397,266 @@ function ztk_localbusiness_jsonld() {
                     '@type'             => 'ContactPoint',
                     'contactType'       => 'customer service',
                     'areaServed'        => 'TW',
-                    'availableLanguage' => [ 'Chinese' ],
+                    'availableLanguage' => [ 'Chinese', 'zh-TW' ],
+                    'url'               => 'https://zonetech.tw/contact/',
+                ],
+            ],
+            // ── WebSite + SearchAction（讓 Google SERP 顯示站內搜尋框）─
+            [
+                '@type'           => 'WebSite',
+                '@id'             => 'https://zonetech.tw/#website',
+                'url'             => 'https://zonetech.tw/',
+                'name'            => '蓋斯克科技-ZONETECH',
+                'description'     => '企業級大型場域無線網路建置｜工廠WiFi｜倉儲WiFi｜辦公室網路規劃',
+                'inLanguage'      => 'zh-TW',
+                'publisher'       => [ '@id' => 'https://zonetech.tw/#organization' ],
+                'potentialAction' => [
+                    '@type'       => 'SearchAction',
+                    'target'      => [
+                        '@type'       => 'EntryPoint',
+                        'urlTemplate' => 'https://zonetech.tw/?s={search_term_string}',
+                    ],
+                    'query-input' => 'required name=search_term_string',
                 ],
             ],
         ],
     ];
 
-    $json = json_encode( $schema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES );
-    echo '<script type="application/ld+json">' . $json . '</script>' . "\n";
+    echo '<script type="application/ld+json">' . ztk_safe_jsonld( $schema ) . '</script>' . "\n";
+}
+
+
+/**
+ * 將 schema 陣列輸出為 JSON-LD 安全字串
+ * 使用 JSON_HEX_* 防止 </script> 注入；保持 UTF-8 可讀；wp_json_encode 自動 fallback
+ */
+function ztk_safe_jsonld( array $schema ): string {
+    return wp_json_encode(
+        $schema,
+        JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES
+        | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT
+    );
+}
+
+
+// =====================================================================
+// 4b. BreadcrumbList JSON-LD（所有頁面）
+//     讓 Google SERP 顯示麵包屑路徑，AI 也用此判斷頁面層級
+//     支援：分類祖先鏈、頁面父子層、term_link 錯誤防護
+// =====================================================================
+add_action( 'wp_head', 'ztk_breadcrumb_jsonld', 6 );
+function ztk_breadcrumb_jsonld() {
+    if ( is_front_page() || is_admin() ) { return; }
+    // Yoast 和 RankMath 會自行輸出 BreadcrumbList → 跳過避免重複
+    // SEOPress 把 BreadcrumbList 放在 @graph 裡（不同 script tag），兩者並存 Google 可接受
+    if ( defined( 'WPSEO_VERSION' ) || defined( 'RANK_MATH_VERSION' ) ) { return; }
+
+    $items = [
+        [ '@type' => 'ListItem', 'position' => 1, 'name' => '首頁', 'item' => 'https://zonetech.tw/' ],
+    ];
+    $pos = 2;
+
+    if ( is_singular( 'post' ) || is_single() ) {
+        // 取文章主分類 + 祖先鏈
+        $cats = get_the_category();
+        if ( ! empty( $cats ) ) {
+            $cat       = $cats[0];
+            $ancestors = array_reverse( get_ancestors( $cat->term_id, 'category' ) );
+            foreach ( $ancestors as $aid ) {
+                $a = get_category( $aid );
+                $link = get_category_link( $aid );
+                if ( $a && ! is_wp_error( $link ) ) {
+                    $items[] = [ '@type' => 'ListItem', 'position' => $pos++, 'name' => $a->name, 'item' => $link ];
+                }
+            }
+            $link = get_category_link( $cat->term_id );
+            if ( ! is_wp_error( $link ) ) {
+                $items[] = [ '@type' => 'ListItem', 'position' => $pos++, 'name' => $cat->name, 'item' => $link ];
+            }
+        } else {
+            $items[] = [ '@type' => 'ListItem', 'position' => $pos++, 'name' => '部落格', 'item' => 'https://zonetech.tw/blogs/' ];
+        }
+        $items[] = [ '@type' => 'ListItem', 'position' => $pos++, 'name' => get_the_title(), 'item' => get_permalink() ];
+
+    } elseif ( is_page() ) {
+        // 父頁面鏈
+        $post = get_queried_object();
+        $ancestors = array_reverse( get_post_ancestors( $post ) );
+        foreach ( $ancestors as $aid ) {
+            $items[] = [ '@type' => 'ListItem', 'position' => $pos++, 'name' => get_the_title( $aid ), 'item' => get_permalink( $aid ) ];
+        }
+        $items[] = [ '@type' => 'ListItem', 'position' => $pos++, 'name' => get_the_title(), 'item' => get_permalink() ];
+
+    } elseif ( is_category() || is_tag() || is_tax() ) {
+        $term = get_queried_object();
+        if ( $term && ! empty( $term->name ) ) {
+            // 加分類祖先鏈
+            if ( is_category() ) {
+                $ancestors = array_reverse( get_ancestors( $term->term_id, 'category' ) );
+                foreach ( $ancestors as $aid ) {
+                    $link = get_category_link( $aid );
+                    $a    = get_category( $aid );
+                    if ( $a && ! is_wp_error( $link ) ) {
+                        $items[] = [ '@type' => 'ListItem', 'position' => $pos++, 'name' => $a->name, 'item' => $link ];
+                    }
+                }
+            }
+            $link = get_term_link( $term );
+            if ( ! is_wp_error( $link ) ) {
+                $items[] = [ '@type' => 'ListItem', 'position' => $pos++, 'name' => $term->name, 'item' => $link ];
+            }
+        }
+    } else {
+        return; // 其他頁面不輸出
+    }
+
+    if ( count( $items ) < 2 ) { return; }
+
+    $schema = [
+        '@context'        => 'https://schema.org',
+        '@type'           => 'BreadcrumbList',
+        'itemListElement' => $items,
+    ];
+    echo '<script type="application/ld+json">' . ztk_safe_jsonld( $schema ) . '</script>' . "\n";
+}
+
+
+// =====================================================================
+// 4c. HowTo JSON-LD 自動偵測（教學文章）
+//     文章內若有「步驟一/二/三」或「Step 1/2/3」H2/H3，自動產生 HowTo schema
+// =====================================================================
+add_action( 'wp_head', 'ztk_howto_jsonld', 7 );
+function ztk_howto_jsonld() {
+    if ( ! is_singular() || is_front_page() ) { return; } // 含 blogs CPT；首頁排除
+
+    $post = get_queried_object();
+    if ( ! $post || empty( $post->post_content ) ) { return; }
+
+    $content = $post->post_content;
+
+    // PERF：快速檢查，避免在不含步驟的文章跑完整 regex
+    if ( ! str_contains( $content, '步驟' ) && stripos( $content, 'Step ' ) === false ) { return; }
+
+    // 找所有 H2/H3（捕捉完整內容含 inline markup）→ strip_tags 後再比對步驟關鍵字
+    // 這樣可處理 <h3><span>步驟一</span>：...</h3> 等有內嵌標籤的情況
+    if ( ! preg_match_all(
+        '/<h[23][^>]*>(.*?)<\/h[23]>/isu',
+        $content,
+        $raw,
+        PREG_OFFSET_CAPTURE
+    ) ) {
+        return;
+    }
+
+    // 過濾：只保留標題文字符合「步驟X」或「Step N」的項目
+    $step_pattern = '/^\s*(?:步驟[一二三四五六七八九十0-9]+|Step\s*\d+)/iu';
+    $m = [ [], [] ]; // $m[0] = full match entries, $m[1] = captured text entries
+    foreach ( $raw[0] as $idx => $full_match ) {
+        $inner_text = wp_strip_all_tags( $raw[1][ $idx ][0] );
+        if ( preg_match( $step_pattern, $inner_text ) ) {
+            $m[0][] = $full_match;          // [full_string, offset]
+            $m[1][] = $raw[1][ $idx ];      // [inner_html, offset]
+        }
+    }
+    if ( count( $m[0] ) < 3 ) { return; } // 至少 3 步才當作 HowTo
+
+    $steps = [];
+    $total = count( $m[0] );
+    foreach ( $m[0] as $i => $full_match ) {
+        $match_str   = $full_match[0];                     // 整段 <h2>…</h2>
+        $match_start = $full_match[1];
+        $match_end   = $match_start + strlen( $match_str );
+        $clean_name  = wp_strip_all_tags( $m[1][ $i ][0] );
+
+        // 此 heading 結尾到下一個 heading 開頭之間的內容即為 step 說明
+        $next_h_pos = ( $i + 1 < $total ) ? $m[0][ $i + 1 ][1] : false;
+        $between    = ( $next_h_pos !== false )
+            ? substr( $content, $match_end, $next_h_pos - $match_end )
+            : substr( $content, $match_end );
+        $step_text  = wp_trim_words( wp_strip_all_tags( $between ), 40, '...' );
+
+        // 優先使用 heading 的 id 屬性（如 Table of Contents 插件加的 rtoc-N）
+        preg_match( '/\sid=["\']([^"\']+)["\']/', $match_str, $id_m );
+        $anchor = $id_m ? '#' . $id_m[1] : '#step-' . ( $i + 1 );
+
+        $steps[] = [
+            '@type'    => 'HowToStep',
+            'position' => $i + 1,
+            'name'     => $clean_name,
+            'text'     => $step_text ?: $clean_name,
+            'url'      => get_permalink( $post ) . $anchor,
+        ];
+    }
+
+    $schema = [
+        '@context'    => 'https://schema.org',
+        '@type'       => 'HowTo',
+        'name'        => get_the_title( $post ),
+        'description' => wp_strip_all_tags( get_the_excerpt( $post ) ),
+        'image'       => get_the_post_thumbnail_url( $post, 'full' ) ?: ZTK_OG_IMAGE_URL,
+        'totalTime'   => 'PT30M', // 預設 30 分鐘閱讀，可後續依文章覆寫
+        'step'        => $steps,
+    ];
+    echo '<script type="application/ld+json">' . ztk_safe_jsonld( $schema ) . '</script>' . "\n";
+}
+
+
+// =====================================================================
+// 4d. FAQPage 自動偵測（文章末段若有 H2「常見問題」「FAQ」 + H3 問題清單）
+//     已用 Yoast/SEOPress FAQ block 的文章不重複輸出
+// =====================================================================
+add_action( 'wp_head', 'ztk_faqpage_jsonld', 8 );
+function ztk_faqpage_jsonld() {
+    if ( ! is_singular() || is_front_page() ) { return; } // 含 blogs CPT；首頁排除
+    $post = get_queried_object();
+    if ( ! $post ) { return; }
+
+    // SEOPress 全站自動偵測 FAQ schema → 若裝了 SEOPress，直接跳過避免重複
+    if ( defined( 'SEOPRESS_VERSION' ) ) { return; }
+
+    // 若此文章已有 Yoast FAQ block，Yoast 會自行輸出 FAQPage JSON-LD，跳過
+    if ( function_exists( 'has_block' ) && has_block( 'yoast/faq-block', $post ) ) { return; }
+
+    $content = $post->post_content;
+
+    // PERF：快速檢查，避免在沒有 FAQ 段落的文章跑完整 regex
+    if ( stripos( $content, '常見問題' ) === false && stripos( $content, 'FAQ' ) === false ) { return; }
+
+    // 抓「常見問題」「FAQ」H2（大小寫不拘）之後到下一個 H2 的範圍
+    if ( ! preg_match( '/<h2[^>]*>.*?(?:常見問題|FAQ).*?<\/h2>(.*?)(?=<h2|$)/sui', $content, $m ) ) {
+        return;
+    }
+    $faq_block = $m[1];
+
+    // H3 問題 + 後段答案（到下一個 H2/H3 或結尾）
+    if ( ! preg_match_all( '/<h3[^>]*>(.*?)<\/h3>(.*?)(?=<h[23]|$)/su', $faq_block, $qm, PREG_SET_ORDER ) ) {
+        return;
+    }
+    if ( count( $qm ) < 2 ) { return; }
+
+    $main_entity = [];
+    foreach ( $qm as $q ) {
+        $question = wp_strip_all_tags( $q[1] );
+        $answer   = trim( wp_strip_all_tags( $q[2] ) );
+        if ( ! $question || ! $answer ) { continue; }
+        $main_entity[] = [
+            '@type'          => 'Question',
+            'name'           => $question,
+            'acceptedAnswer' => [
+                '@type' => 'Answer',
+                // 保留完整答案；若超過 5000 字才截斷（Google 建議無硬性上限，但過長影響索引）
+                'text'  => mb_strlen( $answer ) > 5000 ? mb_substr( $answer, 0, 5000 ) . '…' : $answer,
+            ],
+        ];
+    }
+    if ( count( $main_entity ) < 2 ) { return; }
+
+    $schema = [
+        '@context'   => 'https://schema.org',
+        '@type'      => 'FAQPage',
+        'mainEntity' => $main_entity,
+    ];
+    echo '<script type="application/ld+json">' . ztk_safe_jsonld( $schema ) . '</script>' . "\n";
 }
 
 
@@ -487,12 +795,14 @@ function ztk_wellknown_endpoints() {
                         'type'        => 'search',
                         'description' => '搜尋蓋斯克科技的企業 WiFi / 網路建置內容',
                         'url'         => 'https://zonetech.tw/?s={query}',
+                        'sha256'      => hash( 'sha256', 'search:zonetech.tw' ),
                     ],
                     [
                         'name'        => 'contact',
                         'type'        => 'action',
                         'description' => '聯絡蓋斯克科技詢問企業無線網路建置報價',
                         'url'         => 'https://zonetech.tw/contact/',
+                        'sha256'      => hash( 'sha256', 'contact:zonetech.tw' ),
                     ],
                 ],
             ];
@@ -500,7 +810,239 @@ function ztk_wellknown_endpoints() {
             header( 'Cache-Control: public, max-age=86400' );
             echo json_encode( $index, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT );
             exit;
+
+        // ── API Catalog (RFC 9727) — 指向 WP REST API ───────────────
+        case '/.well-known/api-catalog':
+            $catalog = [
+                'linkset' => [
+                    [
+                        'anchor'       => 'https://zonetech.tw/wp-json/',
+                        'service-desc' => [ [ 'href' => 'https://zonetech.tw/wp-json/' ] ],
+                        'service-doc'  => [ [ 'href' => 'https://developer.wordpress.org/rest-api/' ] ],
+                    ],
+                ],
+            ];
+            header( 'Content-Type: application/linkset+json; charset=utf-8' );
+            header( 'Cache-Control: public, max-age=86400' );
+            echo json_encode( $catalog, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT );
+            exit;
+
+        // ── OpenAPI / MPP (/openapi.json) ────────────────────────────
+        case '/openapi.json':
+            $openapi = [
+                'openapi' => '3.1.0',
+                'info'    => [
+                    'title'       => '蓋斯克科技-ZONETECH',
+                    'version'     => '1.0.0',
+                    'description' => '企業級大型場域無線網路建置｜智慧工廠WiFi｜倉儲WiFi',
+                ],
+                'servers' => [ [ 'url' => 'https://zonetech.tw' ] ],
+                'paths'   => [
+                    '/contact/' => [
+                        'get' => [
+                            'summary'     => '企業網路建置諮詢頁面',
+                            'operationId' => 'getContactPage',
+                            'responses'   => [ '200' => [ 'description' => 'HTML 表單頁面' ] ],
+                        ],
+                    ],
+                    '/' => [
+                        'get' => [
+                            'summary'     => '企業無線網路建置首頁',
+                            'operationId' => 'getHomePage',
+                            'responses'   => [ '200' => [ 'description' => 'HTML 首頁' ] ],
+                        ],
+                    ],
+                ],
+            ];
+            header( 'Content-Type: application/json; charset=utf-8' );
+            header( 'Cache-Control: public, max-age=86400' );
+            echo json_encode( $openapi, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT );
+            exit;
+
+        // ── ACP (Agentic Commerce Protocol) ─────────────────────────
+        case '/.well-known/acp.json':
+            $acp = [
+                'protocol' => [ 'name' => 'acp', 'version' => '1.0' ],
+                'api_base_url' => 'https://zonetech.tw/wp-json/',
+                'transports'   => [ 'https' ],
+                'capabilities' => [
+                    'services' => [ 'inquiry', 'consultation' ],
+                ],
+                'inquiry_endpoint' => 'https://zonetech.tw/contact/',
+            ];
+            header( 'Content-Type: application/json; charset=utf-8' );
+            header( 'Cache-Control: public, max-age=86400' );
+            echo json_encode( $acp, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT );
+            exit;
+
+        // ── UCP (Universal Commerce Protocol) ───────────────────────
+        case '/.well-known/ucp':
+            $ucp = [
+                'protocol_version' => '1.0',
+                'services'         => [ 'inquiry' ],
+                'capabilities'     => [
+                    'inquiry' => [ 'endpoint' => 'https://zonetech.tw/contact/' ],
+                ],
+                'spec' => 'https://ucp.dev/specification/overview/',
+            ];
+            header( 'Content-Type: application/json; charset=utf-8' );
+            header( 'Cache-Control: public, max-age=86400' );
+            echo json_encode( $ucp, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT );
+            exit;
+
+        // ── Web Bot Auth — 空 JWKS（無簽名需求，停止重定向即可）──────
+        case '/.well-known/http-message-signatures-directory':
+            header( 'Content-Type: application/json; charset=utf-8' );
+            header( 'Cache-Control: public, max-age=86400' );
+            echo json_encode( [ 'keys' => [] ] );
+            exit;
+
+        // ── OAuth Protected Resource（無受保護 API，回傳空宣告）──────
+        case '/.well-known/oauth-protected-resource':
+            header( 'Content-Type: application/json; charset=utf-8' );
+            header( 'Cache-Control: public, max-age=86400' );
+            echo json_encode( [
+                'resource'              => 'https://zonetech.tw/',
+                'authorization_servers' => [],
+                'scopes_supported'      => [],
+            ] );
+            exit;
+
+        // ── OAuth Authorization Server Metadata（RFC 8414）──────────
+        // ── OpenID Connect Discovery（OIDC Core §4）────────────────
+        // Token 流程：client_credentials，client_id = WP 帳號，
+        //             client_secret = WP Application Password
+        case '/.well-known/openid-configuration':
+        case '/.well-known/oauth-authorization-server':
+            $is_oidc = ( $path === '/.well-known/openid-configuration' );
+            $meta = [
+                'issuer'                                => 'https://zonetech.tw',
+                'token_endpoint'                        => 'https://zonetech.tw/wp-json/zonetech/v1/token',
+                'jwks_uri'                              => 'https://zonetech.tw/.well-known/jwks.json',
+                'grant_types_supported'                 => [ 'client_credentials' ],
+                'token_endpoint_auth_methods_supported' => [ 'client_secret_basic', 'client_secret_post' ],
+                'scopes_supported'                      => [ 'api:read' ],
+                'response_types_supported'              => [ 'token' ],
+                'service_documentation'                 => 'https://zonetech.tw/openapi.json',
+                'ui_locales_supported'                  => [ 'zh-TW', 'en' ],
+            ];
+            if ( $is_oidc ) {
+                // OIDC 額外欄位（OpenID Connect Discovery 1.0 §3）
+                $meta['userinfo_endpoint']                     = 'https://zonetech.tw/wp-json/wp/v2/users/me';
+                $meta['subject_types_supported']               = [ 'public' ];
+                $meta['id_token_signing_alg_values_supported'] = [ 'RS256' ];
+                $meta['claims_supported']                      = [ 'sub', 'name', 'email' ];
+            }
+            header( 'Content-Type: application/json; charset=utf-8' );
+            header( 'Cache-Control: public, max-age=3600' );
+            echo json_encode( $meta, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT );
+            exit;
+
+        // ── JWKS（無 JWT 簽名需求，返回空 keyset）────────────────────
+        case '/.well-known/jwks.json':
+            header( 'Content-Type: application/json; charset=utf-8' );
+            header( 'Cache-Control: public, max-age=86400' );
+            echo json_encode( [ 'keys' => [] ] );
+            exit;
     }
+}
+
+
+// ── OAuth Token Endpoint：client_credentials → WP Application Password ──
+// Agent 用法：POST /wp-json/zonetech/v1/token
+//   grant_type=client_credentials&client_id=<wp_user>&client_secret=<app_pass>
+//   或 Authorization: Basic base64(client_id:client_secret)
+// 回傳：{ access_token, token_type:"Bearer", expires_in, scope }
+// access_token 可直接當 Authorization: Bearer 或 Basic 頭送後續請求
+add_action( 'rest_api_init', 'ztk_register_token_endpoint' );
+function ztk_register_token_endpoint() {
+    register_rest_route( 'zonetech/v1', '/token', [
+        'methods'             => [ 'POST' ],
+        'callback'            => 'ztk_token_endpoint_cb',
+        'permission_callback' => '__return_true',
+    ] );
+}
+function ztk_token_endpoint_cb( WP_REST_Request $req ) {
+    $grant_type    = sanitize_text_field( $req->get_param( 'grant_type' ) ?? '' );
+    $client_id     = sanitize_text_field( $req->get_param( 'client_id' )  ?? '' );
+    $client_secret = $req->get_param( 'client_secret' ) ?? '';
+
+    // 支援 HTTP Basic Auth 傳入憑證（RFC 6749 §2.3.1）
+    if ( ( ! $client_id || ! $client_secret ) ) {
+        $auth_header = $_SERVER['HTTP_AUTHORIZATION']
+            ?? ( isset( $_SERVER['REDIRECT_HTTP_AUTHORIZATION'] ) ? $_SERVER['REDIRECT_HTTP_AUTHORIZATION'] : '' );
+        if ( preg_match( '/^Basic\s+(.+)$/i', $auth_header, $am ) ) {
+            $decoded = base64_decode( $am[1], true );
+            if ( $decoded && str_contains( $decoded, ':' ) ) {
+                [ $client_id, $client_secret ] = explode( ':', $decoded, 2 );
+                $client_id = sanitize_text_field( $client_id );
+            }
+        }
+    }
+
+    if ( $grant_type !== 'client_credentials' ) {
+        return new WP_Error( 'unsupported_grant_type',
+            'Only client_credentials is supported.', [ 'status' => 400 ] );
+    }
+    if ( ! $client_id || ! $client_secret ) {
+        return new WP_Error( 'invalid_client',
+            'client_id and client_secret are required.', [ 'status' => 401 ] );
+    }
+
+    // wp_authenticate 會經由 authenticate filter 驗證 WP Application Password
+    $user = wp_authenticate( $client_id, $client_secret );
+    if ( is_wp_error( $user ) ) {
+        // 模糊化錯誤訊息，防止帳號列舉攻擊
+        return new WP_Error( 'invalid_client',
+            'Invalid client_id or client_secret.', [ 'status' => 401 ] );
+    }
+
+    // 發行 opaque Bearer token（base64 encode 供後續 Basic Auth 使用）
+    $token    = base64_encode( $client_id . ':' . $client_secret );
+    $response = rest_ensure_response( [
+        'access_token' => $token,
+        'token_type'   => 'Bearer',
+        'expires_in'   => 3600,
+        'scope'        => 'api:read',
+    ] );
+    $response->set_status( 200 );
+    return $response;
+}
+
+// ── WebMCP — 讓支援 navigator.modelContext 的 AI agent 在頁面上直接發現工具 ──
+add_action( 'wp_head', 'ztk_webmcp_inline', 20 );
+function ztk_webmcp_inline() {
+    ?>
+<script>
+(function(){
+  if(typeof navigator==='undefined'||!navigator.modelContext){return;}
+  try{
+    navigator.modelContext.provideContext({
+      site:{
+        name:'蓋斯克科技-ZONETECH',
+        description:'企業級大型場域無線網路建置｜智慧工廠WiFi｜倉儲WiFi｜辦公室網路規劃',
+        url:'https://zonetech.tw',
+        language:'zh-TW'
+      },
+      tools:[
+        {
+          name:'search',
+          description:'搜尋蓋斯克科技企業WiFi與網路建置內容',
+          inputSchema:{type:'object',properties:{query:{type:'string',description:'搜尋關鍵字'}},required:['query']},
+          execute:async function(p){window.location.href='https://zonetech.tw/?s='+encodeURIComponent(p.query);}
+        },
+        {
+          name:'contact',
+          description:'前往諮詢頁面，詢問企業無線網路建置報價',
+          inputSchema:{type:'object',properties:{}},
+          execute:async function(){window.location.href='https://zonetech.tw/contact/';}
+        }
+      ]
+    });
+  }catch(e){}
+})();
+</script>
+    <?php
 }
 
 // ── Markdown for Agents ────────────────────────────────────────────────
@@ -508,7 +1050,7 @@ function ztk_wellknown_endpoints() {
 add_action( 'template_redirect', 'ztk_markdown_for_agents', 1 );
 function ztk_markdown_for_agents() {
     $accept = $_SERVER['HTTP_ACCEPT'] ?? '';
-    if ( strpos( $accept, 'text/markdown' ) === false ) { return; }
+    if ( stripos( $accept, 'text/markdown' ) === false ) { return; }
 
     // 取得當前頁面/文章內容
     $title   = wp_title( '|', false, 'right' ) ?: get_bloginfo( 'name' );
@@ -537,6 +1079,87 @@ function ztk_markdown_for_agents() {
     header( 'Content-Type: text/markdown; charset=utf-8' );
     header( 'X-Markdown-Tokens: ' . $tokens );
     header( 'Cache-Control: public, max-age=3600' );
+    header( 'Vary: Accept' );
     echo $md;
     exit;
 }
+
+
+// =====================================================================
+// 7. SEOPress 補完 — 修正後台 High Impact 通知
+// =====================================================================
+
+// ── 7a. Filter 直接覆寫輸出（立即生效，不管資料庫是否更新）───────────
+add_filter( 'seopress_titles_title', 'ztk_seopress_title_fix', 10 );
+function ztk_seopress_title_fix( $title ) {
+    if ( is_post_type_archive( 'faq_cpt' ) ) {
+        return '常見問題 | 蓋斯克科技企業WiFi建置';
+    }
+    if ( is_category() || is_tag() || is_tax() ) {
+        $term = get_queried_object();
+        if ( $term && ! empty( $term->name ) ) {
+            return $term->name . ' | 蓋斯克科技';
+        }
+    }
+    return $title;
+}
+
+add_filter( 'seopress_titles_desc', 'ztk_seopress_desc_fix', 10 );
+function ztk_seopress_desc_fix( $desc ) {
+    if ( is_post_type_archive( 'faq_cpt' ) ) {
+        return '蓋斯克科技企業無線網路建置常見問題：工廠WiFi、倉儲WiFi、辦公室網路、商務中心網路規劃疑問一次解答。';
+    }
+    if ( is_category() || is_tag() || is_tax() ) {
+        $term = get_queried_object();
+        if ( $term && ! empty( $term->description ) ) {
+            return $term->description;
+        }
+        return '蓋斯克科技企業WiFi建置相關文章 — 智慧工廠、大型倉儲、辦公室、商務中心無線網路規劃實務。';
+    }
+    return $desc;
+}
+
+// ── 7b. 更新 SEOPress 資料庫設定，讓後台通知消失（idempotent，只寫一次）─
+add_action( 'admin_init', 'ztk_seopress_fill_missing_settings', 1 );
+function ztk_seopress_fill_missing_settings() {
+    if ( ! defined( 'SEOPRESS_VERSION' ) ) { return; }
+
+    $option  = get_option( '_seopress_titles_settings', [] );
+    $changed = false;
+
+    // faq_cpt — 自訂文章類型存檔頁
+    $cpt_defaults = [
+        'seopress_titles_archive_faq_cpt_titles_title' => '常見問題 %%sep%% %%sitename%%',
+        'seopress_titles_archive_faq_cpt_titles_desc'  => '蓋斯克科技企業無線網路建置常見問題解答，涵蓋工廠WiFi、倉儲WiFi、辦公室網路規劃。',
+    ];
+    foreach ( $cpt_defaults as $key => $val ) {
+        if ( empty( $option[ $key ] ) ) {
+            $option[ $key ] = $val;
+            $changed = true;
+        }
+    }
+
+    // 分類 / 標籤 / 自訂分類法
+    $tax_list = [ 'category', 'post_tag', 'post_format', 'blog-tag', 'blog-category' ];
+    foreach ( $tax_list as $tax ) {
+        $slug = str_replace( '-', '_', $tax ); // blog-tag → blog_tag
+        $defaults = [
+            "seopress_titles_tax_{$slug}_titles_title" => '%%term_title%% %%sep%% %%sitename%%',
+            "seopress_titles_tax_{$slug}_titles_desc"  => '%%term_description%%',
+        ];
+        foreach ( $defaults as $key => $val ) {
+            if ( empty( $option[ $key ] ) ) {
+                $option[ $key ] = $val;
+                $changed = true;
+            }
+        }
+    }
+
+    if ( $changed ) {
+        update_option( '_seopress_titles_settings', $option );
+    }
+}
+
+// ── 7c. RSS 只顯示摘要（防止內容被第三方站台抓走）──────────────────────
+// WordPress 設定 rss_use_excerpt：0 = 全文，1 = 摘要
+add_filter( 'pre_option_rss_use_excerpt', function() { return '1'; } );

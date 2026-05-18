@@ -60,11 +60,16 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
     for d in daily:
         d["date"] = f"{d['date'][:4]}-{d['date'][4:6]}-{d['date'][6:]}"
 
+    # Detect the latest date that actually has GA4 data (mirrors fetch_gsc.py pattern).
+    # Even with ga4_day = D-1, the API sometimes lags — use the last row's date so
+    # top_pages / top_sources never query an empty date.
+    latest_date = daily[-1]["date"] if daily else iso(windows.ga4_day)
+
     pages = _run(
         client,
         prop,
         {
-            "date_ranges": [DateRange(start_date=iso(windows.ga4_day), end_date=iso(windows.ga4_day))],
+            "date_ranges": [DateRange(start_date=latest_date, end_date=latest_date)],
             "dimensions": [Dimension(name="pagePath")],
             "metrics": [
                 Metric(name="screenPageViews"),
@@ -80,7 +85,7 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
         client,
         prop,
         {
-            "date_ranges": [DateRange(start_date=iso(windows.ga4_day), end_date=iso(windows.ga4_day))],
+            "date_ranges": [DateRange(start_date=latest_date, end_date=latest_date)],
             "dimensions": [Dimension(name="sessionSource")],
             "metrics": [Metric(name="sessions"), Metric(name="activeUsers")],
             "order_bys": [OrderBy(metric=OrderBy.MetricOrderBy(metric_name="sessions"), desc=True)],
@@ -89,7 +94,7 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
     )
 
     return {
-        "data_date": iso(windows.ga4_day),
+        "data_date": latest_date,  # actual last date with data, not the planned window date
         "daily": daily,
         "top_pages": pages,
         "top_sources": sources,

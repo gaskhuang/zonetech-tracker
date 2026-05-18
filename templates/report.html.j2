@@ -68,8 +68,8 @@
   <h1>蓋斯克科技 · 每日追蹤報告</h1>
   <div class="meta">{{ report_date }} · 產生於 {{ generated_at }} UTC</div>
   <div class="windows">
-    GSC 資料日 <code>{{ windows.gsc_day }}</code>（GSC 有 2-3 天延遲）·
-    GA4 資料日 <code>{{ windows.ga4_day }}</code> ·
+    GSC 資料日 <code>{{ (gsc.data_date if gsc and gsc.data_date else windows.gsc_day) }}</code>（GSC 有 2-3 天延遲）·
+    GA4 資料日 <code>{{ (ga4.data_date if ga4 and ga4.data_date else windows.ga4_day) }}</code> ·
     爬蟲資料日 <code>{{ windows.crawlers_day }}</code>
   </div>
 </header>
@@ -85,7 +85,7 @@
 
 <div class="cards">
   <div class="card">
-    <div class="label">GSC 點擊（{{ windows.gsc_day }}）</div>
+    <div class="label">GSC 點擊（{{ (gsc.data_date if gsc and gsc.data_date else windows.gsc_day) }}）</div>
     <div class="value">{{ (gsc.daily | last).clicks if gsc and gsc.daily else '—' }}</div>
     <div class="sub">{{ gsc.top_queries | length if gsc else 0 }} 個查詢字</div>
   </div>
@@ -102,12 +102,29 @@
   <div class="card">
     <div class="label">AI 爬蟲訪問次數（{{ windows.crawlers_day }}）</div>
     <div class="value">{{ crawlers.total_today if crawlers else '—' }}</div>
-    <div class="sub">{{ crawlers.by_bot_today | length if crawlers else 0 }} 種 bot</div>
+    <div class="sub">
+      {{ crawlers.by_bot_today | length if crawlers else 0 }} 種 bot ·
+      {% if crawlers and crawlers.pct_vs_7d is not none %}
+        vs 7日均 <strong>{{ '%+.1f' | format(crawlers.pct_vs_7d) }}%</strong>
+        （均值 {{ crawlers.avg_7d }}）
+      {% endif %}
+    </div>
+    <div class="sub" style="font-size:10px;color:var(--muted)">⚠️ 爬蟲每日波動大，建議觀察 7 日趨勢</div>
   </div>
   <div class="card">
-    <div class="label">AEO 分數</div>
+    <div class="label">AEO 分數
+      {% if aeo and aeo.source == 'fallback' %}
+        <span class="badge warn" title="aeo.washinmura.jp API 無法連線，分數為本地估算">⚠️ 本地估算</span>
+      {% endif %}
+    </div>
     <div class="value">{{ aeo.score if aeo and aeo.score is defined else '—' }}</div>
-    <div class="sub">資料來源 {{ aeo.source if aeo else '—' }}</div>
+    <div class="sub">
+      {% if aeo and aeo.source == 'fallback' %}
+        本地估算（robots/llms/sitemap）
+      {% else %}
+        資料來源 {{ aeo.source if aeo else '—' }}
+      {% endif %}
+    </div>
   </div>
 </div>
 

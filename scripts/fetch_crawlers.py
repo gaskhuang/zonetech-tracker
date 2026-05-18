@@ -13,6 +13,22 @@ import requests
 
 from shared import DATA_DIR, DateWindows, env, iso, read_json, write_json
 
+# WP system paths and common spam-probe paths that should not appear in Top URIs.
+# AI bots sometimes probe these; they carry no content signal.
+NOISE_PATHS: frozenset[str] = frozenset(
+    {
+        "/wp-signup.php",
+        "/wp-login.php",
+        "/wp-cron.php",
+        "/xmlrpc.php",
+        "/wp-admin/admin-ajax.php",
+        "/wp-json/",
+        "/feed/",
+        "/wp-comments-post.php",
+        "/wp-trackback.php",
+    }
+)
+
 
 def _fetch_day(date_iso: str) -> list[dict]:
     endpoint = env("WP_LOG_ENDPOINT", required=True)
@@ -54,11 +70,33 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
         daily_counts.append({"date": d_iso, "total": sum(by_bot.values()), **dict(by_bot)})
 
     bot_totals = Counter(r["bot_name"] for r in rows_today)
-    uri_totals = Counter(r["uri"] for r in rows_today).most_common(10)
+
+    # Filter WP system / spam-probe paths before computing top URIs.
+    uri_totals = Counter(
+        r["uri"]
+        for r in rows_today
+        if not any(r.get("uri", "").startswith(p) for p in NOISE_PATHS)
+    ).most_common(10)
+
+    # 7-day average (D-1 through D-7 relative to crawlers_day) for a stable
+    # comparison baseline. Bots are inherently noisy day-to-day; a 7-day avg
+    # prevents the summary card from showing misleading ±60% swings.
+    today_total = len(rows_today)
+    daily_totals = {entry["date"]: entry["total"] for entry in daily_counts}
+    recent_7 = [
+        daily_totals.get(iso(windows.crawlers_day - timedelta(days=i)), 0)
+        for i in range(1, 8)
+    ]
+    avg_7d = sum(recent_7) / 7 if recent_7 else 0
+    pct_vs_7d = (
+        round((today_total - avg_7d) / avg_7d * 100, 1) if avg_7d else None
+    )
 
     return {
         "data_date": today_iso,
-        "total_today": len(rows_today),
+        "total_today": today_total,
+        "avg_7d": round(avg_7d, 1),
+        "pct_vs_7d": pct_vs_7d,
         "by_bot_today": dict(bot_totals.most_common()),
         "top_uris": [{"uri": u, "hits": n} for u, n in uri_totals],
         "daily": daily_counts,

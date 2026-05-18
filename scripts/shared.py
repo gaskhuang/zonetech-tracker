@@ -58,7 +58,10 @@ class DateWindows:
 
     @property
     def ga4_day(self) -> date:
-        return self.report_for - timedelta(days=0)
+        # Report runs at 03:00 TPE (= 19:00 UTC previous day).
+        # "Today TPE" is an incomplete UTC day → GA4 returns near-zero rows.
+        # Use D-1 (same logic as crawlers_day) to get a complete GA4 day.
+        return self.report_for - timedelta(days=1)
 
     @property
     def crawlers_day(self) -> date:
