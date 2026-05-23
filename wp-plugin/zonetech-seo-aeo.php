@@ -332,12 +332,6 @@ User-agent: AhrefsBot
 Allow: /
 
 # =============================================
-# Content Signals — AI 使用偏好聲明
-# 允許搜尋索引與 AI 引用，不允許用於模型訓練
-# =============================================
-Content-Signal: ai-train=no, search=yes, ai-input=yes
-
-# =============================================
 # Sitemap
 # =============================================
 Sitemap: https://zonetech.tw/sitemaps.xml
