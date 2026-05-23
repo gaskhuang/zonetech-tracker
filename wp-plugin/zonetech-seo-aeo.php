@@ -184,12 +184,12 @@ function ztk_yoast_noindex_filter( $robots ) {
 function ztk_robots_extra(): string {
     return <<<'EOT'
 
-# ========================================================
-# 明確歡迎主要搜尋引擎 & AI 爬蟲
-# ========================================================
+# =============================================
+# 搜尋引擎爬蟲
+# =============================================
 
 # Google Search + Discover
-# ?nocache= 為 JetEngine AJAX 快取破壞參數，禁止爬蟲爬取以節省 crawl budget
+# Disallow: /*?*nocache=* — JetEngine AJAX 快取破壞參數，節省 crawl budget
 User-agent: Googlebot
 Allow: /
 Disallow: /*?*nocache=*
@@ -199,14 +199,19 @@ User-agent: AdsBot-Google
 Allow: /
 Disallow: /*?*nocache=*
 
+# Google AI（Gemini / AI Overviews 訓練）
+User-agent: Google-Extended
+Allow: /
+
 # Microsoft Bing
-User-agent: bingbot
+User-agent: Bingbot
 Allow: /
 Disallow: /*?*nocache=*
 
 # Apple Spotlight / Siri
 User-agent: Applebot
 Allow: /
+
 User-agent: Applebot-Extended
 Allow: /
 
@@ -218,49 +223,125 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-# Meta — Facebook/Instagram 分享預覽（抓 OG 標籤）
-User-agent: facebookexternalhit
-Allow: /
-
-# Meta — Meta AI 搜尋索引（meta-webindexer）
-User-agent: meta-webindexer
-Allow: /
-
-# Meta — AI 模型訓練（meta-externalagent）
-User-agent: meta-externalagent
-Allow: /
-
-# Meta — 廣告商品審核（meta-externalads）
-User-agent: meta-externalads
-Allow: /
+# =============================================
+# AI 訓練與即時爬蟲（AEO 最大化策略 — 全部允許）
+# =============================================
 
 # OpenAI ChatGPT / SearchGPT
 User-agent: GPTBot
 Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: ChatGPT-User
 Allow: /
-User-agent: OAI-SearchBot
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
 Allow: /
 
 # Amazon Alexa AI
 User-agent: Amazonbot
 Allow: /
 
-# Pinterest
+# ByteDance（TikTok AI）
+User-agent: Bytespider
+Allow: /
+
+# xAI Grok
+User-agent: GrokBot
+Allow: /
+
+User-agent: xAI
+Allow: /
+
+User-agent: x.AI
+Allow: /
+
+# DuckDuckGo DuckAssist
+User-agent: DuckAssistBot
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: meta-webindexer
+Allow: /
+
+User-agent: meta-externalads
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Diffbot
+User-agent: Diffbot
+Allow: /
+
+# Common Crawl（學術 AI 訓練資料）
+User-agent: CCBot
+Allow: /
+
+# AI2 — Allen Institute for AI
+User-agent: AI2Bot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# =============================================
+# 社群 / SEO 工具
+# =============================================
+
 User-agent: Pinterestbot
 Allow: /
 
-# SEO 分析工具（允許爬取方便追蹤競爭情報）
 User-agent: SemrushBot
 Allow: /
+
 User-agent: AhrefsBot
 Allow: /
 
-# ========================================================
-# Content Signals (https://contentsignals.org)
-# 聲明 AI 使用偏好：允許搜尋索引與 AI 引用，不允許用於模型訓練
-# ========================================================
+# =============================================
+# Content Signals — AI 使用偏好聲明
+# 允許搜尋索引與 AI 引用，不允許用於模型訓練
+# =============================================
 Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+# =============================================
+# Sitemap
+# =============================================
+Sitemap: https://zonetech.tw/sitemaps.xml
+Sitemap: https://zonetech.tw/sitemap_index.xml
 EOT;
 }
 
@@ -269,8 +350,8 @@ add_action( 'init', 'ztk_serve_robots_txt', 1 );
 function ztk_serve_robots_txt() {
     $req_path = parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH );
     if ( $req_path !== '/robots.txt' ) { return; }
-    // ?nocache= 是 JetEngine AJAX 快取破壞參數，不應被爬蟲索引
-    $base = "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /*?*nocache=*\n\nSitemap: https://zonetech.tw/sitemaps.xml";
+    // User-agent: * 封鎖管理區與查詢字串（AI/搜尋引擎爬蟲已在下方明確允許）
+    $base = "User-agent: *\nAllow: /\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\nDisallow: /login/\nDisallow: /cart/\nDisallow: /checkout/\nDisallow: /my-account/\nDisallow: /private/\nDisallow: /temp/\nDisallow: /*?*\nDisallow: /search?";
     header( 'Content-Type: text/plain; charset=utf-8' );
     echo $base . ztk_robots_extra();
     exit;
