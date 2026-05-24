@@ -356,6 +356,38 @@ add_filter( 'robots_txt', function( $output ) { return $output . ztk_robots_extr
 
 
 // =====================================================================
+// 1b. LCP Hero 圖預載（首頁 Swiper 第一張背景圖）
+//     fetchpriority=high 讓瀏覽器立即下載，改善 LCP 評分
+// =====================================================================
+add_action( 'wp_head', function() {
+    if ( ! is_front_page() ) { return; }
+    echo '<link rel="preload" as="image" href="https://zonetech.tw/wp-content/uploads/2026/04/wifi-hero-2.webp" fetchpriority="high">' . "\n";
+}, 1 );
+
+// =====================================================================
+// 1c. YouTube iframe Lazy Load
+//     所有 iframe 加上 loading="lazy"（若尚未設定），減少初始 JS 解析時間
+//     適用 Elementor video widget / oEmbed / 任何 iframe 來源
+// =====================================================================
+function ztk_add_iframe_lazy( string $buffer ): string {
+    return preg_replace_callback(
+        '/<iframe\b([^>]*)>/i',
+        function ( $m ) {
+            // 已有 loading 屬性就不重複加
+            if ( preg_match( '/\bloading\s*=/i', $m[1] ) ) {
+                return $m[0];
+            }
+            return '<iframe' . $m[1] . ' loading="lazy">';
+        },
+        $buffer
+    );
+}
+add_action( 'template_redirect', function () {
+    if ( is_admin() || wp_doing_ajax() || is_feed() ) { return; }
+    ob_start( 'ztk_add_iframe_lazy' );
+}, 0 );
+
+// =====================================================================
 // 2. 首頁 OG Image 換大圖（1376×768，取代舊的 633×405）
 //    嘗試 Yoast / RankMath filter，並在 wp_head priority=1 輸出確保第一出現
 // =====================================================================
