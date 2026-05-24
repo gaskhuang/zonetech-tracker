@@ -370,7 +370,8 @@ add_action( 'wp_head', function() {
 //     適用 Elementor video widget / oEmbed / 任何 iframe 來源
 // =====================================================================
 function ztk_add_iframe_lazy( string $buffer ): string {
-    return preg_replace_callback(
+    // ── 1. YouTube iframe → loading="lazy" ──────────────────────────────
+    $buffer = preg_replace_callback(
         '/<iframe\b([^>]*)>/i',
         function ( $m ) {
             // 已有 loading 屬性就不重複加
@@ -381,6 +382,25 @@ function ztk_add_iframe_lazy( string $buffer ): string {
         },
         $buffer
     );
+
+    // ── 2. Swiper CSS async → sync ───────────────────────────────────────
+    // LiteSpeed 把 Swiper CSS 改成 media="print" onload="this.media='all'"
+    // 導致 Swiper JS 初始化時 CSS 尚未套用 → 計算錯誤寬高 → slider 跑版
+    // 攔截 <link id="swiper-css"> 與 <link id="e-swiper-css">，還原為同步載入
+    $buffer = preg_replace_callback(
+        '/<link\b[^>]*\bid=["\'](?:swiper-css|e-swiper-css)["\'][^>]*>/i',
+        function ( $m ) {
+            $tag = $m[0];
+            // media="print" → media="all"
+            $tag = preg_replace( '/\bmedia=["\']print["\']/i', 'media="all"', $tag );
+            // 移除 onload="this.media='all'"
+            $tag = preg_replace( '/\bonload=["\'][^"\']*["\']/i', '', $tag );
+            return $tag;
+        },
+        $buffer
+    );
+
+    return $buffer;
 }
 add_action( 'template_redirect', function () {
     if ( is_admin() || wp_doing_ajax() || is_feed() ) { return; }
