@@ -365,6 +365,26 @@ add_action( 'wp_head', function() {
 }, 1 );
 
 // =====================================================================
+// 1b-2. 首屏圖片排除 LiteSpeed JS 延遲載入
+//     LiteSpeed 把 LOGO / hero 等首屏圖換成 base64 佔位符 + data-src，
+//     導致「文字先渲染、圖片後彈出」的閃爍感。
+//     用 LiteSpeed filter 把首屏關鍵圖排除，讓它們正常即時載入。
+// =====================================================================
+add_filter( 'litespeed_media_lazy_img_excludes', function ( $excludes ) {
+    if ( ! is_array( $excludes ) ) { $excludes = []; }
+    $excludes[] = 'zonetech-logo';      // 頁首 LOGO
+    $excludes[] = 'wifi-hero';          // 首頁 hero 大圖
+    return $excludes;
+} );
+// 同時排除 LOGO 圖片的 data-src 還原（保險）
+add_filter( 'litespeed_media_lazy_uri_excludes', function ( $excludes ) {
+    if ( ! is_array( $excludes ) ) { $excludes = []; }
+    $excludes[] = 'zonetech-logo';
+    $excludes[] = 'wifi-hero';
+    return $excludes;
+} );
+
+// =====================================================================
 // 1c. YouTube iframe Lazy Load
 //     所有 iframe 加上 loading="lazy"（若尚未設定），減少初始 JS 解析時間
 //     適用 Elementor video widget / oEmbed / 任何 iframe 來源
