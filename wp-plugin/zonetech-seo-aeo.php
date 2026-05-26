@@ -428,6 +428,31 @@ add_action( 'template_redirect', function () {
 }, 0 );
 
 // =====================================================================
+// 1d. 前台移除多餘 CSS（Phase 1-B：減少 render-blocking）
+//     dashicons：WP 後台圖示字型，未登入訪客前台用不到（admin bar 才需要）
+// =====================================================================
+add_action( 'wp_enqueue_scripts', function () {
+    if ( is_user_logged_in() ) { return; }   // 登入者的 admin bar 需要 dashicons
+    wp_dequeue_style( 'dashicons' );
+}, 100 );
+
+// =====================================================================
+// 1e. 啟用 Elementor 效能實驗（Phase 1-A：合併 widget CSS）
+//     只在 admin 端 run-once，且不覆蓋使用者已設定的選項。
+//     「Improved CSS Loading」相容性高，安全自動啟用。
+//     「Inline Font Icons」有圖示相容性風險，保留給使用者手動於後台開啟。
+// =====================================================================
+add_action( 'admin_init', function () {
+    if ( get_option( 'ztk_el_exp_v1' ) ) { return; }
+    if ( ! class_exists( '\Elementor\Plugin' ) ) { return; }
+    $opt = 'elementor_experiment-e_optimized_css_loading';
+    if ( false === get_option( $opt, false ) ) {
+        update_option( $opt, 'active' );
+    }
+    update_option( 'ztk_el_exp_v1', '1' );
+}, 20 );
+
+// =====================================================================
 // 2. 首頁 OG Image 換大圖（1376×768，取代舊的 633×405）
 //    嘗試 Yoast / RankMath filter，並在 wp_head priority=1 輸出確保第一出現
 // =====================================================================
