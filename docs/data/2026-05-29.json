@@ -1,0 +1,3867 @@
+{
+  "report_date": "2026-05-29",
+  "generated_at": "2026-05-28T21:03:00Z",
+  "windows": {
+    "gsc_day": "2026-05-27",
+    "ga4_day": "2026-05-28",
+    "crawlers_day": "2026-05-28"
+  },
+  "gsc": {
+    "data_date": "2026-05-26",
+    "daily": [
+      {
+        "date": "2025-12-01",
+        "clicks": 24,
+        "impressions": 2609,
+        "ctr": 0.92,
+        "position": 6.68
+      },
+      {
+        "date": "2025-12-02",
+        "clicks": 50,
+        "impressions": 2017,
+        "ctr": 2.48,
+        "position": 8.81
+      },
+      {
+        "date": "2025-12-03",
+        "clicks": 38,
+        "impressions": 1926,
+        "ctr": 1.97,
+        "position": 8.43
+      },
+      {
+        "date": "2025-12-04",
+        "clicks": 40,
+        "impressions": 2311,
+        "ctr": 1.73,
+        "position": 7.47
+      },
+      {
+        "date": "2025-12-05",
+        "clicks": 17,
+        "impressions": 2428,
+        "ctr": 0.7,
+        "position": 7.42
+      },
+      {
+        "date": "2025-12-06",
+        "clicks": 15,
+        "impressions": 2021,
+        "ctr": 0.74,
+        "position": 6.98
+      },
+      {
+        "date": "2025-12-07",
+        "clicks": 28,
+        "impressions": 2602,
+        "ctr": 1.08,
+        "position": 6.91
+      },
+      {
+        "date": "2025-12-08",
+        "clicks": 24,
+        "impressions": 2817,
+        "ctr": 0.85,
+        "position": 5.85
+      },
+      {
+        "date": "2025-12-09",
+        "clicks": 34,
+        "impressions": 2757,
+        "ctr": 1.23,
+        "position": 6.92
+      },
+      {
+        "date": "2025-12-10",
+        "clicks": 27,
+        "impressions": 2560,
+        "ctr": 1.05,
+        "position": 7.84
+      },
+      {
+        "date": "2025-12-11",
+        "clicks": 39,
+        "impressions": 2189,
+        "ctr": 1.78,
+        "position": 7.17
+      },
+      {
+        "date": "2025-12-12",
+        "clicks": 27,
+        "impressions": 1919,
+        "ctr": 1.41,
+        "position": 8.74
+      },
+      {
+        "date": "2025-12-13",
+        "clicks": 16,
+        "impressions": 1513,
+        "ctr": 1.06,
+        "position": 9.41
+      },
+      {
+        "date": "2025-12-14",
+        "clicks": 29,
+        "impressions": 1862,
+        "ctr": 1.56,
+        "position": 9.25
+      },
+      {
+        "date": "2025-12-15",
+        "clicks": 33,
+        "impressions": 1967,
+        "ctr": 1.68,
+        "position": 8.11
+      },
+      {
+        "date": "2025-12-16",
+        "clicks": 21,
+        "impressions": 2189,
+        "ctr": 0.96,
+        "position": 10.15
+      },
+      {
+        "date": "2025-12-17",
+        "clicks": 30,
+        "impressions": 2040,
+        "ctr": 1.47,
+        "position": 7.35
+      },
+      {
+        "date": "2025-12-18",
+        "clicks": 24,
+        "impressions": 1951,
+        "ctr": 1.23,
+        "position": 9.2
+      },
+      {
+        "date": "2025-12-19",
+        "clicks": 25,
+        "impressions": 1601,
+        "ctr": 1.56,
+        "position": 8.42
+      },
+      {
+        "date": "2025-12-20",
+        "clicks": 11,
+        "impressions": 1441,
+        "ctr": 0.76,
+        "position": 10.84
+      },
+      {
+        "date": "2025-12-21",
+        "clicks": 20,
+        "impressions": 1620,
+        "ctr": 1.23,
+        "position": 9.76
+      },
+      {
+        "date": "2025-12-22",
+        "clicks": 44,
+        "impressions": 2043,
+        "ctr": 2.15,
+        "position": 8.84
+      },
+      {
+        "date": "2025-12-23",
+        "clicks": 27,
+        "impressions": 1714,
+        "ctr": 1.58,
+        "position": 8.64
+      },
+      {
+        "date": "2025-12-24",
+        "clicks": 14,
+        "impressions": 1539,
+        "ctr": 0.91,
+        "position": 12.32
+      },
+      {
+        "date": "2025-12-25",
+        "clicks": 31,
+        "impressions": 1640,
+        "ctr": 1.89,
+        "position": 8.74
+      },
+      {
+        "date": "2025-12-26",
+        "clicks": 12,
+        "impressions": 1376,
+        "ctr": 0.87,
+        "position": 10.3
+      },
+      {
+        "date": "2025-12-27",
+        "clicks": 14,
+        "impressions": 1373,
+        "ctr": 1.02,
+        "position": 12.05
+      },
+      {
+        "date": "2025-12-28",
+        "clicks": 22,
+        "impressions": 2320,
+        "ctr": 0.95,
+        "position": 10.45
+      },
+      {
+        "date": "2025-12-29",
+        "clicks": 30,
+        "impressions": 1915,
+        "ctr": 1.57,
+        "position": 10.63
+      },
+      {
+        "date": "2025-12-30",
+        "clicks": 16,
+        "impressions": 1955,
+        "ctr": 0.82,
+        "position": 12.8
+      },
+      {
+        "date": "2025-12-31",
+        "clicks": 15,
+        "impressions": 1764,
+        "ctr": 0.85,
+        "position": 14.58
+      },
+      {
+        "date": "2026-01-01",
+        "clicks": 26,
+        "impressions": 2190,
+        "ctr": 1.19,
+        "position": 14.58
+      },
+      {
+        "date": "2026-01-02",
+        "clicks": 11,
+        "impressions": 1989,
+        "ctr": 0.55,
+        "position": 14.7
+      },
+      {
+        "date": "2026-01-03",
+        "clicks": 14,
+        "impressions": 1710,
+        "ctr": 0.82,
+        "position": 13.64
+      },
+      {
+        "date": "2026-01-04",
+        "clicks": 24,
+        "impressions": 2286,
+        "ctr": 1.05,
+        "position": 12.68
+      },
+      {
+        "date": "2026-01-05",
+        "clicks": 19,
+        "impressions": 2624,
+        "ctr": 0.72,
+        "position": 13.73
+      },
+      {
+        "date": "2026-01-06",
+        "clicks": 32,
+        "impressions": 2286,
+        "ctr": 1.4,
+        "position": 12.35
+      },
+      {
+        "date": "2026-01-07",
+        "clicks": 26,
+        "impressions": 1803,
+        "ctr": 1.44,
+        "position": 8.87
+      },
+      {
+        "date": "2026-01-08",
+        "clicks": 35,
+        "impressions": 2024,
+        "ctr": 1.73,
+        "position": 12.38
+      },
+      {
+        "date": "2026-01-09",
+        "clicks": 21,
+        "impressions": 1710,
+        "ctr": 1.23,
+        "position": 9.45
+      },
+      {
+        "date": "2026-01-10",
+        "clicks": 20,
+        "impressions": 1465,
+        "ctr": 1.37,
+        "position": 9.05
+      },
+      {
+        "date": "2026-01-11",
+        "clicks": 29,
+        "impressions": 1860,
+        "ctr": 1.56,
+        "position": 9.16
+      },
+      {
+        "date": "2026-01-12",
+        "clicks": 31,
+        "impressions": 2082,
+        "ctr": 1.49,
+        "position": 8.18
+      },
+      {
+        "date": "2026-01-13",
+        "clicks": 28,
+        "impressions": 1908,
+        "ctr": 1.47,
+        "position": 8.07
+      },
+      {
+        "date": "2026-01-14",
+        "clicks": 23,
+        "impressions": 1930,
+        "ctr": 1.19,
+        "position": 8.58
+      },
+      {
+        "date": "2026-01-15",
+        "clicks": 29,
+        "impressions": 2030,
+        "ctr": 1.43,
+        "position": 9.82
+      },
+      {
+        "date": "2026-01-16",
+        "clicks": 23,
+        "impressions": 1606,
+        "ctr": 1.43,
+        "position": 8.62
+      },
+      {
+        "date": "2026-01-17",
+        "clicks": 14,
+        "impressions": 1308,
+        "ctr": 1.07,
+        "position": 8.98
+      },
+      {
+        "date": "2026-01-18",
+        "clicks": 26,
+        "impressions": 1918,
+        "ctr": 1.36,
+        "position": 9.71
+      },
+      {
+        "date": "2026-01-19",
+        "clicks": 34,
+        "impressions": 1981,
+        "ctr": 1.72,
+        "position": 8.24
+      },
+      {
+        "date": "2026-01-20",
+        "clicks": 19,
+        "impressions": 1924,
+        "ctr": 0.99,
+        "position": 8.4
+      },
+      {
+        "date": "2026-01-21",
+        "clicks": 30,
+        "impressions": 1992,
+        "ctr": 1.51,
+        "position": 10.77
+      },
+      {
+        "date": "2026-01-22",
+        "clicks": 19,
+        "impressions": 1860,
+        "ctr": 1.02,
+        "position": 9.08
+      },
+      {
+        "date": "2026-01-23",
+        "clicks": 10,
+        "impressions": 1463,
+        "ctr": 0.68,
+        "position": 8.47
+      },
+      {
+        "date": "2026-01-24",
+        "clicks": 15,
+        "impressions": 1367,
+        "ctr": 1.1,
+        "position": 9.77
+      },
+      {
+        "date": "2026-01-25",
+        "clicks": 23,
+        "impressions": 2075,
+        "ctr": 1.11,
+        "position": 9.87
+      },
+      {
+        "date": "2026-01-26",
+        "clicks": 27,
+        "impressions": 1991,
+        "ctr": 1.36,
+        "position": 9.37
+      },
+      {
+        "date": "2026-01-27",
+        "clicks": 26,
+        "impressions": 1834,
+        "ctr": 1.42,
+        "position": 8.83
+      },
+      {
+        "date": "2026-01-28",
+        "clicks": 19,
+        "impressions": 1683,
+        "ctr": 1.13,
+        "position": 9.18
+      },
+      {
+        "date": "2026-01-29",
+        "clicks": 24,
+        "impressions": 1758,
+        "ctr": 1.37,
+        "position": 10.88
+      },
+      {
+        "date": "2026-01-30",
+        "clicks": 15,
+        "impressions": 1409,
+        "ctr": 1.06,
+        "position": 10.77
+      },
+      {
+        "date": "2026-01-31",
+        "clicks": 4,
+        "impressions": 1124,
+        "ctr": 0.36,
+        "position": 12.77
+      },
+      {
+        "date": "2026-02-01",
+        "clicks": 19,
+        "impressions": 1464,
+        "ctr": 1.3,
+        "position": 9.84
+      },
+      {
+        "date": "2026-02-02",
+        "clicks": 23,
+        "impressions": 1423,
+        "ctr": 1.62,
+        "position": 8.21
+      },
+      {
+        "date": "2026-02-03",
+        "clicks": 20,
+        "impressions": 1506,
+        "ctr": 1.33,
+        "position": 8.14
+      },
+      {
+        "date": "2026-02-04",
+        "clicks": 23,
+        "impressions": 1586,
+        "ctr": 1.45,
+        "position": 9.37
+      },
+      {
+        "date": "2026-02-05",
+        "clicks": 17,
+        "impressions": 1572,
+        "ctr": 1.08,
+        "position": 12.48
+      },
+      {
+        "date": "2026-02-06",
+        "clicks": 17,
+        "impressions": 1179,
+        "ctr": 1.44,
+        "position": 11.17
+      },
+      {
+        "date": "2026-02-07",
+        "clicks": 12,
+        "impressions": 1123,
+        "ctr": 1.07,
+        "position": 11.07
+      },
+      {
+        "date": "2026-02-08",
+        "clicks": 9,
+        "impressions": 1304,
+        "ctr": 0.69,
+        "position": 10.09
+      },
+      {
+        "date": "2026-02-09",
+        "clicks": 25,
+        "impressions": 2629,
+        "ctr": 0.95,
+        "position": 16.17
+      },
+      {
+        "date": "2026-02-10",
+        "clicks": 27,
+        "impressions": 2189,
+        "ctr": 1.23,
+        "position": 14.24
+      },
+      {
+        "date": "2026-02-11",
+        "clicks": 17,
+        "impressions": 1309,
+        "ctr": 1.3,
+        "position": 9.8
+      },
+      {
+        "date": "2026-02-12",
+        "clicks": 16,
+        "impressions": 1200,
+        "ctr": 1.33,
+        "position": 9.35
+      },
+      {
+        "date": "2026-02-13",
+        "clicks": 9,
+        "impressions": 1048,
+        "ctr": 0.86,
+        "position": 12.27
+      },
+      {
+        "date": "2026-02-14",
+        "clicks": 7,
+        "impressions": 827,
+        "ctr": 0.85,
+        "position": 10.04
+      },
+      {
+        "date": "2026-02-15",
+        "clicks": 5,
+        "impressions": 849,
+        "ctr": 0.59,
+        "position": 9.77
+      },
+      {
+        "date": "2026-02-16",
+        "clicks": 7,
+        "impressions": 794,
+        "ctr": 0.88,
+        "position": 9.21
+      },
+      {
+        "date": "2026-02-17",
+        "clicks": 5,
+        "impressions": 828,
+        "ctr": 0.6,
+        "position": 12.16
+      },
+      {
+        "date": "2026-02-18",
+        "clicks": 4,
+        "impressions": 894,
+        "ctr": 0.45,
+        "position": 10.96
+      },
+      {
+        "date": "2026-02-19",
+        "clicks": 6,
+        "impressions": 876,
+        "ctr": 0.68,
+        "position": 12.11
+      },
+      {
+        "date": "2026-02-20",
+        "clicks": 6,
+        "impressions": 893,
+        "ctr": 0.67,
+        "position": 10.78
+      },
+      {
+        "date": "2026-02-21",
+        "clicks": 8,
+        "impressions": 987,
+        "ctr": 0.81,
+        "position": 10.51
+      },
+      {
+        "date": "2026-02-22",
+        "clicks": 21,
+        "impressions": 1448,
+        "ctr": 1.45,
+        "position": 9.27
+      },
+      {
+        "date": "2026-02-23",
+        "clicks": 16,
+        "impressions": 1369,
+        "ctr": 1.17,
+        "position": 9.16
+      },
+      {
+        "date": "2026-02-24",
+        "clicks": 17,
+        "impressions": 1295,
+        "ctr": 1.31,
+        "position": 9.49
+      },
+      {
+        "date": "2026-02-25",
+        "clicks": 18,
+        "impressions": 1675,
+        "ctr": 1.07,
+        "position": 9.94
+      },
+      {
+        "date": "2026-02-26",
+        "clicks": 7,
+        "impressions": 1273,
+        "ctr": 0.55,
+        "position": 11.71
+      },
+      {
+        "date": "2026-02-27",
+        "clicks": 6,
+        "impressions": 1176,
+        "ctr": 0.51,
+        "position": 9.79
+      },
+      {
+        "date": "2026-02-28",
+        "clicks": 9,
+        "impressions": 941,
+        "ctr": 0.96,
+        "position": 10.68
+      },
+      {
+        "date": "2026-03-01",
+        "clicks": 27,
+        "impressions": 1356,
+        "ctr": 1.99,
+        "position": 9.68
+      },
+      {
+        "date": "2026-03-02",
+        "clicks": 25,
+        "impressions": 1400,
+        "ctr": 1.79,
+        "position": 9.32
+      },
+      {
+        "date": "2026-03-03",
+        "clicks": 21,
+        "impressions": 1436,
+        "ctr": 1.46,
+        "position": 9.61
+      },
+      {
+        "date": "2026-03-04",
+        "clicks": 19,
+        "impressions": 1535,
+        "ctr": 1.24,
+        "position": 9.44
+      },
+      {
+        "date": "2026-03-05",
+        "clicks": 14,
+        "impressions": 1316,
+        "ctr": 1.06,
+        "position": 10.96
+      },
+      {
+        "date": "2026-03-06",
+        "clicks": 13,
+        "impressions": 1176,
+        "ctr": 1.11,
+        "position": 11.36
+      },
+      {
+        "date": "2026-03-07",
+        "clicks": 7,
+        "impressions": 878,
+        "ctr": 0.8,
+        "position": 10.52
+      },
+      {
+        "date": "2026-03-08",
+        "clicks": 8,
+        "impressions": 1060,
+        "ctr": 0.75,
+        "position": 9.68
+      },
+      {
+        "date": "2026-03-09",
+        "clicks": 21,
+        "impressions": 1388,
+        "ctr": 1.51,
+        "position": 8.95
+      },
+      {
+        "date": "2026-03-10",
+        "clicks": 14,
+        "impressions": 1322,
+        "ctr": 1.06,
+        "position": 9.88
+      },
+      {
+        "date": "2026-03-11",
+        "clicks": 22,
+        "impressions": 1276,
+        "ctr": 1.72,
+        "position": 9.92
+      },
+      {
+        "date": "2026-03-12",
+        "clicks": 24,
+        "impressions": 1414,
+        "ctr": 1.7,
+        "position": 9.78
+      },
+      {
+        "date": "2026-03-13",
+        "clicks": 11,
+        "impressions": 1069,
+        "ctr": 1.03,
+        "position": 10.14
+      },
+      {
+        "date": "2026-03-14",
+        "clicks": 4,
+        "impressions": 946,
+        "ctr": 0.42,
+        "position": 8.77
+      },
+      {
+        "date": "2026-03-15",
+        "clicks": 19,
+        "impressions": 1207,
+        "ctr": 1.57,
+        "position": 8.93
+      },
+      {
+        "date": "2026-03-16",
+        "clicks": 28,
+        "impressions": 1358,
+        "ctr": 2.06,
+        "position": 8.39
+      },
+      {
+        "date": "2026-03-17",
+        "clicks": 18,
+        "impressions": 1259,
+        "ctr": 1.43,
+        "position": 9.29
+      },
+      {
+        "date": "2026-03-18",
+        "clicks": 20,
+        "impressions": 1377,
+        "ctr": 1.45,
+        "position": 9.42
+      },
+      {
+        "date": "2026-03-19",
+        "clicks": 17,
+        "impressions": 1396,
+        "ctr": 1.22,
+        "position": 8.86
+      },
+      {
+        "date": "2026-03-20",
+        "clicks": 12,
+        "impressions": 1053,
+        "ctr": 1.14,
+        "position": 9.0
+      },
+      {
+        "date": "2026-03-21",
+        "clicks": 14,
+        "impressions": 900,
+        "ctr": 1.56,
+        "position": 9.88
+      },
+      {
+        "date": "2026-03-22",
+        "clicks": 11,
+        "impressions": 1254,
+        "ctr": 0.88,
+        "position": 9.17
+      },
+      {
+        "date": "2026-03-23",
+        "clicks": 25,
+        "impressions": 1322,
+        "ctr": 1.89,
+        "position": 8.25
+      },
+      {
+        "date": "2026-03-24",
+        "clicks": 18,
+        "impressions": 1396,
+        "ctr": 1.29,
+        "position": 8.33
+      },
+      {
+        "date": "2026-03-25",
+        "clicks": 24,
+        "impressions": 1869,
+        "ctr": 1.28,
+        "position": 10.19
+      },
+      {
+        "date": "2026-03-26",
+        "clicks": 28,
+        "impressions": 1346,
+        "ctr": 2.08,
+        "position": 8.07
+      },
+      {
+        "date": "2026-03-27",
+        "clicks": 26,
+        "impressions": 1074,
+        "ctr": 2.42,
+        "position": 8.08
+      },
+      {
+        "date": "2026-03-28",
+        "clicks": 12,
+        "impressions": 888,
+        "ctr": 1.35,
+        "position": 7.68
+      },
+      {
+        "date": "2026-03-29",
+        "clicks": 16,
+        "impressions": 1137,
+        "ctr": 1.41,
+        "position": 7.73
+      },
+      {
+        "date": "2026-03-30",
+        "clicks": 25,
+        "impressions": 1340,
+        "ctr": 1.87,
+        "position": 8.25
+      },
+      {
+        "date": "2026-03-31",
+        "clicks": 16,
+        "impressions": 1469,
+        "ctr": 1.09,
+        "position": 7.96
+      },
+      {
+        "date": "2026-04-01",
+        "clicks": 25,
+        "impressions": 1469,
+        "ctr": 1.7,
+        "position": 7.4
+      },
+      {
+        "date": "2026-04-02",
+        "clicks": 20,
+        "impressions": 1253,
+        "ctr": 1.6,
+        "position": 7.93
+      },
+      {
+        "date": "2026-04-03",
+        "clicks": 12,
+        "impressions": 1065,
+        "ctr": 1.13,
+        "position": 8.98
+      },
+      {
+        "date": "2026-04-04",
+        "clicks": 12,
+        "impressions": 989,
+        "ctr": 1.21,
+        "position": 8.41
+      },
+      {
+        "date": "2026-04-05",
+        "clicks": 12,
+        "impressions": 1114,
+        "ctr": 1.08,
+        "position": 8.1
+      },
+      {
+        "date": "2026-04-06",
+        "clicks": 16,
+        "impressions": 1493,
+        "ctr": 1.07,
+        "position": 7.92
+      },
+      {
+        "date": "2026-04-07",
+        "clicks": 11,
+        "impressions": 1608,
+        "ctr": 0.68,
+        "position": 8.01
+      },
+      {
+        "date": "2026-04-08",
+        "clicks": 21,
+        "impressions": 1729,
+        "ctr": 1.21,
+        "position": 7.23
+      },
+      {
+        "date": "2026-04-09",
+        "clicks": 26,
+        "impressions": 1640,
+        "ctr": 1.59,
+        "position": 8.26
+      },
+      {
+        "date": "2026-04-10",
+        "clicks": 10,
+        "impressions": 1248,
+        "ctr": 0.8,
+        "position": 8.93
+      },
+      {
+        "date": "2026-04-11",
+        "clicks": 10,
+        "impressions": 1175,
+        "ctr": 0.85,
+        "position": 8.46
+      },
+      {
+        "date": "2026-04-12",
+        "clicks": 22,
+        "impressions": 1502,
+        "ctr": 1.46,
+        "position": 8.66
+      },
+      {
+        "date": "2026-04-13",
+        "clicks": 31,
+        "impressions": 1635,
+        "ctr": 1.9,
+        "position": 7.65
+      },
+      {
+        "date": "2026-04-14",
+        "clicks": 17,
+        "impressions": 1555,
+        "ctr": 1.09,
+        "position": 8.6
+      },
+      {
+        "date": "2026-04-15",
+        "clicks": 19,
+        "impressions": 1714,
+        "ctr": 1.11,
+        "position": 8.87
+      },
+      {
+        "date": "2026-04-16",
+        "clicks": 10,
+        "impressions": 1498,
+        "ctr": 0.67,
+        "position": 8.2
+      },
+      {
+        "date": "2026-04-17",
+        "clicks": 10,
+        "impressions": 1148,
+        "ctr": 0.87,
+        "position": 9.76
+      },
+      {
+        "date": "2026-04-18",
+        "clicks": 9,
+        "impressions": 940,
+        "ctr": 0.96,
+        "position": 10.61
+      },
+      {
+        "date": "2026-04-19",
+        "clicks": 12,
+        "impressions": 1266,
+        "ctr": 0.95,
+        "position": 8.77
+      },
+      {
+        "date": "2026-04-20",
+        "clicks": 20,
+        "impressions": 1452,
+        "ctr": 1.38,
+        "position": 9.53
+      },
+      {
+        "date": "2026-04-21",
+        "clicks": 25,
+        "impressions": 1366,
+        "ctr": 1.83,
+        "position": 10.89
+      },
+      {
+        "date": "2026-04-22",
+        "clicks": 26,
+        "impressions": 1345,
+        "ctr": 1.93,
+        "position": 11.24
+      },
+      {
+        "date": "2026-04-23",
+        "clicks": 21,
+        "impressions": 1382,
+        "ctr": 1.52,
+        "position": 11.95
+      },
+      {
+        "date": "2026-04-24",
+        "clicks": 15,
+        "impressions": 1105,
+        "ctr": 1.36,
+        "position": 11.07
+      },
+      {
+        "date": "2026-04-25",
+        "clicks": 12,
+        "impressions": 1026,
+        "ctr": 1.17,
+        "position": 11.72
+      },
+      {
+        "date": "2026-04-26",
+        "clicks": 16,
+        "impressions": 1903,
+        "ctr": 0.84,
+        "position": 12.27
+      },
+      {
+        "date": "2026-04-27",
+        "clicks": 24,
+        "impressions": 1568,
+        "ctr": 1.53,
+        "position": 10.45
+      },
+      {
+        "date": "2026-04-28",
+        "clicks": 17,
+        "impressions": 1589,
+        "ctr": 1.07,
+        "position": 10.49
+      },
+      {
+        "date": "2026-04-29",
+        "clicks": 17,
+        "impressions": 1670,
+        "ctr": 1.02,
+        "position": 9.91
+      },
+      {
+        "date": "2026-04-30",
+        "clicks": 15,
+        "impressions": 1601,
+        "ctr": 0.94,
+        "position": 10.69
+      },
+      {
+        "date": "2026-05-01",
+        "clicks": 34,
+        "impressions": 1607,
+        "ctr": 2.12,
+        "position": 9.02
+      },
+      {
+        "date": "2026-05-02",
+        "clicks": 16,
+        "impressions": 1496,
+        "ctr": 1.07,
+        "position": 8.59
+      },
+      {
+        "date": "2026-05-03",
+        "clicks": 17,
+        "impressions": 1963,
+        "ctr": 0.87,
+        "position": 7.83
+      },
+      {
+        "date": "2026-05-04",
+        "clicks": 35,
+        "impressions": 2233,
+        "ctr": 1.57,
+        "position": 7.27
+      },
+      {
+        "date": "2026-05-05",
+        "clicks": 60,
+        "impressions": 2557,
+        "ctr": 2.35,
+        "position": 7.49
+      },
+      {
+        "date": "2026-05-06",
+        "clicks": 46,
+        "impressions": 2856,
+        "ctr": 1.61,
+        "position": 7.37
+      },
+      {
+        "date": "2026-05-07",
+        "clicks": 53,
+        "impressions": 2801,
+        "ctr": 1.89,
+        "position": 6.71
+      },
+      {
+        "date": "2026-05-08",
+        "clicks": 45,
+        "impressions": 2831,
+        "ctr": 1.59,
+        "position": 5.71
+      },
+      {
+        "date": "2026-05-09",
+        "clicks": 33,
+        "impressions": 2566,
+        "ctr": 1.29,
+        "position": 5.64
+      },
+      {
+        "date": "2026-05-10",
+        "clicks": 46,
+        "impressions": 2648,
+        "ctr": 1.74,
+        "position": 7.1
+      },
+      {
+        "date": "2026-05-11",
+        "clicks": 40,
+        "impressions": 2816,
+        "ctr": 1.42,
+        "position": 6.92
+      },
+      {
+        "date": "2026-05-12",
+        "clicks": 51,
+        "impressions": 2593,
+        "ctr": 1.97,
+        "position": 7.37
+      },
+      {
+        "date": "2026-05-13",
+        "clicks": 39,
+        "impressions": 2276,
+        "ctr": 1.71,
+        "position": 8.11
+      },
+      {
+        "date": "2026-05-14",
+        "clicks": 31,
+        "impressions": 2258,
+        "ctr": 1.37,
+        "position": 7.88
+      },
+      {
+        "date": "2026-05-15",
+        "clicks": 28,
+        "impressions": 1763,
+        "ctr": 1.59,
+        "position": 8.25
+      },
+      {
+        "date": "2026-05-16",
+        "clicks": 23,
+        "impressions": 1541,
+        "ctr": 1.49,
+        "position": 7.39
+      },
+      {
+        "date": "2026-05-17",
+        "clicks": 25,
+        "impressions": 2104,
+        "ctr": 1.19,
+        "position": 7.42
+      },
+      {
+        "date": "2026-05-18",
+        "clicks": 54,
+        "impressions": 2297,
+        "ctr": 2.35,
+        "position": 7.19
+      },
+      {
+        "date": "2026-05-19",
+        "clicks": 37,
+        "impressions": 2250,
+        "ctr": 1.64,
+        "position": 7.34
+      },
+      {
+        "date": "2026-05-20",
+        "clicks": 33,
+        "impressions": 2219,
+        "ctr": 1.49,
+        "position": 6.66
+      },
+      {
+        "date": "2026-05-21",
+        "clicks": 35,
+        "impressions": 2863,
+        "ctr": 1.22,
+        "position": 7.98
+      },
+      {
+        "date": "2026-05-22",
+        "clicks": 40,
+        "impressions": 2670,
+        "ctr": 1.5,
+        "position": 8.86
+      },
+      {
+        "date": "2026-05-23",
+        "clicks": 24,
+        "impressions": 2139,
+        "ctr": 1.12,
+        "position": 8.8
+      },
+      {
+        "date": "2026-05-24",
+        "clicks": 28,
+        "impressions": 2845,
+        "ctr": 0.98,
+        "position": 8.6
+      },
+      {
+        "date": "2026-05-25",
+        "clicks": 32,
+        "impressions": 3899,
+        "ctr": 0.82,
+        "position": 9.93
+      },
+      {
+        "date": "2026-05-26",
+        "clicks": 48,
+        "impressions": 2934,
+        "ctr": 1.64,
+        "position": 7.87
+      }
+    ],
+    "top_queries": [
+      {
+        "query": "wifi 滿 格 卻 很 慢",
+        "clicks": 1,
+        "impressions": 6,
+        "ctr": 16.67,
+        "position": 4.17
+      },
+      {
+        "query": "乙太網路不穩定",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 12.0
+      },
+      {
+        "query": "剪片筆電推薦2026",
+        "clicks": 1,
+        "impressions": 5,
+        "ctr": 20.0,
+        "position": 2.2
+      },
+      {
+        "query": "剪輯電腦",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 4.0
+      },
+      {
+        "query": "家用網路架設",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 10.0
+      },
+      {
+        "query": "網路故障排除",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100.0,
+        "position": 10.0
+      },
+      {
+        "query": "蓋斯克",
+        "clicks": 1,
+        "impressions": 6,
+        "ctr": 16.67,
+        "position": 1.67
+      },
+      {
+        "query": "蓋斯克科技",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 33.33,
+        "position": 1.0
+      },
+      {
+        "query": "1921共享空間",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 7.0
+      },
+      {
+        "query": "2026年家里wi-fi突然连不上的常见原因",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 10.0
+      }
+    ],
+    "top_pages": [
+      {
+        "page": "https://zonetech.tw/blogs/4k-editing-pc-setup-2026/",
+        "clicks": 12,
+        "impressions": 134,
+        "ctr": 8.96,
+        "position": 5.96
+      },
+      {
+        "page": "https://zonetech.tw/blogs/13339/",
+        "clicks": 6,
+        "impressions": 34,
+        "ctr": 17.65,
+        "position": 4.74
+      },
+      {
+        "page": "https://zonetech.tw/blogs/connection-breaking-up/",
+        "clicks": 4,
+        "impressions": 886,
+        "ctr": 0.45,
+        "position": 6.49
+      },
+      {
+        "page": "https://zonetech.tw/blogs/network-attached-storage/",
+        "clicks": 4,
+        "impressions": 79,
+        "ctr": 5.06,
+        "position": 13.3
+      },
+      {
+        "page": "https://zonetech.tw/blogs/wifi-full-bars-but-slow-2026/",
+        "clicks": 3,
+        "impressions": 24,
+        "ctr": 12.5,
+        "position": 4.38
+      },
+      {
+        "page": "https://zonetech.tw/blogs/12881/",
+        "clicks": 2,
+        "impressions": 16,
+        "ctr": 12.5,
+        "position": 4.88
+      },
+      {
+        "page": "https://zonetech.tw/blogs/network-construction/",
+        "clicks": 2,
+        "impressions": 74,
+        "ctr": 2.7,
+        "position": 7.61
+      },
+      {
+        "page": "https://zonetech.tw/blogs/what-is-a-firewall/",
+        "clicks": 2,
+        "impressions": 183,
+        "ctr": 1.09,
+        "position": 8.16
+      },
+      {
+        "page": "https://zonetech.tw/",
+        "clicks": 1,
+        "impressions": 34,
+        "ctr": 2.94,
+        "position": 14.79
+      },
+      {
+        "page": "https://zonetech.tw/blog/2022/07/08/2220708-b1-wifi-2/",
+        "clicks": 1,
+        "impressions": 9,
+        "ctr": 11.11,
+        "position": 4.44
+      }
+    ]
+  },
+  "ga4": {
+    "data_date": "2026-05-28",
+    "daily": [
+      {
+        "date": "2025-12-01",
+        "activeUsers": 51.0,
+        "sessions": 61.0,
+        "screenPageViews": 70.0
+      },
+      {
+        "date": "2025-12-02",
+        "activeUsers": 48.0,
+        "sessions": 60.0,
+        "screenPageViews": 64.0
+      },
+      {
+        "date": "2025-12-03",
+        "activeUsers": 60.0,
+        "sessions": 65.0,
+        "screenPageViews": 85.0
+      },
+      {
+        "date": "2025-12-04",
+        "activeUsers": 64.0,
+        "sessions": 79.0,
+        "screenPageViews": 84.0
+      },
+      {
+        "date": "2025-12-05",
+        "activeUsers": 64.0,
+        "sessions": 71.0,
+        "screenPageViews": 83.0
+      },
+      {
+        "date": "2025-12-06",
+        "activeUsers": 23.0,
+        "sessions": 24.0,
+        "screenPageViews": 27.0
+      },
+      {
+        "date": "2025-12-07",
+        "activeUsers": 23.0,
+        "sessions": 27.0,
+        "screenPageViews": 27.0
+      },
+      {
+        "date": "2025-12-08",
+        "activeUsers": 52.0,
+        "sessions": 60.0,
+        "screenPageViews": 73.0
+      },
+      {
+        "date": "2025-12-09",
+        "activeUsers": 35.0,
+        "sessions": 41.0,
+        "screenPageViews": 43.0
+      },
+      {
+        "date": "2025-12-10",
+        "activeUsers": 52.0,
+        "sessions": 61.0,
+        "screenPageViews": 65.0
+      },
+      {
+        "date": "2025-12-11",
+        "activeUsers": 72.0,
+        "sessions": 81.0,
+        "screenPageViews": 86.0
+      },
+      {
+        "date": "2025-12-12",
+        "activeUsers": 65.0,
+        "sessions": 78.0,
+        "screenPageViews": 100.0
+      },
+      {
+        "date": "2025-12-13",
+        "activeUsers": 20.0,
+        "sessions": 24.0,
+        "screenPageViews": 33.0
+      },
+      {
+        "date": "2025-12-14",
+        "activeUsers": 33.0,
+        "sessions": 33.0,
+        "screenPageViews": 36.0
+      },
+      {
+        "date": "2025-12-15",
+        "activeUsers": 45.0,
+        "sessions": 54.0,
+        "screenPageViews": 70.0
+      },
+      {
+        "date": "2025-12-16",
+        "activeUsers": 48.0,
+        "sessions": 61.0,
+        "screenPageViews": 73.0
+      },
+      {
+        "date": "2025-12-17",
+        "activeUsers": 43.0,
+        "sessions": 51.0,
+        "screenPageViews": 66.0
+      },
+      {
+        "date": "2025-12-18",
+        "activeUsers": 60.0,
+        "sessions": 69.0,
+        "screenPageViews": 73.0
+      },
+      {
+        "date": "2025-12-19",
+        "activeUsers": 41.0,
+        "sessions": 47.0,
+        "screenPageViews": 60.0
+      },
+      {
+        "date": "2025-12-20",
+        "activeUsers": 27.0,
+        "sessions": 29.0,
+        "screenPageViews": 29.0
+      },
+      {
+        "date": "2025-12-21",
+        "activeUsers": 18.0,
+        "sessions": 25.0,
+        "screenPageViews": 22.0
+      },
+      {
+        "date": "2025-12-22",
+        "activeUsers": 43.0,
+        "sessions": 49.0,
+        "screenPageViews": 64.0
+      },
+      {
+        "date": "2025-12-23",
+        "activeUsers": 55.0,
+        "sessions": 65.0,
+        "screenPageViews": 77.0
+      },
+      {
+        "date": "2025-12-24",
+        "activeUsers": 42.0,
+        "sessions": 48.0,
+        "screenPageViews": 55.0
+      },
+      {
+        "date": "2025-12-25",
+        "activeUsers": 37.0,
+        "sessions": 41.0,
+        "screenPageViews": 44.0
+      },
+      {
+        "date": "2025-12-26",
+        "activeUsers": 39.0,
+        "sessions": 49.0,
+        "screenPageViews": 49.0
+      },
+      {
+        "date": "2025-12-27",
+        "activeUsers": 14.0,
+        "sessions": 17.0,
+        "screenPageViews": 16.0
+      },
+      {
+        "date": "2025-12-28",
+        "activeUsers": 29.0,
+        "sessions": 33.0,
+        "screenPageViews": 31.0
+      },
+      {
+        "date": "2025-12-29",
+        "activeUsers": 42.0,
+        "sessions": 48.0,
+        "screenPageViews": 59.0
+      },
+      {
+        "date": "2025-12-30",
+        "activeUsers": 45.0,
+        "sessions": 51.0,
+        "screenPageViews": 54.0
+      },
+      {
+        "date": "2025-12-31",
+        "activeUsers": 43.0,
+        "sessions": 55.0,
+        "screenPageViews": 73.0
+      },
+      {
+        "date": "2026-01-01",
+        "activeUsers": 17.0,
+        "sessions": 21.0,
+        "screenPageViews": 24.0
+      },
+      {
+        "date": "2026-01-02",
+        "activeUsers": 50.0,
+        "sessions": 57.0,
+        "screenPageViews": 70.0
+      },
+      {
+        "date": "2026-01-03",
+        "activeUsers": 25.0,
+        "sessions": 30.0,
+        "screenPageViews": 44.0
+      },
+      {
+        "date": "2026-01-04",
+        "activeUsers": 28.0,
+        "sessions": 28.0,
+        "screenPageViews": 28.0
+      },
+      {
+        "date": "2026-01-05",
+        "activeUsers": 78.0,
+        "sessions": 83.0,
+        "screenPageViews": 91.0
+      },
+      {
+        "date": "2026-01-06",
+        "activeUsers": 126.0,
+        "sessions": 135.0,
+        "screenPageViews": 144.0
+      },
+      {
+        "date": "2026-01-07",
+        "activeUsers": 76.0,
+        "sessions": 86.0,
+        "screenPageViews": 108.0
+      },
+      {
+        "date": "2026-01-08",
+        "activeUsers": 40.0,
+        "sessions": 63.0,
+        "screenPageViews": 71.0
+      },
+      {
+        "date": "2026-01-09",
+        "activeUsers": 44.0,
+        "sessions": 52.0,
+        "screenPageViews": 83.0
+      },
+      {
+        "date": "2026-01-10",
+        "activeUsers": 39.0,
+        "sessions": 44.0,
+        "screenPageViews": 48.0
+      },
+      {
+        "date": "2026-01-11",
+        "activeUsers": 28.0,
+        "sessions": 35.0,
+        "screenPageViews": 41.0
+      },
+      {
+        "date": "2026-01-12",
+        "activeUsers": 37.0,
+        "sessions": 48.0,
+        "screenPageViews": 71.0
+      },
+      {
+        "date": "2026-01-13",
+        "activeUsers": 55.0,
+        "sessions": 65.0,
+        "screenPageViews": 81.0
+      },
+      {
+        "date": "2026-01-14",
+        "activeUsers": 47.0,
+        "sessions": 56.0,
+        "screenPageViews": 69.0
+      },
+      {
+        "date": "2026-01-15",
+        "activeUsers": 39.0,
+        "sessions": 44.0,
+        "screenPageViews": 55.0
+      },
+      {
+        "date": "2026-01-16",
+        "activeUsers": 42.0,
+        "sessions": 48.0,
+        "screenPageViews": 54.0
+      },
+      {
+        "date": "2026-01-17",
+        "activeUsers": 41.0,
+        "sessions": 43.0,
+        "screenPageViews": 46.0
+      },
+      {
+        "date": "2026-01-18",
+        "activeUsers": 51.0,
+        "sessions": 64.0,
+        "screenPageViews": 61.0
+      },
+      {
+        "date": "2026-01-19",
+        "activeUsers": 37.0,
+        "sessions": 44.0,
+        "screenPageViews": 44.0
+      },
+      {
+        "date": "2026-01-20",
+        "activeUsers": 42.0,
+        "sessions": 51.0,
+        "screenPageViews": 68.0
+      },
+      {
+        "date": "2026-01-21",
+        "activeUsers": 57.0,
+        "sessions": 71.0,
+        "screenPageViews": 68.0
+      },
+      {
+        "date": "2026-01-22",
+        "activeUsers": 54.0,
+        "sessions": 64.0,
+        "screenPageViews": 74.0
+      },
+      {
+        "date": "2026-01-23",
+        "activeUsers": 40.0,
+        "sessions": 49.0,
+        "screenPageViews": 52.0
+      },
+      {
+        "date": "2026-01-24",
+        "activeUsers": 22.0,
+        "sessions": 24.0,
+        "screenPageViews": 29.0
+      },
+      {
+        "date": "2026-01-25",
+        "activeUsers": 33.0,
+        "sessions": 37.0,
+        "screenPageViews": 48.0
+      },
+      {
+        "date": "2026-01-26",
+        "activeUsers": 48.0,
+        "sessions": 56.0,
+        "screenPageViews": 64.0
+      },
+      {
+        "date": "2026-01-27",
+        "activeUsers": 44.0,
+        "sessions": 52.0,
+        "screenPageViews": 65.0
+      },
+      {
+        "date": "2026-01-28",
+        "activeUsers": 50.0,
+        "sessions": 65.0,
+        "screenPageViews": 67.0
+      },
+      {
+        "date": "2026-01-29",
+        "activeUsers": 42.0,
+        "sessions": 51.0,
+        "screenPageViews": 47.0
+      },
+      {
+        "date": "2026-01-30",
+        "activeUsers": 45.0,
+        "sessions": 58.0,
+        "screenPageViews": 73.0
+      },
+      {
+        "date": "2026-01-31",
+        "activeUsers": 48.0,
+        "sessions": 50.0,
+        "screenPageViews": 51.0
+      },
+      {
+        "date": "2026-02-01",
+        "activeUsers": 20.0,
+        "sessions": 23.0,
+        "screenPageViews": 43.0
+      },
+      {
+        "date": "2026-02-02",
+        "activeUsers": 39.0,
+        "sessions": 48.0,
+        "screenPageViews": 60.0
+      },
+      {
+        "date": "2026-02-03",
+        "activeUsers": 56.0,
+        "sessions": 66.0,
+        "screenPageViews": 69.0
+      },
+      {
+        "date": "2026-02-04",
+        "activeUsers": 49.0,
+        "sessions": 56.0,
+        "screenPageViews": 60.0
+      },
+      {
+        "date": "2026-02-05",
+        "activeUsers": 57.0,
+        "sessions": 70.0,
+        "screenPageViews": 80.0
+      },
+      {
+        "date": "2026-02-06",
+        "activeUsers": 24.0,
+        "sessions": 31.0,
+        "screenPageViews": 56.0
+      },
+      {
+        "date": "2026-02-07",
+        "activeUsers": 46.0,
+        "sessions": 52.0,
+        "screenPageViews": 61.0
+      },
+      {
+        "date": "2026-02-08",
+        "activeUsers": 24.0,
+        "sessions": 30.0,
+        "screenPageViews": 36.0
+      },
+      {
+        "date": "2026-02-09",
+        "activeUsers": 29.0,
+        "sessions": 41.0,
+        "screenPageViews": 70.0
+      },
+      {
+        "date": "2026-02-10",
+        "activeUsers": 52.0,
+        "sessions": 59.0,
+        "screenPageViews": 80.0
+      },
+      {
+        "date": "2026-02-11",
+        "activeUsers": 40.0,
+        "sessions": 48.0,
+        "screenPageViews": 54.0
+      },
+      {
+        "date": "2026-02-12",
+        "activeUsers": 60.0,
+        "sessions": 68.0,
+        "screenPageViews": 79.0
+      },
+      {
+        "date": "2026-02-13",
+        "activeUsers": 36.0,
+        "sessions": 43.0,
+        "screenPageViews": 49.0
+      },
+      {
+        "date": "2026-02-14",
+        "activeUsers": 22.0,
+        "sessions": 23.0,
+        "screenPageViews": 23.0
+      },
+      {
+        "date": "2026-02-15",
+        "activeUsers": 18.0,
+        "sessions": 19.0,
+        "screenPageViews": 20.0
+      },
+      {
+        "date": "2026-02-16",
+        "activeUsers": 16.0,
+        "sessions": 18.0,
+        "screenPageViews": 32.0
+      },
+      {
+        "date": "2026-02-17",
+        "activeUsers": 18.0,
+        "sessions": 20.0,
+        "screenPageViews": 18.0
+      },
+      {
+        "date": "2026-02-18",
+        "activeUsers": 24.0,
+        "sessions": 27.0,
+        "screenPageViews": 30.0
+      },
+      {
+        "date": "2026-02-19",
+        "activeUsers": 20.0,
+        "sessions": 22.0,
+        "screenPageViews": 23.0
+      },
+      {
+        "date": "2026-02-20",
+        "activeUsers": 21.0,
+        "sessions": 21.0,
+        "screenPageViews": 21.0
+      },
+      {
+        "date": "2026-02-21",
+        "activeUsers": 19.0,
+        "sessions": 20.0,
+        "screenPageViews": 20.0
+      },
+      {
+        "date": "2026-02-22",
+        "activeUsers": 36.0,
+        "sessions": 39.0,
+        "screenPageViews": 47.0
+      },
+      {
+        "date": "2026-02-23",
+        "activeUsers": 30.0,
+        "sessions": 39.0,
+        "screenPageViews": 41.0
+      },
+      {
+        "date": "2026-02-24",
+        "activeUsers": 40.0,
+        "sessions": 45.0,
+        "screenPageViews": 56.0
+      },
+      {
+        "date": "2026-02-25",
+        "activeUsers": 33.0,
+        "sessions": 42.0,
+        "screenPageViews": 49.0
+      },
+      {
+        "date": "2026-02-26",
+        "activeUsers": 39.0,
+        "sessions": 45.0,
+        "screenPageViews": 90.0
+      },
+      {
+        "date": "2026-02-27",
+        "activeUsers": 18.0,
+        "sessions": 21.0,
+        "screenPageViews": 29.0
+      },
+      {
+        "date": "2026-02-28",
+        "activeUsers": 32.0,
+        "sessions": 38.0,
+        "screenPageViews": 38.0
+      },
+      {
+        "date": "2026-03-01",
+        "activeUsers": 29.0,
+        "sessions": 32.0,
+        "screenPageViews": 58.0
+      },
+      {
+        "date": "2026-03-02",
+        "activeUsers": 46.0,
+        "sessions": 55.0,
+        "screenPageViews": 58.0
+      },
+      {
+        "date": "2026-03-03",
+        "activeUsers": 42.0,
+        "sessions": 47.0,
+        "screenPageViews": 57.0
+      },
+      {
+        "date": "2026-03-04",
+        "activeUsers": 35.0,
+        "sessions": 40.0,
+        "screenPageViews": 56.0
+      },
+      {
+        "date": "2026-03-05",
+        "activeUsers": 62.0,
+        "sessions": 71.0,
+        "screenPageViews": 85.0
+      },
+      {
+        "date": "2026-03-06",
+        "activeUsers": 33.0,
+        "sessions": 39.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-03-07",
+        "activeUsers": 30.0,
+        "sessions": 31.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-03-08",
+        "activeUsers": 20.0,
+        "sessions": 20.0,
+        "screenPageViews": 20.0
+      },
+      {
+        "date": "2026-03-09",
+        "activeUsers": 53.0,
+        "sessions": 59.0,
+        "screenPageViews": 70.0
+      },
+      {
+        "date": "2026-03-10",
+        "activeUsers": 63.0,
+        "sessions": 67.0,
+        "screenPageViews": 74.0
+      },
+      {
+        "date": "2026-03-11",
+        "activeUsers": 36.0,
+        "sessions": 40.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-03-12",
+        "activeUsers": 51.0,
+        "sessions": 62.0,
+        "screenPageViews": 78.0
+      },
+      {
+        "date": "2026-03-13",
+        "activeUsers": 40.0,
+        "sessions": 46.0,
+        "screenPageViews": 62.0
+      },
+      {
+        "date": "2026-03-14",
+        "activeUsers": 22.0,
+        "sessions": 22.0,
+        "screenPageViews": 21.0
+      },
+      {
+        "date": "2026-03-15",
+        "activeUsers": 27.0,
+        "sessions": 29.0,
+        "screenPageViews": 29.0
+      },
+      {
+        "date": "2026-03-16",
+        "activeUsers": 50.0,
+        "sessions": 61.0,
+        "screenPageViews": 124.0
+      },
+      {
+        "date": "2026-03-17",
+        "activeUsers": 48.0,
+        "sessions": 60.0,
+        "screenPageViews": 75.0
+      },
+      {
+        "date": "2026-03-18",
+        "activeUsers": 37.0,
+        "sessions": 43.0,
+        "screenPageViews": 46.0
+      },
+      {
+        "date": "2026-03-19",
+        "activeUsers": 41.0,
+        "sessions": 43.0,
+        "screenPageViews": 53.0
+      },
+      {
+        "date": "2026-03-20",
+        "activeUsers": 34.0,
+        "sessions": 38.0,
+        "screenPageViews": 48.0
+      },
+      {
+        "date": "2026-03-21",
+        "activeUsers": 33.0,
+        "sessions": 34.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-03-22",
+        "activeUsers": 30.0,
+        "sessions": 34.0,
+        "screenPageViews": 36.0
+      },
+      {
+        "date": "2026-03-23",
+        "activeUsers": 41.0,
+        "sessions": 45.0,
+        "screenPageViews": 47.0
+      },
+      {
+        "date": "2026-03-24",
+        "activeUsers": 42.0,
+        "sessions": 45.0,
+        "screenPageViews": 61.0
+      },
+      {
+        "date": "2026-03-25",
+        "activeUsers": 42.0,
+        "sessions": 46.0,
+        "screenPageViews": 49.0
+      },
+      {
+        "date": "2026-03-26",
+        "activeUsers": 47.0,
+        "sessions": 50.0,
+        "screenPageViews": 72.0
+      },
+      {
+        "date": "2026-03-27",
+        "activeUsers": 52.0,
+        "sessions": 60.0,
+        "screenPageViews": 81.0
+      },
+      {
+        "date": "2026-03-28",
+        "activeUsers": 23.0,
+        "sessions": 23.0,
+        "screenPageViews": 24.0
+      },
+      {
+        "date": "2026-03-29",
+        "activeUsers": 28.0,
+        "sessions": 34.0,
+        "screenPageViews": 70.0
+      },
+      {
+        "date": "2026-03-30",
+        "activeUsers": 38.0,
+        "sessions": 44.0,
+        "screenPageViews": 58.0
+      },
+      {
+        "date": "2026-03-31",
+        "activeUsers": 48.0,
+        "sessions": 56.0,
+        "screenPageViews": 124.0
+      },
+      {
+        "date": "2026-04-01",
+        "activeUsers": 41.0,
+        "sessions": 47.0,
+        "screenPageViews": 55.0
+      },
+      {
+        "date": "2026-04-02",
+        "activeUsers": 62.0,
+        "sessions": 67.0,
+        "screenPageViews": 109.0
+      },
+      {
+        "date": "2026-04-03",
+        "activeUsers": 20.0,
+        "sessions": 22.0,
+        "screenPageViews": 21.0
+      },
+      {
+        "date": "2026-04-04",
+        "activeUsers": 21.0,
+        "sessions": 24.0,
+        "screenPageViews": 22.0
+      },
+      {
+        "date": "2026-04-05",
+        "activeUsers": 32.0,
+        "sessions": 37.0,
+        "screenPageViews": 39.0
+      },
+      {
+        "date": "2026-04-06",
+        "activeUsers": 24.0,
+        "sessions": 25.0,
+        "screenPageViews": 27.0
+      },
+      {
+        "date": "2026-04-07",
+        "activeUsers": 30.0,
+        "sessions": 34.0,
+        "screenPageViews": 47.0
+      },
+      {
+        "date": "2026-04-08",
+        "activeUsers": 35.0,
+        "sessions": 37.0,
+        "screenPageViews": 41.0
+      },
+      {
+        "date": "2026-04-09",
+        "activeUsers": 40.0,
+        "sessions": 47.0,
+        "screenPageViews": 49.0
+      },
+      {
+        "date": "2026-04-10",
+        "activeUsers": 45.0,
+        "sessions": 51.0,
+        "screenPageViews": 56.0
+      },
+      {
+        "date": "2026-04-11",
+        "activeUsers": 16.0,
+        "sessions": 22.0,
+        "screenPageViews": 23.0
+      },
+      {
+        "date": "2026-04-12",
+        "activeUsers": 26.0,
+        "sessions": 32.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-04-13",
+        "activeUsers": 49.0,
+        "sessions": 56.0,
+        "screenPageViews": 67.0
+      },
+      {
+        "date": "2026-04-14",
+        "activeUsers": 45.0,
+        "sessions": 58.0,
+        "screenPageViews": 64.0
+      },
+      {
+        "date": "2026-04-15",
+        "activeUsers": 41.0,
+        "sessions": 46.0,
+        "screenPageViews": 57.0
+      },
+      {
+        "date": "2026-04-16",
+        "activeUsers": 50.0,
+        "sessions": 54.0,
+        "screenPageViews": 69.0
+      },
+      {
+        "date": "2026-04-17",
+        "activeUsers": 35.0,
+        "sessions": 42.0,
+        "screenPageViews": 43.0
+      },
+      {
+        "date": "2026-04-18",
+        "activeUsers": 26.0,
+        "sessions": 30.0,
+        "screenPageViews": 31.0
+      },
+      {
+        "date": "2026-04-19",
+        "activeUsers": 22.0,
+        "sessions": 25.0,
+        "screenPageViews": 34.0
+      },
+      {
+        "date": "2026-04-20",
+        "activeUsers": 31.0,
+        "sessions": 33.0,
+        "screenPageViews": 52.0
+      },
+      {
+        "date": "2026-04-21",
+        "activeUsers": 50.0,
+        "sessions": 57.0,
+        "screenPageViews": 66.0
+      },
+      {
+        "date": "2026-04-22",
+        "activeUsers": 43.0,
+        "sessions": 52.0,
+        "screenPageViews": 64.0
+      },
+      {
+        "date": "2026-04-23",
+        "activeUsers": 42.0,
+        "sessions": 47.0,
+        "screenPageViews": 72.0
+      },
+      {
+        "date": "2026-04-24",
+        "activeUsers": 37.0,
+        "sessions": 48.0,
+        "screenPageViews": 53.0
+      },
+      {
+        "date": "2026-04-25",
+        "activeUsers": 38.0,
+        "sessions": 43.0,
+        "screenPageViews": 48.0
+      },
+      {
+        "date": "2026-04-26",
+        "activeUsers": 30.0,
+        "sessions": 37.0,
+        "screenPageViews": 33.0
+      },
+      {
+        "date": "2026-04-27",
+        "activeUsers": 56.0,
+        "sessions": 60.0,
+        "screenPageViews": 99.0
+      },
+      {
+        "date": "2026-04-28",
+        "activeUsers": 36.0,
+        "sessions": 49.0,
+        "screenPageViews": 68.0
+      },
+      {
+        "date": "2026-04-29",
+        "activeUsers": 53.0,
+        "sessions": 59.0,
+        "screenPageViews": 84.0
+      },
+      {
+        "date": "2026-04-30",
+        "activeUsers": 45.0,
+        "sessions": 54.0,
+        "screenPageViews": 76.0
+      },
+      {
+        "date": "2026-05-01",
+        "activeUsers": 48.0,
+        "sessions": 51.0,
+        "screenPageViews": 63.0
+      },
+      {
+        "date": "2026-05-02",
+        "activeUsers": 41.0,
+        "sessions": 52.0,
+        "screenPageViews": 75.0
+      },
+      {
+        "date": "2026-05-03",
+        "activeUsers": 30.0,
+        "sessions": 36.0,
+        "screenPageViews": 51.0
+      },
+      {
+        "date": "2026-05-04",
+        "activeUsers": 47.0,
+        "sessions": 56.0,
+        "screenPageViews": 73.0
+      },
+      {
+        "date": "2026-05-05",
+        "activeUsers": 65.0,
+        "sessions": 71.0,
+        "screenPageViews": 75.0
+      },
+      {
+        "date": "2026-05-06",
+        "activeUsers": 83.0,
+        "sessions": 105.0,
+        "screenPageViews": 117.0
+      },
+      {
+        "date": "2026-05-07",
+        "activeUsers": 73.0,
+        "sessions": 90.0,
+        "screenPageViews": 97.0
+      },
+      {
+        "date": "2026-05-08",
+        "activeUsers": 78.0,
+        "sessions": 85.0,
+        "screenPageViews": 118.0
+      },
+      {
+        "date": "2026-05-09",
+        "activeUsers": 53.0,
+        "sessions": 59.0,
+        "screenPageViews": 66.0
+      },
+      {
+        "date": "2026-05-10",
+        "activeUsers": 68.0,
+        "sessions": 77.0,
+        "screenPageViews": 79.0
+      },
+      {
+        "date": "2026-05-11",
+        "activeUsers": 66.0,
+        "sessions": 79.0,
+        "screenPageViews": 87.0
+      },
+      {
+        "date": "2026-05-12",
+        "activeUsers": 77.0,
+        "sessions": 99.0,
+        "screenPageViews": 131.0
+      },
+      {
+        "date": "2026-05-13",
+        "activeUsers": 104.0,
+        "sessions": 114.0,
+        "screenPageViews": 136.0
+      },
+      {
+        "date": "2026-05-14",
+        "activeUsers": 105.0,
+        "sessions": 119.0,
+        "screenPageViews": 131.0
+      },
+      {
+        "date": "2026-05-15",
+        "activeUsers": 76.0,
+        "sessions": 97.0,
+        "screenPageViews": 121.0
+      },
+      {
+        "date": "2026-05-16",
+        "activeUsers": 53.0,
+        "sessions": 61.0,
+        "screenPageViews": 65.0
+      },
+      {
+        "date": "2026-05-17",
+        "activeUsers": 37.0,
+        "sessions": 41.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-05-18",
+        "activeUsers": 91.0,
+        "sessions": 100.0,
+        "screenPageViews": 125.0
+      },
+      {
+        "date": "2026-05-19",
+        "activeUsers": 97.0,
+        "sessions": 111.0,
+        "screenPageViews": 144.0
+      },
+      {
+        "date": "2026-05-20",
+        "activeUsers": 84.0,
+        "sessions": 96.0,
+        "screenPageViews": 107.0
+      },
+      {
+        "date": "2026-05-21",
+        "activeUsers": 86.0,
+        "sessions": 92.0,
+        "screenPageViews": 103.0
+      },
+      {
+        "date": "2026-05-22",
+        "activeUsers": 75.0,
+        "sessions": 87.0,
+        "screenPageViews": 104.0
+      },
+      {
+        "date": "2026-05-23",
+        "activeUsers": 70.0,
+        "sessions": 71.0,
+        "screenPageViews": 82.0
+      },
+      {
+        "date": "2026-05-24",
+        "activeUsers": 81.0,
+        "sessions": 93.0,
+        "screenPageViews": 162.0
+      },
+      {
+        "date": "2026-05-25",
+        "activeUsers": 86.0,
+        "sessions": 97.0,
+        "screenPageViews": 135.0
+      },
+      {
+        "date": "2026-05-26",
+        "activeUsers": 88.0,
+        "sessions": 98.0,
+        "screenPageViews": 121.0
+      },
+      {
+        "date": "2026-05-27",
+        "activeUsers": 93.0,
+        "sessions": 109.0,
+        "screenPageViews": 121.0
+      },
+      {
+        "date": "2026-05-28",
+        "activeUsers": 99.0,
+        "sessions": 116.0,
+        "screenPageViews": 129.0
+      }
+    ],
+    "top_pages": [
+      {
+        "pagePath": "/",
+        "screenPageViews": 16.0,
+        "activeUsers": 13.0,
+        "averageSessionDuration": 86.70148376470588
+      },
+      {
+        "pagePath": "/blogs/4k-editing-pc-setup-2026/",
+        "screenPageViews": 12.0,
+        "activeUsers": 10.0,
+        "averageSessionDuration": 129.9719857
+      },
+      {
+        "pagePath": "/blogs/connection-breaking-up/",
+        "screenPageViews": 11.0,
+        "activeUsers": 6.0,
+        "averageSessionDuration": 230.6652305
+      },
+      {
+        "pagePath": "/blog/2022/07/08/2220708-b1-wifi-2/",
+        "screenPageViews": 6.0,
+        "activeUsers": 5.0,
+        "averageSessionDuration": 1.126154
+      },
+      {
+        "pagePath": "/blogs/network-attached-storage/",
+        "screenPageViews": 6.0,
+        "activeUsers": 4.0,
+        "averageSessionDuration": 1.6696518333333332
+      },
+      {
+        "pagePath": "/aboutus/",
+        "screenPageViews": 4.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 19.007946666666665
+      },
+      {
+        "pagePath": "/blogs/12867/",
+        "screenPageViews": 4.0,
+        "activeUsers": 4.0,
+        "averageSessionDuration": 41.5815114
+      },
+      {
+        "pagePath": "/blog/category/showcase/",
+        "screenPageViews": 3.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 33.2022195
+      },
+      {
+        "pagePath": "/blogs/13335/",
+        "screenPageViews": 3.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 15.106548
+      },
+      {
+        "pagePath": "/blogs/what-is-a-firewall/",
+        "screenPageViews": 3.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 8.27339725
+      }
+    ],
+    "top_sources": [
+      {
+        "sessionSource": "google",
+        "sessions": 58.0,
+        "activeUsers": 46.0
+      },
+      {
+        "sessionSource": "(direct)",
+        "sessions": 50.0,
+        "activeUsers": 46.0
+      },
+      {
+        "sessionSource": "bing",
+        "sessions": 3.0,
+        "activeUsers": 2.0
+      },
+      {
+        "sessionSource": "facebook.com",
+        "sessions": 2.0,
+        "activeUsers": 2.0
+      },
+      {
+        "sessionSource": "tw.search.yahoo.com",
+        "sessions": 2.0,
+        "activeUsers": 2.0
+      },
+      {
+        "sessionSource": "l.facebook.com",
+        "sessions": 1.0,
+        "activeUsers": 1.0
+      }
+    ]
+  },
+  "crawlers": {
+    "data_date": "2026-05-28",
+    "total_today": 83,
+    "avg_7d": 69.3,
+    "pct_vs_7d": 19.8,
+    "by_bot_today": {
+      "OAI-SearchBot": 37,
+      "meta-externalagent": 29,
+      "ChatGPT-User": 14,
+      "Bytespider": 3
+    },
+    "top_uris": [
+      {
+        "uri": "/blogs/connection-breaking-up/",
+        "hits": 2
+      },
+      {
+        "uri": "/sitemap_index.xml",
+        "hits": 2
+      },
+      {
+        "uri": "/blogs/4k-editing-pc-setup-2026/",
+        "hits": 2
+      },
+      {
+        "uri": "/blogs/12867/",
+        "hits": 2
+      },
+      {
+        "uri": "/robots.txt",
+        "hits": 2
+      },
+      {
+        "uri": "/blogs/%E4%B8%AD%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92%E6%80%8E%E9%BA%BC%E8%BE%A6%EF%BC%9F%E5%85%88%E5%81%9A%E9%80%99-4-%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%80%83%E6%85%AE%E4%BB%98%E9%8C%A2%EF%BC%81/",
+        "hits": 2
+      },
+      {
+        "uri": "/blogs/agv-lossless-roaming-stable-connectivity/",
+        "hits": 2
+      },
+      {
+        "uri": "/blogs/enterprise-wifi-planning-guide/",
+        "hits": 2
+      },
+      {
+        "uri": "/blogs/unifi-wifi-optimization-guide/",
+        "hits": 2
+      },
+      {
+        "uri": "/blogs/%e7%82%ba%e4%bb%80%e9%ba%bc%e8%b2%b7%e4%ba%86nas%e5%85%ac%e5%8f%b8%e8%b3%87%e6%96%99%e9%82%84%e6%98%af%e4%b8%8d%e5%ae%89%e5%85%a8%e8%ab%87%e6%b6%88%e8%b2%bb%e7%b4%9a%e8%88%87%e4%bc%81%e6%a5%ad/",
+        "hits": 2
+      }
+    ],
+    "daily": [
+      {
+        "date": "2025-12-01",
+        "total": 0
+      },
+      {
+        "date": "2025-12-02",
+        "total": 0
+      },
+      {
+        "date": "2025-12-03",
+        "total": 0
+      },
+      {
+        "date": "2025-12-04",
+        "total": 0
+      },
+      {
+        "date": "2025-12-05",
+        "total": 0
+      },
+      {
+        "date": "2025-12-06",
+        "total": 0
+      },
+      {
+        "date": "2025-12-07",
+        "total": 0
+      },
+      {
+        "date": "2025-12-08",
+        "total": 0
+      },
+      {
+        "date": "2025-12-09",
+        "total": 0
+      },
+      {
+        "date": "2025-12-10",
+        "total": 0
+      },
+      {
+        "date": "2025-12-11",
+        "total": 0
+      },
+      {
+        "date": "2025-12-12",
+        "total": 0
+      },
+      {
+        "date": "2025-12-13",
+        "total": 0
+      },
+      {
+        "date": "2025-12-14",
+        "total": 0
+      },
+      {
+        "date": "2025-12-15",
+        "total": 0
+      },
+      {
+        "date": "2025-12-16",
+        "total": 0
+      },
+      {
+        "date": "2025-12-17",
+        "total": 0
+      },
+      {
+        "date": "2025-12-18",
+        "total": 0
+      },
+      {
+        "date": "2025-12-19",
+        "total": 0
+      },
+      {
+        "date": "2025-12-20",
+        "total": 0
+      },
+      {
+        "date": "2025-12-21",
+        "total": 0
+      },
+      {
+        "date": "2025-12-22",
+        "total": 0
+      },
+      {
+        "date": "2025-12-23",
+        "total": 0
+      },
+      {
+        "date": "2025-12-24",
+        "total": 0
+      },
+      {
+        "date": "2025-12-25",
+        "total": 0
+      },
+      {
+        "date": "2025-12-26",
+        "total": 0
+      },
+      {
+        "date": "2025-12-27",
+        "total": 0
+      },
+      {
+        "date": "2025-12-28",
+        "total": 0
+      },
+      {
+        "date": "2025-12-29",
+        "total": 0
+      },
+      {
+        "date": "2025-12-30",
+        "total": 0
+      },
+      {
+        "date": "2025-12-31",
+        "total": 0
+      },
+      {
+        "date": "2026-01-01",
+        "total": 0
+      },
+      {
+        "date": "2026-01-02",
+        "total": 0
+      },
+      {
+        "date": "2026-01-03",
+        "total": 0
+      },
+      {
+        "date": "2026-01-04",
+        "total": 0
+      },
+      {
+        "date": "2026-01-05",
+        "total": 0
+      },
+      {
+        "date": "2026-01-06",
+        "total": 0
+      },
+      {
+        "date": "2026-01-07",
+        "total": 0
+      },
+      {
+        "date": "2026-01-08",
+        "total": 0
+      },
+      {
+        "date": "2026-01-09",
+        "total": 0
+      },
+      {
+        "date": "2026-01-10",
+        "total": 0
+      },
+      {
+        "date": "2026-01-11",
+        "total": 0
+      },
+      {
+        "date": "2026-01-12",
+        "total": 0
+      },
+      {
+        "date": "2026-01-13",
+        "total": 0
+      },
+      {
+        "date": "2026-01-14",
+        "total": 0
+      },
+      {
+        "date": "2026-01-15",
+        "total": 0
+      },
+      {
+        "date": "2026-01-16",
+        "total": 0
+      },
+      {
+        "date": "2026-01-17",
+        "total": 0
+      },
+      {
+        "date": "2026-01-18",
+        "total": 0
+      },
+      {
+        "date": "2026-01-19",
+        "total": 0
+      },
+      {
+        "date": "2026-01-20",
+        "total": 0
+      },
+      {
+        "date": "2026-01-21",
+        "total": 0
+      },
+      {
+        "date": "2026-01-22",
+        "total": 0
+      },
+      {
+        "date": "2026-01-23",
+        "total": 0
+      },
+      {
+        "date": "2026-01-24",
+        "total": 0
+      },
+      {
+        "date": "2026-01-25",
+        "total": 0
+      },
+      {
+        "date": "2026-01-26",
+        "total": 0
+      },
+      {
+        "date": "2026-01-27",
+        "total": 0
+      },
+      {
+        "date": "2026-01-28",
+        "total": 0
+      },
+      {
+        "date": "2026-01-29",
+        "total": 0
+      },
+      {
+        "date": "2026-01-30",
+        "total": 0
+      },
+      {
+        "date": "2026-01-31",
+        "total": 0
+      },
+      {
+        "date": "2026-02-01",
+        "total": 0
+      },
+      {
+        "date": "2026-02-02",
+        "total": 0
+      },
+      {
+        "date": "2026-02-03",
+        "total": 0
+      },
+      {
+        "date": "2026-02-04",
+        "total": 0
+      },
+      {
+        "date": "2026-02-05",
+        "total": 0
+      },
+      {
+        "date": "2026-02-06",
+        "total": 0
+      },
+      {
+        "date": "2026-02-07",
+        "total": 0
+      },
+      {
+        "date": "2026-02-08",
+        "total": 0
+      },
+      {
+        "date": "2026-02-09",
+        "total": 0
+      },
+      {
+        "date": "2026-02-10",
+        "total": 0
+      },
+      {
+        "date": "2026-02-11",
+        "total": 0
+      },
+      {
+        "date": "2026-02-12",
+        "total": 0
+      },
+      {
+        "date": "2026-02-13",
+        "total": 0
+      },
+      {
+        "date": "2026-02-14",
+        "total": 0
+      },
+      {
+        "date": "2026-02-15",
+        "total": 0
+      },
+      {
+        "date": "2026-02-16",
+        "total": 0
+      },
+      {
+        "date": "2026-02-17",
+        "total": 0
+      },
+      {
+        "date": "2026-02-18",
+        "total": 0
+      },
+      {
+        "date": "2026-02-19",
+        "total": 0
+      },
+      {
+        "date": "2026-02-20",
+        "total": 0
+      },
+      {
+        "date": "2026-02-21",
+        "total": 0
+      },
+      {
+        "date": "2026-02-22",
+        "total": 0
+      },
+      {
+        "date": "2026-02-23",
+        "total": 0
+      },
+      {
+        "date": "2026-02-24",
+        "total": 0
+      },
+      {
+        "date": "2026-02-25",
+        "total": 0
+      },
+      {
+        "date": "2026-02-26",
+        "total": 0
+      },
+      {
+        "date": "2026-02-27",
+        "total": 0
+      },
+      {
+        "date": "2026-02-28",
+        "total": 0
+      },
+      {
+        "date": "2026-03-01",
+        "total": 0
+      },
+      {
+        "date": "2026-03-02",
+        "total": 0
+      },
+      {
+        "date": "2026-03-03",
+        "total": 0
+      },
+      {
+        "date": "2026-03-04",
+        "total": 0
+      },
+      {
+        "date": "2026-03-05",
+        "total": 0
+      },
+      {
+        "date": "2026-03-06",
+        "total": 0
+      },
+      {
+        "date": "2026-03-07",
+        "total": 0
+      },
+      {
+        "date": "2026-03-08",
+        "total": 0
+      },
+      {
+        "date": "2026-03-09",
+        "total": 0
+      },
+      {
+        "date": "2026-03-10",
+        "total": 0
+      },
+      {
+        "date": "2026-03-11",
+        "total": 0
+      },
+      {
+        "date": "2026-03-12",
+        "total": 0
+      },
+      {
+        "date": "2026-03-13",
+        "total": 0
+      },
+      {
+        "date": "2026-03-14",
+        "total": 0
+      },
+      {
+        "date": "2026-03-15",
+        "total": 0
+      },
+      {
+        "date": "2026-03-16",
+        "total": 0
+      },
+      {
+        "date": "2026-03-17",
+        "total": 0
+      },
+      {
+        "date": "2026-03-18",
+        "total": 0
+      },
+      {
+        "date": "2026-03-19",
+        "total": 0
+      },
+      {
+        "date": "2026-03-20",
+        "total": 0
+      },
+      {
+        "date": "2026-03-21",
+        "total": 0
+      },
+      {
+        "date": "2026-03-22",
+        "total": 0
+      },
+      {
+        "date": "2026-03-23",
+        "total": 0
+      },
+      {
+        "date": "2026-03-24",
+        "total": 0
+      },
+      {
+        "date": "2026-03-25",
+        "total": 0
+      },
+      {
+        "date": "2026-03-26",
+        "total": 0
+      },
+      {
+        "date": "2026-03-27",
+        "total": 0
+      },
+      {
+        "date": "2026-03-28",
+        "total": 0
+      },
+      {
+        "date": "2026-03-29",
+        "total": 0
+      },
+      {
+        "date": "2026-03-30",
+        "total": 0
+      },
+      {
+        "date": "2026-03-31",
+        "total": 0
+      },
+      {
+        "date": "2026-04-01",
+        "total": 0
+      },
+      {
+        "date": "2026-04-02",
+        "total": 0
+      },
+      {
+        "date": "2026-04-03",
+        "total": 0
+      },
+      {
+        "date": "2026-04-04",
+        "total": 0
+      },
+      {
+        "date": "2026-04-05",
+        "total": 0
+      },
+      {
+        "date": "2026-04-06",
+        "total": 0
+      },
+      {
+        "date": "2026-04-07",
+        "total": 0
+      },
+      {
+        "date": "2026-04-08",
+        "total": 0
+      },
+      {
+        "date": "2026-04-09",
+        "total": 0
+      },
+      {
+        "date": "2026-04-10",
+        "total": 0
+      },
+      {
+        "date": "2026-04-11",
+        "total": 0
+      },
+      {
+        "date": "2026-04-12",
+        "total": 0
+      },
+      {
+        "date": "2026-04-13",
+        "total": 0
+      },
+      {
+        "date": "2026-04-14",
+        "total": 0
+      },
+      {
+        "date": "2026-04-15",
+        "total": 0
+      },
+      {
+        "date": "2026-04-16",
+        "total": 0
+      },
+      {
+        "date": "2026-04-17",
+        "total": 0
+      },
+      {
+        "date": "2026-04-18",
+        "total": 0
+      },
+      {
+        "date": "2026-04-19",
+        "total": 0
+      },
+      {
+        "date": "2026-04-20",
+        "total": 0
+      },
+      {
+        "date": "2026-04-21",
+        "total": 0
+      },
+      {
+        "date": "2026-04-22",
+        "total": 0
+      },
+      {
+        "date": "2026-04-23",
+        "total": 0
+      },
+      {
+        "date": "2026-04-24",
+        "total": 0
+      },
+      {
+        "date": "2026-04-25",
+        "total": 0
+      },
+      {
+        "date": "2026-04-26",
+        "total": 0
+      },
+      {
+        "date": "2026-04-27",
+        "total": 0
+      },
+      {
+        "date": "2026-04-28",
+        "total": 0
+      },
+      {
+        "date": "2026-04-29",
+        "total": 29,
+        "Bytespider": 11,
+        "meta-externalagent": 13,
+        "ChatGPT-User": 2,
+        "OAI-SearchBot": 1,
+        "Claude-SearchBot": 1,
+        "CCBot": 1
+      },
+      {
+        "date": "2026-04-30",
+        "total": 53,
+        "meta-externalagent": 38,
+        "ChatGPT-User": 5,
+        "CCBot": 1,
+        "Bytespider": 5,
+        "OAI-SearchBot": 3,
+        "YouBot": 1
+      },
+      {
+        "date": "2026-05-01",
+        "total": 53,
+        "meta-externalagent": 16,
+        "Bytespider": 4,
+        "OAI-SearchBot": 29,
+        "ChatGPT-User": 4
+      },
+      {
+        "date": "2026-05-02",
+        "total": 37,
+        "meta-externalagent": 24,
+        "OAI-SearchBot": 7,
+        "Bytespider": 2,
+        "ChatGPT-User": 4
+      },
+      {
+        "date": "2026-05-03",
+        "total": 37,
+        "meta-externalagent": 29,
+        "Bytespider": 2,
+        "OAI-SearchBot": 3,
+        "ChatGPT-User": 3
+      },
+      {
+        "date": "2026-05-04",
+        "total": 54,
+        "meta-externalagent": 21,
+        "OAI-SearchBot": 21,
+        "ChatGPT-User": 10,
+        "Bytespider": 2
+      },
+      {
+        "date": "2026-05-05",
+        "total": 47,
+        "ChatGPT-User": 9,
+        "meta-externalagent": 25,
+        "Bytespider": 3,
+        "OAI-SearchBot": 10
+      },
+      {
+        "date": "2026-05-06",
+        "total": 144,
+        "meta-externalagent": 99,
+        "OAI-SearchBot": 27,
+        "ChatGPT-User": 11,
+        "Bytespider": 7
+      },
+      {
+        "date": "2026-05-07",
+        "total": 198,
+        "meta-externalagent": 179,
+        "Bytespider": 4,
+        "OAI-SearchBot": 6,
+        "ChatGPT-User": 5,
+        "CCBot": 4
+      },
+      {
+        "date": "2026-05-08",
+        "total": 50,
+        "meta-externalagent": 27,
+        "OAI-SearchBot": 13,
+        "ChatGPT-User": 6,
+        "Bytespider": 4
+      },
+      {
+        "date": "2026-05-09",
+        "total": 56,
+        "meta-externalagent": 26,
+        "Bytespider": 4,
+        "ChatGPT-User": 12,
+        "OAI-SearchBot": 14
+      },
+      {
+        "date": "2026-05-10",
+        "total": 60,
+        "Bytespider": 5,
+        "meta-externalagent": 27,
+        "ChatGPT-User": 5,
+        "OAI-SearchBot": 14,
+        "CCBot": 3,
+        "YouBot": 4,
+        "CohereBot": 1,
+        "Claude-SearchBot": 1
+      },
+      {
+        "date": "2026-05-11",
+        "total": 108,
+        "meta-externalagent": 46,
+        "Bytespider": 4,
+        "ChatGPT-User": 11,
+        "OAI-SearchBot": 47
+      },
+      {
+        "date": "2026-05-12",
+        "total": 286,
+        "meta-externalagent": 187,
+        "ChatGPT-User": 27,
+        "Bytespider": 7,
+        "OAI-SearchBot": 65
+      },
+      {
+        "date": "2026-05-13",
+        "total": 86,
+        "meta-externalagent": 25,
+        "ChatGPT-User": 26,
+        "Claude-SearchBot": 1,
+        "CCBot": 1,
+        "OAI-SearchBot": 25,
+        "CohereBot": 1,
+        "Bytespider": 6,
+        "YouBot": 1
+      },
+      {
+        "date": "2026-05-14",
+        "total": 85,
+        "meta-externalagent": 27,
+        "CCBot": 42,
+        "Bytespider": 3,
+        "ChatGPT-User": 12,
+        "OAI-SearchBot": 1
+      },
+      {
+        "date": "2026-05-15",
+        "total": 68,
+        "Bytespider": 3,
+        "ChatGPT-User": 14,
+        "meta-externalagent": 29,
+        "OAI-SearchBot": 22
+      },
+      {
+        "date": "2026-05-16",
+        "total": 25,
+        "ChatGPT-User": 7,
+        "Bytespider": 2,
+        "OAI-SearchBot": 2,
+        "meta-externalagent": 14
+      },
+      {
+        "date": "2026-05-17",
+        "total": 36,
+        "meta-externalagent": 22,
+        "ChatGPT-User": 8,
+        "OAI-SearchBot": 4,
+        "Bytespider": 2
+      },
+      {
+        "date": "2026-05-18",
+        "total": 97,
+        "meta-externalagent": 30,
+        "Bytespider": 7,
+        "ChatGPT-User": 18,
+        "OAI-SearchBot": 33,
+        "YouBot": 2,
+        "CCBot": 4,
+        "CohereBot": 2,
+        "Claude-SearchBot": 1
+      },
+      {
+        "date": "2026-05-19",
+        "total": 68,
+        "meta-externalagent": 22,
+        "ChatGPT-User": 19,
+        "Bytespider": 3,
+        "OAI-SearchBot": 24
+      },
+      {
+        "date": "2026-05-20",
+        "total": 54,
+        "meta-externalagent": 29,
+        "ChatGPT-User": 16,
+        "OAI-SearchBot": 8,
+        "Bytespider": 1
+      },
+      {
+        "date": "2026-05-21",
+        "total": 59,
+        "ChatGPT-User": 10,
+        "OAI-SearchBot": 26,
+        "Bytespider": 2,
+        "meta-externalagent": 21
+      },
+      {
+        "date": "2026-05-22",
+        "total": 44,
+        "meta-externalagent": 24,
+        "OAI-SearchBot": 11,
+        "ChatGPT-User": 6,
+        "Bytespider": 3
+      },
+      {
+        "date": "2026-05-23",
+        "total": 54,
+        "meta-externalagent": 36,
+        "ChatGPT-User": 12,
+        "Bytespider": 4,
+        "OAI-SearchBot": 2
+      },
+      {
+        "date": "2026-05-24",
+        "total": 97,
+        "meta-externalagent": 40,
+        "ChatGPT-User": 18,
+        "OAI-SearchBot": 36,
+        "Bytespider": 3
+      },
+      {
+        "date": "2026-05-25",
+        "total": 72,
+        "meta-externalagent": 30,
+        "ChatGPT-User": 13,
+        "OAI-SearchBot": 24,
+        "Bytespider": 5
+      },
+      {
+        "date": "2026-05-26",
+        "total": 99,
+        "meta-externalagent": 27,
+        "ChatGPT-User": 19,
+        "Bytespider": 8,
+        "OAI-SearchBot": 39,
+        "CohereBot": 1,
+        "DuckAssistBot": 2,
+        "Diffbot": 1,
+        "Google-Extended": 2
+      },
+      {
+        "date": "2026-05-27",
+        "total": 60,
+        "ChatGPT-User": 9,
+        "OAI-SearchBot": 20,
+        "meta-externalagent": 30,
+        "Bytespider": 1
+      },
+      {
+        "date": "2026-05-28",
+        "total": 83,
+        "meta-externalagent": 29,
+        "ChatGPT-User": 14,
+        "Bytespider": 3,
+        "OAI-SearchBot": 37
+      },
+      {
+        "date": "2026-05-29",
+        "total": 0
+      }
+    ],
+    "raw_sample": [
+      {
+        "ts": "2026-05-28 00:13:04",
+        "ip": "2a03:2880:f812:1d::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/%e5%85%b1%e4%ba%ab%e8%be%a6%e5%85%ac%e5%ae%a4/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 00:33:27",
+        "ip": "2a03:2880:f812:64::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%92/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 01:09:57",
+        "ip": "20.194.157.181",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/connection-breaking-up/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 01:31:59",
+        "ip": "2a03:2880:f812:4a::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/sitemap_index.xml",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 01:55:59",
+        "ip": "172.215.218.105",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/4k-editing-pc-setup-2026/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 02:11:06",
+        "ip": "110.249.201.24",
+        "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+        "uri": "/blog-tag/%E8%A8%AD%E5%82%99%E7%A7%9F%E8%B3%83/",
+        "bot_name": "Bytespider"
+      },
+      {
+        "ts": "2026-05-28 02:51:19",
+        "ip": "4.189.119.61",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/12867/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 03:58:04",
+        "ip": "2a03:2880:f812:19::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/all_helpie_faq_page/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 05:31:59",
+        "ip": "2a03:2880:f812:16::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/post-sitemap1.xml",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 05:43:39",
+        "ip": "2a03:2880:f812:7a::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/%e4%bc%81%e6%a5%ad/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 06:36:30",
+        "ip": "2a03:2880:f812:1b::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/4k%e9%9b%bb%e8%85%a6/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 06:41:27",
+        "ip": "2a03:2880:f812:20::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/qnap%e6%9c%8d%e5%8b%99%e4%b8%ad%e5%bf%83/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 06:43:43",
+        "ip": "20.194.157.184",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/connection-breaking-up/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 07:15:36",
+        "ip": "74.7.244.48",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; robots.txt; +https://openai.com/searchbot",
+        "uri": "/robots.txt",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 07:20:36",
+        "ip": "2a03:2880:f812:58::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/post_tag-sitemap1.xml",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 07:34:57",
+        "ip": "20.169.78.202",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/4k-editing-pc-setup-2026/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 08:17:13",
+        "ip": "23.98.142.179",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/12881/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 08:21:22",
+        "ip": "2a03:2880:f812:7a::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/helpie_faq_page/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 08:23:01",
+        "ip": "13.76.115.250",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/12867/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 08:32:23",
+        "ip": "52.154.22.51",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/%E4%B8%AD%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92%E6%80%8E%E9%BA%BC%E8%BE%A6%EF%BC%9F%E5%85%88%E5%81%9A%E9%80%99-4-%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%80%83%E6%85%AE%E4%BB%98%E9%8C%A2%EF%BC%81/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 08:43:42",
+        "ip": "2a03:2880:f812:d::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/%e5%a4%a7%e7%af%84%e5%9c%8d%e7%84%a1%e7%b7%9a%e7%b6%b2%e8%b7%af/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 09:00:05",
+        "ip": "52.173.235.81",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/agv-lossless-roaming-stable-connectivity/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 09:06:44",
+        "ip": "74.7.242.131",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blogs/%E4%B8%AD%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92%E6%80%8E%E9%BA%BC%E8%BE%A6%EF%BC%9F%E5%85%88%E5%81%9A%E9%80%99-4-%E4%BB%B6%E4%BA%8B%E5%86%8D%E8%80%83%E6%85%AE%E4%BB%98%E9%8C%A2%EF%BC%81/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:06:47",
+        "ip": "74.7.242.131",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blogs/%e8%93%8b%e6%96%af%e5%85%8b%e7%a7%91%e6%8a%80%e6%a6%ae%e7%8d%b2moxa%e6%ac%8a%e5%a8%81%e8%aa%8d%e8%ad%89%ef%bc%8c%e5%b0%88%e6%a5%ad%e9%a0%98%e8%88%aa%e5%b7%a5%e6%a5%ad%e7%84%a1%e7%b7%9a%e7%b6%b2/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:06:50",
+        "ip": "74.7.243.35",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blogs/2024%e9%98%b2%e7%81%ab%e7%89%86%e6%8e%a1%e8%b3%bc%e6%8c%87%e5%8d%97%ef%bd%9c%e9%98%b2%e7%81%ab%e7%89%86%e9%87%8d%e8%a6%81%e5%97%8e%ef%bc%9f%e4%bc%81%e6%a5%ad%e9%98%b2%e7%81%ab%e7%89%86%e6%8e%a1/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:06:55",
+        "ip": "74.7.242.128",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blog/2021/04/22/nas-7zvirus/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:07:00",
+        "ip": "74.7.228.254",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blog/2022/11/08/221108-mulitwan-capsule/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:38:22",
+        "ip": "74.7.243.8",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blogs/agv-lossless-roaming-stable-connectivity/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:38:25",
+        "ip": "74.7.229.188",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/wp-json/wp/v2/blogs/13056",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:38:28",
+        "ip": "74.7.229.188",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blogs/warehouse-wifi-design/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:38:28",
+        "ip": "74.7.229.188",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blogs/warehouse-wifi-design-guide/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:38:35",
+        "ip": "74.7.228.251",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Fagv-lossless-roaming-stable-connectivity%2F",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:38:36",
+        "ip": "74.7.228.254",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Fagv-lossless-roaming-stable-connectivity%2F",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:38:37",
+        "ip": "74.7.242.131",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blogs/high-density-wi-fi-capacity-planning/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:38:42",
+        "ip": "74.7.228.251",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/?p=13056",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 09:40:00",
+        "ip": "2a03:2880:f812:31::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/news_sitemap.xml",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 10:24:18",
+        "ip": "2a03:2880:f812:73::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/%e9%9b%b2%e7%ab%af%e8%b3%87%e6%96%99%e5%84%b2%e5%ad%98/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 12:28:24",
+        "ip": "172.204.27.17",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/davinci-premiere-pc-2026/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 13:13:15",
+        "ip": "2a03:2880:f812:64::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/4k%e5%89%aa%e8%bc%af/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 13:45:12",
+        "ip": "13.76.115.245",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/enterprise-wifi-planning-guide/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 13:46:04",
+        "ip": "2a03:2880:f812:2d::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/sitemap.html",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 13:52:10",
+        "ip": "2a03:2880:f812:48::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/10g%e9%ab%98%e9%80%9f%e7%b6%b2%e8%b7%af/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 13:55:05",
+        "ip": "110.249.202.117",
+        "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+        "uri": "/robots.txt",
+        "bot_name": "Bytespider"
+      },
+      {
+        "ts": "2026-05-28 15:34:32",
+        "ip": "2a03:2880:f812:b::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/%e8%be%a6%e5%85%ac%e5%ae%a4%e7%84%a1%e7%b7%9a%e7%b6%b2%e8%b7%af/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 16:01:40",
+        "ip": "2a03:2880:f812:51::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/%e7%b6%b2%e8%b7%af%e4%b8%8d%e5%a1%9e%e8%bb%8a/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-05-28 16:09:04",
+        "ip": "172.204.27.26",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/unifi-wifi-optimization-guide/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-05-28 16:11:09",
+        "ip": "74.7.228.254",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blogs/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%B2%B7%E4%BA%86nas%E5%85%AC%E5%8F%B8%E8%B3%87%E6%96%99%E9%82%84%E6%98%AF%E4%B8%8D%E5%AE%89%E5%85%A8%E8%AB%87%E6%B6%88%E8%B2%BB%E7%B4%9A%E8%88%87%E4%BC%81%E6%A5%AD/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 16:11:18",
+        "ip": "74.7.242.128",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/wp-json/wp/v2/blogs/12609",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 16:11:21",
+        "ip": "74.7.242.131",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/%e8%93%8b%e6%96%af%e5%85%8b%e7%a7%91%e6%8a%80_%e7%ad%86%e9%9b%bb%e7%a7%9f%e8%b3%83%e6%96%b9%e6%a1%88%e8%aa%aa%e6%98%8e/",
+        "bot_name": "OAI-SearchBot"
+      },
+      {
+        "ts": "2026-05-28 16:11:21",
+        "ip": "74.7.242.131",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+        "uri": "/blog/2023/03/15/%e8%93%8b%e6%96%af%e5%85%8b%e7%a7%91%e6%8a%80_%e7%ad%86%e9%9b%bb%e7%a7%9f%e8%b3%83%e6%96%b9%e6%a1%88%e8%aa%aa%e6%98%8e/",
+        "bot_name": "OAI-SearchBot"
+      }
+    ]
+  },
+  "aeo": {
+    "source": "fallback",
+    "score": 100,
+    "checks": {
+      "robots_txt_present": true,
+      "llms_txt_present": true,
+      "sitemap_xml_present": true,
+      "home_reachable": true,
+      "json_ld_present": true,
+      "bots_allowed": {
+        "GPTBot": true,
+        "ClaudeBot": true,
+        "Google-Extended": true,
+        "PerplexityBot": true,
+        "CCBot": true,
+        "Applebot-Extended": true,
+        "Amazonbot": true,
+        "Bytespider": true
+      }
+    }
+  },
+  "errors": {
+    "gsc": null,
+    "ga4": null,
+    "crawlers": null,
+    "aeo": null
+  }
+}
