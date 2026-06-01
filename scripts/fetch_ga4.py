@@ -81,12 +81,30 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
         },
     )
 
+    # source + medium：揭露 direct 真相。單看 sessionSource 無法分辨 (direct) 是
+    # 真直接流量還是 LINE/表單/社群未標 UTM 被併入。加上 sessionMedium 後可見
+    # 例如 line/social、l.facebook.com/referral、(direct)/(none)。
     sources = _run(
         client,
         prop,
         {
             "date_ranges": [DateRange(start_date=latest_date, end_date=latest_date)],
-            "dimensions": [Dimension(name="sessionSource")],
+            "dimensions": [Dimension(name="sessionSource"), Dimension(name="sessionMedium")],
+            "metrics": [Metric(name="sessions"), Metric(name="activeUsers")],
+            "order_bys": [OrderBy(metric=OrderBy.MetricOrderBy(metric_name="sessions"), desc=True)],
+            "limit": 10,
+        },
+    )
+
+    # GA4 自動管道分類：Direct / Organic Search / Organic Social / Referral /
+    # Email / Paid Search…。一眼看出 direct 占比，判斷是否有 referral/social
+    # 流量本應更高卻被併入 Direct（= 連結未加 UTM）。
+    channels = _run(
+        client,
+        prop,
+        {
+            "date_ranges": [DateRange(start_date=latest_date, end_date=latest_date)],
+            "dimensions": [Dimension(name="sessionDefaultChannelGroup")],
             "metrics": [Metric(name="sessions"), Metric(name="activeUsers")],
             "order_bys": [OrderBy(metric=OrderBy.MetricOrderBy(metric_name="sessions"), desc=True)],
             "limit": 10,
@@ -98,6 +116,7 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
         "daily": daily,
         "top_pages": pages,
         "top_sources": sources,
+        "channels": channels,
     }
 
 

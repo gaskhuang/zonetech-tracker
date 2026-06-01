@@ -176,13 +176,26 @@
 <section>
   <h2>GA4 流量來源</h2>
   <table>
-    <thead><tr><th>來源</th><th class="num">工作階段</th><th class="num">使用者</th></tr></thead>
+    <thead><tr><th>來源</th><th>媒介</th><th class="num">工作階段</th><th class="num">使用者</th></tr></thead>
     <tbody>
       {% for s in (ga4.top_sources if ga4 else []) %}
-      <tr><td>{{ s.sessionSource }}</td><td class="num">{{ s.sessions | int }}</td><td class="num">{{ s.activeUsers | int }}</td></tr>
+      <tr><td>{{ s.sessionSource }}</td><td>{{ s.sessionMedium }}</td><td class="num">{{ s.sessions | int }}</td><td class="num">{{ s.activeUsers | int }}</td></tr>
+      {% else %}<tr><td colspan="4">無資料</td></tr>{% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>GA4 管道分類（Channel Group）</h2>
+  <table>
+    <thead><tr><th>管道</th><th class="num">工作階段</th><th class="num">使用者</th></tr></thead>
+    <tbody>
+      {% for c in (ga4.channels if ga4 else []) %}
+      <tr><td>{{ c.sessionDefaultChannelGroup }}</td><td class="num">{{ c.sessions | int }}</td><td class="num">{{ c.activeUsers | int }}</td></tr>
       {% else %}<tr><td colspan="3">無資料</td></tr>{% endfor %}
     </tbody>
   </table>
+  <div class="sub" style="margin-top:8px;font-size:11px;color:var(--muted)">若 Direct 明顯偏高且 Referral／Organic Social 偏低，代表 LINE／表單／社群連結未加 UTM，流量被併入 Direct。建議為外部導流連結加上 <code>?utm_source=…&amp;utm_medium=…</code> 標記。</div>
 </section>
 
 <section>
