@@ -837,15 +837,43 @@ function ztk_faqpage_jsonld() {
 //    用 init priority=1 最早攔截，確保覆蓋其他 plugin 的 llms.txt handler
 // =====================================================================
 add_action( 'init', 'ztk_serve_llms_txt', 1 );
+
+function ztk_llms_single_line( string $text ): string {
+    $text = wp_specialchars_decode( wp_strip_all_tags( $text ), ENT_QUOTES );
+    $text = preg_replace( '/\s+/u', ' ', $text );
+    return trim( $text );
+}
+
+function ztk_llms_md_link_text( string $text ): string {
+    $text = ztk_llms_single_line( $text );
+    return str_replace(
+        [ '\\', '[', ']', '(', ')' ],
+        [ '\\\\', '\[', '\]', '\(', '\)' ],
+        $text
+    );
+}
+
+function ztk_llms_is_redirected_url( string $url ): bool {
+    $path = rtrim( urldecode( parse_url( $url, PHP_URL_PATH ) ?: '' ), '/' );
+    foreach ( ZTK_REDIRECT_PATHS as $from ) {
+        $from = rtrim( $from, '/' );
+        if ( $path === $from || str_starts_with( $path, $from . '/' ) ) {
+            return true;
+        }
+    }
+    return false;
+}
+
 function ztk_serve_llms_txt() {
     if ( ! isset( $_SERVER['REQUEST_URI'] ) ) { return; }
     $path = strtok( $_SERVER['REQUEST_URI'], '?' );
     if ( $path !== '/llms.txt' ) { return; }
 
-    // 抓最新 10 篇文章（標題 + 摘要）
+    // 抓最新 12 篇文章（標題 + 摘要），支援一般文章與 blogs CPT。
     $posts = get_posts( [
-        'numberposts' => 10,
+        'numberposts' => 12,
         'post_status' => 'publish',
+        'post_type'   => [ 'post', 'blogs' ],
         'orderby'     => 'date',
         'order'       => 'DESC',
     ] );
@@ -854,7 +882,7 @@ function ztk_serve_llms_txt() {
         '# 蓋斯克科技-ZONETECH',
         '',
         '> 企業級大型場域無線網路建置｜智慧工廠WiFi｜倉儲WiFi｜辦公室網路規劃｜商務中心網路',
-        '> Last updated: ' . gmdate( 'Y-m-d' ),
+        '> Last updated: ' . wp_date( 'Y-m-d' ),
         '',
         '## About',
         '',
@@ -867,6 +895,7 @@ function ztk_serve_llms_txt() {
         '',
         '主要服務：企業級 Cisco / UniFi 無線網路規劃、多WAN頻寬整合（雙WAN / SD-WAN）、企業防火牆建置（Fortinet / pfSense）。',
         '擁有 200坪以上辦公室、跨樓層、地下室、大型倉儲實際成功案例。',
+        '核心主題：工廠WiFi、倉儲WiFi、企業WiFi建置、辦公室網路規劃、商務中心網路、多WAN備援、企業防火牆。',
         '',
         '## Services',
         '',
@@ -875,34 +904,53 @@ function ztk_serve_llms_txt() {
         '- 辦公室/商辦網路規劃（大型開放空間漫遊、視訊會議優化）',
         '- 商務中心多租戶網路（VLAN隔離、獨立頻寬控制）',
         '- 企業防火牆/雙WAN建置（頻寬合併、備援切換）',
-        '- AI 爬蟲友善最佳化（llms.txt / robots.txt / 結構化資料）',
         '',
-        '## Key Topic Pages（主要主題頁）',
+        '## Core Topic Pages',
         '',
-        '- [企業WiFi建置｜辦公室無線網路規劃](https://zonetech.tw/network/): 企業WiFi、辦公室無線網路、企業網路建置；完整WiFi規劃、有線無線混合架構，200+案例。',
-        '- [辦公室Wi-Fi斷線、網路不穩怎麼辦？6大原因+解法](https://zonetech.tw/blogs/connection-breaking-up/): 網路不穩、掉線原因拆解（分享器超載、路由器老舊、訊號干擾）+ 自助診斷與企業升級方案。',
-        '- [企業雲端儲存｜NAS建置規劃｜QNAP Synology](https://zonetech.tw/nas/): 企業NAS與雲端儲存，QNAP/Synology原廠授權，資料備份、勒索病毒防護、多人協作存取。',
-        '- [4K影音剪輯工作站網路建置](https://zonetech.tw/4k/): 高頻寬影音剪輯／4K工作站網路規劃，大檔案傳輸與多機協作環境。',
+        '- [企業WiFi建置｜辦公室無線網路規劃](https://zonetech.tw/network/): 企業WiFi、辦公室無線網路、跨樓層與大型場域網路規劃。',
+        '- [工廠與倉儲WiFi建置指南](https://zonetech.tw/blogs/factory-warehouse-wifi-guide/): 智慧工廠、大型倉儲、AGV、WMS、條碼掃描與高密度設備連線規劃。',
+        '- [企業WiFi規劃完整指南](https://zonetech.tw/blogs/enterprise-wifi-planning-guide/): AP佈點、漫遊、容量估算、VLAN與企業網路架構規劃。',
+        '- [智慧工廠網路規劃指南](https://zonetech.tw/blogs/smart-factory-network-planning-guide/): 工業場域、產線設備、低延遲無線網路與資安分區設計。',
+        '- [倉儲WiFi設計指南](https://zonetech.tw/blogs/warehouse-wifi-design-guide/): 高貨架、通道覆蓋、盤點槍、叉車通訊與倉庫漫遊穩定度。',
+        '- [商務中心WiFi建置指南](https://zonetech.tw/blogs/business-center-wifi-deployment-guide/): 多租戶網路、VLAN隔離、頻寬控管、訪客網路與營運維護。',
+        '- [企業防火牆是什麼](https://zonetech.tw/blogs/what-is-a-firewall/): 企業防火牆、雙WAN備援、資安控管與內外網路隔離。',
+        '- [成功案例](https://zonetech.tw/cases/): 蓋斯克科技企業網路、無線網路與大型場域建置案例。',
         '',
-        '## Target Keywords',
+        '## Troubleshooting Guides',
         '',
-        '工廠WiFi, 倉儲WiFi, 工廠無線網路, 倉庫WiFi, 辦公室網路規劃, 企業WiFi建置,',
-        '商務中心WiFi, 網路規劃公司, 企業網路, 無線網路規劃, 大型場域WiFi',
+        '- [辦公室Wi-Fi斷線、網路不穩怎麼辦？](https://zonetech.tw/blogs/connection-breaking-up/): 網路不穩、掉線、分享器超載、路由器老舊與訊號干擾診斷。',
+        '- [WiFi滿格但很慢的原因](https://zonetech.tw/blogs/wifi-full-bars-but-slow-2026/): 滿格低速、頻寬瓶頸、干擾、AP負載與企業升級判斷。',
+        '- [UniFi WiFi優化指南](https://zonetech.tw/blogs/unifi-wifi-optimization-guide/): UniFi AP、頻道、功率、漫遊與高密度環境調校。',
+        '- [訪客WiFi與VLAN設定指南](https://zonetech.tw/blogs/visitor-wifi-vlan-setup-guide/): 訪客網路、VLAN隔離、企業內網保護與存取控管。',
         '',
         '## Search',
         '',
-        '- Search URL: `https://zonetech.tw?s={query}`',
+        '- [Site search](https://zonetech.tw/?s={query}): Search ZONETECH content by keyword.',
+        '',
+        '## Contact',
+        '',
+        '- [企業網路建置諮詢](https://zonetech.tw/contact/): 詢問工廠WiFi、倉儲WiFi、辦公室網路、商務中心網路與企業防火牆規劃。',
+        '',
+        '## Optional',
+        '',
+        '- [企業雲端儲存｜NAS建置規劃](https://zonetech.tw/nas/): 企業NAS、備份、協作存取與資料保護；屬於延伸服務，非主要WiFi主題。',
+        '- [4K影音剪輯工作站網路建置](https://zonetech.tw/4k/): 高頻寬影音剪輯／4K工作站網路規劃，大檔案傳輸與多機協作環境；屬於延伸服務。',
+        '- [IT設備租賃](https://zonetech.tw/equipment-leasing/): 電腦、網通與辦公設備租賃；屬於延伸服務，必要時再讀取。',
         '',
         '## Recent Content',
         '',
     ];
 
     foreach ( $posts as $post ) {
-        $title   = $post->post_title;
-        $url     = get_permalink( $post->ID );
-        $excerpt = wp_strip_all_tags( get_the_excerpt( $post->ID ) );
+        $url = get_permalink( $post->ID );
+        if ( ! $url || ztk_llms_is_redirected_url( $url ) ) {
+            continue;
+        }
+
+        $title   = ztk_llms_md_link_text( $post->post_title );
+        $excerpt = ztk_llms_single_line( get_the_excerpt( $post->ID ) );
         if ( ! $excerpt ) {
-            $excerpt = wp_trim_words( wp_strip_all_tags( $post->post_content ), 20 );
+            $excerpt = wp_trim_words( ztk_llms_single_line( $post->post_content ), 20 );
         }
         $excerpt = mb_substr( $excerpt, 0, 120 );
         $lines[] = "- [{$title}]({$url}): {$excerpt}";
