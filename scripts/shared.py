@@ -54,7 +54,7 @@ class DateWindows:
 
     @property
     def gsc_day(self) -> date:
-        return self.report_for - timedelta(days=2)
+        return self.report_for - timedelta(days=1)
 
     @property
     def ga4_day(self) -> date:
