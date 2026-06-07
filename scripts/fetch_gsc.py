@@ -43,7 +43,7 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
             "endDate": iso(windows.gsc_day),
             "dimensions": ["date"],
             "rowLimit": 200,
-            "dataState": "all",
+            "dataState": "all",   # include fresh D-1 data (~95% complete)
         },
     )
     daily = [
@@ -69,6 +69,7 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
             "endDate": latest_date,
             "dimensions": ["query"],
             "rowLimit": 10,
+            "dataState": "all",   # must match trend query so latest_date has rows
         },
     )
     pages = _query(
@@ -79,6 +80,7 @@ def fetch(windows: DateWindows) -> dict[str, Any]:
             "endDate": latest_date,
             "dimensions": ["page"],
             "rowLimit": 10,
+            "dataState": "all",   # must match trend query so latest_date has rows
         },
     )
 

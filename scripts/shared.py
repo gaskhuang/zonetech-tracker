@@ -54,6 +54,9 @@ class DateWindows:
 
     @property
     def gsc_day(self) -> date:
+        # With dataState="all" the API returns data as fresh as D-1 (~95% complete).
+        # The latest_date fallback in fetch_gsc.py handles the rare case where D-1
+        # is still empty (drops back to the last row that actually has data).
         return self.report_for - timedelta(days=1)
 
     @property
