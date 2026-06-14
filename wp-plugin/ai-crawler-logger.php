@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 // CONFIG — edit AICL_TOKEN before uploading. Use a 32-char random string.
 // =====================================================================
 if ( ! defined( 'AICL_TOKEN' ) ) {
-    define( 'AICL_TOKEN', 'REPLACE_WITH_32_CHAR_RANDOM_TOKEN' );
+    define( 'AICL_TOKEN', '1a9dcba0ef3226dcc563821ea4ddb085' );
 }
 if ( ! defined( 'AICL_RETENTION_DAYS' ) ) {
     define( 'AICL_RETENTION_DAYS', 90 );
