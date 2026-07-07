@@ -1,0 +1,4133 @@
+{
+  "report_date": "2026-07-08",
+  "generated_at": "2026-07-07T20:44:33Z",
+  "windows": {
+    "gsc_day": "2026-07-07",
+    "ga4_day": "2026-07-07",
+    "crawlers_day": "2026-07-07"
+  },
+  "gsc": {
+    "data_date": "2026-07-07",
+    "daily": [
+      {
+        "date": "2026-01-10",
+        "clicks": 20,
+        "impressions": 1465,
+        "ctr": 1.37,
+        "position": 9.05
+      },
+      {
+        "date": "2026-01-11",
+        "clicks": 29,
+        "impressions": 1860,
+        "ctr": 1.56,
+        "position": 9.16
+      },
+      {
+        "date": "2026-01-12",
+        "clicks": 31,
+        "impressions": 2082,
+        "ctr": 1.49,
+        "position": 8.18
+      },
+      {
+        "date": "2026-01-13",
+        "clicks": 28,
+        "impressions": 1908,
+        "ctr": 1.47,
+        "position": 8.07
+      },
+      {
+        "date": "2026-01-14",
+        "clicks": 23,
+        "impressions": 1930,
+        "ctr": 1.19,
+        "position": 8.58
+      },
+      {
+        "date": "2026-01-15",
+        "clicks": 29,
+        "impressions": 2030,
+        "ctr": 1.43,
+        "position": 9.82
+      },
+      {
+        "date": "2026-01-16",
+        "clicks": 23,
+        "impressions": 1606,
+        "ctr": 1.43,
+        "position": 8.62
+      },
+      {
+        "date": "2026-01-17",
+        "clicks": 14,
+        "impressions": 1308,
+        "ctr": 1.07,
+        "position": 8.98
+      },
+      {
+        "date": "2026-01-18",
+        "clicks": 26,
+        "impressions": 1918,
+        "ctr": 1.36,
+        "position": 9.71
+      },
+      {
+        "date": "2026-01-19",
+        "clicks": 34,
+        "impressions": 1981,
+        "ctr": 1.72,
+        "position": 8.24
+      },
+      {
+        "date": "2026-01-20",
+        "clicks": 19,
+        "impressions": 1924,
+        "ctr": 0.99,
+        "position": 8.4
+      },
+      {
+        "date": "2026-01-21",
+        "clicks": 30,
+        "impressions": 1992,
+        "ctr": 1.51,
+        "position": 10.77
+      },
+      {
+        "date": "2026-01-22",
+        "clicks": 19,
+        "impressions": 1860,
+        "ctr": 1.02,
+        "position": 9.08
+      },
+      {
+        "date": "2026-01-23",
+        "clicks": 10,
+        "impressions": 1463,
+        "ctr": 0.68,
+        "position": 8.47
+      },
+      {
+        "date": "2026-01-24",
+        "clicks": 15,
+        "impressions": 1367,
+        "ctr": 1.1,
+        "position": 9.77
+      },
+      {
+        "date": "2026-01-25",
+        "clicks": 23,
+        "impressions": 2075,
+        "ctr": 1.11,
+        "position": 9.87
+      },
+      {
+        "date": "2026-01-26",
+        "clicks": 27,
+        "impressions": 1991,
+        "ctr": 1.36,
+        "position": 9.37
+      },
+      {
+        "date": "2026-01-27",
+        "clicks": 26,
+        "impressions": 1834,
+        "ctr": 1.42,
+        "position": 8.83
+      },
+      {
+        "date": "2026-01-28",
+        "clicks": 19,
+        "impressions": 1683,
+        "ctr": 1.13,
+        "position": 9.18
+      },
+      {
+        "date": "2026-01-29",
+        "clicks": 24,
+        "impressions": 1758,
+        "ctr": 1.37,
+        "position": 10.88
+      },
+      {
+        "date": "2026-01-30",
+        "clicks": 15,
+        "impressions": 1409,
+        "ctr": 1.06,
+        "position": 10.77
+      },
+      {
+        "date": "2026-01-31",
+        "clicks": 4,
+        "impressions": 1124,
+        "ctr": 0.36,
+        "position": 12.77
+      },
+      {
+        "date": "2026-02-01",
+        "clicks": 19,
+        "impressions": 1464,
+        "ctr": 1.3,
+        "position": 9.84
+      },
+      {
+        "date": "2026-02-02",
+        "clicks": 23,
+        "impressions": 1423,
+        "ctr": 1.62,
+        "position": 8.21
+      },
+      {
+        "date": "2026-02-03",
+        "clicks": 20,
+        "impressions": 1506,
+        "ctr": 1.33,
+        "position": 8.14
+      },
+      {
+        "date": "2026-02-04",
+        "clicks": 23,
+        "impressions": 1586,
+        "ctr": 1.45,
+        "position": 9.37
+      },
+      {
+        "date": "2026-02-05",
+        "clicks": 17,
+        "impressions": 1572,
+        "ctr": 1.08,
+        "position": 12.48
+      },
+      {
+        "date": "2026-02-06",
+        "clicks": 17,
+        "impressions": 1179,
+        "ctr": 1.44,
+        "position": 11.17
+      },
+      {
+        "date": "2026-02-07",
+        "clicks": 12,
+        "impressions": 1123,
+        "ctr": 1.07,
+        "position": 11.07
+      },
+      {
+        "date": "2026-02-08",
+        "clicks": 9,
+        "impressions": 1304,
+        "ctr": 0.69,
+        "position": 10.09
+      },
+      {
+        "date": "2026-02-09",
+        "clicks": 25,
+        "impressions": 2629,
+        "ctr": 0.95,
+        "position": 16.17
+      },
+      {
+        "date": "2026-02-10",
+        "clicks": 27,
+        "impressions": 2189,
+        "ctr": 1.23,
+        "position": 14.24
+      },
+      {
+        "date": "2026-02-11",
+        "clicks": 17,
+        "impressions": 1309,
+        "ctr": 1.3,
+        "position": 9.8
+      },
+      {
+        "date": "2026-02-12",
+        "clicks": 16,
+        "impressions": 1200,
+        "ctr": 1.33,
+        "position": 9.35
+      },
+      {
+        "date": "2026-02-13",
+        "clicks": 9,
+        "impressions": 1048,
+        "ctr": 0.86,
+        "position": 12.27
+      },
+      {
+        "date": "2026-02-14",
+        "clicks": 7,
+        "impressions": 827,
+        "ctr": 0.85,
+        "position": 10.04
+      },
+      {
+        "date": "2026-02-15",
+        "clicks": 5,
+        "impressions": 849,
+        "ctr": 0.59,
+        "position": 9.77
+      },
+      {
+        "date": "2026-02-16",
+        "clicks": 7,
+        "impressions": 794,
+        "ctr": 0.88,
+        "position": 9.21
+      },
+      {
+        "date": "2026-02-17",
+        "clicks": 5,
+        "impressions": 828,
+        "ctr": 0.6,
+        "position": 12.16
+      },
+      {
+        "date": "2026-02-18",
+        "clicks": 4,
+        "impressions": 894,
+        "ctr": 0.45,
+        "position": 10.96
+      },
+      {
+        "date": "2026-02-19",
+        "clicks": 6,
+        "impressions": 876,
+        "ctr": 0.68,
+        "position": 12.11
+      },
+      {
+        "date": "2026-02-20",
+        "clicks": 6,
+        "impressions": 893,
+        "ctr": 0.67,
+        "position": 10.78
+      },
+      {
+        "date": "2026-02-21",
+        "clicks": 8,
+        "impressions": 987,
+        "ctr": 0.81,
+        "position": 10.51
+      },
+      {
+        "date": "2026-02-22",
+        "clicks": 21,
+        "impressions": 1448,
+        "ctr": 1.45,
+        "position": 9.27
+      },
+      {
+        "date": "2026-02-23",
+        "clicks": 16,
+        "impressions": 1369,
+        "ctr": 1.17,
+        "position": 9.16
+      },
+      {
+        "date": "2026-02-24",
+        "clicks": 17,
+        "impressions": 1295,
+        "ctr": 1.31,
+        "position": 9.49
+      },
+      {
+        "date": "2026-02-25",
+        "clicks": 18,
+        "impressions": 1675,
+        "ctr": 1.07,
+        "position": 9.94
+      },
+      {
+        "date": "2026-02-26",
+        "clicks": 7,
+        "impressions": 1273,
+        "ctr": 0.55,
+        "position": 11.71
+      },
+      {
+        "date": "2026-02-27",
+        "clicks": 6,
+        "impressions": 1176,
+        "ctr": 0.51,
+        "position": 9.79
+      },
+      {
+        "date": "2026-02-28",
+        "clicks": 9,
+        "impressions": 941,
+        "ctr": 0.96,
+        "position": 10.68
+      },
+      {
+        "date": "2026-03-01",
+        "clicks": 27,
+        "impressions": 1356,
+        "ctr": 1.99,
+        "position": 9.68
+      },
+      {
+        "date": "2026-03-02",
+        "clicks": 25,
+        "impressions": 1400,
+        "ctr": 1.79,
+        "position": 9.32
+      },
+      {
+        "date": "2026-03-03",
+        "clicks": 21,
+        "impressions": 1436,
+        "ctr": 1.46,
+        "position": 9.61
+      },
+      {
+        "date": "2026-03-04",
+        "clicks": 19,
+        "impressions": 1535,
+        "ctr": 1.24,
+        "position": 9.44
+      },
+      {
+        "date": "2026-03-05",
+        "clicks": 14,
+        "impressions": 1316,
+        "ctr": 1.06,
+        "position": 10.96
+      },
+      {
+        "date": "2026-03-06",
+        "clicks": 13,
+        "impressions": 1176,
+        "ctr": 1.11,
+        "position": 11.36
+      },
+      {
+        "date": "2026-03-07",
+        "clicks": 7,
+        "impressions": 878,
+        "ctr": 0.8,
+        "position": 10.52
+      },
+      {
+        "date": "2026-03-08",
+        "clicks": 8,
+        "impressions": 1060,
+        "ctr": 0.75,
+        "position": 9.68
+      },
+      {
+        "date": "2026-03-09",
+        "clicks": 21,
+        "impressions": 1388,
+        "ctr": 1.51,
+        "position": 8.95
+      },
+      {
+        "date": "2026-03-10",
+        "clicks": 14,
+        "impressions": 1322,
+        "ctr": 1.06,
+        "position": 9.88
+      },
+      {
+        "date": "2026-03-11",
+        "clicks": 22,
+        "impressions": 1276,
+        "ctr": 1.72,
+        "position": 9.92
+      },
+      {
+        "date": "2026-03-12",
+        "clicks": 24,
+        "impressions": 1414,
+        "ctr": 1.7,
+        "position": 9.78
+      },
+      {
+        "date": "2026-03-13",
+        "clicks": 11,
+        "impressions": 1069,
+        "ctr": 1.03,
+        "position": 10.14
+      },
+      {
+        "date": "2026-03-14",
+        "clicks": 4,
+        "impressions": 946,
+        "ctr": 0.42,
+        "position": 8.77
+      },
+      {
+        "date": "2026-03-15",
+        "clicks": 19,
+        "impressions": 1207,
+        "ctr": 1.57,
+        "position": 8.93
+      },
+      {
+        "date": "2026-03-16",
+        "clicks": 28,
+        "impressions": 1358,
+        "ctr": 2.06,
+        "position": 8.39
+      },
+      {
+        "date": "2026-03-17",
+        "clicks": 18,
+        "impressions": 1259,
+        "ctr": 1.43,
+        "position": 9.29
+      },
+      {
+        "date": "2026-03-18",
+        "clicks": 20,
+        "impressions": 1377,
+        "ctr": 1.45,
+        "position": 9.42
+      },
+      {
+        "date": "2026-03-19",
+        "clicks": 17,
+        "impressions": 1396,
+        "ctr": 1.22,
+        "position": 8.86
+      },
+      {
+        "date": "2026-03-20",
+        "clicks": 12,
+        "impressions": 1053,
+        "ctr": 1.14,
+        "position": 9.0
+      },
+      {
+        "date": "2026-03-21",
+        "clicks": 14,
+        "impressions": 900,
+        "ctr": 1.56,
+        "position": 9.88
+      },
+      {
+        "date": "2026-03-22",
+        "clicks": 11,
+        "impressions": 1254,
+        "ctr": 0.88,
+        "position": 9.17
+      },
+      {
+        "date": "2026-03-23",
+        "clicks": 25,
+        "impressions": 1322,
+        "ctr": 1.89,
+        "position": 8.25
+      },
+      {
+        "date": "2026-03-24",
+        "clicks": 18,
+        "impressions": 1396,
+        "ctr": 1.29,
+        "position": 8.33
+      },
+      {
+        "date": "2026-03-25",
+        "clicks": 24,
+        "impressions": 1869,
+        "ctr": 1.28,
+        "position": 10.19
+      },
+      {
+        "date": "2026-03-26",
+        "clicks": 28,
+        "impressions": 1346,
+        "ctr": 2.08,
+        "position": 8.07
+      },
+      {
+        "date": "2026-03-27",
+        "clicks": 26,
+        "impressions": 1074,
+        "ctr": 2.42,
+        "position": 8.08
+      },
+      {
+        "date": "2026-03-28",
+        "clicks": 12,
+        "impressions": 888,
+        "ctr": 1.35,
+        "position": 7.68
+      },
+      {
+        "date": "2026-03-29",
+        "clicks": 16,
+        "impressions": 1137,
+        "ctr": 1.41,
+        "position": 7.73
+      },
+      {
+        "date": "2026-03-30",
+        "clicks": 25,
+        "impressions": 1340,
+        "ctr": 1.87,
+        "position": 8.25
+      },
+      {
+        "date": "2026-03-31",
+        "clicks": 16,
+        "impressions": 1469,
+        "ctr": 1.09,
+        "position": 7.96
+      },
+      {
+        "date": "2026-04-01",
+        "clicks": 25,
+        "impressions": 1469,
+        "ctr": 1.7,
+        "position": 7.4
+      },
+      {
+        "date": "2026-04-02",
+        "clicks": 20,
+        "impressions": 1253,
+        "ctr": 1.6,
+        "position": 7.93
+      },
+      {
+        "date": "2026-04-03",
+        "clicks": 12,
+        "impressions": 1065,
+        "ctr": 1.13,
+        "position": 8.98
+      },
+      {
+        "date": "2026-04-04",
+        "clicks": 12,
+        "impressions": 989,
+        "ctr": 1.21,
+        "position": 8.41
+      },
+      {
+        "date": "2026-04-05",
+        "clicks": 12,
+        "impressions": 1114,
+        "ctr": 1.08,
+        "position": 8.1
+      },
+      {
+        "date": "2026-04-06",
+        "clicks": 16,
+        "impressions": 1493,
+        "ctr": 1.07,
+        "position": 7.92
+      },
+      {
+        "date": "2026-04-07",
+        "clicks": 11,
+        "impressions": 1608,
+        "ctr": 0.68,
+        "position": 8.01
+      },
+      {
+        "date": "2026-04-08",
+        "clicks": 21,
+        "impressions": 1729,
+        "ctr": 1.21,
+        "position": 7.23
+      },
+      {
+        "date": "2026-04-09",
+        "clicks": 26,
+        "impressions": 1640,
+        "ctr": 1.59,
+        "position": 8.26
+      },
+      {
+        "date": "2026-04-10",
+        "clicks": 10,
+        "impressions": 1248,
+        "ctr": 0.8,
+        "position": 8.93
+      },
+      {
+        "date": "2026-04-11",
+        "clicks": 10,
+        "impressions": 1175,
+        "ctr": 0.85,
+        "position": 8.46
+      },
+      {
+        "date": "2026-04-12",
+        "clicks": 22,
+        "impressions": 1502,
+        "ctr": 1.46,
+        "position": 8.66
+      },
+      {
+        "date": "2026-04-13",
+        "clicks": 31,
+        "impressions": 1635,
+        "ctr": 1.9,
+        "position": 7.65
+      },
+      {
+        "date": "2026-04-14",
+        "clicks": 17,
+        "impressions": 1555,
+        "ctr": 1.09,
+        "position": 8.6
+      },
+      {
+        "date": "2026-04-15",
+        "clicks": 19,
+        "impressions": 1714,
+        "ctr": 1.11,
+        "position": 8.87
+      },
+      {
+        "date": "2026-04-16",
+        "clicks": 10,
+        "impressions": 1498,
+        "ctr": 0.67,
+        "position": 8.2
+      },
+      {
+        "date": "2026-04-17",
+        "clicks": 10,
+        "impressions": 1148,
+        "ctr": 0.87,
+        "position": 9.76
+      },
+      {
+        "date": "2026-04-18",
+        "clicks": 9,
+        "impressions": 940,
+        "ctr": 0.96,
+        "position": 10.61
+      },
+      {
+        "date": "2026-04-19",
+        "clicks": 12,
+        "impressions": 1266,
+        "ctr": 0.95,
+        "position": 8.77
+      },
+      {
+        "date": "2026-04-20",
+        "clicks": 20,
+        "impressions": 1452,
+        "ctr": 1.38,
+        "position": 9.53
+      },
+      {
+        "date": "2026-04-21",
+        "clicks": 25,
+        "impressions": 1366,
+        "ctr": 1.83,
+        "position": 10.89
+      },
+      {
+        "date": "2026-04-22",
+        "clicks": 26,
+        "impressions": 1345,
+        "ctr": 1.93,
+        "position": 11.24
+      },
+      {
+        "date": "2026-04-23",
+        "clicks": 21,
+        "impressions": 1382,
+        "ctr": 1.52,
+        "position": 11.95
+      },
+      {
+        "date": "2026-04-24",
+        "clicks": 15,
+        "impressions": 1105,
+        "ctr": 1.36,
+        "position": 11.07
+      },
+      {
+        "date": "2026-04-25",
+        "clicks": 12,
+        "impressions": 1026,
+        "ctr": 1.17,
+        "position": 11.72
+      },
+      {
+        "date": "2026-04-26",
+        "clicks": 16,
+        "impressions": 1903,
+        "ctr": 0.84,
+        "position": 12.27
+      },
+      {
+        "date": "2026-04-27",
+        "clicks": 24,
+        "impressions": 1568,
+        "ctr": 1.53,
+        "position": 10.45
+      },
+      {
+        "date": "2026-04-28",
+        "clicks": 17,
+        "impressions": 1589,
+        "ctr": 1.07,
+        "position": 10.49
+      },
+      {
+        "date": "2026-04-29",
+        "clicks": 17,
+        "impressions": 1670,
+        "ctr": 1.02,
+        "position": 9.91
+      },
+      {
+        "date": "2026-04-30",
+        "clicks": 15,
+        "impressions": 1601,
+        "ctr": 0.94,
+        "position": 10.69
+      },
+      {
+        "date": "2026-05-01",
+        "clicks": 34,
+        "impressions": 1607,
+        "ctr": 2.12,
+        "position": 9.02
+      },
+      {
+        "date": "2026-05-02",
+        "clicks": 16,
+        "impressions": 1496,
+        "ctr": 1.07,
+        "position": 8.59
+      },
+      {
+        "date": "2026-05-03",
+        "clicks": 17,
+        "impressions": 1963,
+        "ctr": 0.87,
+        "position": 7.83
+      },
+      {
+        "date": "2026-05-04",
+        "clicks": 35,
+        "impressions": 2233,
+        "ctr": 1.57,
+        "position": 7.27
+      },
+      {
+        "date": "2026-05-05",
+        "clicks": 60,
+        "impressions": 2557,
+        "ctr": 2.35,
+        "position": 7.49
+      },
+      {
+        "date": "2026-05-06",
+        "clicks": 46,
+        "impressions": 2856,
+        "ctr": 1.61,
+        "position": 7.37
+      },
+      {
+        "date": "2026-05-07",
+        "clicks": 53,
+        "impressions": 2801,
+        "ctr": 1.89,
+        "position": 6.71
+      },
+      {
+        "date": "2026-05-08",
+        "clicks": 45,
+        "impressions": 2831,
+        "ctr": 1.59,
+        "position": 5.71
+      },
+      {
+        "date": "2026-05-09",
+        "clicks": 33,
+        "impressions": 2566,
+        "ctr": 1.29,
+        "position": 5.64
+      },
+      {
+        "date": "2026-05-10",
+        "clicks": 46,
+        "impressions": 2648,
+        "ctr": 1.74,
+        "position": 7.1
+      },
+      {
+        "date": "2026-05-11",
+        "clicks": 40,
+        "impressions": 2816,
+        "ctr": 1.42,
+        "position": 6.92
+      },
+      {
+        "date": "2026-05-12",
+        "clicks": 51,
+        "impressions": 2593,
+        "ctr": 1.97,
+        "position": 7.37
+      },
+      {
+        "date": "2026-05-13",
+        "clicks": 39,
+        "impressions": 2276,
+        "ctr": 1.71,
+        "position": 8.11
+      },
+      {
+        "date": "2026-05-14",
+        "clicks": 31,
+        "impressions": 2258,
+        "ctr": 1.37,
+        "position": 7.88
+      },
+      {
+        "date": "2026-05-15",
+        "clicks": 28,
+        "impressions": 1763,
+        "ctr": 1.59,
+        "position": 8.25
+      },
+      {
+        "date": "2026-05-16",
+        "clicks": 23,
+        "impressions": 1541,
+        "ctr": 1.49,
+        "position": 7.39
+      },
+      {
+        "date": "2026-05-17",
+        "clicks": 25,
+        "impressions": 2104,
+        "ctr": 1.19,
+        "position": 7.42
+      },
+      {
+        "date": "2026-05-18",
+        "clicks": 54,
+        "impressions": 2297,
+        "ctr": 2.35,
+        "position": 7.19
+      },
+      {
+        "date": "2026-05-19",
+        "clicks": 37,
+        "impressions": 2250,
+        "ctr": 1.64,
+        "position": 7.34
+      },
+      {
+        "date": "2026-05-20",
+        "clicks": 33,
+        "impressions": 2219,
+        "ctr": 1.49,
+        "position": 6.66
+      },
+      {
+        "date": "2026-05-21",
+        "clicks": 35,
+        "impressions": 2863,
+        "ctr": 1.22,
+        "position": 7.98
+      },
+      {
+        "date": "2026-05-22",
+        "clicks": 40,
+        "impressions": 2670,
+        "ctr": 1.5,
+        "position": 8.86
+      },
+      {
+        "date": "2026-05-23",
+        "clicks": 24,
+        "impressions": 2139,
+        "ctr": 1.12,
+        "position": 8.8
+      },
+      {
+        "date": "2026-05-24",
+        "clicks": 28,
+        "impressions": 2845,
+        "ctr": 0.98,
+        "position": 8.6
+      },
+      {
+        "date": "2026-05-25",
+        "clicks": 32,
+        "impressions": 3899,
+        "ctr": 0.82,
+        "position": 9.93
+      },
+      {
+        "date": "2026-05-26",
+        "clicks": 48,
+        "impressions": 2934,
+        "ctr": 1.64,
+        "position": 7.87
+      },
+      {
+        "date": "2026-05-27",
+        "clicks": 45,
+        "impressions": 3563,
+        "ctr": 1.26,
+        "position": 9.45
+      },
+      {
+        "date": "2026-05-28",
+        "clicks": 41,
+        "impressions": 2964,
+        "ctr": 1.38,
+        "position": 7.71
+      },
+      {
+        "date": "2026-05-29",
+        "clicks": 35,
+        "impressions": 2521,
+        "ctr": 1.39,
+        "position": 7.96
+      },
+      {
+        "date": "2026-05-30",
+        "clicks": 29,
+        "impressions": 2229,
+        "ctr": 1.3,
+        "position": 7.95
+      },
+      {
+        "date": "2026-05-31",
+        "clicks": 51,
+        "impressions": 2909,
+        "ctr": 1.75,
+        "position": 7.78
+      },
+      {
+        "date": "2026-06-01",
+        "clicks": 57,
+        "impressions": 3119,
+        "ctr": 1.83,
+        "position": 7.3
+      },
+      {
+        "date": "2026-06-02",
+        "clicks": 48,
+        "impressions": 3149,
+        "ctr": 1.52,
+        "position": 7.16
+      },
+      {
+        "date": "2026-06-03",
+        "clicks": 47,
+        "impressions": 3031,
+        "ctr": 1.55,
+        "position": 7.24
+      },
+      {
+        "date": "2026-06-04",
+        "clicks": 56,
+        "impressions": 3327,
+        "ctr": 1.68,
+        "position": 7.15
+      },
+      {
+        "date": "2026-06-05",
+        "clicks": 36,
+        "impressions": 2700,
+        "ctr": 1.33,
+        "position": 7.19
+      },
+      {
+        "date": "2026-06-06",
+        "clicks": 43,
+        "impressions": 2925,
+        "ctr": 1.47,
+        "position": 6.7
+      },
+      {
+        "date": "2026-06-07",
+        "clicks": 62,
+        "impressions": 3431,
+        "ctr": 1.81,
+        "position": 6.75
+      },
+      {
+        "date": "2026-06-08",
+        "clicks": 71,
+        "impressions": 3966,
+        "ctr": 1.79,
+        "position": 6.43
+      },
+      {
+        "date": "2026-06-09",
+        "clicks": 83,
+        "impressions": 3839,
+        "ctr": 2.16,
+        "position": 6.61
+      },
+      {
+        "date": "2026-06-10",
+        "clicks": 80,
+        "impressions": 7426,
+        "ctr": 1.08,
+        "position": 11.15
+      },
+      {
+        "date": "2026-06-11",
+        "clicks": 78,
+        "impressions": 3999,
+        "ctr": 1.95,
+        "position": 6.57
+      },
+      {
+        "date": "2026-06-12",
+        "clicks": 60,
+        "impressions": 4247,
+        "ctr": 1.41,
+        "position": 6.7
+      },
+      {
+        "date": "2026-06-13",
+        "clicks": 51,
+        "impressions": 2974,
+        "ctr": 1.71,
+        "position": 6.89
+      },
+      {
+        "date": "2026-06-14",
+        "clicks": 63,
+        "impressions": 3806,
+        "ctr": 1.66,
+        "position": 6.89
+      },
+      {
+        "date": "2026-06-15",
+        "clicks": 76,
+        "impressions": 4219,
+        "ctr": 1.8,
+        "position": 6.62
+      },
+      {
+        "date": "2026-06-16",
+        "clicks": 77,
+        "impressions": 4762,
+        "ctr": 1.62,
+        "position": 8.2
+      },
+      {
+        "date": "2026-06-17",
+        "clicks": 84,
+        "impressions": 5047,
+        "ctr": 1.66,
+        "position": 8.33
+      },
+      {
+        "date": "2026-06-18",
+        "clicks": 82,
+        "impressions": 3735,
+        "ctr": 2.2,
+        "position": 6.89
+      },
+      {
+        "date": "2026-06-19",
+        "clicks": 83,
+        "impressions": 3231,
+        "ctr": 2.57,
+        "position": 6.63
+      },
+      {
+        "date": "2026-06-20",
+        "clicks": 75,
+        "impressions": 3550,
+        "ctr": 2.11,
+        "position": 6.85
+      },
+      {
+        "date": "2026-06-21",
+        "clicks": 113,
+        "impressions": 4554,
+        "ctr": 2.48,
+        "position": 6.61
+      },
+      {
+        "date": "2026-06-22",
+        "clicks": 142,
+        "impressions": 5010,
+        "ctr": 2.83,
+        "position": 6.29
+      },
+      {
+        "date": "2026-06-23",
+        "clicks": 138,
+        "impressions": 7061,
+        "ctr": 1.95,
+        "position": 8.99
+      },
+      {
+        "date": "2026-06-24",
+        "clicks": 107,
+        "impressions": 4350,
+        "ctr": 2.46,
+        "position": 5.94
+      },
+      {
+        "date": "2026-06-25",
+        "clicks": 106,
+        "impressions": 4354,
+        "ctr": 2.43,
+        "position": 6.06
+      },
+      {
+        "date": "2026-06-26",
+        "clicks": 106,
+        "impressions": 4935,
+        "ctr": 2.15,
+        "position": 7.42
+      },
+      {
+        "date": "2026-06-27",
+        "clicks": 108,
+        "impressions": 5256,
+        "ctr": 2.05,
+        "position": 7.82
+      },
+      {
+        "date": "2026-06-28",
+        "clicks": 127,
+        "impressions": 5011,
+        "ctr": 2.53,
+        "position": 5.97
+      },
+      {
+        "date": "2026-06-29",
+        "clicks": 152,
+        "impressions": 5139,
+        "ctr": 2.96,
+        "position": 5.9
+      },
+      {
+        "date": "2026-06-30",
+        "clicks": 122,
+        "impressions": 5481,
+        "ctr": 2.23,
+        "position": 5.84
+      },
+      {
+        "date": "2026-07-01",
+        "clicks": 112,
+        "impressions": 5327,
+        "ctr": 2.1,
+        "position": 6.01
+      },
+      {
+        "date": "2026-07-02",
+        "clicks": 106,
+        "impressions": 5931,
+        "ctr": 1.79,
+        "position": 6.97
+      },
+      {
+        "date": "2026-07-03",
+        "clicks": 98,
+        "impressions": 3947,
+        "ctr": 2.48,
+        "position": 6.54
+      },
+      {
+        "date": "2026-07-04",
+        "clicks": 87,
+        "impressions": 4029,
+        "ctr": 2.16,
+        "position": 6.73
+      },
+      {
+        "date": "2026-07-05",
+        "clicks": 102,
+        "impressions": 5028,
+        "ctr": 2.03,
+        "position": 6.42
+      },
+      {
+        "date": "2026-07-06",
+        "clicks": 121,
+        "impressions": 5309,
+        "ctr": 2.28,
+        "position": 6.55
+      },
+      {
+        "date": "2026-07-07",
+        "clicks": 61,
+        "impressions": 2458,
+        "ctr": 2.48,
+        "position": 6.69
+      }
+    ],
+    "top_queries": [
+      {
+        "query": "網絡不穩定",
+        "clicks": 2,
+        "impressions": 4,
+        "ctr": 50.0,
+        "position": 1.5
+      },
+      {
+        "query": "中華電信斷線查詢",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 1.0
+      },
+      {
+        "query": "企業碟nas碟差異",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 1.0
+      },
+      {
+        "query": "凱擘網路斷線2026",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100.0,
+        "position": 5.0
+      },
+      {
+        "query": "有線回程",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 3.5
+      },
+      {
+        "query": "網路時好時壞",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 33.33,
+        "position": 1.67
+      },
+      {
+        "query": "蓋斯克",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100.0,
+        "position": 1.0
+      },
+      {
+        "query": "電腦防火牆",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 5.0
+      },
+      {
+        "query": "100f",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 11.0
+      },
+      {
+        "query": "10dbi",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 3.0
+      }
+    ],
+    "top_pages": [
+      {
+        "page": "https://zonetech.tw/blogs/connection-breaking-up/",
+        "clicks": 16,
+        "impressions": 766,
+        "ctr": 2.09,
+        "position": 5.97
+      },
+      {
+        "page": "https://zonetech.tw/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+        "clicks": 6,
+        "impressions": 140,
+        "ctr": 4.29,
+        "position": 6.32
+      },
+      {
+        "page": "https://zonetech.tw/blogs/wifi-full-bars-but-slow-2026/",
+        "clicks": 6,
+        "impressions": 168,
+        "ctr": 3.57,
+        "position": 5.72
+      },
+      {
+        "page": "https://zonetech.tw/blogs/4k-editing-pc-setup-2026/",
+        "clicks": 4,
+        "impressions": 98,
+        "ctr": 4.08,
+        "position": 3.81
+      },
+      {
+        "page": "https://zonetech.tw/blogs/davinci-premiere-pc-2026/",
+        "clicks": 3,
+        "impressions": 25,
+        "ctr": 12.0,
+        "position": 5.76
+      },
+      {
+        "page": "https://zonetech.tw/blogs/exhibition-hall-wifi-guide-2026/",
+        "clicks": 2,
+        "impressions": 2,
+        "ctr": 100.0,
+        "position": 10.5
+      },
+      {
+        "page": "https://zonetech.tw/blogs/information-security-cia-triad-2026/",
+        "clicks": 2,
+        "impressions": 83,
+        "ctr": 2.41,
+        "position": 3.99
+      },
+      {
+        "page": "https://zonetech.tw/blogs/wired-vs-wireless-mesh-backhaul-guide/",
+        "clicks": 2,
+        "impressions": 45,
+        "ctr": 4.44,
+        "position": 5.53
+      },
+      {
+        "page": "https://zonetech.tw/",
+        "clicks": 1,
+        "impressions": 5,
+        "ctr": 20.0,
+        "position": 1.2
+      },
+      {
+        "page": "https://zonetech.tw/4k/",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 1.0
+      }
+    ]
+  },
+  "ga4": {
+    "data_date": "2026-07-07",
+    "daily": [
+      {
+        "date": "2026-01-10",
+        "activeUsers": 39.0,
+        "sessions": 44.0,
+        "screenPageViews": 48.0
+      },
+      {
+        "date": "2026-01-11",
+        "activeUsers": 28.0,
+        "sessions": 35.0,
+        "screenPageViews": 41.0
+      },
+      {
+        "date": "2026-01-12",
+        "activeUsers": 37.0,
+        "sessions": 48.0,
+        "screenPageViews": 71.0
+      },
+      {
+        "date": "2026-01-13",
+        "activeUsers": 55.0,
+        "sessions": 65.0,
+        "screenPageViews": 81.0
+      },
+      {
+        "date": "2026-01-14",
+        "activeUsers": 47.0,
+        "sessions": 56.0,
+        "screenPageViews": 69.0
+      },
+      {
+        "date": "2026-01-15",
+        "activeUsers": 39.0,
+        "sessions": 44.0,
+        "screenPageViews": 55.0
+      },
+      {
+        "date": "2026-01-16",
+        "activeUsers": 42.0,
+        "sessions": 48.0,
+        "screenPageViews": 54.0
+      },
+      {
+        "date": "2026-01-17",
+        "activeUsers": 41.0,
+        "sessions": 43.0,
+        "screenPageViews": 46.0
+      },
+      {
+        "date": "2026-01-18",
+        "activeUsers": 51.0,
+        "sessions": 64.0,
+        "screenPageViews": 61.0
+      },
+      {
+        "date": "2026-01-19",
+        "activeUsers": 37.0,
+        "sessions": 44.0,
+        "screenPageViews": 44.0
+      },
+      {
+        "date": "2026-01-20",
+        "activeUsers": 42.0,
+        "sessions": 51.0,
+        "screenPageViews": 68.0
+      },
+      {
+        "date": "2026-01-21",
+        "activeUsers": 57.0,
+        "sessions": 71.0,
+        "screenPageViews": 68.0
+      },
+      {
+        "date": "2026-01-22",
+        "activeUsers": 54.0,
+        "sessions": 64.0,
+        "screenPageViews": 74.0
+      },
+      {
+        "date": "2026-01-23",
+        "activeUsers": 40.0,
+        "sessions": 49.0,
+        "screenPageViews": 52.0
+      },
+      {
+        "date": "2026-01-24",
+        "activeUsers": 22.0,
+        "sessions": 24.0,
+        "screenPageViews": 29.0
+      },
+      {
+        "date": "2026-01-25",
+        "activeUsers": 33.0,
+        "sessions": 37.0,
+        "screenPageViews": 48.0
+      },
+      {
+        "date": "2026-01-26",
+        "activeUsers": 48.0,
+        "sessions": 56.0,
+        "screenPageViews": 64.0
+      },
+      {
+        "date": "2026-01-27",
+        "activeUsers": 44.0,
+        "sessions": 52.0,
+        "screenPageViews": 65.0
+      },
+      {
+        "date": "2026-01-28",
+        "activeUsers": 50.0,
+        "sessions": 65.0,
+        "screenPageViews": 67.0
+      },
+      {
+        "date": "2026-01-29",
+        "activeUsers": 42.0,
+        "sessions": 51.0,
+        "screenPageViews": 47.0
+      },
+      {
+        "date": "2026-01-30",
+        "activeUsers": 45.0,
+        "sessions": 58.0,
+        "screenPageViews": 73.0
+      },
+      {
+        "date": "2026-01-31",
+        "activeUsers": 48.0,
+        "sessions": 50.0,
+        "screenPageViews": 51.0
+      },
+      {
+        "date": "2026-02-01",
+        "activeUsers": 20.0,
+        "sessions": 23.0,
+        "screenPageViews": 43.0
+      },
+      {
+        "date": "2026-02-02",
+        "activeUsers": 39.0,
+        "sessions": 48.0,
+        "screenPageViews": 60.0
+      },
+      {
+        "date": "2026-02-03",
+        "activeUsers": 56.0,
+        "sessions": 66.0,
+        "screenPageViews": 69.0
+      },
+      {
+        "date": "2026-02-04",
+        "activeUsers": 49.0,
+        "sessions": 56.0,
+        "screenPageViews": 60.0
+      },
+      {
+        "date": "2026-02-05",
+        "activeUsers": 57.0,
+        "sessions": 70.0,
+        "screenPageViews": 80.0
+      },
+      {
+        "date": "2026-02-06",
+        "activeUsers": 24.0,
+        "sessions": 31.0,
+        "screenPageViews": 56.0
+      },
+      {
+        "date": "2026-02-07",
+        "activeUsers": 46.0,
+        "sessions": 52.0,
+        "screenPageViews": 61.0
+      },
+      {
+        "date": "2026-02-08",
+        "activeUsers": 24.0,
+        "sessions": 30.0,
+        "screenPageViews": 36.0
+      },
+      {
+        "date": "2026-02-09",
+        "activeUsers": 29.0,
+        "sessions": 41.0,
+        "screenPageViews": 70.0
+      },
+      {
+        "date": "2026-02-10",
+        "activeUsers": 52.0,
+        "sessions": 59.0,
+        "screenPageViews": 80.0
+      },
+      {
+        "date": "2026-02-11",
+        "activeUsers": 40.0,
+        "sessions": 48.0,
+        "screenPageViews": 54.0
+      },
+      {
+        "date": "2026-02-12",
+        "activeUsers": 60.0,
+        "sessions": 68.0,
+        "screenPageViews": 79.0
+      },
+      {
+        "date": "2026-02-13",
+        "activeUsers": 36.0,
+        "sessions": 43.0,
+        "screenPageViews": 49.0
+      },
+      {
+        "date": "2026-02-14",
+        "activeUsers": 22.0,
+        "sessions": 23.0,
+        "screenPageViews": 23.0
+      },
+      {
+        "date": "2026-02-15",
+        "activeUsers": 18.0,
+        "sessions": 19.0,
+        "screenPageViews": 20.0
+      },
+      {
+        "date": "2026-02-16",
+        "activeUsers": 16.0,
+        "sessions": 18.0,
+        "screenPageViews": 32.0
+      },
+      {
+        "date": "2026-02-17",
+        "activeUsers": 18.0,
+        "sessions": 20.0,
+        "screenPageViews": 18.0
+      },
+      {
+        "date": "2026-02-18",
+        "activeUsers": 24.0,
+        "sessions": 27.0,
+        "screenPageViews": 30.0
+      },
+      {
+        "date": "2026-02-19",
+        "activeUsers": 20.0,
+        "sessions": 22.0,
+        "screenPageViews": 23.0
+      },
+      {
+        "date": "2026-02-20",
+        "activeUsers": 21.0,
+        "sessions": 21.0,
+        "screenPageViews": 21.0
+      },
+      {
+        "date": "2026-02-21",
+        "activeUsers": 19.0,
+        "sessions": 20.0,
+        "screenPageViews": 20.0
+      },
+      {
+        "date": "2026-02-22",
+        "activeUsers": 36.0,
+        "sessions": 39.0,
+        "screenPageViews": 47.0
+      },
+      {
+        "date": "2026-02-23",
+        "activeUsers": 30.0,
+        "sessions": 39.0,
+        "screenPageViews": 41.0
+      },
+      {
+        "date": "2026-02-24",
+        "activeUsers": 40.0,
+        "sessions": 45.0,
+        "screenPageViews": 56.0
+      },
+      {
+        "date": "2026-02-25",
+        "activeUsers": 33.0,
+        "sessions": 42.0,
+        "screenPageViews": 49.0
+      },
+      {
+        "date": "2026-02-26",
+        "activeUsers": 39.0,
+        "sessions": 45.0,
+        "screenPageViews": 90.0
+      },
+      {
+        "date": "2026-02-27",
+        "activeUsers": 18.0,
+        "sessions": 21.0,
+        "screenPageViews": 29.0
+      },
+      {
+        "date": "2026-02-28",
+        "activeUsers": 32.0,
+        "sessions": 38.0,
+        "screenPageViews": 38.0
+      },
+      {
+        "date": "2026-03-01",
+        "activeUsers": 29.0,
+        "sessions": 32.0,
+        "screenPageViews": 58.0
+      },
+      {
+        "date": "2026-03-02",
+        "activeUsers": 46.0,
+        "sessions": 55.0,
+        "screenPageViews": 58.0
+      },
+      {
+        "date": "2026-03-03",
+        "activeUsers": 42.0,
+        "sessions": 47.0,
+        "screenPageViews": 57.0
+      },
+      {
+        "date": "2026-03-04",
+        "activeUsers": 35.0,
+        "sessions": 40.0,
+        "screenPageViews": 56.0
+      },
+      {
+        "date": "2026-03-05",
+        "activeUsers": 62.0,
+        "sessions": 71.0,
+        "screenPageViews": 85.0
+      },
+      {
+        "date": "2026-03-06",
+        "activeUsers": 33.0,
+        "sessions": 39.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-03-07",
+        "activeUsers": 30.0,
+        "sessions": 31.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-03-08",
+        "activeUsers": 20.0,
+        "sessions": 20.0,
+        "screenPageViews": 20.0
+      },
+      {
+        "date": "2026-03-09",
+        "activeUsers": 53.0,
+        "sessions": 59.0,
+        "screenPageViews": 70.0
+      },
+      {
+        "date": "2026-03-10",
+        "activeUsers": 63.0,
+        "sessions": 67.0,
+        "screenPageViews": 74.0
+      },
+      {
+        "date": "2026-03-11",
+        "activeUsers": 36.0,
+        "sessions": 40.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-03-12",
+        "activeUsers": 51.0,
+        "sessions": 62.0,
+        "screenPageViews": 78.0
+      },
+      {
+        "date": "2026-03-13",
+        "activeUsers": 40.0,
+        "sessions": 46.0,
+        "screenPageViews": 62.0
+      },
+      {
+        "date": "2026-03-14",
+        "activeUsers": 22.0,
+        "sessions": 22.0,
+        "screenPageViews": 21.0
+      },
+      {
+        "date": "2026-03-15",
+        "activeUsers": 27.0,
+        "sessions": 29.0,
+        "screenPageViews": 29.0
+      },
+      {
+        "date": "2026-03-16",
+        "activeUsers": 50.0,
+        "sessions": 61.0,
+        "screenPageViews": 124.0
+      },
+      {
+        "date": "2026-03-17",
+        "activeUsers": 48.0,
+        "sessions": 60.0,
+        "screenPageViews": 75.0
+      },
+      {
+        "date": "2026-03-18",
+        "activeUsers": 37.0,
+        "sessions": 43.0,
+        "screenPageViews": 46.0
+      },
+      {
+        "date": "2026-03-19",
+        "activeUsers": 41.0,
+        "sessions": 43.0,
+        "screenPageViews": 53.0
+      },
+      {
+        "date": "2026-03-20",
+        "activeUsers": 34.0,
+        "sessions": 38.0,
+        "screenPageViews": 48.0
+      },
+      {
+        "date": "2026-03-21",
+        "activeUsers": 33.0,
+        "sessions": 34.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-03-22",
+        "activeUsers": 30.0,
+        "sessions": 34.0,
+        "screenPageViews": 36.0
+      },
+      {
+        "date": "2026-03-23",
+        "activeUsers": 41.0,
+        "sessions": 45.0,
+        "screenPageViews": 47.0
+      },
+      {
+        "date": "2026-03-24",
+        "activeUsers": 42.0,
+        "sessions": 45.0,
+        "screenPageViews": 61.0
+      },
+      {
+        "date": "2026-03-25",
+        "activeUsers": 42.0,
+        "sessions": 46.0,
+        "screenPageViews": 49.0
+      },
+      {
+        "date": "2026-03-26",
+        "activeUsers": 47.0,
+        "sessions": 50.0,
+        "screenPageViews": 72.0
+      },
+      {
+        "date": "2026-03-27",
+        "activeUsers": 52.0,
+        "sessions": 60.0,
+        "screenPageViews": 81.0
+      },
+      {
+        "date": "2026-03-28",
+        "activeUsers": 23.0,
+        "sessions": 23.0,
+        "screenPageViews": 24.0
+      },
+      {
+        "date": "2026-03-29",
+        "activeUsers": 28.0,
+        "sessions": 34.0,
+        "screenPageViews": 70.0
+      },
+      {
+        "date": "2026-03-30",
+        "activeUsers": 38.0,
+        "sessions": 44.0,
+        "screenPageViews": 58.0
+      },
+      {
+        "date": "2026-03-31",
+        "activeUsers": 48.0,
+        "sessions": 56.0,
+        "screenPageViews": 124.0
+      },
+      {
+        "date": "2026-04-01",
+        "activeUsers": 41.0,
+        "sessions": 47.0,
+        "screenPageViews": 55.0
+      },
+      {
+        "date": "2026-04-02",
+        "activeUsers": 62.0,
+        "sessions": 67.0,
+        "screenPageViews": 109.0
+      },
+      {
+        "date": "2026-04-03",
+        "activeUsers": 20.0,
+        "sessions": 22.0,
+        "screenPageViews": 21.0
+      },
+      {
+        "date": "2026-04-04",
+        "activeUsers": 21.0,
+        "sessions": 24.0,
+        "screenPageViews": 22.0
+      },
+      {
+        "date": "2026-04-05",
+        "activeUsers": 32.0,
+        "sessions": 37.0,
+        "screenPageViews": 39.0
+      },
+      {
+        "date": "2026-04-06",
+        "activeUsers": 24.0,
+        "sessions": 25.0,
+        "screenPageViews": 27.0
+      },
+      {
+        "date": "2026-04-07",
+        "activeUsers": 30.0,
+        "sessions": 34.0,
+        "screenPageViews": 47.0
+      },
+      {
+        "date": "2026-04-08",
+        "activeUsers": 35.0,
+        "sessions": 37.0,
+        "screenPageViews": 41.0
+      },
+      {
+        "date": "2026-04-09",
+        "activeUsers": 40.0,
+        "sessions": 47.0,
+        "screenPageViews": 49.0
+      },
+      {
+        "date": "2026-04-10",
+        "activeUsers": 45.0,
+        "sessions": 51.0,
+        "screenPageViews": 56.0
+      },
+      {
+        "date": "2026-04-11",
+        "activeUsers": 16.0,
+        "sessions": 22.0,
+        "screenPageViews": 23.0
+      },
+      {
+        "date": "2026-04-12",
+        "activeUsers": 26.0,
+        "sessions": 32.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-04-13",
+        "activeUsers": 49.0,
+        "sessions": 56.0,
+        "screenPageViews": 67.0
+      },
+      {
+        "date": "2026-04-14",
+        "activeUsers": 45.0,
+        "sessions": 58.0,
+        "screenPageViews": 64.0
+      },
+      {
+        "date": "2026-04-15",
+        "activeUsers": 41.0,
+        "sessions": 46.0,
+        "screenPageViews": 57.0
+      },
+      {
+        "date": "2026-04-16",
+        "activeUsers": 50.0,
+        "sessions": 54.0,
+        "screenPageViews": 69.0
+      },
+      {
+        "date": "2026-04-17",
+        "activeUsers": 35.0,
+        "sessions": 42.0,
+        "screenPageViews": 43.0
+      },
+      {
+        "date": "2026-04-18",
+        "activeUsers": 26.0,
+        "sessions": 30.0,
+        "screenPageViews": 31.0
+      },
+      {
+        "date": "2026-04-19",
+        "activeUsers": 22.0,
+        "sessions": 25.0,
+        "screenPageViews": 34.0
+      },
+      {
+        "date": "2026-04-20",
+        "activeUsers": 31.0,
+        "sessions": 33.0,
+        "screenPageViews": 52.0
+      },
+      {
+        "date": "2026-04-21",
+        "activeUsers": 50.0,
+        "sessions": 57.0,
+        "screenPageViews": 66.0
+      },
+      {
+        "date": "2026-04-22",
+        "activeUsers": 43.0,
+        "sessions": 52.0,
+        "screenPageViews": 64.0
+      },
+      {
+        "date": "2026-04-23",
+        "activeUsers": 42.0,
+        "sessions": 47.0,
+        "screenPageViews": 72.0
+      },
+      {
+        "date": "2026-04-24",
+        "activeUsers": 37.0,
+        "sessions": 48.0,
+        "screenPageViews": 53.0
+      },
+      {
+        "date": "2026-04-25",
+        "activeUsers": 38.0,
+        "sessions": 43.0,
+        "screenPageViews": 48.0
+      },
+      {
+        "date": "2026-04-26",
+        "activeUsers": 30.0,
+        "sessions": 37.0,
+        "screenPageViews": 33.0
+      },
+      {
+        "date": "2026-04-27",
+        "activeUsers": 56.0,
+        "sessions": 60.0,
+        "screenPageViews": 99.0
+      },
+      {
+        "date": "2026-04-28",
+        "activeUsers": 36.0,
+        "sessions": 49.0,
+        "screenPageViews": 68.0
+      },
+      {
+        "date": "2026-04-29",
+        "activeUsers": 53.0,
+        "sessions": 59.0,
+        "screenPageViews": 84.0
+      },
+      {
+        "date": "2026-04-30",
+        "activeUsers": 45.0,
+        "sessions": 54.0,
+        "screenPageViews": 76.0
+      },
+      {
+        "date": "2026-05-01",
+        "activeUsers": 48.0,
+        "sessions": 51.0,
+        "screenPageViews": 63.0
+      },
+      {
+        "date": "2026-05-02",
+        "activeUsers": 41.0,
+        "sessions": 52.0,
+        "screenPageViews": 75.0
+      },
+      {
+        "date": "2026-05-03",
+        "activeUsers": 30.0,
+        "sessions": 36.0,
+        "screenPageViews": 51.0
+      },
+      {
+        "date": "2026-05-04",
+        "activeUsers": 47.0,
+        "sessions": 56.0,
+        "screenPageViews": 73.0
+      },
+      {
+        "date": "2026-05-05",
+        "activeUsers": 65.0,
+        "sessions": 71.0,
+        "screenPageViews": 75.0
+      },
+      {
+        "date": "2026-05-06",
+        "activeUsers": 83.0,
+        "sessions": 105.0,
+        "screenPageViews": 117.0
+      },
+      {
+        "date": "2026-05-07",
+        "activeUsers": 73.0,
+        "sessions": 90.0,
+        "screenPageViews": 97.0
+      },
+      {
+        "date": "2026-05-08",
+        "activeUsers": 78.0,
+        "sessions": 85.0,
+        "screenPageViews": 118.0
+      },
+      {
+        "date": "2026-05-09",
+        "activeUsers": 53.0,
+        "sessions": 59.0,
+        "screenPageViews": 66.0
+      },
+      {
+        "date": "2026-05-10",
+        "activeUsers": 68.0,
+        "sessions": 77.0,
+        "screenPageViews": 79.0
+      },
+      {
+        "date": "2026-05-11",
+        "activeUsers": 66.0,
+        "sessions": 79.0,
+        "screenPageViews": 87.0
+      },
+      {
+        "date": "2026-05-12",
+        "activeUsers": 77.0,
+        "sessions": 99.0,
+        "screenPageViews": 131.0
+      },
+      {
+        "date": "2026-05-13",
+        "activeUsers": 104.0,
+        "sessions": 114.0,
+        "screenPageViews": 136.0
+      },
+      {
+        "date": "2026-05-14",
+        "activeUsers": 105.0,
+        "sessions": 119.0,
+        "screenPageViews": 131.0
+      },
+      {
+        "date": "2026-05-15",
+        "activeUsers": 76.0,
+        "sessions": 97.0,
+        "screenPageViews": 121.0
+      },
+      {
+        "date": "2026-05-16",
+        "activeUsers": 53.0,
+        "sessions": 61.0,
+        "screenPageViews": 65.0
+      },
+      {
+        "date": "2026-05-17",
+        "activeUsers": 37.0,
+        "sessions": 41.0,
+        "screenPageViews": 40.0
+      },
+      {
+        "date": "2026-05-18",
+        "activeUsers": 91.0,
+        "sessions": 100.0,
+        "screenPageViews": 125.0
+      },
+      {
+        "date": "2026-05-19",
+        "activeUsers": 97.0,
+        "sessions": 111.0,
+        "screenPageViews": 144.0
+      },
+      {
+        "date": "2026-05-20",
+        "activeUsers": 84.0,
+        "sessions": 96.0,
+        "screenPageViews": 107.0
+      },
+      {
+        "date": "2026-05-21",
+        "activeUsers": 86.0,
+        "sessions": 92.0,
+        "screenPageViews": 103.0
+      },
+      {
+        "date": "2026-05-22",
+        "activeUsers": 75.0,
+        "sessions": 87.0,
+        "screenPageViews": 104.0
+      },
+      {
+        "date": "2026-05-23",
+        "activeUsers": 70.0,
+        "sessions": 71.0,
+        "screenPageViews": 82.0
+      },
+      {
+        "date": "2026-05-24",
+        "activeUsers": 81.0,
+        "sessions": 93.0,
+        "screenPageViews": 162.0
+      },
+      {
+        "date": "2026-05-25",
+        "activeUsers": 86.0,
+        "sessions": 97.0,
+        "screenPageViews": 135.0
+      },
+      {
+        "date": "2026-05-26",
+        "activeUsers": 88.0,
+        "sessions": 98.0,
+        "screenPageViews": 121.0
+      },
+      {
+        "date": "2026-05-27",
+        "activeUsers": 93.0,
+        "sessions": 109.0,
+        "screenPageViews": 121.0
+      },
+      {
+        "date": "2026-05-28",
+        "activeUsers": 105.0,
+        "sessions": 122.0,
+        "screenPageViews": 135.0
+      },
+      {
+        "date": "2026-05-29",
+        "activeUsers": 95.0,
+        "sessions": 105.0,
+        "screenPageViews": 125.0
+      },
+      {
+        "date": "2026-05-30",
+        "activeUsers": 87.0,
+        "sessions": 92.0,
+        "screenPageViews": 97.0
+      },
+      {
+        "date": "2026-05-31",
+        "activeUsers": 56.0,
+        "sessions": 64.0,
+        "screenPageViews": 73.0
+      },
+      {
+        "date": "2026-06-01",
+        "activeUsers": 128.0,
+        "sessions": 145.0,
+        "screenPageViews": 163.0
+      },
+      {
+        "date": "2026-06-02",
+        "activeUsers": 120.0,
+        "sessions": 142.0,
+        "screenPageViews": 171.0
+      },
+      {
+        "date": "2026-06-03",
+        "activeUsers": 101.0,
+        "sessions": 113.0,
+        "screenPageViews": 109.0
+      },
+      {
+        "date": "2026-06-04",
+        "activeUsers": 117.0,
+        "sessions": 127.0,
+        "screenPageViews": 141.0
+      },
+      {
+        "date": "2026-06-05",
+        "activeUsers": 101.0,
+        "sessions": 117.0,
+        "screenPageViews": 128.0
+      },
+      {
+        "date": "2026-06-06",
+        "activeUsers": 69.0,
+        "sessions": 73.0,
+        "screenPageViews": 78.0
+      },
+      {
+        "date": "2026-06-07",
+        "activeUsers": 91.0,
+        "sessions": 94.0,
+        "screenPageViews": 96.0
+      },
+      {
+        "date": "2026-06-08",
+        "activeUsers": 122.0,
+        "sessions": 135.0,
+        "screenPageViews": 158.0
+      },
+      {
+        "date": "2026-06-09",
+        "activeUsers": 121.0,
+        "sessions": 142.0,
+        "screenPageViews": 172.0
+      },
+      {
+        "date": "2026-06-10",
+        "activeUsers": 141.0,
+        "sessions": 165.0,
+        "screenPageViews": 231.0
+      },
+      {
+        "date": "2026-06-11",
+        "activeUsers": 154.0,
+        "sessions": 179.0,
+        "screenPageViews": 233.0
+      },
+      {
+        "date": "2026-06-12",
+        "activeUsers": 112.0,
+        "sessions": 140.0,
+        "screenPageViews": 182.0
+      },
+      {
+        "date": "2026-06-13",
+        "activeUsers": 76.0,
+        "sessions": 84.0,
+        "screenPageViews": 104.0
+      },
+      {
+        "date": "2026-06-14",
+        "activeUsers": 82.0,
+        "sessions": 87.0,
+        "screenPageViews": 97.0
+      },
+      {
+        "date": "2026-06-15",
+        "activeUsers": 129.0,
+        "sessions": 150.0,
+        "screenPageViews": 179.0
+      },
+      {
+        "date": "2026-06-16",
+        "activeUsers": 132.0,
+        "sessions": 152.0,
+        "screenPageViews": 165.0
+      },
+      {
+        "date": "2026-06-17",
+        "activeUsers": 109.0,
+        "sessions": 138.0,
+        "screenPageViews": 173.0
+      },
+      {
+        "date": "2026-06-18",
+        "activeUsers": 121.0,
+        "sessions": 143.0,
+        "screenPageViews": 172.0
+      },
+      {
+        "date": "2026-06-19",
+        "activeUsers": 81.0,
+        "sessions": 93.0,
+        "screenPageViews": 89.0
+      },
+      {
+        "date": "2026-06-20",
+        "activeUsers": 52.0,
+        "sessions": 63.0,
+        "screenPageViews": 61.0
+      },
+      {
+        "date": "2026-06-21",
+        "activeUsers": 26.0,
+        "sessions": 30.0,
+        "screenPageViews": 27.0
+      },
+      {
+        "date": "2026-06-22",
+        "activeUsers": 43.0,
+        "sessions": 47.0,
+        "screenPageViews": 61.0
+      },
+      {
+        "date": "2026-06-23",
+        "activeUsers": 140.0,
+        "sessions": 161.0,
+        "screenPageViews": 206.0
+      },
+      {
+        "date": "2026-06-24",
+        "activeUsers": 147.0,
+        "sessions": 169.0,
+        "screenPageViews": 202.0
+      },
+      {
+        "date": "2026-06-25",
+        "activeUsers": 130.0,
+        "sessions": 161.0,
+        "screenPageViews": 200.0
+      },
+      {
+        "date": "2026-06-26",
+        "activeUsers": 163.0,
+        "sessions": 180.0,
+        "screenPageViews": 197.0
+      },
+      {
+        "date": "2026-06-27",
+        "activeUsers": 133.0,
+        "sessions": 159.0,
+        "screenPageViews": 158.0
+      },
+      {
+        "date": "2026-06-28",
+        "activeUsers": 146.0,
+        "sessions": 159.0,
+        "screenPageViews": 189.0
+      },
+      {
+        "date": "2026-06-29",
+        "activeUsers": 198.0,
+        "sessions": 234.0,
+        "screenPageViews": 255.0
+      },
+      {
+        "date": "2026-06-30",
+        "activeUsers": 162.0,
+        "sessions": 194.0,
+        "screenPageViews": 238.0
+      },
+      {
+        "date": "2026-07-01",
+        "activeUsers": 157.0,
+        "sessions": 188.0,
+        "screenPageViews": 200.0
+      },
+      {
+        "date": "2026-07-02",
+        "activeUsers": 155.0,
+        "sessions": 190.0,
+        "screenPageViews": 201.0
+      },
+      {
+        "date": "2026-07-03",
+        "activeUsers": 132.0,
+        "sessions": 163.0,
+        "screenPageViews": 166.0
+      },
+      {
+        "date": "2026-07-04",
+        "activeUsers": 127.0,
+        "sessions": 144.0,
+        "screenPageViews": 148.0
+      },
+      {
+        "date": "2026-07-05",
+        "activeUsers": 121.0,
+        "sessions": 140.0,
+        "screenPageViews": 149.0
+      },
+      {
+        "date": "2026-07-06",
+        "activeUsers": 165.0,
+        "sessions": 195.0,
+        "screenPageViews": 196.0
+      },
+      {
+        "date": "2026-07-07",
+        "activeUsers": 239.0,
+        "sessions": 260.0,
+        "screenPageViews": 287.0
+      }
+    ],
+    "top_pages": [
+      {
+        "pagePath": "/blogs/connection-breaking-up/",
+        "screenPageViews": 32.0,
+        "activeUsers": 28.0,
+        "averageSessionDuration": 116.72406263333333
+      },
+      {
+        "pagePath": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+        "screenPageViews": 16.0,
+        "activeUsers": 16.0,
+        "averageSessionDuration": 50.0640251875
+      },
+      {
+        "pagePath": "/blogs/4k-editing-pc-setup-2026/",
+        "screenPageViews": 13.0,
+        "activeUsers": 12.0,
+        "averageSessionDuration": 60.360265
+      },
+      {
+        "pagePath": "/blogs/wifi-full-bars-but-slow-2026/",
+        "screenPageViews": 11.0,
+        "activeUsers": 10.0,
+        "averageSessionDuration": 21.275823272727273
+      },
+      {
+        "pagePath": "/blogs/unifi-wifi-optimization-guide/",
+        "screenPageViews": 10.0,
+        "activeUsers": 10.0,
+        "averageSessionDuration": 67.2251353
+      },
+      {
+        "pagePath": "/blogs/wired-vs-wireless-mesh-backhaul-guide/",
+        "screenPageViews": 10.0,
+        "activeUsers": 8.0,
+        "averageSessionDuration": 427.59614799999997
+      },
+      {
+        "pagePath": "/",
+        "screenPageViews": 9.0,
+        "activeUsers": 9.0,
+        "averageSessionDuration": 28.052740555555555
+      },
+      {
+        "pagePath": "/blogs/enterprise-cloud-storage-comparison-2026/",
+        "screenPageViews": 6.0,
+        "activeUsers": 6.0,
+        "averageSessionDuration": 8.666929333333334
+      },
+      {
+        "pagePath": "/blogs/network-construction/",
+        "screenPageViews": 6.0,
+        "activeUsers": 7.0,
+        "averageSessionDuration": 77.1053391111111
+      },
+      {
+        "pagePath": "/blogs/what-is-ransomware/",
+        "screenPageViews": 5.0,
+        "activeUsers": 5.0,
+        "averageSessionDuration": 144.80265933333334
+      }
+    ],
+    "top_sources": [
+      {
+        "sessionSource": "google",
+        "sessionMedium": "organic",
+        "sessions": 147.0,
+        "activeUsers": 127.0
+      },
+      {
+        "sessionSource": "(direct)",
+        "sessionMedium": "(none)",
+        "sessions": 108.0,
+        "activeUsers": 108.0
+      },
+      {
+        "sessionSource": "bing",
+        "sessionMedium": "organic",
+        "sessions": 2.0,
+        "activeUsers": 1.0
+      },
+      {
+        "sessionSource": "docs.google.com",
+        "sessionMedium": "referral",
+        "sessions": 1.0,
+        "activeUsers": 1.0
+      },
+      {
+        "sessionSource": "sg.search.yahoo.com",
+        "sessionMedium": "referral",
+        "sessions": 1.0,
+        "activeUsers": 1.0
+      },
+      {
+        "sessionSource": "tw.search.yahoo.com",
+        "sessionMedium": "referral",
+        "sessions": 1.0,
+        "activeUsers": 1.0
+      }
+    ],
+    "channels": [
+      {
+        "sessionDefaultChannelGroup": "Organic Search",
+        "sessions": 151.0,
+        "activeUsers": 130.0
+      },
+      {
+        "sessionDefaultChannelGroup": "Direct",
+        "sessions": 108.0,
+        "activeUsers": 108.0
+      },
+      {
+        "sessionDefaultChannelGroup": "Referral",
+        "sessions": 1.0,
+        "activeUsers": 1.0
+      }
+    ]
+  },
+  "crawlers": {
+    "data_date": "2026-07-07",
+    "total_today": 443,
+    "avg_7d": 375.7,
+    "pct_vs_7d": 17.9,
+    "by_bot_today": {
+      "bingbot": 140,
+      "meta-externalagent": 121,
+      "Googlebot": 75,
+      "ChatGPT-User": 53,
+      "OAI-SearchBot": 25,
+      "FacebookExternalHit": 17,
+      "Bytespider": 12
+    },
+    "top_uris": [
+      {
+        "uri": "/blogs/wifi-antenna-types-direction-signal-guide/",
+        "hits": 25
+      },
+      {
+        "uri": "/blogs/4k-editing-pc-setup-2026/",
+        "hits": 10
+      },
+      {
+        "uri": "/blogs/it-outsourcing-cost-guide-2026/",
+        "hits": 6
+      },
+      {
+        "uri": "/blogs/mis-outsourcing-complete-guide/",
+        "hits": 6
+      },
+      {
+        "uri": "/robots.txt",
+        "hits": 6
+      },
+      {
+        "uri": "/blogs/enterprise-video-editing-pc-guide/",
+        "hits": 6
+      },
+      {
+        "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+        "hits": 6
+      },
+      {
+        "uri": "/blogs/network-construction/",
+        "hits": 5
+      },
+      {
+        "uri": "/blogs/davinci-premiere-pc-2026/",
+        "hits": 5
+      },
+      {
+        "uri": "/blogs/ai-agent-deployment-guide-2026/",
+        "hits": 4
+      }
+    ],
+    "daily": [
+      {
+        "date": "2026-01-10",
+        "total": 0
+      },
+      {
+        "date": "2026-01-11",
+        "total": 0
+      },
+      {
+        "date": "2026-01-12",
+        "total": 0
+      },
+      {
+        "date": "2026-01-13",
+        "total": 0
+      },
+      {
+        "date": "2026-01-14",
+        "total": 0
+      },
+      {
+        "date": "2026-01-15",
+        "total": 0
+      },
+      {
+        "date": "2026-01-16",
+        "total": 0
+      },
+      {
+        "date": "2026-01-17",
+        "total": 0
+      },
+      {
+        "date": "2026-01-18",
+        "total": 0
+      },
+      {
+        "date": "2026-01-19",
+        "total": 0
+      },
+      {
+        "date": "2026-01-20",
+        "total": 0
+      },
+      {
+        "date": "2026-01-21",
+        "total": 0
+      },
+      {
+        "date": "2026-01-22",
+        "total": 0
+      },
+      {
+        "date": "2026-01-23",
+        "total": 0
+      },
+      {
+        "date": "2026-01-24",
+        "total": 0
+      },
+      {
+        "date": "2026-01-25",
+        "total": 0
+      },
+      {
+        "date": "2026-01-26",
+        "total": 0
+      },
+      {
+        "date": "2026-01-27",
+        "total": 0
+      },
+      {
+        "date": "2026-01-28",
+        "total": 0
+      },
+      {
+        "date": "2026-01-29",
+        "total": 0
+      },
+      {
+        "date": "2026-01-30",
+        "total": 0
+      },
+      {
+        "date": "2026-01-31",
+        "total": 0
+      },
+      {
+        "date": "2026-02-01",
+        "total": 0
+      },
+      {
+        "date": "2026-02-02",
+        "total": 0
+      },
+      {
+        "date": "2026-02-03",
+        "total": 0
+      },
+      {
+        "date": "2026-02-04",
+        "total": 0
+      },
+      {
+        "date": "2026-02-05",
+        "total": 0
+      },
+      {
+        "date": "2026-02-06",
+        "total": 0
+      },
+      {
+        "date": "2026-02-07",
+        "total": 0
+      },
+      {
+        "date": "2026-02-08",
+        "total": 0
+      },
+      {
+        "date": "2026-02-09",
+        "total": 0
+      },
+      {
+        "date": "2026-02-10",
+        "total": 0
+      },
+      {
+        "date": "2026-02-11",
+        "total": 0
+      },
+      {
+        "date": "2026-02-12",
+        "total": 0
+      },
+      {
+        "date": "2026-02-13",
+        "total": 0
+      },
+      {
+        "date": "2026-02-14",
+        "total": 0
+      },
+      {
+        "date": "2026-02-15",
+        "total": 0
+      },
+      {
+        "date": "2026-02-16",
+        "total": 0
+      },
+      {
+        "date": "2026-02-17",
+        "total": 0
+      },
+      {
+        "date": "2026-02-18",
+        "total": 0
+      },
+      {
+        "date": "2026-02-19",
+        "total": 0
+      },
+      {
+        "date": "2026-02-20",
+        "total": 0
+      },
+      {
+        "date": "2026-02-21",
+        "total": 0
+      },
+      {
+        "date": "2026-02-22",
+        "total": 0
+      },
+      {
+        "date": "2026-02-23",
+        "total": 0
+      },
+      {
+        "date": "2026-02-24",
+        "total": 0
+      },
+      {
+        "date": "2026-02-25",
+        "total": 0
+      },
+      {
+        "date": "2026-02-26",
+        "total": 0
+      },
+      {
+        "date": "2026-02-27",
+        "total": 0
+      },
+      {
+        "date": "2026-02-28",
+        "total": 0
+      },
+      {
+        "date": "2026-03-01",
+        "total": 0
+      },
+      {
+        "date": "2026-03-02",
+        "total": 0
+      },
+      {
+        "date": "2026-03-03",
+        "total": 0
+      },
+      {
+        "date": "2026-03-04",
+        "total": 0
+      },
+      {
+        "date": "2026-03-05",
+        "total": 0
+      },
+      {
+        "date": "2026-03-06",
+        "total": 0
+      },
+      {
+        "date": "2026-03-07",
+        "total": 0
+      },
+      {
+        "date": "2026-03-08",
+        "total": 0
+      },
+      {
+        "date": "2026-03-09",
+        "total": 0
+      },
+      {
+        "date": "2026-03-10",
+        "total": 0
+      },
+      {
+        "date": "2026-03-11",
+        "total": 0
+      },
+      {
+        "date": "2026-03-12",
+        "total": 0
+      },
+      {
+        "date": "2026-03-13",
+        "total": 0
+      },
+      {
+        "date": "2026-03-14",
+        "total": 0
+      },
+      {
+        "date": "2026-03-15",
+        "total": 0
+      },
+      {
+        "date": "2026-03-16",
+        "total": 0
+      },
+      {
+        "date": "2026-03-17",
+        "total": 0
+      },
+      {
+        "date": "2026-03-18",
+        "total": 0
+      },
+      {
+        "date": "2026-03-19",
+        "total": 0
+      },
+      {
+        "date": "2026-03-20",
+        "total": 0
+      },
+      {
+        "date": "2026-03-21",
+        "total": 0
+      },
+      {
+        "date": "2026-03-22",
+        "total": 0
+      },
+      {
+        "date": "2026-03-23",
+        "total": 0
+      },
+      {
+        "date": "2026-03-24",
+        "total": 0
+      },
+      {
+        "date": "2026-03-25",
+        "total": 0
+      },
+      {
+        "date": "2026-03-26",
+        "total": 0
+      },
+      {
+        "date": "2026-03-27",
+        "total": 0
+      },
+      {
+        "date": "2026-03-28",
+        "total": 0
+      },
+      {
+        "date": "2026-03-29",
+        "total": 0
+      },
+      {
+        "date": "2026-03-30",
+        "total": 0
+      },
+      {
+        "date": "2026-03-31",
+        "total": 0
+      },
+      {
+        "date": "2026-04-01",
+        "total": 0
+      },
+      {
+        "date": "2026-04-02",
+        "total": 0
+      },
+      {
+        "date": "2026-04-03",
+        "total": 0
+      },
+      {
+        "date": "2026-04-04",
+        "total": 0
+      },
+      {
+        "date": "2026-04-05",
+        "total": 0
+      },
+      {
+        "date": "2026-04-06",
+        "total": 0
+      },
+      {
+        "date": "2026-04-07",
+        "total": 0
+      },
+      {
+        "date": "2026-04-08",
+        "total": 0
+      },
+      {
+        "date": "2026-04-09",
+        "total": 0
+      },
+      {
+        "date": "2026-04-10",
+        "total": 0
+      },
+      {
+        "date": "2026-04-11",
+        "total": 0
+      },
+      {
+        "date": "2026-04-12",
+        "total": 0
+      },
+      {
+        "date": "2026-04-13",
+        "total": 0
+      },
+      {
+        "date": "2026-04-14",
+        "total": 0
+      },
+      {
+        "date": "2026-04-15",
+        "total": 0
+      },
+      {
+        "date": "2026-04-16",
+        "total": 0
+      },
+      {
+        "date": "2026-04-17",
+        "total": 0
+      },
+      {
+        "date": "2026-04-18",
+        "total": 0
+      },
+      {
+        "date": "2026-04-19",
+        "total": 0
+      },
+      {
+        "date": "2026-04-20",
+        "total": 0
+      },
+      {
+        "date": "2026-04-21",
+        "total": 0
+      },
+      {
+        "date": "2026-04-22",
+        "total": 0
+      },
+      {
+        "date": "2026-04-23",
+        "total": 0
+      },
+      {
+        "date": "2026-04-24",
+        "total": 0
+      },
+      {
+        "date": "2026-04-25",
+        "total": 0
+      },
+      {
+        "date": "2026-04-26",
+        "total": 0
+      },
+      {
+        "date": "2026-04-27",
+        "total": 0
+      },
+      {
+        "date": "2026-04-28",
+        "total": 0
+      },
+      {
+        "date": "2026-04-29",
+        "total": 29,
+        "Bytespider": 11,
+        "meta-externalagent": 13,
+        "ChatGPT-User": 2,
+        "OAI-SearchBot": 1,
+        "Claude-SearchBot": 1,
+        "CCBot": 1
+      },
+      {
+        "date": "2026-04-30",
+        "total": 53,
+        "meta-externalagent": 38,
+        "ChatGPT-User": 5,
+        "CCBot": 1,
+        "Bytespider": 5,
+        "OAI-SearchBot": 3,
+        "YouBot": 1
+      },
+      {
+        "date": "2026-05-01",
+        "total": 53,
+        "meta-externalagent": 16,
+        "Bytespider": 4,
+        "OAI-SearchBot": 29,
+        "ChatGPT-User": 4
+      },
+      {
+        "date": "2026-05-02",
+        "total": 37,
+        "meta-externalagent": 24,
+        "OAI-SearchBot": 7,
+        "Bytespider": 2,
+        "ChatGPT-User": 4
+      },
+      {
+        "date": "2026-05-03",
+        "total": 37,
+        "meta-externalagent": 29,
+        "Bytespider": 2,
+        "OAI-SearchBot": 3,
+        "ChatGPT-User": 3
+      },
+      {
+        "date": "2026-05-04",
+        "total": 54,
+        "meta-externalagent": 21,
+        "OAI-SearchBot": 21,
+        "ChatGPT-User": 10,
+        "Bytespider": 2
+      },
+      {
+        "date": "2026-05-05",
+        "total": 47,
+        "ChatGPT-User": 9,
+        "meta-externalagent": 25,
+        "Bytespider": 3,
+        "OAI-SearchBot": 10
+      },
+      {
+        "date": "2026-05-06",
+        "total": 144,
+        "meta-externalagent": 99,
+        "OAI-SearchBot": 27,
+        "ChatGPT-User": 11,
+        "Bytespider": 7
+      },
+      {
+        "date": "2026-05-07",
+        "total": 198,
+        "meta-externalagent": 179,
+        "Bytespider": 4,
+        "OAI-SearchBot": 6,
+        "ChatGPT-User": 5,
+        "CCBot": 4
+      },
+      {
+        "date": "2026-05-08",
+        "total": 50,
+        "meta-externalagent": 27,
+        "OAI-SearchBot": 13,
+        "ChatGPT-User": 6,
+        "Bytespider": 4
+      },
+      {
+        "date": "2026-05-09",
+        "total": 56,
+        "meta-externalagent": 26,
+        "Bytespider": 4,
+        "ChatGPT-User": 12,
+        "OAI-SearchBot": 14
+      },
+      {
+        "date": "2026-05-10",
+        "total": 60,
+        "Bytespider": 5,
+        "meta-externalagent": 27,
+        "ChatGPT-User": 5,
+        "OAI-SearchBot": 14,
+        "CCBot": 3,
+        "YouBot": 4,
+        "CohereBot": 1,
+        "Claude-SearchBot": 1
+      },
+      {
+        "date": "2026-05-11",
+        "total": 108,
+        "meta-externalagent": 46,
+        "Bytespider": 4,
+        "ChatGPT-User": 11,
+        "OAI-SearchBot": 47
+      },
+      {
+        "date": "2026-05-12",
+        "total": 286,
+        "meta-externalagent": 187,
+        "ChatGPT-User": 27,
+        "Bytespider": 7,
+        "OAI-SearchBot": 65
+      },
+      {
+        "date": "2026-05-13",
+        "total": 86,
+        "meta-externalagent": 25,
+        "ChatGPT-User": 26,
+        "Claude-SearchBot": 1,
+        "CCBot": 1,
+        "OAI-SearchBot": 25,
+        "CohereBot": 1,
+        "Bytespider": 6,
+        "YouBot": 1
+      },
+      {
+        "date": "2026-05-14",
+        "total": 85,
+        "meta-externalagent": 27,
+        "CCBot": 42,
+        "Bytespider": 3,
+        "ChatGPT-User": 12,
+        "OAI-SearchBot": 1
+      },
+      {
+        "date": "2026-05-15",
+        "total": 68,
+        "Bytespider": 3,
+        "ChatGPT-User": 14,
+        "meta-externalagent": 29,
+        "OAI-SearchBot": 22
+      },
+      {
+        "date": "2026-05-16",
+        "total": 25,
+        "ChatGPT-User": 7,
+        "Bytespider": 2,
+        "OAI-SearchBot": 2,
+        "meta-externalagent": 14
+      },
+      {
+        "date": "2026-05-17",
+        "total": 36,
+        "meta-externalagent": 22,
+        "ChatGPT-User": 8,
+        "OAI-SearchBot": 4,
+        "Bytespider": 2
+      },
+      {
+        "date": "2026-05-18",
+        "total": 97,
+        "meta-externalagent": 30,
+        "Bytespider": 7,
+        "ChatGPT-User": 18,
+        "OAI-SearchBot": 33,
+        "YouBot": 2,
+        "CCBot": 4,
+        "CohereBot": 2,
+        "Claude-SearchBot": 1
+      },
+      {
+        "date": "2026-05-19",
+        "total": 68,
+        "meta-externalagent": 22,
+        "ChatGPT-User": 19,
+        "Bytespider": 3,
+        "OAI-SearchBot": 24
+      },
+      {
+        "date": "2026-05-20",
+        "total": 54,
+        "meta-externalagent": 29,
+        "ChatGPT-User": 16,
+        "OAI-SearchBot": 8,
+        "Bytespider": 1
+      },
+      {
+        "date": "2026-05-21",
+        "total": 59,
+        "ChatGPT-User": 10,
+        "OAI-SearchBot": 26,
+        "Bytespider": 2,
+        "meta-externalagent": 21
+      },
+      {
+        "date": "2026-05-22",
+        "total": 44,
+        "meta-externalagent": 24,
+        "OAI-SearchBot": 11,
+        "ChatGPT-User": 6,
+        "Bytespider": 3
+      },
+      {
+        "date": "2026-05-23",
+        "total": 54,
+        "meta-externalagent": 36,
+        "ChatGPT-User": 12,
+        "Bytespider": 4,
+        "OAI-SearchBot": 2
+      },
+      {
+        "date": "2026-05-24",
+        "total": 97,
+        "meta-externalagent": 40,
+        "ChatGPT-User": 18,
+        "OAI-SearchBot": 36,
+        "Bytespider": 3
+      },
+      {
+        "date": "2026-05-25",
+        "total": 72,
+        "meta-externalagent": 30,
+        "ChatGPT-User": 13,
+        "OAI-SearchBot": 24,
+        "Bytespider": 5
+      },
+      {
+        "date": "2026-05-26",
+        "total": 99,
+        "meta-externalagent": 27,
+        "ChatGPT-User": 19,
+        "Bytespider": 8,
+        "OAI-SearchBot": 39,
+        "CohereBot": 1,
+        "DuckAssistBot": 2,
+        "Diffbot": 1,
+        "Google-Extended": 2
+      },
+      {
+        "date": "2026-05-27",
+        "total": 60,
+        "ChatGPT-User": 9,
+        "OAI-SearchBot": 20,
+        "meta-externalagent": 30,
+        "Bytespider": 1
+      },
+      {
+        "date": "2026-05-28",
+        "total": 83,
+        "meta-externalagent": 29,
+        "ChatGPT-User": 14,
+        "Bytespider": 3,
+        "OAI-SearchBot": 37
+      },
+      {
+        "date": "2026-05-29",
+        "total": 60,
+        "meta-externalagent": 24,
+        "ChatGPT-User": 12,
+        "OAI-SearchBot": 15,
+        "Bytespider": 9
+      },
+      {
+        "date": "2026-05-30",
+        "total": 62,
+        "meta-externalagent": 25,
+        "Bytespider": 11,
+        "ChatGPT-User": 12,
+        "OAI-SearchBot": 14
+      },
+      {
+        "date": "2026-05-31",
+        "total": 388,
+        "ChatGPT-User": 14,
+        "meta-externalagent": 356,
+        "Bytespider": 7,
+        "OAI-SearchBot": 10,
+        "CohereBot": 1
+      },
+      {
+        "date": "2026-06-01",
+        "total": 72,
+        "ChatGPT-User": 15,
+        "meta-externalagent": 31,
+        "OAI-SearchBot": 18,
+        "Bytespider": 8
+      },
+      {
+        "date": "2026-06-02",
+        "total": 137,
+        "ChatGPT-User": 29,
+        "meta-externalagent": 77,
+        "OAI-SearchBot": 22,
+        "Bytespider": 4,
+        "Anthropic-AI": 4,
+        "CohereBot": 1
+      },
+      {
+        "date": "2026-06-03",
+        "total": 81,
+        "ChatGPT-User": 24,
+        "meta-externalagent": 30,
+        "Bytespider": 4,
+        "OAI-SearchBot": 23
+      },
+      {
+        "date": "2026-06-04",
+        "total": 83,
+        "CCBot": 24,
+        "ChatGPT-User": 23,
+        "Bytespider": 4,
+        "meta-externalagent": 25,
+        "OAI-SearchBot": 7
+      },
+      {
+        "date": "2026-06-05",
+        "total": 86,
+        "meta-externalagent": 29,
+        "ChatGPT-User": 11,
+        "OAI-SearchBot": 18,
+        "Bytespider": 11,
+        "Google-Extended": 8,
+        "CCBot": 6,
+        "CohereBot": 2,
+        "Anthropic-AI": 1
+      },
+      {
+        "date": "2026-06-06",
+        "total": 98,
+        "meta-externalagent": 45,
+        "ChatGPT-User": 13,
+        "OAI-SearchBot": 9,
+        "Bytespider": 12,
+        "CohereBot": 7,
+        "CCBot": 5,
+        "Google-Extended": 7
+      },
+      {
+        "date": "2026-06-07",
+        "total": 70,
+        "ChatGPT-User": 16,
+        "meta-externalagent": 35,
+        "OAI-SearchBot": 17,
+        "Bytespider": 2
+      },
+      {
+        "date": "2026-06-08",
+        "total": 0
+      },
+      {
+        "date": "2026-06-09",
+        "total": 146,
+        "ChatGPT-User": 32,
+        "Google-Extended": 3,
+        "Bytespider": 7,
+        "Anthropic-AI": 3,
+        "CohereBot": 2,
+        "CCBot": 2,
+        "OAI-SearchBot": 7,
+        "meta-externalagent": 90
+      },
+      {
+        "date": "2026-06-10",
+        "total": 0
+      },
+      {
+        "date": "2026-06-11",
+        "total": 0
+      },
+      {
+        "date": "2026-06-12",
+        "total": 0
+      },
+      {
+        "date": "2026-06-13",
+        "total": 0
+      },
+      {
+        "date": "2026-06-14",
+        "total": 0
+      },
+      {
+        "date": "2026-06-15",
+        "total": 0
+      },
+      {
+        "date": "2026-06-16",
+        "total": 302,
+        "meta-externalagent": 87,
+        "ChatGPT-User": 54,
+        "bingbot": 87,
+        "FacebookExternalHit": 21,
+        "Bytespider": 3,
+        "Googlebot": 29,
+        "OAI-SearchBot": 21
+      },
+      {
+        "date": "2026-06-17",
+        "total": 844,
+        "meta-externalagent": 670,
+        "FacebookExternalHit": 18,
+        "bingbot": 62,
+        "ChatGPT-User": 39,
+        "Googlebot": 28,
+        "OAI-SearchBot": 26,
+        "Bytespider": 1
+      },
+      {
+        "date": "2026-06-18",
+        "total": 486,
+        "Googlebot": 38,
+        "bingbot": 80,
+        "meta-externalagent": 263,
+        "ChatGPT-User": 32,
+        "FacebookExternalHit": 32,
+        "OAI-SearchBot": 39,
+        "Bytespider": 2
+      },
+      {
+        "date": "2026-06-19",
+        "total": 217,
+        "bingbot": 69,
+        "meta-externalagent": 84,
+        "ChatGPT-User": 17,
+        "OAI-SearchBot": 2,
+        "Googlebot": 29,
+        "FacebookExternalHit": 11,
+        "Bytespider": 3,
+        "PinterestBot": 2
+      },
+      {
+        "date": "2026-06-20",
+        "total": 251,
+        "ChatGPT-User": 28,
+        "FacebookExternalHit": 11,
+        "bingbot": 71,
+        "meta-externalagent": 87,
+        "Googlebot": 44,
+        "Bytespider": 3,
+        "OAI-SearchBot": 6,
+        "PinterestBot": 1
+      },
+      {
+        "date": "2026-06-21",
+        "total": 396,
+        "Googlebot": 99,
+        "ChatGPT-User": 115,
+        "meta-externalagent": 77,
+        "FacebookExternalHit": 10,
+        "bingbot": 81,
+        "Bytespider": 4,
+        "OAI-SearchBot": 9,
+        "PinterestBot": 1
+      },
+      {
+        "date": "2026-06-22",
+        "total": 376,
+        "bingbot": 92,
+        "Bytespider": 5,
+        "Googlebot": 46,
+        "meta-externalagent": 64,
+        "ChatGPT-User": 122,
+        "FacebookExternalHit": 22,
+        "OAI-SearchBot": 23,
+        "Google-AdsBot": 2
+      },
+      {
+        "date": "2026-06-23",
+        "total": 834,
+        "meta-externalagent": 406,
+        "Googlebot": 66,
+        "bingbot": 213,
+        "FacebookExternalHit": 40,
+        "ChatGPT-User": 69,
+        "OAI-SearchBot": 37,
+        "Bytespider": 3
+      },
+      {
+        "date": "2026-06-24",
+        "total": 660,
+        "meta-externalagent": 352,
+        "Googlebot": 51,
+        "bingbot": 156,
+        "ChatGPT-User": 57,
+        "FacebookExternalHit": 23,
+        "OAI-SearchBot": 18,
+        "Bytespider": 3
+      },
+      {
+        "date": "2026-06-25",
+        "total": 488,
+        "meta-externalagent": 186,
+        "bingbot": 106,
+        "FacebookExternalHit": 46,
+        "OAI-SearchBot": 40,
+        "Googlebot": 61,
+        "ChatGPT-User": 44,
+        "Bytespider": 5
+      },
+      {
+        "date": "2026-06-26",
+        "total": 392,
+        "FacebookExternalHit": 39,
+        "bingbot": 82,
+        "meta-externalagent": 153,
+        "Googlebot": 41,
+        "ChatGPT-User": 42,
+        "OAI-SearchBot": 31,
+        "Bytespider": 4
+      },
+      {
+        "date": "2026-06-27",
+        "total": 340,
+        "bingbot": 102,
+        "meta-externalagent": 119,
+        "FacebookExternalHit": 14,
+        "Googlebot": 48,
+        "ChatGPT-User": 18,
+        "OAI-SearchBot": 36,
+        "Bytespider": 1,
+        "PinterestBot": 2
+      },
+      {
+        "date": "2026-06-28",
+        "total": 327,
+        "meta-externalagent": 77,
+        "Googlebot": 46,
+        "bingbot": 83,
+        "FacebookExternalHit": 59,
+        "ChatGPT-User": 30,
+        "OAI-SearchBot": 29,
+        "Bytespider": 3
+      },
+      {
+        "date": "2026-06-29",
+        "total": 371,
+        "meta-externalagent": 89,
+        "FacebookExternalHit": 42,
+        "Googlebot": 63,
+        "ChatGPT-User": 52,
+        "bingbot": 90,
+        "OAI-SearchBot": 33,
+        "PinterestBot": 1,
+        "Bytespider": 1
+      },
+      {
+        "date": "2026-06-30",
+        "total": 363,
+        "ChatGPT-User": 47,
+        "meta-externalagent": 88,
+        "FacebookExternalHit": 58,
+        "bingbot": 105,
+        "Googlebot": 47,
+        "OAI-SearchBot": 15,
+        "Bytespider": 3
+      },
+      {
+        "date": "2026-07-01",
+        "total": 378,
+        "Googlebot": 76,
+        "meta-externalagent": 94,
+        "FacebookExternalHit": 31,
+        "bingbot": 112,
+        "Bytespider": 2,
+        "ChatGPT-User": 38,
+        "OAI-SearchBot": 24,
+        "PinterestBot": 1
+      },
+      {
+        "date": "2026-07-02",
+        "total": 429,
+        "Googlebot": 68,
+        "ChatGPT-User": 66,
+        "bingbot": 118,
+        "meta-externalagent": 82,
+        "OAI-SearchBot": 66,
+        "FacebookExternalHit": 22,
+        "Bytespider": 3,
+        "Google-AdsBot": 1,
+        "PinterestBot": 3
+      },
+      {
+        "date": "2026-07-03",
+        "total": 339,
+        "meta-externalagent": 97,
+        "FacebookExternalHit": 27,
+        "bingbot": 91,
+        "Googlebot": 68,
+        "ChatGPT-User": 42,
+        "OAI-SearchBot": 10,
+        "Bytespider": 4
+      },
+      {
+        "date": "2026-07-04",
+        "total": 373,
+        "FacebookExternalHit": 14,
+        "bingbot": 91,
+        "Googlebot": 102,
+        "meta-externalagent": 95,
+        "ChatGPT-User": 33,
+        "Bytespider": 12,
+        "OAI-SearchBot": 26
+      },
+      {
+        "date": "2026-07-05",
+        "total": 324,
+        "Googlebot": 47,
+        "meta-externalagent": 83,
+        "bingbot": 103,
+        "OAI-SearchBot": 15,
+        "ChatGPT-User": 41,
+        "FacebookExternalHit": 22,
+        "Bytespider": 3,
+        "CohereBot": 4,
+        "Anthropic-AI": 1,
+        "CCBot": 2,
+        "Google-Extended": 3
+      },
+      {
+        "date": "2026-07-06",
+        "total": 424,
+        "meta-externalagent": 87,
+        "Googlebot": 76,
+        "Bytespider": 14,
+        "bingbot": 127,
+        "OAI-SearchBot": 44,
+        "FacebookExternalHit": 19,
+        "ChatGPT-User": 57
+      },
+      {
+        "date": "2026-07-07",
+        "total": 443,
+        "bingbot": 140,
+        "meta-externalagent": 121,
+        "Googlebot": 75,
+        "Bytespider": 12,
+        "ChatGPT-User": 53,
+        "FacebookExternalHit": 17,
+        "OAI-SearchBot": 25
+      },
+      {
+        "date": "2026-07-08",
+        "total": 0
+      }
+    ],
+    "raw_sample": [
+      {
+        "ts": "2026-07-07 00:10:08",
+        "ip": "40.77.167.76",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/%E7%A7%9F%E9%9B%BB%E8%85%A6%E4%B8%83%E5%A4%A7%E5%84%AA%E5%8B%A2%EF%BC%9F%E8%93%8B%E6%96%AF%E5%85%8B%E7%A7%91%E6%8A%80it%E8%A8%AD%E5%82%99%E5%85%A8%E7%A7%9F%E8%B3%83/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 00:10:51",
+        "ip": "40.77.167.76",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/mikrotik-firewall-setup-guide-2026/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 00:20:37",
+        "ip": "2a03:2880:f812:44::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blogs/ai-agent-deployment-guide-2026/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-07-07 00:20:55",
+        "ip": "40.77.167.73",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/purchase_pc2/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 00:21:39",
+        "ip": "40.77.167.73",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/wifi-antenna-types-direction-signal-guide/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 00:24:20",
+        "ip": "2a03:2880:f812:18::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/sitemap.html",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-07-07 00:29:20",
+        "ip": "66.249.65.202",
+        "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "uri": "/blogs-sitemap1.xml",
+        "bot_name": "Googlebot"
+      },
+      {
+        "ts": "2026-07-07 00:33:11",
+        "ip": "40.77.167.20",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/atmosphere/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 00:33:43",
+        "ip": "52.167.144.183",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/15449/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 00:39:57",
+        "ip": "52.167.144.143",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/13779/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 00:40:34",
+        "ip": "66.249.65.204",
+        "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.46 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "uri": "/fixpc-2/",
+        "bot_name": "Googlebot"
+      },
+      {
+        "ts": "2026-07-07 00:40:35",
+        "ip": "66.249.65.204",
+        "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.46 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "uri": "/blog/2018/12/02/fixpc-2/",
+        "bot_name": "Googlebot"
+      },
+      {
+        "ts": "2026-07-07 00:46:37",
+        "ip": "66.249.65.204",
+        "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.46 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "uri": "/blog-tag/%E8%A8%AD%E5%82%99%E9%81%B8%E5%9E%8B/",
+        "bot_name": "Googlebot"
+      },
+      {
+        "ts": "2026-07-07 00:56:27",
+        "ip": "40.77.167.38",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/hotel-wifi-guide-2026/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 00:58:13",
+        "ip": "47.128.122.176",
+        "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)",
+        "uri": "/blogs/4k-editing-pc-setup-2026/",
+        "bot_name": "Bytespider"
+      },
+      {
+        "ts": "2026-07-07 00:59:43",
+        "ip": "172.204.27.31",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/15461/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-07-07 01:02:50",
+        "ip": "40.77.167.155",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blog-tag/%E5%BB%A0%E6%88%BF%E7%B6%B2%E8%B7%AF/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 01:03:47",
+        "ip": "47.128.122.151",
+        "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)",
+        "uri": "/blogs/unifi-wifi-optimization-guide/",
+        "bot_name": "Bytespider"
+      },
+      {
+        "ts": "2026-07-07 01:04:29",
+        "ip": "2a03:2880:f812:2c::",
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+        "uri": "/blogs/agv-wifi-seamless-roaming/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-07-07 01:05:06",
+        "ip": "52.167.144.235",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/wp-json/wp/v2/blogs/14954",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 01:13:58",
+        "ip": "2a03:2880:f812:4b::",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+        "uri": "/blogs/15398/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-07-07 01:16:16",
+        "ip": "66.249.65.204",
+        "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        "uri": "/blogs-sitemap1.xml",
+        "bot_name": "Googlebot"
+      },
+      {
+        "ts": "2026-07-07 01:25:27",
+        "ip": "20.215.188.197",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/ai-agent-deployment-guide-2026/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-07-07 01:25:29",
+        "ip": "40.77.167.11",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/unifi-protect-camera-enterprise-security-guide/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 01:27:01",
+        "ip": "40.77.167.70",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/test/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 01:28:04",
+        "ip": "52.167.144.183",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/wifi-antenna-types-direction-signal-guide/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 01:32:32",
+        "ip": "52.231.49.56",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/enterprise-network-construction-guide/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-07-07 01:32:33",
+        "ip": "52.231.49.56",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/network-construction/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-07-07 01:33:50",
+        "ip": "20.194.157.190",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/it-outsourcing-cost-guide-2026/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-07-07 01:33:51",
+        "ip": "20.194.157.189",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/mis-outsourcing-complete-guide/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-07-07 01:36:55",
+        "ip": "2a03:2880:f812:53::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blogs/nas-restaurant-chain-franchise/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-07-07 01:46:39",
+        "ip": "40.77.167.51",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blog/category/showcase/cloud-storage/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 01:46:43",
+        "ip": "2a03:2880:f812:53::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/3d%e5%8b%95%e7%95%ab%e4%b8%bb%e6%a9%9f/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-07-07 01:49:24",
+        "ip": "20.194.157.191",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/hinet-mod-mikrotik-bridge-guide/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-07-07 01:57:59",
+        "ip": "52.167.144.143",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blog/tag/%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 01:58:11",
+        "ip": "52.167.144.237",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blog-tag/%E7%94%A2%E7%B7%9A%E7%92%B0%E5%A2%83/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 01:58:49",
+        "ip": "52.167.144.143",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/wp-json/wp/v2/blogs/15470",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 02:05:45",
+        "ip": "2a03:2880:f812:4a::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blogs/restaurant-wifi-guide-2026/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-07-07 02:12:10",
+        "ip": "2a03:2880:f812:f::",
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+        "uri": "/blogs/15464/",
+        "bot_name": "meta-externalagent"
+      },
+      {
+        "ts": "2026-07-07 02:15:04",
+        "ip": "111.225.148.102",
+        "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+        "uri": "/blogs/%E7%A7%9F%E9%9B%BB%E8%85%A6%E4%B8%83%E5%A4%A7%E5%84%AA%E5%8B%A2%EF%BC%9F%E8%93%8B%E6%96%AF%E5%85%8B%E7%A7%91%E6%8A%80it%E8%A8%AD%E5%82%99%E5%85%A8%E7%A7%9F%E8%B3%83/",
+        "bot_name": "Bytespider"
+      },
+      {
+        "ts": "2026-07-07 02:19:43",
+        "ip": "110.249.201.108",
+        "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+        "uri": "/blogs/network-attached-storage/",
+        "bot_name": "Bytespider"
+      },
+      {
+        "ts": "2026-07-07 02:22:51",
+        "ip": "110.249.201.36",
+        "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+        "uri": "/robots.txt",
+        "bot_name": "Bytespider"
+      },
+      {
+        "ts": "2026-07-07 02:33:32",
+        "ip": "40.77.167.243",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/unifi-wifi-7-enterprise-guide/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 02:34:15",
+        "ip": "20.169.78.133",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/editing-hardware-myths-2026/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-07-07 02:35:36",
+        "ip": "52.167.144.143",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/wifi-antenna-types-direction-signal-guide/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 02:42:02",
+        "ip": "52.167.144.229",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blogs/industrial-ap-vs-commercial-ap-comparison-2/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 02:43:21",
+        "ip": "20.27.94.132",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/system-integration/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-07-07 02:53:29",
+        "ip": "138.91.30.52",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+        "uri": "/blogs/it-outsourcing-cost-guide-2026/",
+        "bot_name": "ChatGPT-User"
+      },
+      {
+        "ts": "2026-07-07 02:55:11",
+        "ip": "40.77.167.123",
+        "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+        "uri": "/blog-tag/wifi%E5%84%AA%E5%8C%96/page/2/",
+        "bot_name": "bingbot"
+      },
+      {
+        "ts": "2026-07-07 03:02:58",
+        "ip": "2a03:2880:f812:46::",
+        "ua": "meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)",
+        "uri": "/blog/tag/%e8%be%a6%e5%85%ac%e5%ae%a4%e7%b6%b2%e8%b7%af/",
+        "bot_name": "meta-externalagent"
+      }
+    ]
+  },
+  "aeo": {
+    "source": "fallback",
+    "score": 100,
+    "checks": {
+      "robots_txt_present": true,
+      "llms_txt_present": true,
+      "sitemap_xml_present": true,
+      "home_reachable": true,
+      "json_ld_present": true,
+      "bots_allowed": {
+        "GPTBot": true,
+        "ClaudeBot": true,
+        "Google-Extended": true,
+        "PerplexityBot": true,
+        "CCBot": true,
+        "Applebot-Extended": true,
+        "Amazonbot": true,
+        "Bytespider": true
+      }
+    }
+  },
+  "errors": {
+    "gsc": null,
+    "ga4": null,
+    "crawlers": null,
+    "aeo": null
+  }
+}
