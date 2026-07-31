@@ -1,1 +1,3705 @@
-[]
+[
+  {
+    "ts": "2026-07-31 00:02:20",
+    "ip": "2a03:2880:f812:d::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/",
+    "bot_name": "meta-webindexer"
+  },
+  {
+    "ts": "2026-07-31 00:09:42",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/12867/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 00:09:43",
+    "ip": "66.249.66.73",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/mesh-wifi-enterprise-purchase-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 00:11:25",
+    "ip": "52.167.144.221",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/IT%E5%A4%96%E5%8C%85/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 00:15:27",
+    "ip": "207.46.13.107",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/large-warehouse-wifi-design/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 00:15:32",
+    "ip": "52.167.144.23",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/how-to-set-up-a-small-business-network/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 00:18:11",
+    "ip": "52.167.144.23",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog-tag/%E6%99%BA%E6%85%A7%E8%A3%BD%E9%80%A0/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 00:22:46",
+    "ip": "52.231.49.59",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/network-construction/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 00:27:42",
+    "ip": "52.167.144.139",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/it-outsourcing-services-and-pricing/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 00:32:22",
+    "ip": "157.55.39.202",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/15461/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 00:40:04",
+    "ip": "52.231.49.61",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 00:40:31",
+    "ip": "20.27.94.134",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/enterprise-low-voltage-cabling-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 00:41:16",
+    "ip": "2a03:2880:f812:74::",
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/page-sitemap1.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 00:49:21",
+    "ip": "2a03:2880:f812:49::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/network-attached-storage/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 00:49:51",
+    "ip": "52.167.144.187",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/wifi-full-bars-but-slow-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 00:50:50",
+    "ip": "23.26.61.141",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/what-is-ransomware/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 00:51:34",
+    "ip": "2a03:2880:f812:75::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Fnas-backup-health-check%2F",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 00:53:10",
+    "ip": "157.55.39.53",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/enterprise-network-planning/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 00:53:57",
+    "ip": "40.77.167.30",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/udm-pro-max-vs-ucg-ultra-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 00:56:13",
+    "ip": "2a03:2880:f812:42::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/cold-chain-food-factory-cabling/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 01:02:43",
+    "ip": "52.159.227.46",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 01:03:02",
+    "ip": "18.97.9.102",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/network-attached-storage/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 01:03:37",
+    "ip": "66.249.66.78",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog-tag/%E8%A8%AD%E5%82%99%E7%A7%9F%E8%B3%83/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 01:04:31",
+    "ip": "2a03:2880:f812:4d::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e5%85%b1%e4%ba%ab%e7%a9%ba%e9%96%93/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 01:06:32",
+    "ip": "20.169.73.184",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 01:06:33",
+    "ip": "20.169.73.184",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 01:07:40",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/office-wireless-network-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 01:07:49",
+    "ip": "18.97.9.100",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/information-security-cia-triad/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 01:13:09",
+    "ip": "52.167.144.189",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/category-sitemap1.xml",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 01:14:28",
+    "ip": "207.46.13.154",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/exhibition-hall-wifi-guide-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 01:17:17",
+    "ip": "207.46.13.154",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/%E8%93%8B%E6%96%AF%E5%85%8B%E7%A7%91%E6%8A%80%E6%A6%AE%E7%8D%B2moxa%E6%AC%8A%E5%A8%81%E8%AA%8D%E8%AD%89%EF%BC%8C%E5%B0%88%E6%A5%AD%E9%A0%98%E8%88%AA%E5%B7%A5%E6%A5%AD%E7%84%A1%E7%B7%9A%E7%B6%B2/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 01:17:30",
+    "ip": "40.77.167.159",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/network-build/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 01:19:35",
+    "ip": "18.97.9.101",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 01:22:33",
+    "ip": "207.46.13.154",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog-tag/%E8%A8%AD%E5%82%99%E9%81%B8%E5%9E%8B/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 01:24:42",
+    "ip": "66.249.66.73",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog-tag/%E5%BB%A0%E6%88%BF%E7%B6%B2%E8%B7%AF/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 01:25:07",
+    "ip": "207.46.13.9",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/15395/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 01:25:10",
+    "ip": "40.77.179.250",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36",
+    "uri": "/blogs/15395",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 01:30:15",
+    "ip": "2a03:2880:f812:3d::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/nas-backup-health-check-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 01:30:19",
+    "ip": "2a03:2880:f812:a::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/nas-backup-health-check/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 01:41:20",
+    "ip": "18.97.9.99",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/dual-wan-load-balancing-mikrotik-2026/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 01:41:23",
+    "ip": "18.97.9.101",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/dual-wan-load-balancing-mikrotik/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 01:45:58",
+    "ip": "147.92.179.106",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 01:50:36",
+    "ip": "13.76.115.244",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 01:52:01",
+    "ip": "52.167.144.193",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/mis-outsourcing-complete-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 01:57:14",
+    "ip": "20.194.1.7",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/udm-pro-max-vs-ucg-ultra-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 01:58:55",
+    "ip": "52.167.144.193",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/ssd-vs-hdd-comparison/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 02:01:07",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/it-outsourcing-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 02:01:08",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/it-outsourcing-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 02:02:12",
+    "ip": "66.249.66.64",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog-tag/%E7%B6%B2%E8%B7%AF%E4%B8%8D%E7%A9%A9/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 02:05:32",
+    "ip": "20.194.1.1",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 02:05:32",
+    "ip": "20.194.1.1",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 02:06:37",
+    "ip": "20.169.78.186",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/it-outsourcing-cost-guide-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 02:06:38",
+    "ip": "20.169.78.186",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/it-outsourcing-cost-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 02:09:44",
+    "ip": "138.91.30.61",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 02:19:04",
+    "ip": "2a03:2880:f812:4c::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/smart-manufacturing-wifi-6-low-latency-high-density/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 02:22:54",
+    "ip": "52.167.144.217",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/iso-27001-certification-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 02:25:37",
+    "ip": "52.167.144.217",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/rent-nb/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 02:25:37",
+    "ip": "52.167.144.217",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2022/11/03/rent-nb/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 02:27:47",
+    "ip": "40.77.167.143",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/14558/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 02:28:49",
+    "ip": "20.169.87.127",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/4k-editing-pc-setup-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 02:28:49",
+    "ip": "20.169.87.127",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 02:30:40",
+    "ip": "18.97.9.102",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/industrial-wifi-channel-emr-guide/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 02:35:47",
+    "ip": "138.91.30.50",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/enterprise-computer-rental-guide-2/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 02:38:03",
+    "ip": "2a03:2880:f812:6b::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%92%e5%8e%9f%e5%9b%a0/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 02:39:32",
+    "ip": "157.55.39.49",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/smart-factory-network-planning-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 02:39:42",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/office-wireless-network-guide-2026/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 02:39:43",
+    "ip": "66.249.66.73",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/office-wireless-network-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 02:42:34",
+    "ip": "2a03:2880:f812:60::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/connection-breaking-up/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 02:45:19",
+    "ip": "20.27.94.130",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 02:45:23",
+    "ip": "52.167.144.184",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/hotel-wifi-guide-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 02:47:12",
+    "ip": "52.167.144.184",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2025/%E7%A7%9F%E8%B3%83vs%E8%87%AA%E8%B3%BC%E6%AF%94%E8%BC%83/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 02:48:28",
+    "ip": "23.26.61.142",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/enterprise-wifi-installation-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 02:48:57",
+    "ip": "23.26.61.143",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/aruba-warehouse-wifi-design-2026/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 02:49:28",
+    "ip": "23.26.61.144",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/it-outsourcing-guide-2026/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 02:49:57",
+    "ip": "23.26.61.145",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/ap-on-a-stick-guide-wifi-pre-deployment-site-survey/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 02:50:28",
+    "ip": "23.26.61.146",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/clinic-hospital-wifi-guide-2026/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 02:52:01",
+    "ip": "207.46.13.64",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/4k-editing-workstation/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 02:54:40",
+    "ip": "2a03:2880:f812:54::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/unifi-protect-camera-enterprise-security-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 02:56:34",
+    "ip": "74.7.229.110",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/nas-restaurant-chain-franchise/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 02:57:00",
+    "ip": "68.67.112.134",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36",
+    "uri": "/blog-tag/4k%e5%89%aa%e8%bc%af%e7%94%a8%e9%9b%bb%e8%85%a6/",
+    "bot_name": "YouBot"
+  },
+  {
+    "ts": "2026-07-31 02:59:44",
+    "ip": "207.46.13.64",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2022/09/15/office-wifi-coverage/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:04:17",
+    "ip": "40.77.167.247",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/post_tag-sitemap1.xml",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:13:30",
+    "ip": "74.7.229.110",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/system-integrator-si-guide-2026/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 03:13:33",
+    "ip": "74.7.228.244",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/system-integrator-si-guide/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 03:14:00",
+    "ip": "20.169.78.204",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/office-wireless-network-guide-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 03:14:00",
+    "ip": "20.169.78.204",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/office-wireless-network-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 03:14:08",
+    "ip": "40.77.167.30",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/iso-27001-certification-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:15:51",
+    "ip": "68.67.112.224",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36",
+    "uri": "/blog-tag/%e8%b3%87%e8%a8%8a%e5%a7%94%e5%a4%96/",
+    "bot_name": "YouBot"
+  },
+  {
+    "ts": "2026-07-31 03:18:14",
+    "ip": "207.46.13.150",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/rent-nb/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:27:55",
+    "ip": "207.46.13.83",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/office-wireless-network-guide-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:27:56",
+    "ip": "207.46.13.83",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/office-wireless-network-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:29:43",
+    "ip": "66.249.66.74",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/office-wireless-network-guide-2026/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 03:29:44",
+    "ip": "66.249.66.74",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/office-wireless-network-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 03:31:36",
+    "ip": "2a03:2880:f812:38::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/data-storage/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 03:34:02",
+    "ip": "40.77.167.5",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2018/12/02/fixpc-2/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:35:10",
+    "ip": "40.67.183.165",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/4k-editing-pc-setup-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 03:35:11",
+    "ip": "40.67.183.165",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 03:35:22",
+    "ip": "2a03:2880:f812:47::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/SiteMap.aspx",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 03:39:36",
+    "ip": "23.26.61.147",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/mesh-wifi-enterprise-purchase-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 03:39:46",
+    "ip": "52.167.144.159",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/atmosphere/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:40:03",
+    "ip": "111.246.40.170",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0",
+    "uri": "/blogs/wired-vs-wireless-mesh-backhaul-guide/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 03:40:41",
+    "ip": "52.167.144.159",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs-sitemap1.xml",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:42:35",
+    "ip": "52.167.144.147",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/what-is-nas-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:43:13",
+    "ip": "147.92.179.106",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/unifi-wifi-optimization-guide/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 03:43:14",
+    "ip": "147.92.179.110",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/clinic-hospital-wifi-guide-2026/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 03:43:15",
+    "ip": "147.92.179.110",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/clinic-hospital-wifi-guide/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 03:44:17",
+    "ip": "4.198.72.23",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/%E4%BC%81%E6%A5%AD%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E9%81%B8%E6%93%87it%E5%A4%96%E5%8C%85%EF%BC%9F/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 03:46:25",
+    "ip": "52.167.144.147",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/nas-backup-health-check/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 03:58:05",
+    "ip": "2a03:2880:f812:60::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e6%95%99%e5%ae%a4%e7%a9%ba%e9%96%93/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 04:11:53",
+    "ip": "52.167.144.232",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/school-campus-wifi-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 04:14:20",
+    "ip": "157.55.39.9",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/%E3%80%90%E7%B6%B2%E8%B7%AF%E5%BB%BA%E7%BD%AE%E6%A1%88%E4%BE%8B%E3%80%91%E5%A4%9A%E6%A2%9D%E4%B8%AD%E8%8F%AF%E9%9B%BB%E4%BF%A1%E5%90%88%E4%BD%B5%E7%B6%B2%E8%B7%AF%E6%B5%81%E9%87%8F%EF%BC%8C%E6%8F%90%E5%8D%87%E7%B6%B2%E8%B7%AF%E9%80%9F%E5%BA%A6",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 04:17:10",
+    "ip": "2a03:2880:f812:2e::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/news_sitemap.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 04:17:15",
+    "ip": "40.77.167.51",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/unifi-protect-camera-enterprise-security-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 04:20:09",
+    "ip": "40.77.167.159",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/%E4%BC%81%E6%A5%AD%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E9%81%B8%E6%93%87it%E5%A4%96%E5%8C%85%EF%BC%9F/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 04:23:22",
+    "ip": "18.97.9.102",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/cold-chain-food-factory-cabling/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 04:24:32",
+    "ip": "20.169.78.142",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 04:27:46",
+    "ip": "52.231.49.59",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/unifi-wifi-optimization-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 04:28:26",
+    "ip": "18.97.9.99",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/high-density-wi-fi-capacity-planning/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 04:34:05",
+    "ip": "111.225.148.112",
+    "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+    "uri": "/blogs/data-storage/",
+    "bot_name": "Bytespider"
+  },
+  {
+    "ts": "2026-07-31 04:39:41",
+    "ip": "20.169.73.43",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/enterprise-network-construction-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 04:39:42",
+    "ip": "20.169.73.42",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/network-construction/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 04:40:32",
+    "ip": "147.92.179.116",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/nas-setup-cost/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 04:41:19",
+    "ip": "20.27.94.143",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/davinci-premiere-pc-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 04:41:33",
+    "ip": "20.169.87.125",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 04:43:54",
+    "ip": "52.167.144.166",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 04:43:57",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs-sitemap1.xml",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 04:44:42",
+    "ip": "66.249.66.78",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog-tag/%E5%95%86%E7%94%A8ap/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 04:57:20",
+    "ip": "207.46.13.18",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/data-storage/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 05:02:50",
+    "ip": "40.77.167.247",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/aruba-warehouse-wifi-design/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 05:06:19",
+    "ip": "40.77.167.247",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/post_tag-sitemap1.xml",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 05:08:00",
+    "ip": "207.46.13.54",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/4k-computer-clip-outfit/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 05:08:00",
+    "ip": "207.46.13.54",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/enterprise-video-editing-pc-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 05:08:13",
+    "ip": "207.46.13.54",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/information-security/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 05:12:23",
+    "ip": "207.46.13.54",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/?post_type=blogs",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 05:21:48",
+    "ip": "20.169.73.179",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 05:21:49",
+    "ip": "2a03:2880:f812:46::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/udm-pro-max-vs-ucg-ultra-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 05:25:03",
+    "ip": "9.129.58.82",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 05:33:37",
+    "ip": "2a03:2880:f812:59::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e5%89%aa%e6%8e%a5%e9%9b%bb%e8%85%a6/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 05:44:38",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog-tag/wifi%E8%A8%AD%E8%A8%88/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 05:49:01",
+    "ip": "2a03:2880:f812:8::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/enterprise-computer-rental-guide-2/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 05:49:58",
+    "ip": "18.97.9.103",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/wifi-full-bars-but-slow-2026/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 05:50:16",
+    "ip": "52.167.144.193",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 05:52:21",
+    "ip": "207.46.13.157",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/ransomware-types-and-cases/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:08:04",
+    "ip": "2a03:2880:f812:5d::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/15387/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 06:11:54",
+    "ip": "18.97.9.99",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 06:13:09",
+    "ip": "18.97.9.100",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/it-outsourcing-cost-guide-2026/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 06:13:34",
+    "ip": "20.169.78.141",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 06:15:11",
+    "ip": "40.77.167.77",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2020/11/24/%7B%E7%A4%BE%E7%BE%A4%E6%AA%94%E6%A1%88%20URL%20[%E9%9C%80%E7%A2%BA%E8%AA%8D]%7D",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:15:52",
+    "ip": "207.46.13.170",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/factory-wifi-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:17:35",
+    "ip": "207.46.13.170",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2020/11/24/%7B%E7%A4%BE%E7%BE%A4%E6%AA%94%E6%A1%88%20URL%20[%E9%9C%80%E7%A2%BA%E8%AA%8D]",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:19:39",
+    "ip": "2a03:2880:f812:1a::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/nas-trading-wholesale-import-export/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 06:23:41",
+    "ip": "9.129.58.89",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/connection-breaking-up/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 06:24:42",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog/2022/08/17/220817-1921coworkingspace-wifi/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 06:28:10",
+    "ip": "52.167.144.158",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2022/08/17/220817-1921coworkingspace-wifi/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:29:13",
+    "ip": "52.167.144.158",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/system-integration/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:32:48",
+    "ip": "147.92.179.116",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/15435/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 06:32:51",
+    "ip": "20.27.94.138",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/davinci-premiere-pc-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 06:35:29",
+    "ip": "52.167.144.160",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2025/%E8%BE%A6%E5%85%AC%E5%AE%A4%E7%B6%B2%E8%B7%AF%E5%84%AA%E5%8C%96/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:36:11",
+    "ip": "2a03:2880:f812:45::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/agv-wifi-seamless-roaming/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 06:36:26",
+    "ip": "2a03:2880:f812:77::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs-sitemap1.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 06:36:41",
+    "ip": "207.46.13.83",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog-tag/%E5%B7%A5%E6%A5%AD%E7%B4%9Aap/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:39:21",
+    "ip": "52.167.144.158",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/information-security-cia-triad/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:43:44",
+    "ip": "4.198.72.17",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/%E7%A7%9F%E9%9B%BB%E8%85%A6%E4%B8%83%E5%A4%A7%E5%84%AA%E5%8B%A2%EF%BC%9F%E8%93%8B%E6%96%AF%E5%85%8B%E7%A7%91%E6%8A%80it%E8%A8%AD%E5%82%99%E5%85%A8%E7%A7%9F%E8%B3%83/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 06:44:20",
+    "ip": "52.167.144.169",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/sitemaps.xml",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:48:16",
+    "ip": "40.77.167.43",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/ssd-vs-hdd-comparison/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:48:53",
+    "ip": "2a03:2880:f812:30::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/sitemap.html",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 06:50:36",
+    "ip": "207.46.13.154",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/%E6%9C%8D%E5%8B%99/%E7%AD%86%E9%9B%BB%E7%A7%9F%E8%B3%83/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 06:52:31",
+    "ip": "74.7.229.187",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/tin-roof-factory-wifi-solution/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 06:55:15",
+    "ip": "18.97.9.103",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/unifi-wifi-7-enterprise-guide/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 07:00:15",
+    "ip": "111.225.148.115",
+    "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+    "uri": "/blogs/4k-editing-pc-setup-2026/",
+    "bot_name": "Bytespider"
+  },
+  {
+    "ts": "2026-07-31 07:00:16",
+    "ip": "111.225.148.115",
+    "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "Bytespider"
+  },
+  {
+    "ts": "2026-07-31 07:00:59",
+    "ip": "20.169.78.206",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 07:01:02",
+    "ip": "74.7.242.141",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/4k-editing-pc-setup-2026/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 07:01:03",
+    "ip": "74.7.242.141",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 07:03:49",
+    "ip": "74.7.228.244",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blog-tag/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 07:03:51",
+    "ip": "74.7.229.147",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blog-tag/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8/page/2/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 07:03:52",
+    "ip": "74.7.228.244",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/wp-json/wp/v2/blog-tag/171",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 07:03:54",
+    "ip": "74.7.229.118",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/zero-trust-network-architecture/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 07:03:55",
+    "ip": "74.7.242.141",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/information-security-cia-triad/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 07:05:51",
+    "ip": "66.249.92.137",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)",
+    "uri": "/.well-known/apple-app-site-association",
+    "bot_name": "Google-AdsBot"
+  },
+  {
+    "ts": "2026-07-31 07:06:24",
+    "ip": "40.77.167.4",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog-tag/%E5%B7%A5%E5%BB%A0wifi/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 07:08:42",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 07:09:34",
+    "ip": "18.97.9.100",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/visitor-wifi-vlan-setup-guide/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 07:13:21",
+    "ip": "66.249.92.138",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)",
+    "uri": "/apple-app-site-association",
+    "bot_name": "Google-AdsBot"
+  },
+  {
+    "ts": "2026-07-31 07:20:01",
+    "ip": "2a03:2880:f812:5e::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/mikrotik-firewall-setup-guide-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 07:20:03",
+    "ip": "2a03:2880:f812:19::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/mikrotik-firewall-setup-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 07:20:37",
+    "ip": "74.7.36.106",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 07:21:28",
+    "ip": "157.55.39.7",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/iso-27001-certification-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 07:24:49",
+    "ip": "207.46.13.6",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/warehouse-wi-fi-design-cisco-manual/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 07:27:39",
+    "ip": "172.204.27.28",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 07:27:40",
+    "ip": "172.204.27.28",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 07:28:49",
+    "ip": "157.55.39.7",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/it-outsourcing-cost-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 07:36:01",
+    "ip": "2a03:2880:f812:4b::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/nas-food-processing-factory/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 07:37:03",
+    "ip": "52.231.49.62",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 07:37:59",
+    "ip": "52.167.144.205",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/fixpc-2/slant/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 07:45:26",
+    "ip": "18.97.9.100",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blog/2022/11/03/rent-nb/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 07:49:39",
+    "ip": "66.249.66.74",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/high-density-office-wifi-planning/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 07:49:51",
+    "ip": "52.230.164.179",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/mis-outsourcing-complete-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 07:54:01",
+    "ip": "2a03:2880:f812:35::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/information-security-cia-triad-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 07:54:04",
+    "ip": "2a03:2880:f812:72::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/information-security-cia-triad/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 07:55:06",
+    "ip": "2a03:2880:f812:47::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/pcfix/evaluation/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 07:55:23",
+    "ip": "147.92.179.105",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/nas-setup-cost/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 07:55:45",
+    "ip": "2a03:2880:f812:36::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/unifi-wifi-7-enterprise-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 08:00:21",
+    "ip": "2a03:2880:f812:3e::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/information-security/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 08:05:44",
+    "ip": "9.129.58.91",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/what-is-a-firewall/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 08:10:02",
+    "ip": "172.204.27.23",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/nas-setup-cost/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 08:12:38",
+    "ip": "172.215.218.106",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/4k-editing-pc-setup-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 08:12:38",
+    "ip": "172.215.218.106",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 08:14:45",
+    "ip": "9.129.58.89",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/it-outsourcing-cost-guide-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 08:14:45",
+    "ip": "9.129.58.89",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/it-outsourcing-cost-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 08:20:17",
+    "ip": "2a03:2880:f812:76::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/15452/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 08:25:27",
+    "ip": "157.55.39.61",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/logistics-center-wifi-24-7-reliability/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 08:25:29",
+    "ip": "40.77.177.224",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36",
+    "uri": "/blogs/logistics-center-wifi-24-7-reliability",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 08:26:41",
+    "ip": "68.67.112.224",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36",
+    "uri": "/blog-tag/4k%e5%89%aa%e8%bc%af%e9%9b%bb%e8%85%a62019/",
+    "bot_name": "YouBot"
+  },
+  {
+    "ts": "2026-07-31 08:26:46",
+    "ip": "2a03:2880:f812:4e::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Fhotel-wifi-installation-guide%2F",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 08:27:48",
+    "ip": "147.92.179.106",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/15435/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 08:32:36",
+    "ip": "40.77.167.243",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2018/12/02/fixpc-2/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 08:38:41",
+    "ip": "13.76.115.254",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 08:43:52",
+    "ip": "207.46.13.155",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/main04/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 08:44:32",
+    "ip": "52.167.144.195",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/mikrotik-ai-network-management/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 08:46:56",
+    "ip": "18.97.9.103",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%B2%B7%E4%BA%86nas%E5%85%AC%E5%8F%B8%E8%B3%87%E6%96%99%E9%82%84%E6%98%AF%E4%B8%8D%E5%AE%89%E5%85%A8%E8%AB%87%E6%B6%88%E8%B2%BB%E7%B4%9A%E8%88%87%E4%BC%81%E6%A5%AD/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 08:47:34",
+    "ip": "207.46.13.154",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/warehouse-wms-optimization/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 08:49:12",
+    "ip": "2a03:2880:f812:5f::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/4k%e5%89%aa%e8%bc%af/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 08:49:24",
+    "ip": "2a03:2880:f812:5a::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/4k%e5%89%aa%e8%bc%af/null",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 08:55:27",
+    "ip": "207.46.13.154",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/2024%E9%98%B2%E7%81%AB%E7%89%86%E6%8E%A1%E8%B3%BC%E6%8C%87%E5%8D%97-%E9%98%B2%E7%81%AB%E7%89%86%E9%87%8D%E8%A6%81%E5%97%8E-%E4%BC%81%E6%A5%AD%E9%98%B2%E7%81%AB%E7%89%86%E6%8E%A1%E8%B3%BC%E5%85%B3%E9%8D%B5%E8%88%87%E4%BA%94%E5%A4%A7%E7%86%B1%E9%96%80%E7%94%A2%E5%93%81%E6%8E%A8%E8%96%A6",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 08:57:01",
+    "ip": "124.218.171.71",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0",
+    "uri": "/network/?utm_source=Tagtoo&utm_medium=Google_add&utm_campaign=network&gad_source=2&wbraid=ClkKCAjwvajDBhAbEkkAazUQrxTSJOcR9VpfzpdhWkUeBvlWSYM3AEcSCRoIjr8e7VhXAJCNz8JU_ccgH7aDXjEevBWDouZEj6ajGEdbUkcxCiofpnX_GgKvYg",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 08:58:28",
+    "ip": "2a03:2880:f812:60::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/ap-on-a-stick-guide-wifi-pre-deployment-site-survey/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:01:33",
+    "ip": "18.97.9.96",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/information-security-cia-triad/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 09:02:24",
+    "ip": "20.194.1.9",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/davinci-premiere-pc-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 09:02:30",
+    "ip": "18.97.9.99",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/15467/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 09:05:21",
+    "ip": "2a03:2880:f812:6e::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/hypermarket-wifi-deployment-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:09:06",
+    "ip": "2a03:2880:f812:67::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e7%b6%b2%e8%b7%af%e5%ae%89%e5%85%a8/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:11:23",
+    "ip": "2a03:2880:f812:5a::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Finformation-security-cia-triad%2F",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:11:53",
+    "ip": "147.92.179.108",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/unifi-wifi-optimization-guide/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 09:11:53",
+    "ip": "147.92.179.107",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/clinic-hospital-wifi-guide-2026/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 09:11:53",
+    "ip": "147.92.179.107",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/clinic-hospital-wifi-guide/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 09:15:10",
+    "ip": "40.77.167.72",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/it-outsourcing-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 09:15:51",
+    "ip": "2a03:2880:f812:4c::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/business-center-wifi-deployment-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:18:04",
+    "ip": "2a03:2880:f812:6d::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e5%bd%b1%e9%9f%b3%e5%b7%a5%e4%bd%9c%e5%ae%a4/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:18:04",
+    "ip": "147.92.179.113",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%B2%B7%E4%BA%86nas%E5%85%AC%E5%8F%B8%E8%B3%87%E6%96%99%E9%82%84%E6%98%AF%E4%B8%8D%E5%AE%89%E5%85%A8%E8%AB%87%E6%B6%88%E8%B2%BB%E7%B4%9A%E8%88%87%E4%BC%81%E6%A5%AD/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 09:19:08",
+    "ip": "70.153.76.23",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/enterprise-computer-rental-guide-2/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 09:22:26",
+    "ip": "207.46.13.64",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/sme-it-outsourcing-guide-2025/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 09:25:36",
+    "ip": "172.183.222.133",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/what-is-a-firewall/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 09:28:10",
+    "ip": "147.92.179.117",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/agv-wifi-seamless-roaming/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 09:28:38",
+    "ip": "157.55.39.9",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/tag/%E8%B7%A8%E6%A8%93%E5%B1%A4%E8%BE%A6%E5%85%AC%E5%AE%A4/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 09:28:40",
+    "ip": "40.77.177.103",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36",
+    "uri": "/blog/tag/%E8%B7%A8%E6%A8%93%E5%B1%A4%E8%BE%A6%E5%85%AC%E5%AE%A4/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 09:32:50",
+    "ip": "18.97.9.100",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/network-construction/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 09:32:51",
+    "ip": "207.46.13.154",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 09:38:42",
+    "ip": "66.249.66.41",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/robots.txt",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 09:38:46",
+    "ip": "2a03:2880:f812:c::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Fsystem-integrator-si-guide%2F",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:41:27",
+    "ip": "2a03:2880:f812:2c::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/hinet-mod-mikrotik-bridge-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:44:56",
+    "ip": "40.77.177.103",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36",
+    "uri": "/blog/tag/%E8%B7%A8%E6%A8%93%E5%B1%A4%E8%BE%A6%E5%85%AC%E5%AE%A4/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 09:51:41",
+    "ip": "2a03:2880:f812:5d::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/post_tag-sitemap1.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:54:40",
+    "ip": "2a03:2880:f812:74::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/15473/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:54:44",
+    "ip": "2a03:2880:f812:46::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/zero-trust-network-architecture/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:54:48",
+    "ip": "2a03:2880:f812:67::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e5%85%b1%e4%ba%ab%e8%be%a6%e5%85%ac%e5%ae%a4/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:54:57",
+    "ip": "2a03:2880:f812:40::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/ai-agent-evolution-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:55:05",
+    "ip": "2a03:2880:f812:25::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:57:56",
+    "ip": "2a03:2880:f812:4c::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/unifi-zone-based-firewall-zero-trust/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 09:59:07",
+    "ip": "2a03:2880:f812:6a::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e4%bc%81%e6%a5%ad/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:01:22",
+    "ip": "18.97.9.99",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/smart-office-network-planning-guide/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 10:02:42",
+    "ip": "18.97.9.99",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/mesh-wifi-enterprise-purchase-guide/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 10:05:19",
+    "ip": "2a03:2880:f812:41::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/exhibition-hall-wifi-guide-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:05:22",
+    "ip": "2a03:2880:f812:71::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/exhibition-hall-wifi-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:06:23",
+    "ip": "157.55.39.201",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/factory-wifi-installation-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 10:09:28",
+    "ip": "2a03:2880:f812:45::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/tin-roof-factory-wifi-solution/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:12:37",
+    "ip": "207.46.13.141",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/clinic-hospital-wifi-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 10:16:06",
+    "ip": "2a03:2880:f812:6b::",
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Fgmi-cloud-ai-factory-taiwan%2F",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:16:15",
+    "ip": "172.171.4.181",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 10:16:23",
+    "ip": "52.167.144.172",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 10:17:04",
+    "ip": "2a03:2880:f812:18::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Fnas-setup-cost%2F",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:18:22",
+    "ip": "207.46.13.141",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/iso-27001-certification-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 10:23:32",
+    "ip": "138.91.30.60",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 10:23:41",
+    "ip": "66.249.66.74",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog-tag/%E8%B3%87%E8%A8%8A%E5%A4%96%E5%8C%85/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 10:26:01",
+    "ip": "2a03:2880:f812:65::",
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/editing-hardware-myths-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:26:04",
+    "ip": "2a03:2880:f812:12::",
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/editing-hardware-myths/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:28:00",
+    "ip": "2a03:2880:f812:33::",
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Flarge-warehouse-wifi-design%2F",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:29:33",
+    "ip": "68.67.112.150",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36",
+    "uri": "/blog-tag/%e8%b3%87%e8%a8%8a%e5%ae%89%e5%85%a8/",
+    "bot_name": "YouBot"
+  },
+  {
+    "ts": "2026-07-31 10:34:18",
+    "ip": "2a03:2880:f812:6::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e7%84%a1%e7%b7%9a%e6%bc%ab%e9%81%8a/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:34:30",
+    "ip": "2a03:2880:f812:2c::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e7%84%a1%e7%b7%9a%e6%bc%ab%e9%81%8a/null",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:34:52",
+    "ip": "2a03:2880:f812:65::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/15432/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:36:30",
+    "ip": "147.92.179.109",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/agv-wifi-seamless-roaming/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 10:42:17",
+    "ip": "2a03:2880:f812:36::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/information-technology-outsourcing/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:47:49",
+    "ip": "2a03:2880:f812:19::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%92%e8%a7%a3%e6%af%92/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 10:57:04",
+    "ip": "74.7.242.141",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/15432/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 10:57:07",
+    "ip": "74.7.229.147",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2F15432%2F",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 10:57:09",
+    "ip": "74.7.242.141",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/?p=15432",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 10:57:11",
+    "ip": "74.7.229.118",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/wp-json/oembed/1.0/embed?format=xml&url=https%3A%2F%2Fzonetech.tw%2Fblogs%2F15432%2F",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 10:57:13",
+    "ip": "74.7.229.110",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/wp-json/wp/v2/blogs/15432",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 11:01:14",
+    "ip": "74.7.229.110",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blog/category/news/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 11:01:53",
+    "ip": "2a03:2880:f812:48::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Foffice-wireless-network-guide%2F",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 11:07:43",
+    "ip": "18.97.9.102",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/aruba-warehouse-wifi-design/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 11:09:44",
+    "ip": "74.7.229.118",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/mesh-wifi-enterprise-purchase-guide/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 11:10:22",
+    "ip": "207.46.13.83",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/15473/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 11:11:04",
+    "ip": "74.7.229.187",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/store-wifi-pos-monitoring-planning/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 11:11:06",
+    "ip": "74.7.229.110",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/?p=14784",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 11:13:37",
+    "ip": "172.204.27.31",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 11:20:41",
+    "ip": "2a03:2880:f812:1c::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/unifi-wifi-optimization-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 11:25:12",
+    "ip": "68.67.112.109",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36",
+    "uri": "/blog-tag/%e8%b3%87%e8%a8%8a%e5%a4%96%e5%8c%85/",
+    "bot_name": "YouBot"
+  },
+  {
+    "ts": "2026-07-31 11:27:17",
+    "ip": "74.7.242.26",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)",
+    "uri": "/sitemap_index.xml",
+    "bot_name": "GPTBot"
+  },
+  {
+    "ts": "2026-07-31 11:28:43",
+    "ip": "2a03:2880:f812:3e::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Fwhat-is-nas%2F",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 11:33:47",
+    "ip": "157.55.39.192",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/wired-vs-wireless-mesh-backhaul-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 11:36:38",
+    "ip": "147.92.179.108",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/%e8%93%8b%e6%96%af%e5%85%8b%e7%a7%91%e6%8a%80_%e7%ad%86%e9%9b%bb%e7%a7%9f%e8%b3%83%e6%96%b9%e6%a1%88%e8%aa%aa%e6%98%8e/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 11:36:38",
+    "ip": "147.92.179.108",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blog/2023/03/15/%e8%93%8b%e6%96%af%e5%85%8b%e7%a7%91%e6%8a%80_%e7%ad%86%e9%9b%bb%e7%a7%9f%e8%b3%83%e6%96%b9%e6%a1%88%e8%aa%aa%e6%98%8e/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 11:37:01",
+    "ip": "2a03:2880:f812:59::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e9%98%b2%e7%81%ab%e7%89%86/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 11:42:44",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog-tag/4k%E5%BD%B1%E7%89%87%E5%89%AA%E8%BC%AF%E7%AD%86%E9%9B%BB/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 11:44:52",
+    "ip": "207.46.13.157",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/wifi-roaming-guide",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 11:49:22",
+    "ip": "2a03:2880:f812:3f::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/2020/10/18/elementor-11437/",
+    "bot_name": "meta-webindexer"
+  },
+  {
+    "ts": "2026-07-31 11:50:38",
+    "ip": "66.249.66.74",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/2024%E9%98%B2%E7%81%AB%E7%89%86%E6%8E%A1%E8%B3%BC%E6%8C%87%E5%8D%97%EF%BD%9C%E9%98%B2%E7%81%AB%E7%89%86%E9%87%8D%E8%A6%81%E5%97%8E%EF%BC%9F%E4%BC%81%E6%A5%AD%E9%98%B2%E7%81%AB%E7%89%86%E6%8E%A1/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 11:50:41",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/2024%E9%98%B2%E7%81%AB%E7%89%86%E6%8E%A1%E8%B3%BC%E6%8C%87%E5%8D%97%EF%BD%9C%E9%98%B2%E7%81%AB%E7%89%86%E9%87%8D%E8%A6%81%E5%97%8E%EF%BC%9F%E4%BC%81%E6%A5%AD%E9%98%B2%E7%81%AB%E7%89%86%E6%8E%A1/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 11:51:36",
+    "ip": "18.97.9.96",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/ssd-vs-hdd-comparison-2026/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 11:51:38",
+    "ip": "18.97.9.103",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/ssd-vs-hdd-comparison/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 11:52:44",
+    "ip": "23.26.61.87",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/220809-tesawifi/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 11:53:38",
+    "ip": "2a03:2880:f812:58::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/enterprise-it-equipment-leasing-and-outsourcing/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 11:53:59",
+    "ip": "9.129.58.90",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/it-outsourcing-cost-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 11:53:59",
+    "ip": "23.26.61.88",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/2220708-b1-wifi-2/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 11:54:40",
+    "ip": "18.97.9.97",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/hinet-mod-mikrotik-bridge-guide/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 11:55:58",
+    "ip": "2a03:2880:f812:4b::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/category/showcase/it-outsourcing/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 12:02:04",
+    "ip": "9.129.58.95",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 12:02:04",
+    "ip": "9.129.58.95",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 12:03:33",
+    "ip": "207.46.13.9",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/enterprise-office-wifi-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 12:05:06",
+    "ip": "207.46.13.18",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/system-integrator-si-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 12:05:29",
+    "ip": "207.46.13.18",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2022/11/03/rent-nb/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 12:10:14",
+    "ip": "40.77.167.4",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/warehouse-wifi-design-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 12:15:23",
+    "ip": "207.46.13.18",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/connection-breaking-up/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 12:15:32",
+    "ip": "207.46.13.154",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/information-security-cia-triad/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 12:17:01",
+    "ip": "207.46.13.128",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/hotel-wifi-installation-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 12:22:03",
+    "ip": "20.27.94.136",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-deployment-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 12:27:17",
+    "ip": "2a03:2880:f812:b::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/dual-wan-load-balancing-mikrotik-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 12:27:20",
+    "ip": "2a03:2880:f812:21::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/dual-wan-load-balancing-mikrotik/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 12:36:04",
+    "ip": "147.92.179.105",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan-2026/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 12:36:05",
+    "ip": "147.92.179.105",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 12:36:40",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/connection-breaking-up/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 12:37:13",
+    "ip": "2a03:2880:15ff:74::",
+    "ua": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+    "uri": "/.well-known/ucp",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 12:37:14",
+    "ip": "2a03:2880:15ff:53::",
+    "ua": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+    "uri": "/.well-known/ucp",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 12:45:04",
+    "ip": "2a03:2880:f812:2e::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/smart-factory-network-planning-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 12:45:14",
+    "ip": "110.249.202.37",
+    "ua": "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)",
+    "uri": "/robots.txt",
+    "bot_name": "Bytespider"
+  },
+  {
+    "ts": "2026-07-31 12:50:39",
+    "ip": "2a03:2880:f812:27::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e9%9b%b2%e7%ab%af%e5%84%b2%e5%ad%98/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 12:55:25",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/not-found-404/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 13:02:33",
+    "ip": "18.97.9.100",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/wifi-6-vs-wifi-7-enterprise-upgrade-guide/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 13:02:57",
+    "ip": "2a03:2880:f812:a::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%92%e8%99%95%e7%90%86/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 13:09:01",
+    "ip": "207.46.13.111",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/iso-27001-certification-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 13:14:11",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/what-is-ransomware/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 13:16:58",
+    "ip": "207.46.13.107",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/us-food-cosmetics-import-logistics/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 13:23:57",
+    "ip": "207.46.13.7",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/sitemap.xml",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 13:27:55",
+    "ip": "207.46.13.150",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/network-construction/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 13:28:11",
+    "ip": "172.204.27.31",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/exhibition-hall-wifi-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 13:28:43",
+    "ip": "2a03:2880:f812:14::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e7%ad%86%e9%9b%bb%e7%a7%9f/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 13:32:56",
+    "ip": "66.249.66.78",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog/2018/12/02/fixpc-2/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 13:40:51",
+    "ip": "20.27.94.139",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/it-outsourcing-cost-guide-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 13:40:51",
+    "ip": "20.27.94.139",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/it-outsourcing-cost-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 13:43:24",
+    "ip": "2a03:2880:f812:a::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/sitemap.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 13:48:07",
+    "ip": "207.46.13.18",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/test/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 13:50:05",
+    "ip": "207.46.13.170",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/iso-27001-certification-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 13:51:06",
+    "ip": "147.92.179.113",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan-2026/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 13:51:07",
+    "ip": "147.92.179.113",
+    "ua": "facebookexternalhit/1.1;line-poker/1.0",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 13:52:08",
+    "ip": "172.178.140.147",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 13:56:29",
+    "ip": "2a03:2880:f812:46::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/category/showcase/",
+    "bot_name": "meta-webindexer"
+  },
+  {
+    "ts": "2026-07-31 13:57:00",
+    "ip": "2a03:2880:f812:3f::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/enterprise-cloud-storage-comparison/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 13:57:01",
+    "ip": "157.55.39.57",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2025/%E5%B7%A5%E5%BB%A0WiFi%E5%BB%BA%E7%BD%AE/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 13:57:19",
+    "ip": "2a03:2880:f812:3b::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/enterprise-cloud-storage-comparison/null",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 13:59:41",
+    "ip": "2a03:2880:f812:59::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/logistics-center-wifi-24-7-reliability/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 14:04:25",
+    "ip": "2a03:2880:f812:29::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/davinci-premiere-pc-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 14:10:27",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/what-is-nas-2026/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 14:10:28",
+    "ip": "66.249.66.73",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/what-is-nas/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 14:11:44",
+    "ip": "2a03:2880:f812:2::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/warehouse-wifi-aisle-coverage/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 14:15:29",
+    "ip": "157.55.39.192",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/iso-27001-certification-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 14:24:21",
+    "ip": "207.46.13.87",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/enterprise-cloud-storage-comparison/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 14:30:45",
+    "ip": "52.167.144.168",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/category-sitemap1.xml",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 14:44:16",
+    "ip": "20.161.75.217",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 14:44:40",
+    "ip": "2a03:2880:f812:59::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/shopping-mall-wifi-deployment-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 14:44:45",
+    "ip": "2a03:2880:f812:48::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/shopping-mall-wifi-deployment/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 14:45:33",
+    "ip": "40.77.167.20",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/business-center-wifi-deployment-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 14:45:34",
+    "ip": "40.77.167.20",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/wifi-slow-diagnosis/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 14:45:40",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog-tag/wifi%E8%A6%8F%E5%8A%83/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 14:46:33",
+    "ip": "2a03:2880:f812:45::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/food-factory-network-installation-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 14:49:49",
+    "ip": "2a03:2880:f812:38::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fzonetech.tw%2Fblogs%2Fssd-vs-hdd-comparison%2F",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 14:56:33",
+    "ip": "172.204.27.29",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/qnap-vs-synology-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 15:00:52",
+    "ip": "66.249.66.74",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/what-is-a-firewall/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 15:01:54",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/mis-outsourcing-manufacturing-case-2026/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 15:01:55",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/mis-outsourcing-manufacturing-case/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 15:01:57",
+    "ip": "2a03:2880:f812:6f::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/smart-office-network-planning-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 15:04:04",
+    "ip": "2a03:2880:f812:65::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e8%be%a6%e5%85%ac%e5%ae%a4%e7%b6%b2%e8%b7%af/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 15:04:25",
+    "ip": "2a03:2880:f812:5a::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e8%be%a6%e5%85%ac%e5%ae%a4%e7%b6%b2%e8%b7%af/null",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 15:05:05",
+    "ip": "207.46.13.124",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/13767/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 15:06:23",
+    "ip": "2a03:2880:f812:19::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/2018/03/17/smb_news2/",
+    "bot_name": "meta-webindexer"
+  },
+  {
+    "ts": "2026-07-31 15:06:32",
+    "ip": "157.55.39.56",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/iso-27001-certification-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 15:09:26",
+    "ip": "207.46.13.124",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%B2%B7%E4%BA%86nas%E5%85%AC%E5%8F%B8%E8%B3%87%E6%96%99%E9%82%84%E6%98%AF%E4%B8%8D%E5%AE%89%E5%85%A8%E8%AB%87%E6%B6%88%E8%B2%BB%E7%B4%9A%E8%88%87%E4%BC%81%E6%A5%AD/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 15:10:15",
+    "ip": "2a03:2880:f812:37::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/15398/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 15:19:04",
+    "ip": "207.46.13.31",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/tag/%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 15:21:40",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/wifi-full-bars-but-slow-2026/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 15:23:56",
+    "ip": "74.7.229.187",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/restaurant-wifi-guide-2026/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 15:23:57",
+    "ip": "74.7.229.187",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/restaurant-wifi-guide/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 15:24:28",
+    "ip": "2a03:2880:f812:3d::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/15435/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 15:24:33",
+    "ip": "18.97.9.102",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/system-integrator-si-guide/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 15:24:53",
+    "ip": "74.7.229.147",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/connection-breaking-up/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 15:25:07",
+    "ip": "172.204.27.20",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 15:25:54",
+    "ip": "157.55.39.195",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog-category/itrent/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 15:26:35",
+    "ip": "20.169.78.159",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/davinci-premiere-pc-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 15:27:18",
+    "ip": "52.225.75.211",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 15:28:31",
+    "ip": "74.7.229.118",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/mis-outsourcing-complete-guide/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 15:30:46",
+    "ip": "74.7.229.118",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/wired-vs-wireless-mesh-backhaul-guide/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 15:31:17",
+    "ip": "68.67.112.68",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36",
+    "uri": "/blogs/2024%e9%98%b2%e7%81%ab%e7%89%86%e6%8e%a1%e8%b3%bc%e6%8c%87%e5%8d%97%ef%bd%9c%e9%98%b2%e7%81%ab%e7%89%86%e9%87%8d%e8%a6%81%e5%97%8e%ef%bc%9f%e4%bc%81%e6%a5%ad%e9%98%b2%e7%81%ab%e7%89%86%e6%8e%a1/",
+    "bot_name": "YouBot"
+  },
+  {
+    "ts": "2026-07-31 15:33:55",
+    "ip": "207.46.13.83",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/gym-sports-center-wifi-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 15:33:58",
+    "ip": "74.7.228.244",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/wifi-full-bars-but-slow-2026/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 15:35:13",
+    "ip": "2a03:2880:f812:4a::",
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs",
+    "bot_name": "meta-webindexer"
+  },
+  {
+    "ts": "2026-07-31 15:35:16",
+    "ip": "2a03:2880:f812:55::",
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/",
+    "bot_name": "meta-webindexer"
+  },
+  {
+    "ts": "2026-07-31 15:38:03",
+    "ip": "74.7.229.187",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/what-is-a-firewall/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 15:39:45",
+    "ip": "207.46.13.83",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/smart-manufacturing-wifi-6-low-latency-high-density/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 15:42:09",
+    "ip": "207.46.13.83",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/%E7%9B%96%E6%96%AF%E5%85%8B%E7%A7%91%E6%8A%80-%E5%B0%88%E6%B3%A8%E4%BC%81%E6%A5%AD%E8%B3%87%E8%A8%8A%E8%A8%AD%E5%82%99%E6%95%B4%E5%90%88-%E5%8A%A9%E6%82%A8%E6%8F%90%E5%8D%87%E7%87%9F%E9%81%8B%E6%95%88%E7%8E%87",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 15:43:46",
+    "ip": "66.249.66.74",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/mis-outsourcing-complete-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 15:45:56",
+    "ip": "2a03:2880:f812:6b::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/nvidia-gtc-2026-ai-infrastructure/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 15:50:40",
+    "ip": "45.144.227.64",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0",
+    "uri": "/blogs/wifi-full-bars-but-slow-2026/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 15:55:36",
+    "ip": "207.46.13.51",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/wifi-antenna-types-direction-signal-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 15:57:27",
+    "ip": "172.204.27.29",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 16:01:40",
+    "ip": "66.249.66.33",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog-tag/agv/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 16:05:08",
+    "ip": "157.55.39.201",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/category/showcase/4k-editing-system/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:05:10",
+    "ip": "157.55.39.201",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/ai-%E4%BB%A3%E7%90%86%E5%B7%A5%E4%BD%9C%E8%A1%93%EF%BC%9A%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E5%A6%82%E4%BD%95%E7%94%A8-ai-agent-%E4%B8%B2%E8%81%AF%E5%A4%9A%E5%9F%B7%E8%A1%8C%E7%B7%92%EF%BC%8C/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:05:44",
+    "ip": "40.77.167.44",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog-tag/%E7%84%A1%E7%B7%9A%E7%B6%B2%E8%B7%AF/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:05:50",
+    "ip": "2a03:2880:f812:43::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/restaurant-wifi-guide-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 16:05:52",
+    "ip": "40.77.179.187",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/136.0.0.0 Safari/537.36",
+    "uri": "/blog-tag/%e7%84%a1%e7%b7%9a%e7%b6%b2%e8%b7%af/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:05:54",
+    "ip": "2a03:2880:f812:77::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/restaurant-wifi-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 16:06:47",
+    "ip": "18.97.9.97",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/nas-setup-cost/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 16:08:49",
+    "ip": "52.167.144.145",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:09:23",
+    "ip": "157.55.39.9",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/ai-agent-deployment-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:11:02",
+    "ip": "2a03:2880:f812:55::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/category-sitemap1.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 16:14:49",
+    "ip": "18.97.9.100",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/nas-backup-health-check/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 16:18:19",
+    "ip": "52.167.144.145",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/ssd-vs-hdd-comparison/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:18:43",
+    "ip": "18.97.9.99",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/ransomware-types-and-cases/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 16:20:20",
+    "ip": "207.46.13.9",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/network-attached-storage/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:23:40",
+    "ip": "207.46.13.9",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/enterprise-video-editing-pc-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:30:33",
+    "ip": "207.46.13.153",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/editing-hardware-myths/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:30:41",
+    "ip": "18.97.9.99",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 16:30:43",
+    "ip": "40.77.167.61",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD-2026-ai-agent-%E5%AF%A6%E6%88%B0%E6%8C%87%E5%8D%97%EF%BC%9A%E5%BE%9E%E6%A1%86%E6%9E%B6%E9%81%B8%E6%93%87%E5%88%B0%E5%85%A8%E8%87%AA%E5%8B%95%E5%8C%96%E5%95%86/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:33:41",
+    "ip": "207.46.13.9",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/20211227-wifi/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:35:28",
+    "ip": "2a03:2880:f812:70::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e7%a7%9f%e8%b2%b8/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 16:35:44",
+    "ip": "207.46.13.153",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/large-warehouse-wifi-design/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 16:40:24",
+    "ip": "18.97.9.101",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/what-is-nas/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 16:41:40",
+    "ip": "66.249.66.74",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/unifi-zone-based-firewall-zero-trust/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 16:56:10",
+    "ip": "52.167.144.170",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/tag/%E5%A4%9A%E4%B8%AD%E8%8F%AF%E9%9B%BB%E4%BF%A1/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:05:25",
+    "ip": "157.55.39.204",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/office-wireless-network-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:08:40",
+    "ip": "2a03:2880:f812:37::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/office-wireless-network-guide-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 17:08:42",
+    "ip": "2a03:2880:f812:5d::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/office-wireless-network-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 17:10:07",
+    "ip": "207.46.13.170",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog-tag/nas/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:11:15",
+    "ip": "207.46.13.170",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/nas%E5%9C%96/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:11:44",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/enterprise-data-backup-strategy/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 17:13:07",
+    "ip": "157.55.39.204",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/mikrotik-firewall-setup-guide-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:15:53",
+    "ip": "2a03:2880:11ff:43::",
+    "ua": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+    "uri": "/blog/2022/11/08/221108-mulitwan-capsule/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 17:15:53",
+    "ip": "2a03:2880:16ff:1d::",
+    "ua": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+    "uri": "/blog/2022/11/08/221108-mulitwan-capsule/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 17:15:54",
+    "ip": "2a03:2880:16ff:55::",
+    "ua": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+    "uri": "/blog/2022/11/08/221108-mulitwan-capsule/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 17:15:54",
+    "ip": "2a03:2880:16ff:47::",
+    "ua": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+    "uri": "/blog/2022/11/08/221108-mulitwan-capsule/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 17:15:54",
+    "ip": "2a03:2880:16ff:17::",
+    "ua": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+    "uri": "/blog/2022/11/08/221108-mulitwan-capsule/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 17:15:54",
+    "ip": "2a03:2880:11ff:42::",
+    "ua": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
+    "uri": "/blog/2022/11/08/221108-mulitwan-capsule/",
+    "bot_name": "FacebookExternalHit"
+  },
+  {
+    "ts": "2026-07-31 17:20:42",
+    "ip": "2a03:2880:f812:74::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 17:20:56",
+    "ip": "2a03:2880:f812:46::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/4k-editing-pc-setup/null",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 17:21:08",
+    "ip": "157.55.39.52",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/mis-outsourcing-manufacturing-case/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:23:50",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog/2018/12/02/fixpc-2/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 17:32:14",
+    "ip": "52.167.144.172",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/%E9%87%8B%E6%94%BE%E4%BC%81%E6%A5%AD%E6%BD%9B%E8%83%BD%EF%BC%9Anas%E9%9B%B2%E7%AB%AF%E7%A7%9F%E8%B3%83%E7%82%BA%E4%BB%80%E9%BA%BC%E6%98%AF%E4%B8%AD%E5%B0%8F%E4%BC%81%E6%A5%AD%E9%81%B8%E6%93%87/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:35:40",
+    "ip": "157.55.39.204",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/ransomware-types-and-cases/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:35:53",
+    "ip": "40.77.167.74",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:36:18",
+    "ip": "2a03:2880:f812:27::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/sitemap_index.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 17:41:23",
+    "ip": "40.77.167.74",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:41:24",
+    "ip": "40.77.167.74",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/author/17a3331bfb32c57d/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:41:40",
+    "ip": "66.249.66.64",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/wifi-antenna-types-direction-signal-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 17:43:25",
+    "ip": "2a03:2880:f812:6::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/enterprise-low-voltage-cabling-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 17:48:54",
+    "ip": "2a03:2880:f812:79::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/what-is-a-firewall/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 17:55:33",
+    "ip": "157.55.39.60",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/information-technology-outsourcing/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 17:56:59",
+    "ip": "172.204.27.31",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/nas-setup-cost-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 17:56:59",
+    "ip": "172.204.27.31",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/nas-setup-cost/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 17:58:57",
+    "ip": "2a03:2880:f812:15::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/news-sitemap.xml",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 18:00:04",
+    "ip": "40.77.167.28",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/information-security-cia-triad-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 18:06:02",
+    "ip": "40.77.167.28",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/%E4%BC%81%E6%A5%ADWiFi%E5%BB%BA%E7%BD%AE%E6%A1%88%E4%BE%8B",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 18:06:40",
+    "ip": "66.249.66.73",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/wifi-full-signal-slow-speed-4-bottlenecks/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 18:06:41",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/wifi-full-bars-but-slow-2026/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 18:10:31",
+    "ip": "66.249.66.73",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 18:10:32",
+    "ip": "66.249.66.73",
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/ai-agent-evolution/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 18:10:58",
+    "ip": "2a03:2880:f812:4::",
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/studio-10gbe-network-cabling/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 18:15:26",
+    "ip": "40.77.167.47",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 18:17:48",
+    "ip": "68.67.112.166",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36",
+    "uri": "/robots.txt",
+    "bot_name": "YouBot"
+  },
+  {
+    "ts": "2026-07-31 18:17:49",
+    "ip": "68.67.112.166",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; YouBot/1.0; +https://docs.you.com/youbot; env:prod) Chrome/142.0.0.0 Safari/537.36",
+    "uri": "/blogs/%e7%82%ba%e4%bb%80%e9%ba%bc%e8%b2%b7%e4%ba%86nas%e5%85%ac%e5%8f%b8%e8%b3%87%e6%96%99%e9%82%84%e6%98%af%e4%b8%8d%e5%ae%89%e5%85%a8%e8%ab%87%e6%b6%88%e8%b2%bb%e7%b4%9a%e8%88%87%e4%bc%81%e6%a5%ad/",
+    "bot_name": "YouBot"
+  },
+  {
+    "ts": "2026-07-31 18:17:50",
+    "ip": "207.46.13.153",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/dual-wan-load-balancing-mikrotik/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 18:23:23",
+    "ip": "207.46.13.18",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/wifi-antenna-types-direction-signal-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 18:25:11",
+    "ip": "207.46.13.6",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/warehouse-wifi-aisle-coverage/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 18:28:11",
+    "ip": "207.46.13.18",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2024/12/01/%E7%AD%86%E9%9B%BB%E7%A7%9F%E8%B3%83%E6%96%B9%E6%A1%88%E6%AF%94%E8%BC%83/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 18:31:40",
+    "ip": "66.249.66.72",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/iso-27001-certification-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 18:32:49",
+    "ip": "2a03:2880:f812:3a::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/wifi-optimization-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 18:32:52",
+    "ip": "2a03:2880:f812:1d::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/unifi-wifi-optimization-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 18:42:22",
+    "ip": "52.167.144.166",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/ssd-vs-hdd-comparison/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 18:46:02",
+    "ip": "2a03:2880:f812:8::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/15458/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 18:46:04",
+    "ip": "2a03:2880:f812:46::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/smart-hotel-network-architecture/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 18:46:18",
+    "ip": "2a03:2880:f812:29::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/smart-hotel-network-architecture/null",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 18:53:10",
+    "ip": "52.167.144.191",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/post_tag-sitemap1.xml",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 18:56:27",
+    "ip": "2a03:2880:f812:19::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/13775/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 18:56:40",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/zero-trust-network-architecture/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 19:00:24",
+    "ip": "52.167.144.191",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blog/2025/%E4%BC%81%E6%A5%AD%E7%B6%B2%E8%B7%AF%E5%81%A5%E6%AA%A2/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:02:08",
+    "ip": "74.7.229.118",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/information-technology-outsourcing/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 19:03:38",
+    "ip": "2a03:2880:f812:1b::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/15458/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 19:03:41",
+    "ip": "2a03:2880:f812:65::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/smart-hotel-network-architecture/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 19:04:06",
+    "ip": "2a03:2880:f812:7b::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%922021/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 19:06:03",
+    "ip": "40.77.167.35",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/what-is-nas/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:06:12",
+    "ip": "20.27.94.132",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 19:06:52",
+    "ip": "207.46.13.7",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/20211227-wifi/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:07:15",
+    "ip": "207.46.13.83",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/restaurant-wifi-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:08:04",
+    "ip": "74.7.229.118",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/agv-wifi-seamless-roaming/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 19:08:33",
+    "ip": "74.7.242.129",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/hinet-mod-mikrotik-bridge-guide/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 19:08:39",
+    "ip": "2a03:2880:f812:33::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-webindexer/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/2020/10/18/elementor-11437/",
+    "bot_name": "meta-webindexer"
+  },
+  {
+    "ts": "2026-07-31 19:09:24",
+    "ip": "74.7.242.141",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/enterprise-video-editing-pc-guide/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 19:12:46",
+    "ip": "157.55.39.204",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/ransomware-what-to-do/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:17:13",
+    "ip": "74.7.228.244",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; +https://openai.com/searchbot",
+    "uri": "/blogs/davinci-premiere-pc-2026/",
+    "bot_name": "OAI-SearchBot"
+  },
+  {
+    "ts": "2026-07-31 19:21:40",
+    "ip": "66.249.66.65",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog/category/showcase/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 19:23:21",
+    "ip": "18.97.9.99",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)",
+    "uri": "/blogs/connection-breaking-up/",
+    "bot_name": "PerplexityBot"
+  },
+  {
+    "ts": "2026-07-31 19:24:51",
+    "ip": "2a03:2880:f812:f::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/4k-editing-pc-setup-2026/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 19:24:54",
+    "ip": "2a03:2880:f812:51::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/4k-editing-pc-setup/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 19:26:08",
+    "ip": "157.55.39.6",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/gmi-cloud-ai-factory-taiwan-2026/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:39:18",
+    "ip": "2a03:2880:f812:71::",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/mis-outsourcing-complete-guide/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 19:42:41",
+    "ip": "157.55.39.225",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/wp-signup.php?new=rent",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:44:31",
+    "ip": "172.204.27.20",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/it-outsourcing-cost-guide-2026/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 19:44:32",
+    "ip": "172.204.27.20",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot",
+    "uri": "/blogs/it-outsourcing-cost-guide/",
+    "bot_name": "ChatGPT-User"
+  },
+  {
+    "ts": "2026-07-31 19:45:48",
+    "ip": "2a03:2880:f812:51::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/shopping-mall-wifi-deployment/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 19:46:03",
+    "ip": "2a03:2880:f812:30::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blogs/shopping-mall-wifi-deployment/null",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 19:46:40",
+    "ip": "66.249.66.78",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blogs/wired-vs-wireless-mesh-backhaul-guide/",
+    "bot_name": "Googlebot"
+  },
+  {
+    "ts": "2026-07-31 19:51:38",
+    "ip": "52.167.144.141",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/notebook-rental/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:52:06",
+    "ip": "207.46.13.157",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/wp-signup.php?new=rent",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:53:18",
+    "ip": "207.46.13.157",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/ransomware-types-and-cases/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:57:52",
+    "ip": "207.46.13.150",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/exhibition-hall-wifi-guide/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 19:59:51",
+    "ip": "207.46.13.150",
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/116.0.1938.76 Safari/537.36",
+    "uri": "/blogs/tin-roof-factory-wifi-solution/",
+    "bot_name": "bingbot"
+  },
+  {
+    "ts": "2026-07-31 20:03:49",
+    "ip": "2a03:2880:f812::",
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/it-outsourcing/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 20:06:05",
+    "ip": "2a03:2880:f812:6b::",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 (compatible; meta-externalagent/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler))",
+    "uri": "/blog/tag/%e5%8b%92%e7%b4%a2%e7%97%85%e6%af%92%e6%94%bb%e6%93%8a/",
+    "bot_name": "meta-externalagent"
+  },
+  {
+    "ts": "2026-07-31 20:12:40",
+    "ip": "66.249.66.64",
+    "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.7871.186 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "uri": "/blog/category/showcase/cloud-storage/",
+    "bot_name": "Googlebot"
+  }
+]
