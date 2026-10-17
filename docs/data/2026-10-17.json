@@ -1,6 +1,6 @@
 {
   "report_date": "2026-10-17",
-  "generated_at": "2026-10-16T19:03:05Z",
+  "generated_at": "2026-10-17T02:24:18Z",
   "windows": {
     "gsc_day": "2026-10-16",
     "ga4_day": "2026-10-16",
@@ -1250,17 +1250,17 @@
       },
       {
         "date": "2026-10-15",
-        "clicks": 211,
-        "impressions": 9145,
-        "ctr": 2.31,
-        "position": 5.9
+        "clicks": 220,
+        "impressions": 9557,
+        "ctr": 2.3,
+        "position": 5.88
       },
       {
         "date": "2026-10-16",
-        "clicks": 65,
-        "impressions": 2558,
-        "ctr": 2.54,
-        "position": 5.67
+        "clicks": 101,
+        "impressions": 4910,
+        "ctr": 2.06,
+        "position": 5.96
       }
     ],
     "top_queries": [
@@ -1293,18 +1293,25 @@
         "position": 4.0
       },
       {
-        "query": "m5 ultra 512gb",
+        "query": "m5 max mac studio",
         "clicks": 1,
         "impressions": 3,
         "ctr": 33.33,
-        "position": 5.0
+        "position": 4.33
+      },
+      {
+        "query": "m5 ultra 512gb",
+        "clicks": 1,
+        "impressions": 5,
+        "ctr": 20.0,
+        "position": 4.8
       },
       {
         "query": "mac studio m5",
         "clicks": 1,
-        "impressions": 7,
-        "ctr": 14.29,
-        "position": 7.14
+        "impressions": 10,
+        "ctr": 10.0,
+        "position": 7.3
       },
       {
         "query": "mac studio m5 max 128 gb",
@@ -1316,100 +1323,93 @@
       {
         "query": "mac studio m5 max 128gb",
         "clicks": 1,
-        "impressions": 3,
-        "ctr": 33.33,
-        "position": 2.33
+        "impressions": 4,
+        "ctr": 25.0,
+        "position": 2.75
       },
       {
         "query": "mac studio m5 max 64gb",
         "clicks": 1,
-        "impressions": 2,
-        "ctr": 50.0,
-        "position": 4.0
-      },
-      {
-        "query": "mac studio m5 ultra",
-        "clicks": 1,
-        "impressions": 13,
-        "ctr": 7.69,
-        "position": 6.08
+        "impressions": 3,
+        "ctr": 33.33,
+        "position": 4.67
       }
     ],
     "top_pages": [
       {
-        "page": "https://zonetech.tw/blogs/ai-agent-harness-comparison/",
-        "clicks": 11,
-        "impressions": 118,
-        "ctr": 9.32,
-        "position": 5.49
+        "page": "https://zonetech.tw/blogs/wifi-full-bars-but-slow-2026/",
+        "clicks": 16,
+        "impressions": 1231,
+        "ctr": 1.3,
+        "position": 5.96
       },
       {
         "page": "https://zonetech.tw/blogs/mac-studio-m5-local-llm/",
-        "clicks": 9,
-        "impressions": 148,
-        "ctr": 6.08,
-        "position": 5.74
+        "clicks": 14,
+        "impressions": 274,
+        "ctr": 5.11,
+        "position": 5.76
+      },
+      {
+        "page": "https://zonetech.tw/blogs/ai-agent-harness-comparison/",
+        "clicks": 11,
+        "impressions": 165,
+        "ctr": 6.67,
+        "position": 5.73
+      },
+      {
+        "page": "https://zonetech.tw/blogs/mesh-wifi-enterprise-purchase-guide/",
+        "clicks": 5,
+        "impressions": 310,
+        "ctr": 1.61,
+        "position": 5.85
       },
       {
         "page": "https://zonetech.tw/blogs/wifi-antenna-types-direction-signal-guide/",
-        "clicks": 4,
-        "impressions": 49,
-        "ctr": 8.16,
-        "position": 3.12
+        "clicks": 5,
+        "impressions": 95,
+        "ctr": 5.26,
+        "position": 4.47
       },
       {
         "page": "https://zonetech.tw/",
         "clicks": 3,
-        "impressions": 41,
-        "ctr": 7.32,
-        "position": 3.71
-      },
-      {
-        "page": "https://zonetech.tw/blogs/mesh-wifi-enterprise-purchase-guide/",
-        "clicks": 3,
-        "impressions": 167,
-        "ctr": 1.8,
-        "position": 5.46
+        "impressions": 43,
+        "ctr": 6.98,
+        "position": 3.81
       },
       {
         "page": "https://zonetech.tw/blogs/nas-setup-cost/",
         "clicks": 3,
-        "impressions": 21,
-        "ctr": 14.29,
-        "position": 2.81
+        "impressions": 30,
+        "ctr": 10.0,
+        "position": 2.87
+      },
+      {
+        "page": "https://zonetech.tw/blogs/network-construction/",
+        "clicks": 3,
+        "impressions": 52,
+        "ctr": 5.77,
+        "position": 5.04
       },
       {
         "page": "https://zonetech.tw/blogs/server-room-cable-management/",
         "clicks": 3,
-        "impressions": 9,
-        "ctr": 33.33,
-        "position": 2.44
+        "impressions": 12,
+        "ctr": 25.0,
+        "position": 2.33
       },
       {
-        "page": "https://zonetech.tw/blogs/wifi-full-bars-but-slow-2026/",
-        "clicks": 3,
-        "impressions": 445,
-        "ctr": 0.67,
-        "position": 5.97
-      },
-      {
-        "page": "https://zonetech.tw/blogs/llm-server-hardware-guide/",
+        "page": "https://zonetech.tw/blogs/event-wifi-laptop-rental/",
         "clicks": 2,
-        "impressions": 16,
-        "ctr": 12.5,
-        "position": 4.38
-      },
-      {
-        "page": "https://zonetech.tw/blogs/network-construction/",
-        "clicks": 2,
-        "impressions": 44,
-        "ctr": 4.55,
-        "position": 5.25
+        "impressions": 5,
+        "ctr": 40.0,
+        "position": 4.4
       }
     ]
   },
   "ga4": {
-    "data_date": "2026-10-15",
+    "data_date": "2026-10-16",
     "daily": [
       {
         "date": "2026-04-21",
@@ -2478,112 +2478,112 @@
         "activeUsers": 594.0,
         "sessions": 679.0,
         "screenPageViews": 747.0
+      },
+      {
+        "date": "2026-10-16",
+        "activeUsers": 137.0,
+        "sessions": 163.0,
+        "screenPageViews": 169.0
       }
     ],
     "top_pages": [
       {
+        "pagePath": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
+        "screenPageViews": 9.0,
+        "activeUsers": 8.0,
+        "averageSessionDuration": 145.528114375
+      },
+      {
         "pagePath": "/blogs/wifi-full-bars-but-slow-2026/",
-        "screenPageViews": 50.0,
-        "activeUsers": 45.0,
-        "averageSessionDuration": 116.81799278431372
+        "screenPageViews": 7.0,
+        "activeUsers": 7.0,
+        "averageSessionDuration": 52.603026
+      },
+      {
+        "pagePath": "/blogs/enterprise-computer-rental-guide-2/",
+        "screenPageViews": 5.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 27.636880333333334
       },
       {
         "pagePath": "/blogs/mac-studio-m5-local-llm/",
-        "screenPageViews": 35.0,
-        "activeUsers": 27.0,
-        "averageSessionDuration": 120.50709833333333
+        "screenPageViews": 5.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 84.6220912
+      },
+      {
+        "pagePath": "/blogs/4k-editing-pc-setup/",
+        "screenPageViews": 4.0,
+        "activeUsers": 4.0,
+        "averageSessionDuration": 60.37079275
+      },
+      {
+        "pagePath": "/blogs/ai-agent-architecture-guide/",
+        "screenPageViews": 4.0,
+        "activeUsers": 2.0,
+        "averageSessionDuration": 0.0
       },
       {
         "pagePath": "/blogs/ai-agent-harness-comparison/",
-        "screenPageViews": 33.0,
-        "activeUsers": 25.0,
-        "averageSessionDuration": 249.61586300000002
-      },
-      {
-        "pagePath": "/blogs/mesh-wifi-enterprise-purchase-guide/",
-        "screenPageViews": 25.0,
-        "activeUsers": 18.0,
-        "averageSessionDuration": 59.170901
-      },
-      {
-        "pagePath": "/",
-        "screenPageViews": 22.0,
-        "activeUsers": 18.0,
-        "averageSessionDuration": 49.265899473684215
+        "screenPageViews": 4.0,
+        "activeUsers": 4.0,
+        "averageSessionDuration": 246.80050025
       },
       {
         "pagePath": "/blogs/china-open-source-llm-guide/",
-        "screenPageViews": 19.0,
-        "activeUsers": 18.0,
-        "averageSessionDuration": 20.314600050000003
+        "screenPageViews": 4.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 123.5740074
       },
       {
-        "pagePath": "/blogs/",
-        "screenPageViews": 15.0,
-        "activeUsers": 12.0,
-        "averageSessionDuration": 24.118553
+        "pagePath": "/blogs/local-llm-hardware-showdown/",
+        "screenPageViews": 4.0,
+        "activeUsers": 1.0,
+        "averageSessionDuration": 5.20141
       },
       {
-        "pagePath": "/blogs/wifi-antenna-types-direction-signal-guide/",
-        "screenPageViews": 14.0,
-        "activeUsers": 13.0,
-        "averageSessionDuration": 54.07306364285714
-      },
-      {
-        "pagePath": "/blogs/clinic-hospital-wifi-guide/",
-        "screenPageViews": 13.0,
-        "activeUsers": 9.0,
-        "averageSessionDuration": 45.65375381818182
-      },
-      {
-        "pagePath": "/blogs/on-premise-llm-deployment-guide/",
-        "screenPageViews": 11.0,
-        "activeUsers": 10.0,
-        "averageSessionDuration": 148.03266054545455
+        "pagePath": "/blogs/mesh-wifi-enterprise-purchase-guide/",
+        "screenPageViews": 4.0,
+        "activeUsers": 3.0,
+        "averageSessionDuration": 277.5428665
       }
     ],
     "top_sources": [
       {
         "sessionSource": "(direct)",
         "sessionMedium": "(none)",
-        "sessions": 355.0,
-        "activeUsers": 345.0
+        "sessions": 81.0,
+        "activeUsers": 78.0
       },
       {
         "sessionSource": "google",
         "sessionMedium": "organic",
-        "sessions": 270.0,
-        "activeUsers": 207.0
+        "sessions": 63.0,
+        "activeUsers": 46.0
       },
       {
         "sessionSource": "bing",
         "sessionMedium": "organic",
-        "sessions": 27.0,
-        "activeUsers": 20.0
+        "sessions": 6.0,
+        "activeUsers": 6.0
       },
       {
         "sessionSource": "teams.public.onecdn.static.microsoft",
         "sessionMedium": "referral",
-        "sessions": 9.0,
-        "activeUsers": 6.0
+        "sessions": 4.0,
+        "activeUsers": 1.0
       },
       {
         "sessionSource": "tw.search.yahoo.com",
         "sessionMedium": "referral",
-        "sessions": 7.0,
-        "activeUsers": 7.0
+        "sessions": 3.0,
+        "activeUsers": 3.0
       },
       {
-        "sessionSource": "(not set)",
-        "sessionMedium": "(not set)",
-        "sessions": 1.0,
-        "activeUsers": 1.0
-      },
-      {
-        "sessionSource": "666forum",
-        "sessionMedium": "Backlink 0829 R",
-        "sessions": 1.0,
-        "activeUsers": 1.0
+        "sessionSource": "m.facebook.com",
+        "sessionMedium": "referral",
+        "sessions": 2.0,
+        "activeUsers": 2.0
       },
       {
         "sessionSource": "666forum",
@@ -2592,51 +2592,57 @@
         "activeUsers": 1.0
       },
       {
-        "sessionSource": "Tagtoo",
-        "sessionMedium": "Pmax",
+        "sessionSource": "facebook.com",
+        "sessionMedium": "referral",
         "sessions": 1.0,
         "activeUsers": 1.0
       },
       {
-        "sessionSource": "cn.bing.com",
-        "sessionMedium": "referral",
+        "sessionSource": "gemini.google.com",
+        "sessionMedium": "ai-assistant",
         "sessions": 1.0,
-        "activeUsers": 1.0
+        "activeUsers": 0.0
+      },
+      {
+        "sessionSource": "google",
+        "sessionMedium": "cpc",
+        "sessions": 1.0,
+        "activeUsers": 0.0
       }
     ],
     "channels": [
       {
         "sessionDefaultChannelGroup": "Direct",
-        "sessions": 355.0,
-        "activeUsers": 345.0
+        "sessions": 81.0,
+        "activeUsers": 78.0
       },
       {
         "sessionDefaultChannelGroup": "Organic Search",
-        "sessions": 306.0,
-        "activeUsers": 236.0
+        "sessions": 72.0,
+        "activeUsers": 54.0
       },
       {
         "sessionDefaultChannelGroup": "Referral",
-        "sessions": 9.0,
-        "activeUsers": 6.0
-      },
-      {
-        "sessionDefaultChannelGroup": "Unassigned",
         "sessions": 4.0,
-        "activeUsers": 4.0
-      },
-      {
-        "sessionDefaultChannelGroup": "AI Assistant",
-        "sessions": 1.0,
         "activeUsers": 1.0
       },
       {
         "sessionDefaultChannelGroup": "Organic Social",
-        "sessions": 1.0,
-        "activeUsers": 1.0
+        "sessions": 3.0,
+        "activeUsers": 3.0
       },
       {
-        "sessionDefaultChannelGroup": "Organic Video",
+        "sessionDefaultChannelGroup": "AI Assistant",
+        "sessions": 1.0,
+        "activeUsers": 0.0
+      },
+      {
+        "sessionDefaultChannelGroup": "Paid Search",
+        "sessions": 1.0,
+        "activeUsers": 0.0
+      },
+      {
+        "sessionDefaultChannelGroup": "Unassigned",
         "sessions": 1.0,
         "activeUsers": 1.0
       }
@@ -2644,21 +2650,21 @@
   },
   "crawlers": {
     "data_date": "2026-10-16",
-    "total_today": 859,
+    "total_today": 1040,
     "avg_7d": 857.1,
-    "pct_vs_7d": 0.2,
+    "pct_vs_7d": 21.3,
     "by_bot_today": {
-      "FacebookExternalHit": 279,
-      "bingbot": 145,
-      "Googlebot": 133,
-      "meta-externalagent": 123,
-      "ChatGPT-User": 65,
-      "OAI-SearchBot": 41,
+      "FacebookExternalHit": 340,
+      "Googlebot": 180,
+      "meta-externalagent": 164,
+      "bingbot": 162,
+      "ChatGPT-User": 71,
+      "OAI-SearchBot": 47,
       "PerplexityBot": 36,
-      "meta-webindexer": 10,
+      "meta-webindexer": 12,
       "ClaudeBot": 8,
       "Bytespider": 6,
-      "Bravebot": 5,
+      "Bravebot": 6,
       "GPTBot": 4,
       "CohereBot": 2,
       "YouBot": 2
@@ -2666,19 +2672,19 @@
     "top_uris": [
       {
         "uri": "/blogs/nvidia-rtx-spark-vs-dgx-spark-mac-studio/",
-        "hits": 161
+        "hits": 223
       },
       {
         "uri": "/blogs/4k-editing-pc-setup/",
-        "hits": 36
+        "hits": 37
       },
       {
         "uri": "/blogs/mac-studio-m5-local-llm/",
-        "hits": 22
+        "hits": 25
       },
       {
         "uri": "/blogs/dgx-spark-taiwan-price-guide-2026/",
-        "hits": 17
+        "hits": 18
       },
       {
         "uri": "/blogs/isp-broadband-disconnection-troubleshooting-2026/",
@@ -2689,20 +2695,20 @@
         "hits": 14
       },
       {
+        "uri": "/blogs/china-open-source-llm-guide/",
+        "hits": 12
+      },
+      {
+        "uri": "/blogs/dgx-spark-connectx-7-200g-network-setup/",
+        "hits": 11
+      },
+      {
+        "uri": "/blogs/unifi-wifi-optimization-guide/",
+        "hits": 11
+      },
+      {
         "uri": "/blogs/it-outsourcing-case-studies/",
         "hits": 11
-      },
-      {
-        "uri": "/blogs/it-outsourcing-guide/",
-        "hits": 11
-      },
-      {
-        "uri": "/blogs/china-open-source-llm-guide/",
-        "hits": 10
-      },
-      {
-        "uri": "/blogs/connection-breaking-up/",
-        "hits": 10
       }
     ],
     "daily": [
@@ -5221,25 +5227,35 @@
       },
       {
         "date": "2026-10-16",
-        "total": 859,
-        "Googlebot": 133,
-        "ChatGPT-User": 65,
-        "meta-externalagent": 123,
-        "OAI-SearchBot": 41,
-        "FacebookExternalHit": 279,
+        "total": 1040,
+        "Googlebot": 180,
+        "ChatGPT-User": 71,
+        "meta-externalagent": 164,
+        "OAI-SearchBot": 47,
+        "FacebookExternalHit": 340,
         "PerplexityBot": 36,
-        "bingbot": 145,
-        "meta-webindexer": 10,
+        "bingbot": 162,
+        "meta-webindexer": 12,
         "ClaudeBot": 8,
         "CohereBot": 2,
         "Bytespider": 6,
         "YouBot": 2,
-        "Bravebot": 5,
+        "Bravebot": 6,
         "GPTBot": 4
       },
       {
         "date": "2026-10-17",
-        "total": 0
+        "total": 123,
+        "PerplexityBot": 4,
+        "FacebookExternalHit": 61,
+        "OAI-SearchBot": 4,
+        "meta-webindexer": 7,
+        "Googlebot": 20,
+        "meta-externalagent": 13,
+        "ClaudeBot": 1,
+        "bingbot": 6,
+        "ChatGPT-User": 6,
+        "Bytespider": 1
       }
     ],
     "raw_sample": [
